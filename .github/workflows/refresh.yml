@@ -4,6 +4,8 @@
 #   + 单 commit 原子配对推送 (语料与基线同 commit 版本化)。
 # 触发: weekly cron + engine-sync dispatch (消费方主仓引擎/规则变更后的即时基线跟进)。
 # 镜像源: ./Cargo.toml ./src ./rules ./scripts 由主仓 corpus-sync 单向同步 (语料仓不手编)。
+# secret: API_TOKEN = 经典 PAT (读公开仓 actions; 拉取空仓由 fetch-logs 硬断言拦截,
+#   基线空窗由 gate --update-baseline 在场断言拦截 — 三层防线缺一不可)。
 # 防线: FN/零块信号不在本仓判 (无规则门禁语义), 由主仓下一 PR 的 l0-gate 红暴露 —
 #   倒逼规则集覆盖最新失败形态, 属滚动语料的设计价值。
 name: corpus-refresh
@@ -26,7 +28,9 @@ jobs:
         run: cargo build --release
       - name: slots refresh
         env:
-          GITHUB_API_TOKEN: ${{ github.token }} # 读三仓公开 actions (同源免费)
+          # 仓级 secret API_TOKEN (经典 PAT): per-run github.token 打不了跨仓 API
+          # (对外部仓资源 401, 2026-10-16 空仓事故根源); PAT 读公开仓 actions 即可
+          GITHUB_API_TOKEN: ${{ secrets.API_TOKEN }}
           CORPUS_DIR: ${{ github.workspace }}
         run: |
           rm -rf github.com
