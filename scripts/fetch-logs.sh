@@ -18,7 +18,7 @@ DATA_DIR="${CORPUS_DIR:-$ROOT/data/logs}" # 语料根 (参数化: 语料仓 GHA 
 WANT_FAIL=${WANT_FAIL:-14}
 WANT_SUCCESS=${WANT_SUCCESS:-5}
 MAX_CANDIDATES=40 # 每仓候选 run 上限 (留冗余吸收 404 跳过)
-REPOS=(sst/opencode niri-wm/niri nix-community/home-manager)
+REPOS=(anomalyco/opencode niri-wm/niri nix-community/home-manager)
 
 log() { printf '[fetch %(%H:%M:%S)T] %s\n' -1 "$*" >&2; }
 

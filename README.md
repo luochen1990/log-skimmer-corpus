@@ -5,7 +5,7 @@ Log Skimmer 的 L0 回归语料仓 (消费方主仓暂私有) — **公开 CI �
 ## 定位与结构
 
 - `<host>/<owner>/<repo>/<YYYY-MM-DD>/<run_id>-<job_id>-<job_name>-<conclusion>.log` + 同名 `.json` sidecar (`{repo, run_id, job_id, conclusion, workflow_name, created_at, job_name, attempt, ci, fetched_at}`) — 嵌套自然路径, 日期/触发 job/成败一眼可读 (`repo` 为 `host/owner/repo` 完整形态, 元数据 SSOT 在 sidecar)
-- GHA 侧三仓 (sst/opencode · niri-wm/niri · nix-community/home-manager) 槽位: 各 14 failure + 5 success, **滚动刷新** (weekly, 保最新 run)
+- GHA 侧三仓 (anomalyco/opencode (原 sst, 易主) · niri-wm/niri · nix-community/home-manager) 槽位: 各 14 failure + 5 success, **滚动刷新** (weekly, 保最新 run)
 - Forgejo 侧 (私有内网实例) 语料**永不入本仓** — 主仓 `fetch-forgejo.sh` 按固定清单现场拉取 (隐私红线: 内网拓扑数据不出内网)
 
 ## 语料来源与再分发口径
