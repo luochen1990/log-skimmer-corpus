@@ -1,0 +1,11 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 35550165700,
+  "job_id": 106183274542,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-09-21T01:12:55Z",
+  "job_name": "visual-tests",
+  "ci": "github",
+  "fetched_at": "2026-10-16T16:02:21Z"
+}

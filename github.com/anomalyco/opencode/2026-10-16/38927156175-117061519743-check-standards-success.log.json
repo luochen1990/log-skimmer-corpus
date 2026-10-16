@@ -1,0 +1,11 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 38927156175,
+  "job_id": 117061519743,
+  "conclusion": "success",
+  "workflow_name": "pr-standards",
+  "created_at": "2026-10-16T15:50:20Z",
+  "job_name": "check-standards",
+  "ci": "github",
+  "fetched_at": "2026-10-16T16:01:54Z"
+}
