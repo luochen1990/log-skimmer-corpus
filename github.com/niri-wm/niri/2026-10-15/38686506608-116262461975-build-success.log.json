@@ -4,9 +4,8 @@
   "job_id": 116262461975,
   "conclusion": "success",
   "workflow_name": "pages build and deployment",
-  "fetched_at": "2026-10-16T04:30:15Z",
-  "attempt": 1,
-  "ci": "github",
   "created_at": "2026-10-15T05:23:15Z",
-  "job_name": "build"
+  "job_name": "build",
+  "ci": "github",
+  "fetched_at": "2026-10-16T15:55:52Z"
 }

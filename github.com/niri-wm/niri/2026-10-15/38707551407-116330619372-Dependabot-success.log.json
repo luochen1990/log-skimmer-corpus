@@ -4,9 +4,8 @@
   "job_id": 116330619372,
   "conclusion": "success",
   "workflow_name": "cargo in /. - Update #1629143300",
-  "fetched_at": "2026-10-16T04:30:11Z",
-  "attempt": 1,
-  "ci": "github",
   "created_at": "2026-10-15T08:42:12Z",
-  "job_name": "Dependabot"
+  "job_name": "Dependabot",
+  "ci": "github",
+  "fetched_at": "2026-10-16T15:55:51Z"
 }
