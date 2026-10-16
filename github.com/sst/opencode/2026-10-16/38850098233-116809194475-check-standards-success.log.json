@@ -6,7 +6,7 @@
   "workflow_name": "pr-standards",
   "fetched_at": "2026-10-16T04:29:26Z",
   "attempt": 1,
-  "ci": "github-actions",
+  "ci": "github",
   "created_at": "2026-10-16T04:20:17Z",
   "job_name": "check-standards"
 }

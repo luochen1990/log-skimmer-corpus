@@ -1,0 +1,50 @@
+# corpus-refresh — 语料仓自刷新 (GHA 全闭环, 零消费方流量)
+#
+# 职责: 滚动槽位重拉 (14F+5S per repo, fetch-logs 默认值) + 镜像引擎重算压缩率基线
+#   + 单 commit 原子配对推送 (语料与基线同 commit 版本化)。
+# 触发: weekly cron + engine-sync dispatch (消费方主仓引擎/规则变更后的即时基线跟进)。
+# 镜像源: ./Cargo.toml ./src ./rules ./scripts 由主仓 corpus-sync 单向同步 (语料仓不手编)。
+# 防线: FN/零块信号不在本仓判 (无规则门禁语义), 由主仓下一 PR 的 l0-gate 红暴露 —
+#   倒逼规则集覆盖最新失败形态, 属滚动语料的设计价值。
+name: corpus-refresh
+on:
+  schedule: [{cron: "0 20 * * 1"}]
+  repository_dispatch: {types: [engine-sync]}
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency: {group: corpus-refresh, cancel-in-progress: false}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with: {workspaces: "."}
+      - name: build engine
+        run: cargo build --release
+      - name: slots refresh
+        env:
+          GITHUB_API_TOKEN: ${{ github.token }} # 读三仓公开 actions (同源免费)
+          CORPUS_DIR: ${{ github.workspace }}
+        run: |
+          rm -rf github.com
+          bash scripts/fetch-logs.sh
+      - name: baseline recompute (collect → gate --update-baseline)
+        env:
+          CORPUS_DIR: ${{ github.workspace }}
+        run: |
+          LOG_SKIMMER_BIN="$PWD/target/release/log-skimmer" bash scripts/l0-collect.sh >/dev/null
+          bash scripts/l0-gate.sh --update-baseline
+      - name: commit + push
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "语料与基线无变化"
+          else
+            git commit -qm "corpus refresh $(date -u +%Y-%m-%dT%H:%MZ) [engine $(git log -1 --format=%h -- rules src scripts Cargo.toml)]"
+            git push
+          fi

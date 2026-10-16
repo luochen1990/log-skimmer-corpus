@@ -6,7 +6,7 @@
   "workflow_name": "CI",
   "fetched_at": "2026-10-16T04:30:28Z",
   "attempt": 1,
-  "ci": "github-actions",
+  "ci": "github",
   "created_at": "2026-10-15T05:20:11Z",
   "job_name": "randomized-and-slow-tests"
 }
