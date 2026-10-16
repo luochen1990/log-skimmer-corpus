@@ -3,7 +3,8 @@
 # 职责: 滚动槽位重拉 (14F+5S per repo, fetch-logs 默认值) + 镜像引擎重算压缩率基线
 #   + 单 commit 原子配对推送 (语料与基线同 commit 版本化)。
 # 触发: weekly cron + engine-sync dispatch (消费方主仓引擎/规则变更后的即时基线跟进)。
-# 镜像源: ./Cargo.toml ./src ./rules ./scripts 由主仓 corpus-sync 单向同步 (语料仓不手编)。
+# 判定器: 每次刷新从 GitHub mirror 主仓 (luochen1990/log-skimmer, forgejo push
+#   mirror 自动同步) checkout 最新 master — 无镜像目录无同步机制, 判定器恒最新。
 # secret: API_TOKEN = 经典 PAT (读公开仓 actions; 拉取空仓由 fetch-logs 硬断言拦截,
 #   基线空窗由 gate --update-baseline 在场断言拦截 — 三层防线缺一不可)。
 # 防线: FN/零块信号不在本仓判 (无规则门禁语义), 由主仓下一 PR 的 l0-gate 红暴露 —
@@ -11,7 +12,6 @@
 name: corpus-refresh
 on:
   schedule: [{cron: "0 20 * * 1"}]
-  repository_dispatch: {types: [engine-sync]}
   workflow_dispatch:
 permissions: {contents: write}
 concurrency: {group: corpus-refresh, cancel-in-progress: false}
@@ -20,12 +20,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4 # 本仓 (语料数据)
+      - uses: actions/checkout@v4 # 判定器: mirror 主仓最新 master
+        with: {repository: luochen1990/log-skimmer, path: main-repo}
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
-        with: {workspaces: "."}
+        with: {workspaces: "main-repo"}
       - name: build engine
-        run: cargo build --release
+        run: cargo build --release -p log-skimmer
+        working-directory: main-repo
       - name: slots refresh
         env:
           # 仓级 secret API_TOKEN (经典 PAT): per-run github.token 打不了跨仓 API
@@ -34,13 +37,13 @@ jobs:
           CORPUS_DIR: ${{ github.workspace }}
         run: |
           rm -rf github.com
-          bash scripts/fetch-logs.sh
+          bash main-repo/scripts/fetch-logs.sh
       - name: baseline recompute (collect → gate --update-baseline)
         env:
           CORPUS_DIR: ${{ github.workspace }}
         run: |
-          LOG_SKIMMER_BIN="$PWD/target/release/log-skimmer" bash scripts/l0-collect.sh >/dev/null
-          bash scripts/l0-gate.sh --update-baseline
+          LOG_SKIMMER_BIN="$PWD/main-repo/target/release/log-skimmer" bash main-repo/scripts/l0-collect.sh >/dev/null
+          bash main-repo/scripts/l0-gate.sh --update-baseline
       - name: commit + push
         run: |
           git config user.name "corpus-bot"
