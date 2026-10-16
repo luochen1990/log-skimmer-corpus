@@ -63,6 +63,9 @@ runs_to_tsv() { # runs_to_tsv <status-filter-or-empty> — 列表响应转 "id<T
     | if $s == "failure" then map(select(.conclusion == "failure"))
       elif $s == "success" then map(select(.conclusion == "success"))
       else . end
+    # 年龄过滤: 跳过 <30min 的 run — 日志 blob 落地有延迟, 太新的 jobs/logs 端点
+    #   返回 200 空体 (2026-10-16 实测: 高活跃仓 40 候选全在 10min 窗口内全跳过)
+    | map(select((.created_at // "1970-01-01T00:00:00Z" | fromdateiso8601) < (now - 1800)))
     | sort_by(-.id) | .[] | "\(.id)\t\(.created_at // "?")\t\(.name // .path // "?")"'
 }
 

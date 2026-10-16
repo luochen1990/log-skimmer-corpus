@@ -19,15 +19,6 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: debug logs endpoint (一次性诊断, 闭环后删)
-        env:
-          GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
-        run: |
-          JID=117037069199 # 本地 gho 实证 200/32KB 的 completed job
-          curl -sSL -o /tmp/d.log -w 'code=%{http_code} size=%{size_download} redirect=%{num_redirects} url=%{url_effective}\n' \
-            -H "Authorization: Bearer $GITHUB_API_TOKEN" \
-            "https://api.github.com/repos/anomalyco/opencode/actions/jobs/$JID/logs" || true
-          echo "--- body head ---"; head -c 300 /tmp/d.log; echo
       - name: slots refresh (14F+5S per repo)
         env:
           GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
