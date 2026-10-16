@@ -13,9 +13,11 @@ Log Skimmer 的 L0 回归语料仓 (消费方主仓暂私有) — **公开 CI �
 
 所有日志抓取自**公开仓库的公开 CI run** (无认证 API 即可获取), 此处仅为回归测试目的再分发快照。数据按 `fetched_at` 滚动淘汰, 不积累历史。如来源项目维护者有异议, 请开 issue, 对应样本即时移除。
 
-## 刷新机制
+## 刷新机制 — GHA 全闭环自刷新
 
-**本仓纯数据, 零 workflow 零维护** — 刷新由消费方主仓的周期 CI (weekly + manual dispatch) 执行: 拉 GHA 侧最新 run 替换滚动槽位 → 主仓 master 引擎重算压缩率基线 → 单 commit 推回本仓 (基线与语料恒配对版本化)。
+本仓自带 `refresh.yml` workflow (weekly cron + engine-sync dispatch): 拉 GHA 侧最新 run 替换滚动槽位 → **仓内镜像引擎**重算压缩率基线 → 单 commit 推回 (基线与语料恒配对版本化)。全程 GitHub 机房执行, 消费方零语料流量。
+
+镜像目录 (`Cargo.toml` + `src/` + `rules/` + `scripts/`, 判定器副本): 由消费方主仓 `corpus-sync` **单向同步** — 勿在本仓手编 (下次同步即覆盖); 消费方引擎/规则变更后会 dispatch 即时刷新, 基线始终跟上最新判定器。
 
 Forgejo 侧快照不参与自动刷新 (凭据内网隔离, 保留手动补抓路径)。
 
