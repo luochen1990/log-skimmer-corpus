@@ -19,6 +19,18 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+      - name: debug (一次性, 闭环后删)
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
+        run: |
+          for JID in 117046037344 117037069199; do
+            echo "=== job $JID ==="
+            curl -sSL -o /tmp/d.log -D /tmp/h.txt -w 'code=%{http_code} size=%{size_download} redirects=%{num_redirects}\n' \
+              -H "Authorization: Bearer $GITHUB_API_TOKEN" \
+              "https://api.github.com/repos/anomalyco/opencode/actions/jobs/$JID/logs" || true
+            grep -iE '^(HTTP|content-length|x-|location)' /tmp/h.txt | head -6
+            head -c 120 /tmp/d.log; echo; echo
+          done
       - name: slots refresh (14F+5S per repo)
         env:
           GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
