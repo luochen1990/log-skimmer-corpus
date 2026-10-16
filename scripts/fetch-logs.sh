@@ -65,9 +65,9 @@ runs_to_tsv() { # runs_to_tsv <status-filter-or-empty> — 列表响应转 "id<T
     | if $s == "failure" then map(select(.conclusion == "failure"))
       elif $s == "success" then map(select(.conclusion == "success"))
       else . end
-    # 年龄过滤: 跳过 <30min 的 run — 日志 blob 落地有延迟, 太新的 jobs/logs 端点
-    #   返回 200 空体 (2026-10-16 实测: 高活跃仓 40 候选全在 10min 窗口内全跳过)
-    | map(select((.created_at // "1970-01-01T00:00:00Z" | fromdateiso8601) < (now - 1800)))
+    # 年龄过滤: 跳过 <10min 的 run — 正在跑/刚完成的 run 日志 blob 未就绪 (BlobNotFound);
+    #   completed 的 blob 分钟级就绪, 10min 保守余量
+    | map(select((.created_at // "1970-01-01T00:00:00Z" | fromdateiso8601) < (now - 600)))
     | sort_by(-.id) | .[] | "\(.id)\t\(.created_at // "?")\t\(.name // .path // "?")"'
 }
 
@@ -88,7 +88,8 @@ list_failure_candidates() { # list_failure_candidates <repo> — 失败 run 候�
       if [[ $(grep -c . <<<"$lines" || true) -ge $MAX_CANDIDATES ]]; then break; fi
     done
   fi
-  awk -F'\t' 'NF==2 && !seen[$1]++' <<<"$lines"
+  # NF==3: TSV 三列 (id\tcreated\tname) — 布局迁移加列时曾漏改 NF==2 致候选恒空
+  awk -F'\t' 'NF==3 && !seen[$1]++' <<<"$lines"
 }
 
 process_run() { # process_run <repo> <dir> <run_id> <wf_name> <failure|success>
