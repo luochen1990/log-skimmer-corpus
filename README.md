@@ -1,6 +1,6 @@
 # log-skimmer-corpus
 
-[Log Skimmer](https://git.lambda.lc/lc-studio/log-skimmer) 的 L0 回归语料仓 — **公开 CI 日志的滚动快照**, 供其全语料回归门禁 (FN/FP/压缩率) 作可复现 fixture。
+Log Skimmer 的 L0 回归语料仓 (消费方主仓暂私有) — **公开 CI 日志的滚动快照**, 供其全语料回归门禁 (FN/FP/压缩率) 作可复现 fixture。
 
 ## 定位与结构
 
@@ -15,9 +15,9 @@
 
 ## 刷新机制
 
-**本仓纯数据, 零 workflow 零维护** — 刷新由消费方 [log-skimmer](https://git.lambda.lc/lc-studio/log-skimmer) 的 ci-periodic (weekly + manual dispatch) 执行: 拉 GHA 侧最新 run 替换滚动槽位 → 主仓 master 引擎重算压缩率基线 → 单 commit 推回本仓 (基线与语料恒配对版本化)。
+**本仓纯数据, 零 workflow 零维护** — 刷新由消费方主仓的周期 CI (weekly + manual dispatch) 执行: 拉 GHA 侧最新 run 替换滚动槽位 → 主仓 master 引擎重算压缩率基线 → 单 commit 推回本仓 (基线与语料恒配对版本化)。
 
-Forgejo 侧快照不参与自动刷新 (刷新执行器在 forgejo 网络内可达该实例, 保留 manual 补抓路径, 见主仓 `scripts/fetch-logs.sh` 家族)。
+Forgejo 侧快照不参与自动刷新 (凭据内网隔离, 保留手动补抓路径)。
 
 ## 消费方式
 
