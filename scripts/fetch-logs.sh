@@ -31,6 +31,8 @@ api_get() { # api_get <path> -> JSON body (stdout); HTTP 错误时输出为空
 
 download_log() { # download_log <jobs-api-path> <dest>; 0=成功落盘
   local code
+  # 输出父目录前置保证 (缺目录时 curl -o 失败会被下方 || true 吞成空文件形态)
+  mkdir -p "$(dirname "$2")"
   code=$(curl -sSL --max-time 180 --retry 1 \
     -H "Authorization: Bearer $GITHUB_API_TOKEN" \
     -o "$2.tmp" -w '%{http_code}' "$API/$1" || true)
@@ -114,6 +116,9 @@ process_run() { # process_run <repo> <dir> <run_id> <wf_name> <failure|success>
   jname=$(tr '/ ' '--' <<<"${jname:-unknown}" | cut -c1-30)
   date=${created%%T*}; [ -n "$date" ] || date=unknown
   out="$dir/$date/$run_id-$job_id-$jname-$concl.log"
+  # 嵌套布局 date 目录必须先建 (2026-10-16 事故: 布局迁移加 $date/ 层而未建目录,
+  #   curl -o 打开输出文件失败被 || true 吞成 "http=200 空文件", 全候选静默跳过)
+  mkdir -p "$dir/$date"
   if download_log "repos/$repo/actions/jobs/$job_id/logs" "$out"; then
     jq -n --arg repo "github.com/$repo" --argjson run_id "$run_id" --argjson job_id "$job_id" \
       --arg concl "$concl" --arg wf "$wf" --arg ca "$created" --arg jn "$jname" --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
