@@ -6,7 +6,7 @@
 #   不构建引擎 (需求方裁决 2026-10-16 四仓拓扑: 基线退役, 压缩率防退化由消费方
 #   dev 仓 CI 双测对比承担)。
 # 防线: 任一仓 0 对在场 → fetch-logs 硬断言红 (拉取链路故障不得空仓收场)。
-# secret: API_TOKEN = 经典 PAT (读三仓公开 actions; per-run github.token 跨仓 401)。
+# secret: GH_RO_API_TOKEN = fine-grained PAT (零权限勾选) (读三仓公开 actions; per-run github.token 跨仓 401)。
 name: corpus-refresh
 on:
   schedule: [{cron: "0 20 * * 1"}]
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: slots refresh (14F+5S per repo)
         env:
-          GITHUB_API_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
           CORPUS_DIR: ${{ github.workspace }}
         run: |
           rm -rf github.com
