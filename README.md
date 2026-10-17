@@ -25,3 +25,7 @@ git clone --depth 1 https://github.com/luochen1990/log-skimmer-corpus data/logs
 ```
 
 主仓 CI 与 `just ci-merge` 自动完成此步 (见主仓 `scripts/fetch-corpus.sh`)。
+
+## License
+
+仓内编排与元数据以 CC0 1.0 发布 (见 [LICENSE](LICENSE)); 日志样本内容版权归原作者所有, 再分发口径见上文「语料来源与再分发口径」。
