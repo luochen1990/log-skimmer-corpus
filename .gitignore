@@ -1,2 +1,4 @@
 # forgejo 侧语料是私有内网实例数据, 现场拉取层 (主仓 fetch-forgejo.sh), 永不入本仓
 git.lambda.lc/
+target/
+Cargo.lock
