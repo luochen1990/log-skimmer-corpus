@@ -1,0 +1,409 @@
+﻿2026-10-19T23:09:06.8502238Z Current runner version: '2.337.0'
+2026-10-19T23:09:06.8506745Z Runner name: 'blacksmith-4vcpu-ubuntu-2404-kcrmjiwdi2l6aplw'
+2026-10-19T23:09:06.8507493Z Runner group name: 'blacksmith scale sets - blacksmith-4vcpu-ubuntu-2404'
+2026-10-19T23:09:06.8508319Z Machine name: 'ip-172-31-73-130'
+2026-10-19T23:09:06.8510023Z ##[group]GITHUB_TOKEN Permissions
+2026-10-19T23:09:06.8511905Z Contents: read
+2026-10-19T23:09:06.8512324Z Metadata: read
+2026-10-19T23:09:06.8512767Z ##[endgroup]
+2026-10-19T23:09:06.8514332Z Secret source: Actions
+2026-10-19T23:09:06.8515040Z Cache mode: write
+2026-10-19T23:09:06.8515648Z Prepare workflow directory
+2026-10-19T23:09:06.8732289Z Prepare all required actions
+2026-10-19T23:09:06.8763204Z Getting action download info
+2026-10-19T23:09:07.0039822Z Download action repository 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+2026-10-19T23:09:07.0433540Z Download action repository 'nixbuild/nix-quick-install-action@2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035' (SHA:2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035)
+2026-10-19T23:09:07.1984550Z Setting BLACKSMITH_ACTIONS_RESULTS_URL to https://results-receiver.actions.githubusercontent.com/
+2026-10-19T23:09:07.2024558Z Complete job name: nix-eval
+2026-10-19T23:09:07.2354302Z A job started hook has been configured by the self-hosted runner administrator
+2026-10-19T23:09:07.2424697Z ##[group]Run '/setup.sh'
+2026-10-19T23:09:07.2438014Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T23:09:07.2438441Z env:
+2026-10-19T23:09:07.2438668Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:07.2438957Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:07.2439243Z   BLACKSMITH_CHECK_RUN_ID: 118357999556
+2026-10-19T23:09:07.2439528Z   BLACKSMITH_JOB_DISPLAY_NAME: nix-eval
+2026-10-19T23:09:07.2439812Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T23:09:07.2440067Z ##[endgroup]
+2026-10-19T23:09:07.2737372Z Logging daemon started (blacksmithd for logs)
+2026-10-19T23:09:07.2847500Z Results daemon started (blacksmithd for results)
+2026-10-19T23:09:07.3048736Z Background adoption and SSH setup started (PID: 2925)
+2026-10-19T23:09:07.3049347Z 
+2026-10-19T23:09:07.3069877Z ----------------------------------------
+2026-10-19T23:09:07.3071027Z View this job: https://app.blacksmith.sh/anomalyco/runs/39339729859/jobs/118357999556
+2026-10-19T23:09:07.3071779Z SSH Access (using your GitHub SSH key):
+2026-10-19T23:09:07.3072586Z   ssh -p 64000 runner@blacksmith-4vcpu-ubuntu-2404-kcrmjiwdi2l6aplw.vm.blacksmith.sh
+2026-10-19T23:09:07.3073188Z 
+2026-10-19T23:09:07.3073430Z No GitHub SSH key? Add one at:
+2026-10-19T23:09:07.3074299Z https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+2026-10-19T23:09:07.3075045Z 
+2026-10-19T23:09:07.3075285Z ----------------------------------------
+2026-10-19T23:09:07.3075631Z 
+2026-10-19T23:09:07.3075942Z VM ID: blacksmith-4vcpu-ubuntu-2404-kcrmjiwdi2l6aplw
+2026-10-19T23:09:07.3078803Z Host: production-152.236.31.44-x8664
+2026-10-19T23:09:07.3079421Z Host Agent PID: 718472
+2026-10-19T23:09:07.3079868Z Host Agent Git SHA: 360540c94
+2026-10-19T23:09:07.3080358Z Host CPU Manufacturer: AuthenticAMD
+2026-10-19T23:09:07.3080955Z Blacksmith Host Generation: gen 2
+2026-10-19T23:09:07.3081496Z Petname: production-loyal-pelican-1a7fb638
+2026-10-19T23:09:07.3082082Z Static Egress IP: 152.236.40.73
+2026-10-19T23:09:07.3082755Z Region: us-east
+2026-10-19T23:09:07.3083211Z Rootfs Version: ubuntu24-full-x64-081926
+2026-10-19T23:09:07.3083735Z OS Version: Ubuntu 24.04.4 LTS
+2026-10-19T23:09:07.3084197Z 
+2026-10-19T23:09:07.3084436Z Enabling Blacksmith transparent cache
+2026-10-19T23:09:07.3382941Z ##[group]Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+2026-10-19T23:09:07.3383404Z with:
+2026-10-19T23:09:07.3383654Z   repository: anomalyco/opencode
+2026-10-19T23:09:07.3385622Z   token: ***
+2026-10-19T23:09:07.3385847Z   ssh-strict: true
+2026-10-19T23:09:07.3386083Z   ssh-user: git
+2026-10-19T23:09:07.3388303Z   persist-credentials: true
+2026-10-19T23:09:07.3388565Z   clean: true
+2026-10-19T23:09:07.3388803Z   sparse-checkout-cone-mode: true
+2026-10-19T23:09:07.3389082Z   fetch-depth: 1
+2026-10-19T23:09:07.3389312Z   fetch-tags: false
+2026-10-19T23:09:07.3389546Z   show-progress: true
+2026-10-19T23:09:07.3389791Z   lfs: false
+2026-10-19T23:09:07.3390011Z   submodules: false
+2026-10-19T23:09:07.3390259Z   set-safe-directory: true
+2026-10-19T23:09:07.3390533Z env:
+2026-10-19T23:09:07.3390768Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:07.3391079Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:07.3391411Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T23:09:07.3391687Z ##[endgroup]
+2026-10-19T23:09:07.6204637Z Syncing repository: anomalyco/opencode
+2026-10-19T23:09:07.6279027Z ##[group]Getting Git version info
+2026-10-19T23:09:07.6280281Z Working directory is '/home/runner/_work/opencode/opencode'
+2026-10-19T23:09:07.6281603Z [command]/usr/local/bin/git version
+2026-10-19T23:09:07.6525641Z git version 2.55.0
+2026-10-19T23:09:07.6537880Z ##[endgroup]
+2026-10-19T23:09:07.6546142Z Temporarily overriding HOME='/home/runner/_work/_temp/64e6c2ba-cb7b-455e-be6d-fc794b681136' before making global git config changes
+2026-10-19T23:09:07.6547863Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T23:09:07.6550354Z [command]/usr/local/bin/git config --global --add safe.directory /home/runner/_work/opencode/opencode
+2026-10-19T23:09:07.6588040Z Deleting the contents of '/home/runner/_work/opencode/opencode'
+2026-10-19T23:09:07.6591234Z ##[group]Initializing the repository
+2026-10-19T23:09:07.6593360Z [command]/usr/local/bin/git init /home/runner/_work/opencode/opencode
+2026-10-19T23:09:07.6655708Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-19T23:09:07.6657124Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-19T23:09:07.6658380Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-19T23:09:07.6659451Z hint: call:
+2026-10-19T23:09:07.6659996Z hint:
+2026-10-19T23:09:07.6660688Z hint: 	git config --global init.defaultBranch <name>
+2026-10-19T23:09:07.6661485Z hint:
+2026-10-19T23:09:07.6662302Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-19T23:09:07.6663569Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-19T23:09:07.6664628Z hint:
+2026-10-19T23:09:07.6665191Z hint: 	git branch -m <name>
+2026-10-19T23:09:07.6665852Z hint:
+2026-10-19T23:09:07.6666795Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-19T23:09:07.6668221Z Initialized empty Git repository in /home/runner/_work/opencode/opencode/.git/
+2026-10-19T23:09:07.6670744Z [command]/usr/local/bin/git remote add origin https://github.com/anomalyco/opencode
+2026-10-19T23:09:07.6690547Z ##[endgroup]
+2026-10-19T23:09:07.6691711Z ##[group]Disabling automatic garbage collection
+2026-10-19T23:09:07.6692938Z [command]/usr/local/bin/git config --local gc.auto 0
+2026-10-19T23:09:07.6718833Z ##[endgroup]
+2026-10-19T23:09:07.6719709Z ##[group]Setting up auth
+2026-10-19T23:09:07.6720358Z Removing SSH command configuration
+2026-10-19T23:09:07.6723257Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T23:09:07.6746219Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T23:09:07.6957600Z Removing HTTP extra header
+2026-10-19T23:09:07.6961379Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T23:09:07.6989428Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T23:09:07.7088104Z Removing includeIf entries pointing to credentials config files
+2026-10-19T23:09:07.7091348Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T23:09:07.7114767Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T23:09:07.7213126Z [command]/usr/local/bin/git config --file /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-19T23:09:07.7238570Z [command]/usr/local/bin/git config --local includeIf.gitdir:/home/runner/_work/opencode/opencode/.git.path /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:07.7257644Z [command]/usr/local/bin/git config --local includeIf.gitdir:/home/runner/_work/opencode/opencode/.git/worktrees/*.path /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:07.7277304Z [command]/usr/local/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:07.7298266Z [command]/usr/local/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:07.7315493Z ##[endgroup]
+2026-10-19T23:09:07.7316320Z ##[group]Fetching the repository
+2026-10-19T23:09:07.7320712Z [command]/usr/local/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +aaedbe093f5ba8b7d16898b075b37adcdfba0483:refs/remotes/pull/57166/merge
+2026-10-19T23:09:11.1555577Z From https://github.com/anomalyco/opencode
+2026-10-19T23:09:11.1556839Z  * [new ref]         aaedbe093f5ba8b7d16898b075b37adcdfba0483 -> pull/57166/merge
+2026-10-19T23:09:11.1581559Z ##[endgroup]
+2026-10-19T23:09:11.1581970Z ##[group]Determining the checkout info
+2026-10-19T23:09:11.1582451Z ##[endgroup]
+2026-10-19T23:09:11.1585754Z [command]/usr/local/bin/git sparse-checkout disable
+2026-10-19T23:09:11.1625209Z [command]/usr/local/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-19T23:09:11.1649836Z ##[group]Checking out the ref
+2026-10-19T23:09:11.1653297Z [command]/usr/local/bin/git checkout --progress --force refs/remotes/pull/57166/merge
+2026-10-19T23:09:11.5803763Z Note: switching to 'refs/remotes/pull/57166/merge'.
+2026-10-19T23:09:11.5804017Z 
+2026-10-19T23:09:11.5804158Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-19T23:09:11.5804511Z changes and commit them, and you can discard any commits you make in this
+2026-10-19T23:09:11.5804814Z state without impacting any branches by switching back to a branch.
+2026-10-19T23:09:11.5804991Z 
+2026-10-19T23:09:11.5805133Z If you want to create a new branch to retain commits you create, you may
+2026-10-19T23:09:11.5805399Z do so (now or later) by using -c with the switch command. Example:
+2026-10-19T23:09:11.5805560Z 
+2026-10-19T23:09:11.5805688Z   git switch -c <new-branch-name>
+2026-10-19T23:09:11.5805794Z 
+2026-10-19T23:09:11.5805878Z Or undo this operation with:
+2026-10-19T23:09:11.5805982Z 
+2026-10-19T23:09:11.5806045Z   git switch -
+2026-10-19T23:09:11.5806141Z 
+2026-10-19T23:09:11.5806278Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-19T23:09:11.5806492Z 
+2026-10-19T23:09:11.5806680Z HEAD is now at aaedbe0 Merge f3e5a22fc5df0e56a04e581be24677b8e2ef9926 into d85746a054924241a7edde736eefd079dff9bc00
+2026-10-19T23:09:11.5827587Z ##[endgroup]
+2026-10-19T23:09:11.5860400Z [command]/usr/local/bin/git log -1 --format=%H
+2026-10-19T23:09:11.5882070Z aaedbe093f5ba8b7d16898b075b37adcdfba0483
+2026-10-19T23:09:11.6029134Z ##[group]Run nixbuild/nix-quick-install-action@2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035
+2026-10-19T23:09:11.6029384Z with:
+2026-10-19T23:09:11.6029505Z   nix_version: 2.29.2
+2026-10-19T23:09:11.6030858Z   github_access_token: ***
+2026-10-19T23:09:11.6031146Z   nix_on_tmpfs: false
+2026-10-19T23:09:11.6031276Z   enable_kvm: true
+2026-10-19T23:09:11.6031406Z env:
+2026-10-19T23:09:11.6031561Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:11.6031729Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:11.6031885Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T23:09:11.6032037Z ##[endgroup]
+2026-10-19T23:09:11.6168594Z ##[start-action display=Install Nix in single-user mode;id=__nixbuild_nix-quick-install-action.__run]
+2026-10-19T23:09:11.6194659Z ##[group]Run /home/runner/_work/_actions/nixbuild/nix-quick-install-action/2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035/nix-quick-install.sh
+2026-10-19T23:09:11.6195284Z [36;1m/home/runner/_work/_actions/nixbuild/nix-quick-install-action/2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035/nix-quick-install.sh[0m
+2026-10-19T23:09:11.6204872Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T23:09:11.6205067Z env:
+2026-10-19T23:09:11.6205195Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:11.6205368Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:11.6205522Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T23:09:11.6205842Z   RELEASE_FILE: /home/runner/_work/_actions/nixbuild/nix-quick-install-action/2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035/RELEASE
+2026-10-19T23:09:11.6206125Z   NIX_VERSION: 2.29.2
+2026-10-19T23:09:11.6206247Z   NIX_CONF: 
+2026-10-19T23:09:11.6206359Z   NIX_ARCHIVES_URL: 
+2026-10-19T23:09:11.6206480Z   NIX_ON_TMPFS: false
+2026-10-19T23:09:11.6207901Z   GITHUB_ACCESS_TOKEN: ***
+2026-10-19T23:09:11.6208027Z   ENABLE_KVM: true
+2026-10-19T23:09:11.6208144Z ##[endgroup]
+2026-10-19T23:09:11.6306492Z KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"
+2026-10-19T23:09:11.6536697Z Enabled KVM
+2026-10-19T23:09:11.6639296Z Fetching nix archives from https://github.com/nixbuild/nix-quick-install-action/releases/download/v34/nix-2.29.2-x86_64-linux.tar.zstd
+2026-10-19T23:09:11.9702735Z installing 'nix-2.29.2'
+2026-10-19T23:09:11.9798061Z building '/nix/store/wjc152jk3cylns7cif5irnqy1vpnk8av-user-environment.drv'...
+2026-10-19T23:09:11.9884231Z ##[end-action id=__nixbuild_nix-quick-install-action.__run;outcome=success;conclusion=success;duration_ms=371]
+2026-10-19T23:09:11.9919221Z ##[group]Run set -euo pipefail
+2026-10-19T23:09:11.9919448Z [36;1mset -euo pipefail[0m
+2026-10-19T23:09:11.9919739Z [36;1mnix --version[0m
+2026-10-19T23:09:11.9919861Z [36;1m[0m
+2026-10-19T23:09:11.9919973Z [36;1mecho "=== Flake metadata ==="[0m
+2026-10-19T23:09:11.9920261Z [36;1mnix flake metadata[0m
+2026-10-19T23:09:11.9920385Z [36;1m[0m
+2026-10-19T23:09:11.9920547Z [36;1mecho ""[0m
+2026-10-19T23:09:11.9920750Z [36;1mecho "=== Flake structure ==="[0m
+2026-10-19T23:09:11.9920903Z [36;1mnix flake show --all-systems[0m
+2026-10-19T23:09:11.9921043Z [36;1m[0m
+2026-10-19T23:09:11.9921186Z [36;1mSYSTEMS="x86_64-linux aarch64-linux aarch64-darwin"[0m
+2026-10-19T23:09:11.9921371Z [36;1mPACKAGES="opencode"[0m
+2026-10-19T23:09:11.9921636Z [36;1m# TODO: move 'desktop' to PACKAGES when #11755 is fixed[0m
+2026-10-19T23:09:11.9921945Z [36;1mOPTIONAL_PACKAGES="desktop"[0m
+2026-10-19T23:09:11.9922084Z [36;1m[0m
+2026-10-19T23:09:11.9922368Z [36;1mecho ""[0m
+2026-10-19T23:09:11.9922536Z [36;1mecho "=== Evaluating packages for all systems ==="[0m
+2026-10-19T23:09:11.9922709Z [36;1mfor system in $SYSTEMS; do[0m
+2026-10-19T23:09:11.9922905Z [36;1m  echo ""[0m
+2026-10-19T23:09:11.9923109Z [36;1m  echo "--- $system ---"[0m
+2026-10-19T23:09:11.9923251Z [36;1m  for pkg in $PACKAGES; do[0m
+2026-10-19T23:09:11.9923528Z [36;1m    printf "  %s: " "$pkg"[0m
+2026-10-19T23:09:11.9923724Z [36;1m    if output=$(nix eval ".#packages.$system.$pkg.drvPath" --raw 2>&1); then[0m
+2026-10-19T23:09:11.9924067Z [36;1m      echo "✓"[0m
+2026-10-19T23:09:11.9924183Z [36;1m    else[0m
+2026-10-19T23:09:11.9924456Z [36;1m      echo "✗"[0m
+2026-10-19T23:09:11.9924625Z [36;1m      echo "::error::Evaluation failed for packages.$system.$pkg"[0m
+2026-10-19T23:09:11.9924962Z [36;1m      echo "$output"[0m
+2026-10-19T23:09:11.9925088Z [36;1m      exit 1[0m
+2026-10-19T23:09:11.9925198Z [36;1m    fi[0m
+2026-10-19T23:09:11.9925299Z [36;1m  done[0m
+2026-10-19T23:09:11.9925467Z [36;1mdone[0m
+2026-10-19T23:09:11.9925651Z [36;1m[0m
+2026-10-19T23:09:11.9925750Z [36;1mecho ""[0m
+2026-10-19T23:09:11.9925875Z [36;1mecho "=== Evaluating optional packages ==="[0m
+2026-10-19T23:09:11.9926098Z [36;1mfor system in $SYSTEMS; do[0m
+2026-10-19T23:09:11.9926312Z [36;1m  echo ""[0m
+2026-10-19T23:09:11.9926433Z [36;1m  echo "--- $system ---"[0m
+2026-10-19T23:09:11.9926581Z [36;1m  for pkg in $OPTIONAL_PACKAGES; do[0m
+2026-10-19T23:09:11.9926732Z [36;1m    printf "  %s: " "$pkg"[0m
+2026-10-19T23:09:11.9926935Z [36;1m    if output=$(nix eval ".#packages.$system.$pkg.drvPath" --raw 2>&1); then[0m
+2026-10-19T23:09:11.9927129Z [36;1m      echo "✓"[0m
+2026-10-19T23:09:11.9927249Z [36;1m    else[0m
+2026-10-19T23:09:11.9927357Z [36;1m      echo "✗"[0m
+2026-10-19T23:09:11.9927533Z [36;1m      echo "::warning::Evaluation failed for packages.$system.$pkg"[0m
+2026-10-19T23:09:11.9927719Z [36;1m      echo "$output"[0m
+2026-10-19T23:09:11.9927844Z [36;1m    fi[0m
+2026-10-19T23:09:11.9927952Z [36;1m  done[0m
+2026-10-19T23:09:11.9928063Z [36;1mdone[0m
+2026-10-19T23:09:11.9928164Z [36;1m[0m
+2026-10-19T23:09:11.9928260Z [36;1mecho ""[0m
+2026-10-19T23:09:11.9928400Z [36;1mecho "=== Evaluating devShells for all systems ==="[0m
+2026-10-19T23:09:11.9928570Z [36;1mfor system in $SYSTEMS; do[0m
+2026-10-19T23:09:11.9928733Z [36;1m  printf "%s: " "$system"[0m
+2026-10-19T23:09:11.9928933Z [36;1m  if output=$(nix eval ".#devShells.$system.default.drvPath" --raw 2>&1); then[0m
+2026-10-19T23:09:11.9929136Z [36;1m    echo "✓"[0m
+2026-10-19T23:09:11.9929246Z [36;1m  else[0m
+2026-10-19T23:09:11.9929353Z [36;1m    echo "✗"[0m
+2026-10-19T23:09:11.9929517Z [36;1m    echo "::error::Evaluation failed for devShells.$system.default"[0m
+2026-10-19T23:09:11.9929705Z [36;1m    echo "$output"[0m
+2026-10-19T23:09:11.9929990Z [36;1m    exit 1[0m
+2026-10-19T23:09:11.9930124Z [36;1m  fi[0m
+2026-10-19T23:09:11.9930290Z [36;1mdone[0m
+2026-10-19T23:09:11.9930393Z [36;1m[0m
+2026-10-19T23:09:11.9930595Z [36;1mecho ""[0m
+2026-10-19T23:09:11.9930718Z [36;1mecho "=== All evaluations passed ==="[0m
+2026-10-19T23:09:11.9942847Z shell: /usr/bin/bash -e {0}
+2026-10-19T23:09:11.9942997Z env:
+2026-10-19T23:09:11.9943117Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:11.9943279Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:11.9943430Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T23:09:11.9943622Z   NIX_PROFILES: /nix/var/nix/profiles/default /home/runner/.nix-profile
+2026-10-19T23:09:11.9943846Z   NIX_USER_PROFILE_DIR: /nix/var/nix/profiles/per-user/runner
+2026-10-19T23:09:11.9944039Z   NIX_SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
+2026-10-19T23:09:11.9944203Z ##[endgroup]
+2026-10-19T23:09:12.0101584Z nix (Nix) 2.29.2
+2026-10-19T23:09:12.0111858Z === Flake metadata ===
+2026-10-19T23:09:12.5947780Z [1mResolved URL:[0m  git+file:///home/runner/_work/opencode/opencode?shallow=1
+2026-10-19T23:09:12.5948406Z [1mLocked URL:[0m    git+file:///home/runner/_work/opencode/opencode?rev=aaedbe093f5ba8b7d16898b075b37adcdfba0483&shallow=1
+2026-10-19T23:09:12.5948791Z [1mDescription:[0m   OpenCode development flake
+2026-10-19T23:09:12.5949111Z [1mPath:[0m          /nix/store/54gng9g6vbyh7g6nkrycs6hj2mws0lc6-source
+2026-10-19T23:09:12.5949388Z [1mRevision:[0m      aaedbe093f5ba8b7d16898b075b37adcdfba0483
+2026-10-19T23:09:12.5949602Z [1mRevisions:[0m     1
+2026-10-19T23:09:12.5949772Z [1mLast modified:[0m 2026-10-19 23:08:58
+2026-10-19T23:09:12.5950110Z [1mFingerprint:[0m   d7ae48adc73fcb8cd7df70acb951ff6dbef01c92f117036951cb2d71a66fd75a
+2026-10-19T23:09:12.5950381Z [1mInputs:[0m
+2026-10-19T23:09:12.5951413Z └───[1mnixpkgs[0m: github:NixOS/nixpkgs/3181085bfd08663b6b9e60bc7a8395c2aaa741bd?narHash=sha256-EVMNYv7hYDDD9TGVT/hIyTYgpiXA8y3m5xIEIxuGNU0%3D (2026-09-27 11:55:07)
+2026-10-19T23:09:12.5998830Z 
+2026-10-19T23:09:12.5999171Z === Flake structure ===
+2026-10-19T23:09:12.6608108Z evaluating ''...
+2026-10-19T23:09:12.6609019Z [1mgit+file:///home/runner/_work/opencode/opencode?rev=aaedbe093f5ba8b7d16898b075b37adcdfba0483&shallow=1[0m
+2026-10-19T23:09:12.8267631Z copying path '/nix/store/xakq6ibg5vp762cbd03fxgkrhdhi0d27-source' from 'https://cache.nixos.org'...
+2026-10-19T23:09:19.5973652Z evaluating 'devShells'...
+2026-10-19T23:09:19.5974758Z [32;1m├───[0m[1mdevShells[0m
+2026-10-19T23:09:19.5974945Z evaluating 'devShells.aarch64-darwin'...
+2026-10-19T23:09:19.5975127Z evaluating 'devShells.aarch64-darwin.default'...
+2026-10-19T23:09:19.5975643Z [32;1m│   ├───[0m[1maarch64-darwin[0m
+2026-10-19T23:09:19.7487324Z evaluating 'devShells.aarch64-linux'...
+2026-10-19T23:09:19.7487605Z evaluating 'devShells.aarch64-linux.default'...
+2026-10-19T23:09:19.7488677Z [32;1m│   │   └───[0m[1mdefault[0m: development environment 'nix-shell'
+2026-10-19T23:09:19.7489197Z [32;1m│   ├───[0m[1maarch64-linux[0m
+2026-10-19T23:09:19.7831367Z evaluating 'devShells.x86_64-linux'...
+2026-10-19T23:09:19.7832125Z [32;1m│   │   └───[0m[1mdefault[0m: development environment 'nix-shell'
+2026-10-19T23:09:19.7832395Z [32;1m│   └───[0m[1mx86_64-linux[0m
+2026-10-19T23:09:19.7832583Z evaluating 'devShells.x86_64-linux.default'...
+2026-10-19T23:09:19.8152454Z evaluating 'overlays'...
+2026-10-19T23:09:19.8152778Z evaluating 'overlays.default'...
+2026-10-19T23:09:19.8153139Z evaluating 'packages'...
+2026-10-19T23:09:19.8153535Z evaluating 'packages.aarch64-darwin'...
+2026-10-19T23:09:19.8153725Z evaluating 'packages.aarch64-darwin.default'...
+2026-10-19T23:09:19.8154505Z [32;1m│       └───[0m[1mdefault[0m: development environment 'nix-shell'
+2026-10-19T23:09:19.8154743Z [32;1m├───[0m[1moverlays[0m
+2026-10-19T23:09:19.8154958Z [32;1m│   └───[0m[1mdefault[0m: [35;1mNixpkgs overlay[0m
+2026-10-19T23:09:19.8155154Z [32;1m└───[0m[1mpackages[0m
+2026-10-19T23:09:19.8155320Z [32;1m    ├───[0m[1maarch64-darwin[0m
+2026-10-19T23:09:19.8156381Z evaluating 'packages.aarch64-darwin.node_modules_updater'...
+2026-10-19T23:09:19.8156639Z [32;1m    │   ├───[0m[1mdefault[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8157097Z evaluating 'packages.aarch64-darwin.opencode'...
+2026-10-19T23:09:19.8157398Z [32;1m    │   ├───[0m[1mnode_modules_updater[0m: package 'opencode-node_modules-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8157821Z evaluating 'packages.aarch64-darwin.opencode-desktop'...
+2026-10-19T23:09:19.8158123Z [32;1m    │   ├───[0m[1mopencode[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8158496Z [32;1m    │   └───[0m[1mopencode-desktop[0m: package 'opencode-desktop-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8158847Z evaluating 'packages.aarch64-linux'...
+2026-10-19T23:09:19.8159016Z evaluating 'packages.aarch64-linux.default'...
+2026-10-19T23:09:19.8159250Z [32;1m    ├───[0m[1maarch64-linux[0m
+2026-10-19T23:09:19.8159739Z [32;1m    │   ├───[0m[1mdefault[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8160392Z [32;1m    │   ├───[0m[1mnode_modules_updater[0m: package 'opencode-node_modules-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8160726Z [32;1m    │   ├───[0m[1mopencode[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8161046Z [32;1m    │   └───[0m[1mopencode-desktop[0m: package 'opencode-desktop-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8161347Z [32;1m    └───[0m[1mx86_64-linux[0m
+2026-10-19T23:09:19.8161701Z [32;1m        ├───[0m[1mdefault[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8162257Z [32;1m        ├───[0m[1mnode_modules_updater[0m: package 'opencode-node_modules-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8162597Z [32;1m        ├───[0m[1mopencode[0m: package 'opencode-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8163004Z [32;1m        └───[0m[1mopencode-desktop[0m: package 'opencode-desktop-2.0.32+aaedbe0'
+2026-10-19T23:09:19.8187399Z evaluating 'packages.aarch64-linux.node_modules_updater'...
+2026-10-19T23:09:19.8216840Z evaluating 'packages.aarch64-linux.opencode'...
+2026-10-19T23:09:19.8217086Z evaluating 'packages.aarch64-linux.opencode-desktop'...
+2026-10-19T23:09:19.8217282Z evaluating 'packages.x86_64-linux'...
+2026-10-19T23:09:19.8217439Z evaluating 'packages.x86_64-linux.default'...
+2026-10-19T23:09:19.8217626Z evaluating 'packages.x86_64-linux.node_modules_updater'...
+2026-10-19T23:09:19.8217817Z evaluating 'packages.x86_64-linux.opencode'...
+2026-10-19T23:09:19.8218543Z evaluating 'packages.x86_64-linux.opencode-desktop'...
+2026-10-19T23:09:19.8333055Z 
+2026-10-19T23:09:19.8333848Z === Evaluating packages for all systems ===
+2026-10-19T23:09:19.8334095Z 
+2026-10-19T23:09:19.8334191Z --- x86_64-linux ---
+2026-10-19T23:09:21.2966851Z   opencode: ✓
+2026-10-19T23:09:21.2967074Z 
+2026-10-19T23:09:21.2967180Z --- aarch64-linux ---
+2026-10-19T23:09:22.7504340Z   opencode: ✓
+2026-10-19T23:09:22.7504544Z 
+2026-10-19T23:09:22.7504649Z --- aarch64-darwin ---
+2026-10-19T23:09:24.2444209Z   opencode: ✓
+2026-10-19T23:09:24.2444357Z 
+2026-10-19T23:09:24.2444429Z === Evaluating optional packages ===
+2026-10-19T23:09:24.2444537Z 
+2026-10-19T23:09:24.2444597Z --- x86_64-linux ---
+2026-10-19T23:09:24.3118962Z   desktop: ✗
+2026-10-19T23:09:24.3135284Z ##[warning]Evaluation failed for packages.x86_64-linux.desktop
+2026-10-19T23:09:24.3142279Z error: flake 'git+file:///home/runner/_work/opencode/opencode?shallow=1' does not provide attribute 'packages.x86_64-linux.packages.x86_64-linux.desktop.drvPath', 'legacyPackages.x86_64-linux.packages.x86_64-linux.desktop.drvPath' or 'packages.x86_64-linux.desktop.drvPath'
+2026-10-19T23:09:24.3142960Z 
+2026-10-19T23:09:24.3143024Z --- aarch64-linux ---
+2026-10-19T23:09:24.3826749Z   desktop: ✗
+2026-10-19T23:09:24.3827913Z ##[warning]Evaluation failed for packages.aarch64-linux.desktop
+2026-10-19T23:09:24.3829133Z error: flake 'git+file:///home/runner/_work/opencode/opencode?shallow=1' does not provide attribute 'packages.x86_64-linux.packages.aarch64-linux.desktop.drvPath', 'legacyPackages.x86_64-linux.packages.aarch64-linux.desktop.drvPath' or 'packages.aarch64-linux.desktop.drvPath'
+2026-10-19T23:09:24.3829634Z 
+2026-10-19T23:09:24.3829697Z --- aarch64-darwin ---
+2026-10-19T23:09:24.4577919Z   desktop: ✗
+2026-10-19T23:09:24.4579444Z ##[warning]Evaluation failed for packages.aarch64-darwin.desktop
+2026-10-19T23:09:24.4581799Z error: flake 'git+file:///home/runner/_work/opencode/opencode?shallow=1' does not provide attribute 'packages.x86_64-linux.packages.aarch64-darwin.desktop.drvPath', 'legacyPackages.x86_64-linux.packages.aarch64-darwin.desktop.drvPath' or 'packages.aarch64-darwin.desktop.drvPath'
+2026-10-19T23:09:24.4582747Z 
+2026-10-19T23:09:24.4582859Z === Evaluating devShells for all systems ===
+2026-10-19T23:09:24.9525487Z x86_64-linux: ✓
+2026-10-19T23:09:25.4140224Z aarch64-linux: ✓
+2026-10-19T23:09:26.1310548Z aarch64-darwin: ✓
+2026-10-19T23:09:26.1310740Z 
+2026-10-19T23:09:26.1310854Z === All evaluations passed ===
+2026-10-19T23:09:26.1445193Z Post job cleanup.
+2026-10-19T23:09:26.1986632Z [command]/usr/local/bin/git version
+2026-10-19T23:09:26.2018393Z git version 2.55.0
+2026-10-19T23:09:26.2039113Z Temporarily overriding HOME='/home/runner/_work/_temp/7e5183f0-4e9d-4b1a-9c71-82b64aa1e1ad' before making global git config changes
+2026-10-19T23:09:26.2039500Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T23:09:26.2042467Z [command]/usr/local/bin/git config --global --add safe.directory /home/runner/_work/opencode/opencode
+2026-10-19T23:09:26.2066804Z Removing SSH command configuration
+2026-10-19T23:09:26.2070279Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T23:09:26.2095005Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T23:09:26.2215584Z Removing HTTP extra header
+2026-10-19T23:09:26.2220386Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T23:09:26.2252563Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T23:09:26.2375567Z Removing includeIf entries pointing to credentials config files
+2026-10-19T23:09:26.2381278Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T23:09:26.2408190Z includeif.gitdir:/home/runner/_work/opencode/opencode/.git.path
+2026-10-19T23:09:26.2408473Z includeif.gitdir:/home/runner/_work/opencode/opencode/.git/worktrees/*.path
+2026-10-19T23:09:26.2408701Z includeif.gitdir:/github/workspace/.git.path
+2026-10-19T23:09:26.2408926Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-19T23:09:26.2415943Z [command]/usr/local/bin/git config --local --get-all includeif.gitdir:/home/runner/_work/opencode/opencode/.git.path
+2026-10-19T23:09:26.2438213Z /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2444945Z [command]/usr/local/bin/git config --local --unset includeif.gitdir:/home/runner/_work/opencode/opencode/.git.path /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2474513Z [command]/usr/local/bin/git config --local --get-all includeif.gitdir:/home/runner/_work/opencode/opencode/.git/worktrees/*.path
+2026-10-19T23:09:26.2493536Z /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2499628Z [command]/usr/local/bin/git config --local --unset includeif.gitdir:/home/runner/_work/opencode/opencode/.git/worktrees/*.path /home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2524478Z [command]/usr/local/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-19T23:09:26.2545224Z /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2556035Z [command]/usr/local/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2583374Z [command]/usr/local/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-19T23:09:26.2602165Z /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2607827Z [command]/usr/local/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config
+2026-10-19T23:09:26.2636890Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T23:09:26.2757851Z Removing credentials config '/home/runner/_work/_temp/git-credentials-b720dc5c-4256-4fc5-bc5e-6d0b55ff3247.config'
+2026-10-19T23:09:26.2826981Z A job completed hook has been configured by the self-hosted runner administrator
+2026-10-19T23:09:26.2847102Z ##[group]Run '/job_completed.sh'
+2026-10-19T23:09:26.2854986Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T23:09:26.2855175Z env:
+2026-10-19T23:09:26.2855295Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 178
+2026-10-19T23:09:26.2855451Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 475
+2026-10-19T23:09:26.2855599Z   BLACKSMITH_CHECK_RUN_ID: 118357999556
+2026-10-19T23:09:26.2855775Z   BLACKSMITH_JOB_DISPLAY_NAME: nix-eval
+2026-10-19T23:09:26.2855917Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T23:09:26.2856057Z ##[endgroup]
+2026-10-19T23:09:26.2947059Z Docker container cache not activated, skipping hash computation.
+2026-10-19T23:09:26.3201124Z No active SSH sessions detected. Proceeding with shutdown immediately.
+2026-10-19T23:09:26.3256315Z Cleaning up orphan processes

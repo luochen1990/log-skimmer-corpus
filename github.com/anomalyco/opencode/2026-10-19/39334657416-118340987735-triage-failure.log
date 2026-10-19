@@ -1,0 +1,427 @@
+﻿2026-10-19T22:24:04.7825461Z Current runner version: '2.337.0'
+2026-10-19T22:24:04.7830733Z Runner name: 'blacksmith-4vcpu-ubuntu-2404-et24p54ornqwoqxk'
+2026-10-19T22:24:04.7831778Z Runner group name: 'blacksmith scale sets - blacksmith-4vcpu-ubuntu-2404'
+2026-10-19T22:24:04.7832577Z Machine name: 'ip-172-31-73-130'
+2026-10-19T22:24:04.7834392Z ##[group]GITHUB_TOKEN Permissions
+2026-10-19T22:24:04.7836668Z Contents: read
+2026-10-19T22:24:04.7837369Z Issues: write
+2026-10-19T22:24:04.7837841Z Metadata: read
+2026-10-19T22:24:04.7838232Z ##[endgroup]
+2026-10-19T22:24:04.7840265Z Secret source: Actions
+2026-10-19T22:24:04.7841086Z Cache mode: read
+2026-10-19T22:24:04.7842049Z Prepare workflow directory
+2026-10-19T22:24:04.8718687Z Prepare all required actions
+2026-10-19T22:24:04.8755346Z Getting action download info
+2026-10-19T22:24:05.0235879Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-10-19T22:24:05.1732750Z Setting BLACKSMITH_ACTIONS_RESULTS_URL to https://results-receiver.actions.githubusercontent.com/
+2026-10-19T22:24:05.2234521Z Complete job name: triage
+2026-10-19T22:24:05.2977279Z A job started hook has been configured by the self-hosted runner administrator
+2026-10-19T22:24:05.3080379Z ##[group]Run '/setup.sh'
+2026-10-19T22:24:05.3103709Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:05.3104214Z env:
+2026-10-19T22:24:05.3104471Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:05.3104781Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:05.3105082Z   BLACKSMITH_CHECK_RUN_ID: 118340987735
+2026-10-19T22:24:05.3105385Z   BLACKSMITH_JOB_DISPLAY_NAME: triage
+2026-10-19T22:24:05.3105679Z   GITHUB_ACTIONS_CACHE_MODE: read
+2026-10-19T22:24:05.3105949Z ##[endgroup]
+2026-10-19T22:24:05.3526992Z Logging daemon started (blacksmithd for logs)
+2026-10-19T22:24:05.3714543Z Results daemon started (blacksmithd for results)
+2026-10-19T22:24:05.3929896Z Background adoption and SSH setup started (PID: 2925)
+2026-10-19T22:24:05.3931094Z 
+2026-10-19T22:24:05.3965346Z ----------------------------------------
+2026-10-19T22:24:05.3967659Z View this job: https://app.blacksmith.sh/anomalyco/runs/39334657416/jobs/118340987735
+2026-10-19T22:24:05.3969152Z SSH Access (using your GitHub SSH key):
+2026-10-19T22:24:05.3969978Z   ssh -p 64003 runner@blacksmith-4vcpu-ubuntu-2404-et24p54ornqwoqxk.vm.blacksmith.sh
+2026-10-19T22:24:05.3970943Z 
+2026-10-19T22:24:05.3971219Z No GitHub SSH key? Add one at:
+2026-10-19T22:24:05.3972114Z https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+2026-10-19T22:24:05.3972879Z 
+2026-10-19T22:24:05.3973139Z ----------------------------------------
+2026-10-19T22:24:05.3973517Z 
+2026-10-19T22:24:05.3973822Z VM ID: blacksmith-4vcpu-ubuntu-2404-et24p54ornqwoqxk
+2026-10-19T22:24:05.3974436Z Host: production-152.236.31.52-x8664
+2026-10-19T22:24:05.3974976Z Host Agent PID: 1007381
+2026-10-19T22:24:05.3975480Z Host Agent Git SHA: f0328bdfa
+2026-10-19T22:24:05.3976019Z Host CPU Manufacturer: AuthenticAMD
+2026-10-19T22:24:05.3976575Z Blacksmith Host Generation: gen 2
+2026-10-19T22:24:05.3977173Z Petname: production-choice-buzzard-ec8e15c0
+2026-10-19T22:24:05.3977744Z Static Egress IP: 152.236.40.193
+2026-10-19T22:24:05.3978250Z Region: us-east
+2026-10-19T22:24:05.3978703Z Rootfs Version: ubuntu24-full-x64-081926
+2026-10-19T22:24:05.3979379Z OS Version: Ubuntu 24.04.4 LTS
+2026-10-19T22:24:05.3979714Z 
+2026-10-19T22:24:05.3979987Z Enabling Blacksmith transparent cache
+2026-10-19T22:24:05.5318549Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+2026-10-19T22:24:05.5319019Z with:
+2026-10-19T22:24:05.5319256Z   fetch-depth: 1
+2026-10-19T22:24:05.5319511Z   repository: anomalyco/opencode
+2026-10-19T22:24:05.5322459Z   token: ***
+2026-10-19T22:24:05.5322821Z   ssh-strict: true
+2026-10-19T22:24:05.5323166Z   ssh-user: git
+2026-10-19T22:24:05.5323500Z   persist-credentials: true
+2026-10-19T22:24:05.5323913Z   clean: true
+2026-10-19T22:24:05.5324726Z   sparse-checkout-cone-mode: true
+2026-10-19T22:24:05.5325167Z   fetch-tags: false
+2026-10-19T22:24:05.5325484Z   show-progress: true
+2026-10-19T22:24:05.5325877Z   lfs: false
+2026-10-19T22:24:05.5326242Z   submodules: false
+2026-10-19T22:24:05.5326636Z   set-safe-directory: true
+2026-10-19T22:24:05.5326940Z env:
+2026-10-19T22:24:05.5327230Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:05.5327532Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:05.5327861Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:05.5328138Z ##[endgroup]
+2026-10-19T22:24:05.7684641Z Syncing repository: anomalyco/opencode
+2026-10-19T22:24:05.7687514Z ##[group]Getting Git version info
+2026-10-19T22:24:05.7688579Z Working directory is '/home/runner/_work/opencode/opencode'
+2026-10-19T22:24:05.7689937Z [command]/usr/local/bin/git version
+2026-10-19T22:24:05.7957816Z git version 2.55.0
+2026-10-19T22:24:05.7979237Z ##[endgroup]
+2026-10-19T22:24:05.7990785Z Temporarily overriding HOME='/home/runner/_work/_temp/ee8ec95b-7abd-43f4-89cd-76e27944fc2b' before making global git config changes
+2026-10-19T22:24:05.7992242Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:24:05.7997247Z [command]/usr/local/bin/git config --global --add safe.directory /home/runner/_work/opencode/opencode
+2026-10-19T22:24:05.8085713Z Deleting the contents of '/home/runner/_work/opencode/opencode'
+2026-10-19T22:24:05.8087579Z ##[group]Initializing the repository
+2026-10-19T22:24:05.8088486Z [command]/usr/local/bin/git init /home/runner/_work/opencode/opencode
+2026-10-19T22:24:05.8189012Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-19T22:24:05.8197690Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-19T22:24:05.8199142Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-19T22:24:05.8200432Z hint: call:
+2026-10-19T22:24:05.8200925Z hint:
+2026-10-19T22:24:05.8201774Z hint: 	git config --global init.defaultBranch <name>
+2026-10-19T22:24:05.8202576Z hint:
+2026-10-19T22:24:05.8203364Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-19T22:24:05.8204429Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-19T22:24:05.8205277Z hint:
+2026-10-19T22:24:05.8205730Z hint: 	git branch -m <name>
+2026-10-19T22:24:05.8206264Z hint:
+2026-10-19T22:24:05.8206901Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-19T22:24:05.8208268Z Initialized empty Git repository in /home/runner/_work/opencode/opencode/.git/
+2026-10-19T22:24:05.8211068Z [command]/usr/local/bin/git remote add origin https://github.com/anomalyco/opencode
+2026-10-19T22:24:05.8270272Z ##[endgroup]
+2026-10-19T22:24:05.8270963Z ##[group]Disabling automatic garbage collection
+2026-10-19T22:24:05.8275342Z [command]/usr/local/bin/git config --local gc.auto 0
+2026-10-19T22:24:05.8327338Z ##[endgroup]
+2026-10-19T22:24:05.8328119Z ##[group]Setting up auth
+2026-10-19T22:24:05.8329156Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:24:05.8377667Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T22:24:05.8627942Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:24:05.8670586Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T22:24:05.8833026Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:24:05.8871427Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T22:24:05.9028728Z [command]/usr/local/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-19T22:24:05.9086149Z ##[endgroup]
+2026-10-19T22:24:05.9086924Z ##[group]Fetching the repository
+2026-10-19T22:24:05.9092676Z [command]/usr/local/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +d85746a054924241a7edde736eefd079dff9bc00:refs/remotes/origin/dev
+2026-10-19T22:24:08.8355860Z From https://github.com/anomalyco/opencode
+2026-10-19T22:24:08.8358395Z  * [new ref]         d85746a054924241a7edde736eefd079dff9bc00 -> origin/dev
+2026-10-19T22:24:08.8388777Z ##[endgroup]
+2026-10-19T22:24:08.8389955Z ##[group]Determining the checkout info
+2026-10-19T22:24:08.8391270Z ##[endgroup]
+2026-10-19T22:24:08.8396763Z [command]/usr/local/bin/git sparse-checkout disable
+2026-10-19T22:24:08.8439591Z [command]/usr/local/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-19T22:24:08.8470845Z ##[group]Checking out the ref
+2026-10-19T22:24:08.8474421Z [command]/usr/local/bin/git checkout --progress --force -B dev refs/remotes/origin/dev
+2026-10-19T22:24:09.3504855Z Switched to a new branch 'dev'
+2026-10-19T22:24:09.3505533Z branch 'dev' set up to track 'origin/dev'.
+2026-10-19T22:24:09.3525462Z ##[endgroup]
+2026-10-19T22:24:09.3584172Z [command]/usr/local/bin/git log -1 --format=%H
+2026-10-19T22:24:09.3614720Z d85746a054924241a7edde736eefd079dff9bc00
+2026-10-19T22:24:09.3887883Z ##[group]Run LOGIN="iceteaSA"
+2026-10-19T22:24:09.3888261Z [36;1mLOGIN="iceteaSA"[0m
+2026-10-19T22:24:09.3888476Z [36;1mASSOCIATION="NONE"[0m
+2026-10-19T22:24:09.3888701Z [36;1m[0m
+2026-10-19T22:24:09.3888921Z [36;1mif [ "$LOGIN" = "opencode-agent[bot]" ] ||[0m
+2026-10-19T22:24:09.3889202Z [36;1m   [ "$ASSOCIATION" = "OWNER" ] ||[0m
+2026-10-19T22:24:09.3889458Z [36;1m   [ "$ASSOCIATION" = "MEMBER" ] ||[0m
+2026-10-19T22:24:09.3889764Z [36;1m   grep -qxiF "$LOGIN" .github/TEAM_MEMBERS; then[0m
+2026-10-19T22:24:09.3890165Z [36;1m  echo "skip=true" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:24:09.3890543Z [36;1m  echo "Skipping issue automation for exempt author: $LOGIN ($ASSOCIATION)"[0m
+2026-10-19T22:24:09.3890873Z [36;1melse[0m
+2026-10-19T22:24:09.3891080Z [36;1m  echo "skip=false" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:24:09.3891326Z [36;1mfi[0m
+2026-10-19T22:24:09.3913131Z shell: /usr/bin/bash -e {0}
+2026-10-19T22:24:09.3913304Z env:
+2026-10-19T22:24:09.3913510Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:09.3913794Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:09.3914013Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:09.3914163Z ##[endgroup]
+2026-10-19T22:24:09.4651554Z Prepare all required actions
+2026-10-19T22:24:09.4652490Z Getting action download info
+2026-10-19T22:24:09.5629892Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-19T22:24:09.6320959Z Download action repository 'oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
+2026-10-19T22:24:09.7370280Z Download action repository 'actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+2026-10-19T22:24:09.8981016Z ##[group]Run ./.github/actions/setup-bun
+2026-10-19T22:24:09.8981850Z with:
+2026-10-19T22:24:09.8982001Z env:
+2026-10-19T22:24:09.8982152Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:09.8982424Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:09.8982674Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:09.8983117Z ##[endgroup]
+2026-10-19T22:24:09.9310334Z ##[start-action display=Setup Node;id=__self.__actions_setup-node]
+2026-10-19T22:24:09.9970839Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T22:24:09.9971179Z with:
+2026-10-19T22:24:09.9971299Z   node-version: 24
+2026-10-19T22:24:09.9971420Z   always-auth: false
+2026-10-19T22:24:09.9971546Z   check-latest: false
+2026-10-19T22:24:09.9972883Z   token: ***
+2026-10-19T22:24:09.9973000Z env:
+2026-10-19T22:24:09.9973117Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:09.9973276Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:09.9973431Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:09.9973578Z ##[endgroup]
+2026-10-19T22:24:10.1204382Z Found in cache @ /opt/hostedtoolcache/node/24.19.0/x64
+2026-10-19T22:24:10.1207257Z (node:3288) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:24:10.1207916Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:24:10.1209709Z ##[group]Environment details
+2026-10-19T22:24:10.4460802Z node: v24.19.0
+2026-10-19T22:24:10.4461082Z npm: 11.17.0
+2026-10-19T22:24:10.4461256Z yarn: 1.22.22
+2026-10-19T22:24:10.4461807Z ##[endgroup]
+2026-10-19T22:24:10.4568397Z ##[end-action id=__self.__actions_setup-node;outcome=success;conclusion=success;duration_ms=525]
+2026-10-19T22:24:10.4684985Z ##[start-action display=Get baseline download URL;id=__self.bun-url]
+2026-10-19T22:24:10.4851794Z ##[group]Run if [ "$RUNNER_ARCH" = "X64" ]; then
+2026-10-19T22:24:10.4852190Z [36;1mif [ "$RUNNER_ARCH" = "X64" ]; then[0m
+2026-10-19T22:24:10.4852439Z [36;1m  V=""[0m
+2026-10-19T22:24:10.4852825Z [36;1m  if [ -z "$V" ]; then V=$(node -p "require('./package.json').packageManager.split('@')[1]"); fi[0m
+2026-10-19T22:24:10.4853288Z [36;1m  TAG=$([ "$V" = "canary" ] && echo "canary" || echo "bun-v${V}")[0m
+2026-10-19T22:24:10.4853582Z [36;1m  case "$RUNNER_OS" in[0m
+2026-10-19T22:24:10.4853812Z [36;1m    macOS)   OS=darwin ;;[0m
+2026-10-19T22:24:10.4854083Z [36;1m    Linux)   OS=linux ;;[0m
+2026-10-19T22:24:10.4854311Z [36;1m    Windows) OS=windows ;;[0m
+2026-10-19T22:24:10.4854544Z [36;1m  esac[0m
+2026-10-19T22:24:10.4855000Z [36;1m  echo "url=https://github.com/oven-sh/bun/releases/download/${TAG}/bun-${OS}-x64-baseline.zip" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:24:10.4855440Z [36;1mfi[0m
+2026-10-19T22:24:10.4892803Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:10.4893037Z env:
+2026-10-19T22:24:10.4893192Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:10.4893357Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:10.4893514Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:10.4893690Z ##[endgroup]
+2026-10-19T22:24:10.5176760Z ##[end-action id=__self.bun-url;outcome=success;conclusion=success;duration_ms=49]
+2026-10-19T22:24:10.5283586Z ##[start-action display=Setup Bun;id=__self.__oven-sh_setup-bun]
+2026-10-19T22:24:10.5842877Z ##[group]Run oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+2026-10-19T22:24:10.5843266Z with:
+2026-10-19T22:24:10.5843651Z   bun-download-url: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-x64-baseline.zip
+2026-10-19T22:24:10.5844023Z   no-cache: false
+2026-10-19T22:24:10.5845402Z   token: ***
+2026-10-19T22:24:10.5845518Z env:
+2026-10-19T22:24:10.5845683Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:10.5845923Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:10.5846150Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:10.5846315Z ##[endgroup]
+2026-10-19T22:24:10.7023466Z Obtained version 1.4.2 from package.json
+2026-10-19T22:24:10.7024278Z Downloading a new version of Bun: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-x64-baseline.zip
+2026-10-19T22:24:11.0521713Z [command]/usr/bin/unzip -o -q /home/runner/_work/_temp/c21df080-fdb5-455a-b8a1-86e548ba4479.zip
+2026-10-19T22:24:11.5499820Z [command]/home/runner/.bun/bin/bun --revision
+2026-10-19T22:24:11.5541331Z 1.4.2+744846f84
+2026-10-19T22:24:11.5650894Z ##[end-action id=__self.__oven-sh_setup-bun;outcome=success;conclusion=success;duration_ms=1036]
+2026-10-19T22:24:11.5793145Z ##[start-action display=Get cache directory;id=__self.cache]
+2026-10-19T22:24:11.5995707Z ##[group]Run echo "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"
+2026-10-19T22:24:11.5996127Z [36;1mecho "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:24:11.5996457Z [36;1mecho "version=$(bun --version)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:24:11.6031811Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:11.6032166Z env:
+2026-10-19T22:24:11.6032375Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:11.6033034Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:11.6033276Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:11.6033514Z ##[endgroup]
+2026-10-19T22:24:11.6146565Z ##[end-action id=__self.cache;outcome=success;conclusion=success;duration_ms=35]
+2026-10-19T22:24:11.6275130Z ##[start-action display=Restore Bun dependencies;id=__self.bun-cache]
+2026-10-19T22:24:11.9510556Z ##[group]Run actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+2026-10-19T22:24:11.9510770Z with:
+2026-10-19T22:24:11.9510896Z   path: /home/runner/.bun/install/cache
+2026-10-19T22:24:11.9511144Z   key: Linux-X64-bun-1.4.2-b5e890ced2de0650d3e4d2eb07af9deb7017bc7de5120195beeb87d8a45aae99
+2026-10-19T22:24:11.9511389Z   enableCrossOsArchive: false
+2026-10-19T22:24:11.9511534Z   fail-on-cache-miss: false
+2026-10-19T22:24:11.9511665Z   lookup-only: false
+2026-10-19T22:24:11.9511779Z env:
+2026-10-19T22:24:11.9511893Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:11.9512113Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:11.9512500Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:11.9512704Z ##[endgroup]
+2026-10-19T22:24:12.0316471Z (node:3370) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:24:12.0317240Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:24:12.1943607Z Cache hit for: Linux-X64-bun-1.4.2-b5e890ced2de0650d3e4d2eb07af9deb7017bc7de5120195beeb87d8a45aae99
+2026-10-19T22:24:12.2073513Z (node:3370) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-19T22:24:13.2291736Z Received 373293056 of 850445561 (43.9%), 351.8 MBs/sec
+2026-10-19T22:24:14.3254030Z Received 805306368 of 850445561 (94.7%), 364.5 MBs/sec
+2026-10-19T22:24:14.4199019Z Received 850445561 of 850445561 (100.0%), 368.2 MBs/sec
+2026-10-19T22:24:14.4387608Z Cache Size: ~811 MB (850445561 B)
+2026-10-19T22:24:14.4525595Z [command]/usr/bin/tar -xf /home/runner/_work/_temp/5197f77a-b77a-460e-be87-ed0d571a1630/cache.tzst -P -C /home/runner/_work/opencode/opencode --use-compress-program unzstd
+2026-10-19T22:24:20.0815295Z Cache restored successfully
+2026-10-19T22:24:20.1566079Z Cache restored from key: Linux-X64-bun-1.4.2-b5e890ced2de0650d3e4d2eb07af9deb7017bc7de5120195beeb87d8a45aae99
+2026-10-19T22:24:20.1671759Z ##[end-action id=__self.bun-cache;outcome=success;conclusion=success;duration_ms=8539]
+2026-10-19T22:24:20.1708603Z ##[start-action display=Install setuptools for distutils compatibility;id=__self.__run]
+2026-10-19T22:24:20.1770808Z ##[group]Run python3 -m pip install setuptools || pip install setuptools || true
+2026-10-19T22:24:20.1771305Z [36;1mpython3 -m pip install setuptools || pip install setuptools || true[0m
+2026-10-19T22:24:20.1795816Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:20.1796098Z env:
+2026-10-19T22:24:20.1796285Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:20.1796520Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:20.1796763Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:20.1796990Z ##[endgroup]
+2026-10-19T22:24:20.5755126Z Defaulting to user installation because normal site-packages is not writeable
+2026-10-19T22:24:20.8716010Z Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (68.1.2)
+2026-10-19T22:24:21.1047643Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=933]
+2026-10-19T22:24:21.1070946Z ##[start-action display=Install dependencies;id=__self.__run_2]
+2026-10-19T22:24:21.1105759Z ##[group]Run bun install --frozen-lockfile 
+2026-10-19T22:24:21.1105978Z [36;1mbun install --frozen-lockfile [0m
+2026-10-19T22:24:21.1125061Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:21.1125238Z env:
+2026-10-19T22:24:21.1125359Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:21.1125524Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:21.1125683Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:21.1125830Z ##[endgroup]
+2026-10-19T22:24:21.1183229Z bun install v1.4.2 (744846f84)
+2026-10-19T22:24:21.1320810Z Resolving dependencies
+2026-10-19T22:24:21.1324928Z Resolved, downloaded and extracted [17]
+2026-10-19T22:24:21.5559748Z 
+2026-10-19T22:24:21.5563634Z $ bun run --cwd packages/core fix-node-pty
+2026-10-19T22:24:21.5596287Z $ bun run script/fix-node-pty.ts
+2026-10-19T22:24:21.5714716Z $ husky
+2026-10-19T22:24:21.6124090Z 
+2026-10-19T22:24:21.6124867Z + @actions/artifact@5.0.1
+2026-10-19T22:24:21.6125210Z + @ast-grep/cli@0.44.0
+2026-10-19T22:24:21.6125368Z + @oxlint/plugins@1.60.0
+2026-10-19T22:24:21.6125520Z + @tsconfig/bun@1.0.9
+2026-10-19T22:24:21.6125658Z + @types/bun@1.4.0
+2026-10-19T22:24:21.6125796Z + @types/mime-types@3.0.1
+2026-10-19T22:24:21.6125931Z + @types/react@19.2.17
+2026-10-19T22:24:21.6126300Z + @types/react-dom@19.2.3
+2026-10-19T22:24:21.6126805Z + @typescript/native@7.0.2
+2026-10-19T22:24:21.6126936Z + glob@13.0.5
+2026-10-19T22:24:21.6127061Z + husky@9.1.7
+2026-10-19T22:24:21.6127170Z + oxlint@1.60.0
+2026-10-19T22:24:21.6127320Z + oxlint-tsgolint@0.21.0
+2026-10-19T22:24:21.6127483Z + prettier@3.6.2
+2026-10-19T22:24:21.6127714Z + semver@7.8.5
+2026-10-19T22:24:21.6127962Z + sst@4.13.1
+2026-10-19T22:24:21.6128164Z + turbo@2.10.2
+2026-10-19T22:24:21.6128444Z + @aws-sdk/client-s3@3.933.0
+2026-10-19T22:24:21.6128694Z + heap-snapshot-toolkit@1.1.3
+2026-10-19T22:24:21.6128917Z + typescript@6.0.2
+2026-10-19T22:24:21.6129017Z 
+2026-10-19T22:24:21.6129147Z 2153 packages installed [494.00ms]
+2026-10-19T22:24:21.6158424Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=508]
+2026-10-19T22:24:21.6191700Z ##[start-action display=Save Bun dependencies;id=__self.__actions_cache]
+2026-10-19T22:24:21.6244310Z ##[end-action id=__self.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:24:21.6340230Z ##[group]Run curl -fsSL https://opencode.ai/install | bash
+2026-10-19T22:24:21.6340757Z [36;1mcurl -fsSL https://opencode.ai/install | bash[0m
+2026-10-19T22:24:21.6365614Z shell: /usr/bin/bash -e {0}
+2026-10-19T22:24:21.6365767Z env:
+2026-10-19T22:24:21.6365911Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:21.6366072Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:21.6366261Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:21.6366425Z ##[endgroup]
+2026-10-19T22:24:21.8491789Z [0m
+2026-10-19T22:24:21.8492364Z [0;2mInstalling [0mopencode [0;2mversion: [0m1.19.3[0m
+2026-10-19T22:24:21.9791936Z 
+2026-10-19T22:24:22.0908718Z ############                                                              17.5%
+2026-10-19T22:24:22.1198130Z ##############################################################            86.4%
+2026-10-19T22:24:22.1198675Z ######################################################################## 100.0%
+2026-10-19T22:24:23.1373007Z [0m[0;2mSuccessfully added [0mopencode [0;2mto $PATH in [0m/home/runner/.bashrc[0m
+2026-10-19T22:24:23.1374105Z [0mAdded /home/runner/.opencode/bin to $GITHUB_PATH[0m
+2026-10-19T22:24:23.1379612Z 
+2026-10-19T22:24:23.1383156Z [0;2m                    [0m             ▄     
+2026-10-19T22:24:23.1384555Z [0;2m█▀▀█ █▀▀█ █▀▀█ █▀▀▄ [0m█▀▀▀ █▀▀█ █▀▀█ █▀▀█
+2026-10-19T22:24:23.1385983Z [0;2m█░░█ █░░█ █▀▀▀ █░░█ [0m█░░░ █░░█ █░░█ █▀▀▀
+2026-10-19T22:24:23.1386451Z [0;2m▀▀▀▀ █▀▀▀ ▀▀▀▀ ▀  ▀ [0m▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀
+2026-10-19T22:24:23.1386676Z 
+2026-10-19T22:24:23.1386779Z 
+2026-10-19T22:24:23.1387066Z [0;2mOpenCode includes free models, to start:[0m
+2026-10-19T22:24:23.1387347Z 
+2026-10-19T22:24:23.1387601Z cd <project>  [0;2m# Open directory[0m
+2026-10-19T22:24:23.1388289Z opencode      [0;2m# Run command[0m
+2026-10-19T22:24:23.1388631Z 
+2026-10-19T22:24:23.1388968Z [0;2mFor more information visit [0mhttps://opencode.ai/docs
+2026-10-19T22:24:23.1389261Z 
+2026-10-19T22:24:23.1389339Z 
+2026-10-19T22:24:23.1593375Z ##[group]Run opencode run --agent triage "The following issue was just opened, triage it:
+2026-10-19T22:24:23.1593827Z [36;1mopencode run --agent triage "The following issue was just opened, triage it:[0m
+2026-10-19T22:24:23.1594066Z [36;1m[0m
+2026-10-19T22:24:23.1594185Z [36;1mTitle: $ISSUE_TITLE[0m
+2026-10-19T22:24:23.1594329Z [36;1m[0m
+2026-10-19T22:24:23.1594642Z [36;1m$ISSUE_BODY"[0m
+2026-10-19T22:24:23.1639024Z shell: /usr/bin/bash -e {0}
+2026-10-19T22:24:23.1639353Z env:
+2026-10-19T22:24:23.1639515Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:23.1639696Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:23.1639875Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:24:23.1642615Z   OPENCODE_API_KEY: ***
+2026-10-19T22:24:23.1645342Z   GITHUB_TOKEN: ***
+2026-10-19T22:24:23.1645470Z   ISSUE_NUMBER: 57212
+2026-10-19T22:24:23.1646155Z   ISSUE_TITLE: [FEATURE]: Plugin API: list sessions and child sessions by parent ID
+2026-10-19T22:24:23.1649873Z   ISSUE_BODY: ## Problem
+
+A plugin cannot list sessions. A plugin cannot list the child sessions of a session. The plugin session API has no list operation.
+
+## Source (v2.0.31)
+
+- `packages/plugin/src/promise/session.ts:153` selects the host operations for plugins:
+
+  `export type SessionDomain = Pick<`
+
+  The selection lists `create`, `get`, `remove`, `switchAgent`, `switchModel`, `prompt`, `generate`, `command`, `compact`, `synthetic`, `interrupt`, `update`, `move`, `wait`, and `context`. It has no `list`.
+- `packages/client/src/effect/api/api.ts:124` shows that the host list operation accepts a parent filter:
+
+  `readonly parentID?: Session.ID | null | undefined`
+
+## Purpose
+
+A plugin sends a message to all child sessions of a session. The plugin must know the child session ids. Today the plugin records each child id when it makes the child. The plugin cannot find a child that a different component made.
+
+## Proposed minimal API
+
+Add `list` to the plugin session domain. Give the current `SessionListInput` through. A plugin then calls `ctx.session.list({ parentID })`.
+
+## What the plugin does today without it
+
+The plugin keeps its own map from parent id to child ids. The map is not complete after a restart, and after a different component makes a child.
+
+2026-10-19T22:24:23.1652224Z ##[endgroup]
+2026-10-19T22:24:26.2628220Z [0m
+2026-10-19T22:24:26.2629159Z > triage · gpt-5.4-mini
+2026-10-19T22:24:26.2629365Z [0m
+2026-10-19T22:24:32.7052025Z [91m[1mError: [0m{
+2026-10-19T22:24:32.7052503Z   "name": "UnknownError",
+2026-10-19T22:24:32.7052642Z   "data": {
+2026-10-19T22:24:32.7052838Z     "message": "Unexpected server error. Check server logs for details.",
+2026-10-19T22:24:32.7053041Z     "ref": "err_0a2e7abc"
+2026-10-19T22:24:32.7053164Z   }
+2026-10-19T22:24:32.7053264Z }
+2026-10-19T22:24:32.8005926Z ##[error]Process completed with exit code 1.
+2026-10-19T22:24:32.8304740Z Post job cleanup.
+2026-10-19T22:24:32.8803038Z ##[start-action display=Setup Bun;id=__d9c78915-5289-4fc3-af5c-1f6bddc58910.__oven-sh_setup-bun]
+2026-10-19T22:24:32.8821106Z ##[end-action id=__d9c78915-5289-4fc3-af5c-1f6bddc58910.__oven-sh_setup-bun;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:24:32.8848283Z ##[start-action display=Setup Node;id=__d9c78915-5289-4fc3-af5c-1f6bddc58910.__actions_setup-node]
+2026-10-19T22:24:32.8864212Z ##[end-action id=__d9c78915-5289-4fc3-af5c-1f6bddc58910.__actions_setup-node;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:24:32.9210011Z Post job cleanup.
+2026-10-19T22:24:32.9888571Z [command]/usr/local/bin/git version
+2026-10-19T22:24:32.9946849Z git version 2.55.0
+2026-10-19T22:24:32.9981611Z Temporarily overriding HOME='/home/runner/_work/_temp/7330e2af-3678-4bf5-b55c-fc0c33c18b12' before making global git config changes
+2026-10-19T22:24:32.9982261Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:24:32.9987874Z [command]/usr/local/bin/git config --global --add safe.directory /home/runner/_work/opencode/opencode
+2026-10-19T22:24:33.0042178Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:24:33.0088795Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T22:24:33.0319774Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:24:33.0370923Z http.https://github.com/.extraheader
+2026-10-19T22:24:33.0382164Z [command]/usr/local/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-19T22:24:33.0425308Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T22:24:33.0668711Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:24:33.0753628Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T22:24:33.1146689Z A job completed hook has been configured by the self-hosted runner administrator
+2026-10-19T22:24:33.1179449Z ##[group]Run '/job_completed.sh'
+2026-10-19T22:24:33.1196309Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:24:33.1196494Z env:
+2026-10-19T22:24:33.1196627Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 185
+2026-10-19T22:24:33.1196800Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 582
+2026-10-19T22:24:33.1196950Z   BLACKSMITH_CHECK_RUN_ID: 118340987735
+2026-10-19T22:24:33.1197095Z   BLACKSMITH_JOB_DISPLAY_NAME: triage
+2026-10-19T22:24:33.1197244Z   GITHUB_ACTIONS_CACHE_MODE: read
+2026-10-19T22:24:33.1197380Z ##[endgroup]
+2026-10-19T22:24:33.1324355Z Docker container cache not activated, skipping hash computation.
+2026-10-19T22:24:33.1669647Z No active SSH sessions detected. Proceeding with shutdown immediately.
+2026-10-19T22:24:33.1747961Z Cleaning up orphan processes
+2026-10-19T22:24:33.2022505Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830, actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

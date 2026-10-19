@@ -1,0 +1,967 @@
+﻿2026-10-19T22:42:08.0314606Z Current runner version: '2.337.0'
+2026-10-19T22:42:08.0318886Z Runner name: 'blacksmith-4vcpu-windows-2025-mkejs4xwasjoxnoi'
+2026-10-19T22:42:08.0319485Z Runner group name: 'blacksmith scale sets - blacksmith-4vcpu-windows-2025'
+2026-10-19T22:42:08.0320146Z Machine name: 'BLACKSMITH-WIN'
+2026-10-19T22:42:08.0321650Z ##[group]GITHUB_TOKEN Permissions
+2026-10-19T22:42:08.0322960Z Checks: write
+2026-10-19T22:42:08.0323273Z Contents: read
+2026-10-19T22:42:08.0323570Z Metadata: read
+2026-10-19T22:42:08.0324188Z ##[endgroup]
+2026-10-19T22:42:08.0325701Z Secret source: Actions
+2026-10-19T22:42:08.0326193Z Cache mode: write
+2026-10-19T22:42:08.0326638Z Prepare workflow directory
+2026-10-19T22:42:08.0665385Z Prepare all required actions
+2026-10-19T22:42:08.0698938Z Getting action download info
+2026-10-19T22:42:08.4057931Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-10-19T22:42:08.8159719Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-19T22:42:09.3668958Z Download action repository 'actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+2026-10-19T22:42:09.6904789Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-19T22:42:10.3427427Z Setting BLACKSMITH_ACTIONS_RESULTS_URL to https://results-receiver.actions.githubusercontent.com/
+2026-10-19T22:42:10.3458008Z Complete job name: e2e (windows, app-2)
+2026-10-19T22:42:10.5563055Z A job started hook has been configured by the self-hosted runner administrator
+2026-10-19T22:42:10.9181086Z ##[group]Run 'C:\setup.ps1'
+2026-10-19T22:42:10.9293450Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-19T22:42:10.9294051Z env:
+2026-10-19T22:42:10.9294243Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:10.9294476Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:10.9294684Z   BLACKSMITH_CHECK_RUN_ID: 118347861764
+2026-10-19T22:42:10.9294912Z   BLACKSMITH_JOB_DISPLAY_NAME: e2e (windows, app-2)
+2026-10-19T22:42:10.9295131Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T22:42:10.9295319Z ##[endgroup]
+2026-10-19T22:42:12.0590648Z Starting Blacksmith setup for Windows VM...
+2026-10-19T22:42:12.0906603Z 
+2026-10-19T22:42:12.0907977Z Enabling Blacksmith transparent cache
+2026-10-19T22:42:12.0954652Z Starting NGINX cache proxy...
+2026-10-19T22:42:12.3771333Z NGINX cache proxy started
+2026-10-19T22:42:12.5793168Z Transparent cache setup initiated
+2026-10-19T22:42:12.5795744Z Running adoption reporting and SSH setup...
+2026-10-19T22:42:12.8392532Z GitHub adoption metrics: duration=47654ms, currentTime=1792449732828ms, creationTime=1792449685174ms
+2026-10-19T22:42:12.8399480Z Reporting GitHub adoption metrics to internal metrics endpoint: duration=47654ms
+2026-10-19T22:42:12.8548170Z GitHub adoption metrics reported successfully to internal metrics endpoint
+2026-10-19T22:42:13.7705358Z Adoption reporting completed successfully
+2026-10-19T22:42:13.7741860Z Starting logging daemon (blacksmithd for logs)...
+2026-10-19T22:42:13.9072416Z Started blacksmithd with PID: 1760
+2026-10-19T22:42:13.9073469Z Logging daemon (blacksmithd for logs) started
+2026-10-19T22:42:13.9105419Z Starting results daemon (blacksmithd for results)...
+2026-10-19T22:42:13.9245260Z Started blacksmithd with PID: 6444
+2026-10-19T22:42:13.9248337Z Results daemon (blacksmithd for results) started
+2026-10-19T22:42:13.9252404Z 
+2026-10-19T22:42:13.9267818Z ----------------------------------------
+2026-10-19T22:42:13.9285859Z View this job: https://app.blacksmith.sh/anomalyco/runs/39336671982/jobs/118347861764
+2026-10-19T22:42:13.9289332Z SSH Access (using your GitHub SSH key):
+2026-10-19T22:42:13.9292079Z   ssh -p 64008 runneradmin@blacksmith-4vcpu-windows-2025-mkejs4xwasjoxnoi.vm.blacksmith.sh
+2026-10-19T22:42:13.9297722Z 
+2026-10-19T22:42:13.9298503Z No GitHub SSH key? Add one at:
+2026-10-19T22:42:13.9306057Z https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+2026-10-19T22:42:13.9315036Z 
+2026-10-19T22:42:13.9363320Z ----------------------------------------
+2026-10-19T22:42:13.9368430Z 
+2026-10-19T22:42:13.9379747Z VM ID: blacksmith-4vcpu-windows-2025-mkejs4xwasjoxnoi
+2026-10-19T22:42:13.9390792Z Host: production-152.236.30.238-x8664
+2026-10-19T22:42:13.9400366Z Host Agent PID: 1105713
+2026-10-19T22:42:13.9403899Z Host Agent Git SHA: 360540c94
+2026-10-19T22:42:13.9407963Z Host CPU Manufacturer: AuthenticAMD
+2026-10-19T22:42:13.9408794Z Blacksmith Host Generation: gen 2
+2026-10-19T22:42:13.9414531Z Petname: production-settled-pony-afdcfd69
+2026-10-19T22:42:13.9434058Z Static Egress IP: 152.236.40.220
+2026-10-19T22:42:13.9435334Z Region: us-east
+2026-10-19T22:42:13.9435994Z Rootfs Version: windows25-full-x64-260817
+2026-10-19T22:42:13.9436494Z Setup completed successfully
+2026-10-19T22:42:14.0106514Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+2026-10-19T22:42:14.0106914Z with:
+2026-10-19T22:42:14.0108684Z   token: ***
+2026-10-19T22:42:14.0108838Z   repository: anomalyco/opencode
+2026-10-19T22:42:14.0109007Z   ssh-strict: true
+2026-10-19T22:42:14.0109186Z   ssh-user: git
+2026-10-19T22:42:14.0109341Z   persist-credentials: true
+2026-10-19T22:42:14.0109517Z   clean: true
+2026-10-19T22:42:14.0109705Z   sparse-checkout-cone-mode: true
+2026-10-19T22:42:14.0109869Z   fetch-depth: 1
+2026-10-19T22:42:14.0110118Z   fetch-tags: false
+2026-10-19T22:42:14.0110287Z   show-progress: true
+2026-10-19T22:42:14.0110483Z   lfs: false
+2026-10-19T22:42:14.0110619Z   submodules: false
+2026-10-19T22:42:14.0110976Z   set-safe-directory: true
+2026-10-19T22:42:14.0111241Z env:
+2026-10-19T22:42:14.0111384Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:14.0111661Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:14.0111973Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:14.0112162Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:14.0112358Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:14.0112519Z ##[endgroup]
+2026-10-19T22:42:14.4177254Z Syncing repository: anomalyco/opencode
+2026-10-19T22:42:14.4178888Z ##[group]Getting Git version info
+2026-10-19T22:42:14.4179213Z Working directory is 'C:\runner\_work\opencode\opencode'
+2026-10-19T22:42:14.5852351Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-19T22:42:14.6773075Z git version 2.55.0.windows.4
+2026-10-19T22:42:14.6811188Z ##[endgroup]
+2026-10-19T22:42:14.6826764Z Temporarily overriding HOME='C:\runner\_work\_temp\1c12f11f-ad6f-4c62-8836-8d6b78a6d0de' before making global git config changes
+2026-10-19T22:42:14.6827392Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:42:14.6835340Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory C:\runner\_work\opencode\opencode
+2026-10-19T22:42:14.7681943Z Deleting the contents of 'C:\runner\_work\opencode\opencode'
+2026-10-19T22:42:14.7688478Z ##[group]Initializing the repository
+2026-10-19T22:42:14.7696761Z [command]"C:\Program Files\Git\bin\git.exe" init C:\runner\_work\opencode\opencode
+2026-10-19T22:42:14.8091131Z Initialized empty Git repository in C:/runner/_work/opencode/opencode/.git/
+2026-10-19T22:42:14.8131111Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/anomalyco/opencode
+2026-10-19T22:42:14.8805335Z ##[endgroup]
+2026-10-19T22:42:14.8805673Z ##[group]Disabling automatic garbage collection
+2026-10-19T22:42:14.8815296Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-10-19T22:42:14.9046712Z ##[endgroup]
+2026-10-19T22:42:14.9047219Z ##[group]Setting up auth
+2026-10-19T22:42:14.9052193Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:42:14.9300581Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-19T22:42:15.9648576Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:42:15.9930882Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-19T22:42:16.7666643Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:42:16.7973767Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-19T22:42:17.5606970Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-10-19T22:42:17.5860676Z ##[endgroup]
+2026-10-19T22:42:17.5861114Z ##[group]Fetching the repository
+2026-10-19T22:42:17.5887893Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +306ce006949f2a03c35444953d00bf147b45a57e:refs/remotes/pull/57156/merge
+2026-10-19T22:42:21.8120296Z From https://github.com/anomalyco/opencode
+2026-10-19T22:42:21.8121305Z  * [new ref]         306ce006949f2a03c35444953d00bf147b45a57e -> pull/57156/merge
+2026-10-19T22:42:21.8154411Z ##[endgroup]
+2026-10-19T22:42:21.8154944Z ##[group]Determining the checkout info
+2026-10-19T22:42:21.8155906Z ##[endgroup]
+2026-10-19T22:42:21.8163677Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-10-19T22:42:22.0290026Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-10-19T22:42:22.0571303Z ##[group]Checking out the ref
+2026-10-19T22:42:22.0581895Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/57156/merge
+2026-10-19T22:42:23.1196478Z Updating files:   7% (650/8656)
+2026-10-19T22:42:23.2482305Z Updating files:   8% (693/8656)
+2026-10-19T22:42:23.4031484Z Updating files:   9% (780/8656)
+2026-10-19T22:42:23.4447422Z Updating files:  10% (866/8656)
+2026-10-19T22:42:23.5233312Z Updating files:  11% (953/8656)
+2026-10-19T22:42:23.5751834Z Updating files:  12% (1039/8656)
+2026-10-19T22:42:23.6315278Z Updating files:  13% (1126/8656)
+2026-10-19T22:42:23.6918373Z Updating files:  14% (1212/8656)
+2026-10-19T22:42:23.7183645Z Updating files:  15% (1299/8656)
+2026-10-19T22:42:24.5147235Z Updating files:  16% (1385/8656)
+2026-10-19T22:42:24.7300584Z Updating files:  16% (1446/8656)
+2026-10-19T22:42:25.2012710Z Updating files:  17% (1472/8656)
+2026-10-19T22:42:25.5989126Z Updating files:  17% (1512/8656)
+2026-10-19T22:42:25.6392991Z Updating files:  18% (1559/8656)
+2026-10-19T22:42:25.6657092Z Updating files:  19% (1645/8656)
+2026-10-19T22:42:25.6936859Z Updating files:  20% (1732/8656)
+2026-10-19T22:42:25.7178458Z Updating files:  21% (1818/8656)
+2026-10-19T22:42:25.7473532Z Updating files:  22% (1905/8656)
+2026-10-19T22:42:25.7755887Z Updating files:  23% (1991/8656)
+2026-10-19T22:42:25.9556178Z Updating files:  24% (2078/8656)
+2026-10-19T22:42:25.9854906Z Updating files:  25% (2164/8656)
+2026-10-19T22:42:26.0206657Z Updating files:  26% (2251/8656)
+2026-10-19T22:42:26.0446030Z Updating files:  27% (2338/8656)
+2026-10-19T22:42:26.0669192Z Updating files:  28% (2424/8656)
+2026-10-19T22:42:26.1081140Z Updating files:  29% (2511/8656)
+2026-10-19T22:42:26.1171661Z Updating files:  30% (2597/8656)
+2026-10-19T22:42:26.1443202Z Updating files:  30% (2625/8656)
+2026-10-19T22:42:26.1847226Z Updating files:  31% (2684/8656)
+2026-10-19T22:42:26.2165956Z Updating files:  32% (2770/8656)
+2026-10-19T22:42:26.2462750Z Updating files:  33% (2857/8656)
+2026-10-19T22:42:26.2698981Z Updating files:  34% (2944/8656)
+2026-10-19T22:42:26.2945289Z Updating files:  35% (3030/8656)
+2026-10-19T22:42:26.3344750Z Updating files:  36% (3117/8656)
+2026-10-19T22:42:26.3803498Z Updating files:  37% (3203/8656)
+2026-10-19T22:42:26.4032359Z Updating files:  38% (3290/8656)
+2026-10-19T22:42:26.4313123Z Updating files:  39% (3376/8656)
+2026-10-19T22:42:26.6307177Z Updating files:  40% (3463/8656)
+2026-10-19T22:42:26.8009384Z Updating files:  41% (3549/8656)
+2026-10-19T22:42:26.9530515Z Updating files:  42% (3636/8656)
+2026-10-19T22:42:26.9964465Z Updating files:  43% (3723/8656)
+2026-10-19T22:42:27.0192370Z Updating files:  44% (3809/8656)
+2026-10-19T22:42:27.0472254Z Updating files:  45% (3896/8656)
+2026-10-19T22:42:27.0801415Z Updating files:  46% (3982/8656)
+2026-10-19T22:42:27.1068169Z Updating files:  47% (4069/8656)
+2026-10-19T22:42:27.1265501Z Updating files:  48% (4155/8656)
+2026-10-19T22:42:27.1311153Z Updating files:  48% (4224/8656)
+2026-10-19T22:42:27.1512628Z Updating files:  49% (4242/8656)
+2026-10-19T22:42:27.1999768Z Updating files:  50% (4328/8656)
+2026-10-19T22:42:27.2346176Z Updating files:  51% (4415/8656)
+2026-10-19T22:42:27.4132486Z Updating files:  52% (4502/8656)
+2026-10-19T22:42:27.4491350Z Updating files:  53% (4588/8656)
+2026-10-19T22:42:27.4905144Z Updating files:  54% (4675/8656)
+2026-10-19T22:42:27.5172127Z Updating files:  55% (4761/8656)
+2026-10-19T22:42:27.5663138Z Updating files:  56% (4848/8656)
+2026-10-19T22:42:27.6298085Z Updating files:  57% (4934/8656)
+2026-10-19T22:42:27.7134243Z Updating files:  58% (5021/8656)
+2026-10-19T22:42:27.7502759Z Updating files:  59% (5108/8656)
+2026-10-19T22:42:27.9709012Z Updating files:  60% (5194/8656)
+2026-10-19T22:42:28.1379918Z Updating files:  61% (5281/8656)
+2026-10-19T22:42:28.1520627Z Updating files:  61% (5348/8656)
+2026-10-19T22:42:28.1963753Z Updating files:  62% (5367/8656)
+2026-10-19T22:42:28.2198629Z Updating files:  63% (5454/8656)
+2026-10-19T22:42:28.2439541Z Updating files:  64% (5540/8656)
+2026-10-19T22:42:28.2662269Z Updating files:  65% (5627/8656)
+2026-10-19T22:42:28.2925973Z Updating files:  66% (5713/8656)
+2026-10-19T22:42:28.3178595Z Updating files:  67% (5800/8656)
+2026-10-19T22:42:28.3420069Z Updating files:  68% (5887/8656)
+2026-10-19T22:42:28.3708741Z Updating files:  69% (5973/8656)
+2026-10-19T22:42:28.4090377Z Updating files:  70% (6060/8656)
+2026-10-19T22:42:28.4250434Z Updating files:  71% (6146/8656)
+2026-10-19T22:42:28.4498091Z Updating files:  72% (6233/8656)
+2026-10-19T22:42:28.4726876Z Updating files:  73% (6319/8656)
+2026-10-19T22:42:28.4959743Z Updating files:  74% (6406/8656)
+2026-10-19T22:42:28.5189936Z Updating files:  75% (6492/8656)
+2026-10-19T22:42:28.5403686Z Updating files:  76% (6579/8656)
+2026-10-19T22:42:28.5566510Z Updating files:  77% (6666/8656)
+2026-10-19T22:42:28.5765704Z Updating files:  78% (6752/8656)
+2026-10-19T22:42:28.5973756Z Updating files:  79% (6839/8656)
+2026-10-19T22:42:28.6093002Z Updating files:  80% (6925/8656)
+2026-10-19T22:42:28.6238236Z Updating files:  81% (7012/8656)
+2026-10-19T22:42:28.6397498Z Updating files:  82% (7098/8656)
+2026-10-19T22:42:28.6555489Z Updating files:  83% (7185/8656)
+2026-10-19T22:42:28.6791338Z Updating files:  84% (7272/8656)
+2026-10-19T22:42:28.6978868Z Updating files:  85% (7358/8656)
+2026-10-19T22:42:28.7187236Z Updating files:  86% (7445/8656)
+2026-10-19T22:42:28.7402485Z Updating files:  87% (7531/8656)
+2026-10-19T22:42:28.7894804Z Updating files:  88% (7618/8656)
+2026-10-19T22:42:28.8147395Z Updating files:  89% (7704/8656)
+2026-10-19T22:42:28.8460345Z Updating files:  90% (7791/8656)
+2026-10-19T22:42:28.8706990Z Updating files:  91% (7877/8656)
+2026-10-19T22:42:28.8884722Z Updating files:  92% (7964/8656)
+2026-10-19T22:42:28.9072046Z Updating files:  93% (8051/8656)
+2026-10-19T22:42:28.9278998Z Updating files:  94% (8137/8656)
+2026-10-19T22:42:28.9463797Z Updating files:  95% (8224/8656)
+2026-10-19T22:42:28.9667261Z Updating files:  96% (8310/8656)
+2026-10-19T22:42:28.9865109Z Updating files:  97% (8397/8656)
+2026-10-19T22:42:29.0115316Z Updating files:  98% (8483/8656)
+2026-10-19T22:42:29.0307034Z Updating files:  99% (8570/8656)
+2026-10-19T22:42:29.0307271Z Updating files: 100% (8656/8656)
+2026-10-19T22:42:29.0307436Z Updating files: 100% (8656/8656), done.
+2026-10-19T22:42:29.0443147Z Note: switching to 'refs/remotes/pull/57156/merge'.
+2026-10-19T22:42:29.0443445Z 
+2026-10-19T22:42:29.0443593Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-19T22:42:29.0443939Z changes and commit them, and you can discard any commits you make in this
+2026-10-19T22:42:29.0444229Z state without impacting any branches by switching back to a branch.
+2026-10-19T22:42:29.0444399Z 
+2026-10-19T22:42:29.0444518Z If you want to create a new branch to retain commits you create, you may
+2026-10-19T22:42:29.0444790Z do so (now or later) by using -c with the switch command. Example:
+2026-10-19T22:42:29.0444960Z 
+2026-10-19T22:42:29.0445176Z   git switch -c <new-branch-name>
+2026-10-19T22:42:29.0445321Z 
+2026-10-19T22:42:29.0445401Z Or undo this operation with:
+2026-10-19T22:42:29.0445527Z 
+2026-10-19T22:42:29.0445602Z   git switch -
+2026-10-19T22:42:29.0445695Z 
+2026-10-19T22:42:29.0445843Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-19T22:42:29.0446040Z 
+2026-10-19T22:42:29.0446255Z HEAD is now at 306ce00 Merge e065f9ae511856354de9e034b941a0bfbc3cda27 into 526cf672308dd3ffecc68fbb5d44bab6c79075e6
+2026-10-19T22:42:29.0654673Z ##[endgroup]
+2026-10-19T22:42:29.0968505Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-10-19T22:42:29.1182932Z 306ce006949f2a03c35444953d00bf147b45a57e
+2026-10-19T22:42:29.1578376Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T22:42:29.1578662Z with:
+2026-10-19T22:42:29.1578795Z   node-version: 24.15
+2026-10-19T22:42:29.1578931Z   always-auth: false
+2026-10-19T22:42:29.1579066Z   check-latest: false
+2026-10-19T22:42:29.1580471Z   token: ***
+2026-10-19T22:42:29.1580596Z env:
+2026-10-19T22:42:29.1580732Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:29.1580979Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:29.1581229Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:29.1581458Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:29.1581668Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:29.1582052Z ##[endgroup]
+2026-10-19T22:42:29.3956382Z Attempting to download 24.15...
+2026-10-19T22:42:29.4467878Z (node:6272) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:42:29.4468538Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:42:29.9893344Z Acquiring 24.15.0 - x64 from https://github.com/actions/node-versions/releases/download/24.15.0-24511264946/node-24.15.0-win32-x64.7z
+2026-10-19T22:42:30.2723415Z Extracting ...
+2026-10-19T22:42:31.8730880Z Adding to the cache ...
+2026-10-19T22:42:32.9838315Z ##[group]Environment details
+2026-10-19T22:42:33.5284306Z node: v24.15.0
+2026-10-19T22:42:33.5284497Z npm: 11.12.1
+2026-10-19T22:42:33.5284618Z yarn: 1.22.22
+2026-10-19T22:42:33.5284963Z ##[endgroup]
+2026-10-19T22:42:33.5580687Z Prepare all required actions
+2026-10-19T22:42:33.5581273Z Getting action download info
+2026-10-19T22:42:33.6468853Z Download action repository 'oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
+2026-10-19T22:42:33.8272273Z ##[group]Run ./.github/actions/setup-bun
+2026-10-19T22:42:33.8272443Z with:
+2026-10-19T22:42:33.8272568Z env:
+2026-10-19T22:42:33.8272703Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:33.8272947Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:33.8273183Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:33.8273356Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:33.8273529Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:33.8273722Z ##[endgroup]
+2026-10-19T22:42:33.8383245Z ##[start-action display=Setup Node;id=__self.__actions_setup-node]
+2026-10-19T22:42:33.8502575Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T22:42:33.8502799Z with:
+2026-10-19T22:42:33.8502922Z   node-version: 24
+2026-10-19T22:42:33.8503050Z   always-auth: false
+2026-10-19T22:42:33.8503187Z   check-latest: false
+2026-10-19T22:42:33.8504557Z   token: ***
+2026-10-19T22:42:33.8504680Z env:
+2026-10-19T22:42:33.8504811Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:33.8505058Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:33.8505302Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:33.8505474Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:33.8505645Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:33.8505806Z ##[endgroup]
+2026-10-19T22:42:33.9549362Z Found in cache @ C:\hostedtoolcache\windows\node\24.19.0\x64
+2026-10-19T22:42:33.9551130Z (node:3348) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:42:33.9551658Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:42:33.9552823Z ##[group]Environment details
+2026-10-19T22:42:34.4810724Z node: v24.19.0
+2026-10-19T22:42:34.4810936Z npm: 11.17.0
+2026-10-19T22:42:34.4811117Z yarn: 1.22.22
+2026-10-19T22:42:34.4811593Z ##[endgroup]
+2026-10-19T22:42:34.4929882Z ##[end-action id=__self.__actions_setup-node;outcome=success;conclusion=success;duration_ms=655]
+2026-10-19T22:42:34.4931748Z ##[start-action display=Get baseline download URL;id=__self.bun-url]
+2026-10-19T22:42:34.5041613Z ##[group]Run if [ "$RUNNER_ARCH" = "X64" ]; then
+2026-10-19T22:42:34.5041870Z [36;1mif [ "$RUNNER_ARCH" = "X64" ]; then[0m
+2026-10-19T22:42:34.5042096Z [36;1m  V=""[0m
+2026-10-19T22:42:34.5042344Z [36;1m  if [ -z "$V" ]; then V=$(node -p "require('./package.json').packageManager.split('@')[1]"); fi[0m
+2026-10-19T22:42:34.5042657Z [36;1m  TAG=$([ "$V" = "canary" ] && echo "canary" || echo "bun-v${V}")[0m
+2026-10-19T22:42:34.5042877Z [36;1m  case "$RUNNER_OS" in[0m
+2026-10-19T22:42:34.5043039Z [36;1m    macOS)   OS=darwin ;;[0m
+2026-10-19T22:42:34.5043204Z [36;1m    Linux)   OS=linux ;;[0m
+2026-10-19T22:42:34.5043362Z [36;1m    Windows) OS=windows ;;[0m
+2026-10-19T22:42:34.5043512Z [36;1m  esac[0m
+2026-10-19T22:42:34.5043814Z [36;1m  echo "url=https://github.com/oven-sh/bun/releases/download/${TAG}/bun-${OS}-x64-baseline.zip" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:42:34.5044104Z [36;1mfi[0m
+2026-10-19T22:42:34.5050754Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:42:34.5050988Z env:
+2026-10-19T22:42:34.5051134Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:34.5051384Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:34.5051629Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:34.5051812Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:34.5052013Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:34.5053199Z ##[endgroup]
+2026-10-19T22:42:34.6326293Z ##[end-action id=__self.bun-url;outcome=success;conclusion=success;duration_ms=139]
+2026-10-19T22:42:34.6330335Z ##[start-action display=Setup Bun;id=__self.__oven-sh_setup-bun]
+2026-10-19T22:42:34.6460621Z ##[group]Run oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+2026-10-19T22:42:34.6460855Z with:
+2026-10-19T22:42:34.6461122Z   bun-download-url: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-windows-x64-baseline.zip
+2026-10-19T22:42:34.6461413Z   no-cache: false
+2026-10-19T22:42:34.6462924Z   token: ***
+2026-10-19T22:42:34.6463052Z env:
+2026-10-19T22:42:34.6463192Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:34.6463447Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:34.6463699Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:34.6464046Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:34.6464230Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:34.6464395Z ##[endgroup]
+2026-10-19T22:42:34.7715626Z Obtained version 1.4.2 from package.json
+2026-10-19T22:42:34.7735845Z Downloading a new version of Bun: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-windows-x64-baseline.zip
+2026-10-19T22:42:35.1120134Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('C:\runner\_work\_temp\787b1b14-5c05-4f66-862f-a1da15067b5b.zip', 'C:\runner\_work\_temp\41f0826f-6c46-4ae0-9585-357cdcbe8c01', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'C:\runner\_work\_temp\787b1b14-5c05-4f66-862f-a1da15067b5b.zip' -DestinationPath 'C:\runner\_work\_temp\41f0826f-6c46-4ae0-9585-357cdcbe8c01' -Force } else { throw $_ } } ;"
+2026-10-19T22:42:35.5634051Z [command]C:\Users\runneradmin\.bun\bin\bun.exe --revision
+2026-10-19T22:42:35.6785823Z 1.4.2+744846f84
+2026-10-19T22:42:35.6929383Z ##[end-action id=__self.__oven-sh_setup-bun;outcome=success;conclusion=success;duration_ms=1061]
+2026-10-19T22:42:35.6931161Z ##[start-action display=Get cache directory;id=__self.cache]
+2026-10-19T22:42:35.7032123Z ##[group]Run echo "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"
+2026-10-19T22:42:35.7032436Z [36;1mecho "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:42:35.7032656Z [36;1mecho "version=$(bun --version)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:42:35.7040290Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:42:35.7040570Z env:
+2026-10-19T22:42:35.7040723Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:35.7040988Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:35.7041240Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:35.7041536Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:35.7041914Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:35.7042077Z ##[endgroup]
+2026-10-19T22:42:35.7816050Z ##[end-action id=__self.cache;outcome=success;conclusion=success;duration_ms=88]
+2026-10-19T22:42:35.7818954Z ##[start-action display=Restore Bun dependencies;id=__self.bun-cache]
+2026-10-19T22:42:35.7829381Z ##[end-action id=__self.bun-cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:42:35.7831179Z ##[start-action display=Install setuptools for distutils compatibility;id=__self.__run]
+2026-10-19T22:42:35.7969851Z ##[group]Run python3 -m pip install setuptools || pip install setuptools || true
+2026-10-19T22:42:35.7970380Z [36;1mpython3 -m pip install setuptools || pip install setuptools || true[0m
+2026-10-19T22:42:35.7979766Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:42:35.7980134Z env:
+2026-10-19T22:42:35.7980327Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:35.7980680Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:35.7980943Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:35.7981142Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:35.7981316Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:35.7981474Z ##[endgroup]
+2026-10-19T22:42:37.0719735Z Collecting setuptools
+2026-10-19T22:42:37.2313286Z   Downloading setuptools-84.2.0-py3-none-any.whl.metadata (6.6 kB)
+2026-10-19T22:42:37.2618680Z Downloading setuptools-84.2.0-py3-none-any.whl (875 kB)
+2026-10-19T22:42:37.3862873Z    ---------------------------------------- 875.8/875.8 kB 19.8 MB/s  0:00:00
+2026-10-19T22:42:37.4417215Z Installing collected packages: setuptools
+2026-10-19T22:42:37.9918337Z Successfully installed setuptools-84.2.0
+2026-10-19T22:42:38.0313820Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=2251]
+2026-10-19T22:42:38.0315806Z ##[start-action display=Install dependencies;id=__self.__run_2]
+2026-10-19T22:42:38.0402896Z ##[group]Run bun install --frozen-lockfile 
+2026-10-19T22:42:38.0403105Z [36;1mbun install --frozen-lockfile [0m
+2026-10-19T22:42:38.0409026Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:42:38.0409257Z env:
+2026-10-19T22:42:38.0409439Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:42:38.0409703Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:42:38.0409948Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:42:38.0410126Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:42:38.0410297Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:42:38.0410458Z ##[endgroup]
+2026-10-19T22:42:38.0722320Z bun install v1.4.2 (744846f84)
+2026-10-19T22:42:38.0924827Z Resolving dependencies
+2026-10-19T22:42:38.0930555Z Resolved, downloaded and extracted [19]
+2026-10-19T22:43:09.3716519Z 
+2026-10-19T22:43:09.3751712Z $ bun run --cwd packages/core fix-node-pty
+2026-10-19T22:43:09.3900487Z $ bun run script/fix-node-pty.ts
+2026-10-19T22:43:09.4166881Z $ husky
+2026-10-19T22:43:09.5824467Z 
+2026-10-19T22:43:09.5825433Z + @actions/artifact@5.0.1
+2026-10-19T22:43:09.5825828Z + @ast-grep/cli@0.44.0
+2026-10-19T22:43:09.5826014Z + @oxlint/plugins@1.60.0
+2026-10-19T22:43:09.5826185Z + @tsconfig/bun@1.0.9
+2026-10-19T22:43:09.5826619Z + @types/bun@1.4.0
+2026-10-19T22:43:09.5826806Z + @types/mime-types@3.0.1
+2026-10-19T22:43:09.5827097Z + @types/react@19.2.17
+2026-10-19T22:43:09.5827263Z + @types/react-dom@19.2.3
+2026-10-19T22:43:09.5827426Z + @typescript/native@7.0.2
+2026-10-19T22:43:09.5827682Z + glob@13.0.5
+2026-10-19T22:43:09.5827834Z + husky@9.1.7
+2026-10-19T22:43:09.5827979Z + oxlint@1.60.0
+2026-10-19T22:43:09.5828157Z + oxlint-tsgolint@0.21.0
+2026-10-19T22:43:09.5828349Z + prettier@3.6.2
+2026-10-19T22:43:09.5828501Z + semver@7.8.5
+2026-10-19T22:43:09.5828664Z + sst@4.13.1
+2026-10-19T22:43:09.5828841Z + turbo@2.10.2
+2026-10-19T22:43:09.5829033Z + @aws-sdk/client-s3@3.933.0
+2026-10-19T22:43:09.5829221Z + heap-snapshot-toolkit@1.1.3
+2026-10-19T22:43:09.5829501Z + typescript@6.0.2
+2026-10-19T22:43:09.5829656Z 
+2026-10-19T22:43:09.5829817Z 2132 packages installed [31.51s]
+2026-10-19T22:43:09.5963935Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=31579]
+2026-10-19T22:43:09.5966138Z ##[start-action display=Save Bun dependencies;id=__self.__actions_cache]
+2026-10-19T22:43:09.5970610Z ##[end-action id=__self.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:43:09.6092912Z ##[group]Run version=$(node -e 'console.log(require("./package.json").workspaces.catalog["@playwright/test"])')
+2026-10-19T22:43:09.6093426Z [36;1mversion=$(node -e 'console.log(require("./package.json").workspaces.catalog["@playwright/test"])')[0m
+2026-10-19T22:43:09.6093734Z [36;1mecho "version=$version" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:43:09.6101679Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:43:09.6101979Z env:
+2026-10-19T22:43:09.6102135Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:43:09.6102403Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:43:09.6102653Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:43:09.6102835Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:43:09.6103018Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:43:09.6103185Z ##[endgroup]
+2026-10-19T22:43:09.7048987Z ##[group]Run actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
+2026-10-19T22:43:09.7049264Z with:
+2026-10-19T22:43:09.7049478Z   path: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:43:09.7049711Z   key: Windows-X64-playwright-1.59.1-chromium
+2026-10-19T22:43:09.7049911Z   enableCrossOsArchive: false
+2026-10-19T22:43:09.7050086Z   fail-on-cache-miss: false
+2026-10-19T22:43:09.7050244Z   lookup-only: false
+2026-10-19T22:43:09.7050444Z   save-always: false
+2026-10-19T22:43:09.7050607Z env:
+2026-10-19T22:43:09.7050782Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:43:09.7051211Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:43:09.7051665Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:43:09.7051981Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:43:09.7052285Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:43:09.7052697Z ##[endgroup]
+2026-10-19T22:43:09.7902350Z (node:5148) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:43:09.7902842Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:43:09.9846934Z Cache hit for: Windows-X64-playwright-1.59.1-chromium
+2026-10-19T22:43:10.0050431Z (node:5148) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-19T22:43:11.0683545Z Received 268435456 of 298750327 (89.9%), 245.4 MBs/sec
+2026-10-19T22:43:11.1447857Z Received 298750327 of 298750327 (100.0%), 254.6 MBs/sec
+2026-10-19T22:43:11.1454155Z Cache Size: ~285 MB (298750327 B)
+2026-10-19T22:43:11.1552857Z [command]"C:\Program Files\Git\usr\bin\tar.exe" -xf C:/runner/_work/_temp/b4f6f886-77b0-4561-9082-9871b5224adf/cache.tzst -P -C C:/runner/_work/opencode/opencode --force-local --use-compress-program "zstd -d"
+2026-10-19T22:43:12.0844342Z Cache restored successfully
+2026-10-19T22:43:12.1137461Z Cache restored from key: Windows-X64-playwright-1.59.1-chromium
+2026-10-19T22:43:12.1422221Z ##[group]Run bun --cwd packages/app test:e2e:built --shard=2/2
+2026-10-19T22:43:12.1422537Z [36;1mbun --cwd packages/app test:e2e:built --shard=2/2[0m
+2026-10-19T22:43:12.1429783Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:43:12.1430677Z env:
+2026-10-19T22:43:12.1430818Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:43:12.1431057Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:43:12.1431288Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:43:12.1431452Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:43:12.1431624Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:43:12.1431774Z   CI: true
+2026-10-19T22:43:12.1431907Z ##[endgroup]
+2026-10-19T22:43:12.1808365Z $ PLAYWRIGHT_BUILD=1 playwright test "--shard=2/2"
+2026-10-19T22:43:13.1982353Z [1A[2K[2m[WebServer] [22m[0m[2m[35m$[0m [2m[1mvite build[0m
+2026-10-19T22:43:13.1982603Z 
+2026-10-19T22:43:13.8739776Z [1A[2K[2m[WebServer] [22m[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+2026-10-19T22:43:13.8740207Z 
+2026-10-19T22:43:13.8740572Z [2m[WebServer] [22m  - import "./vite.icons" without a file extension (vite.config.ts:5:23). Add the file extension
+2026-10-19T22:43:13.8741083Z [2m[WebServer] [22m  - import "./vite.pwa" without a file extension (vite.config.ts:6:31). Add the file extension
+2026-10-19T22:43:13.8741546Z [2m[WebServer] [22mSet `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+2026-10-19T22:43:19.2214339Z [1A[2K[2m[WebServer] [22mFound 2 warnings while optimizing generated CSS:
+2026-10-19T22:43:19.2214842Z 
+2026-10-19T22:43:19.2215076Z [2m[WebServer] [22m
+2026-10-19T22:43:19.2215293Z [2m[WebServer] [22mIssue #1:
+2026-10-19T22:43:19.2215591Z [2m[WebServer] [22m[2m│     }[22m
+2026-10-19T22:43:19.2215806Z [2m[WebServer] [22m[2m│   }[22m
+2026-10-19T22:43:19.2217557Z [2m[WebServer] [22m[2m│[22m   ::highlight(timeline-search-hit) {
+2026-10-19T22:43:19.2218156Z [2m[WebServer] [22m[2m┆[22m               [33m[2m^--[22m 'highlight' is not recognized as a valid pseudo-element. Did you mean ':highlight' (pseudo-class) or is this a typo?[39m
+2026-10-19T22:43:19.2218559Z [2m[WebServer] [22m[2m┆[22m
+2026-10-19T22:43:19.2218854Z [2m[WebServer] [22m[2m│     background-color: var(--v2-icon-icon-accent);[22m
+2026-10-19T22:43:19.2219327Z [2m[WebServer] [22m[2m│     @supports (color: color-mix(in lab, red, red)) {[22m
+2026-10-19T22:43:19.2219666Z [2m[WebServer] [22m
+2026-10-19T22:43:19.2219956Z [2m[WebServer] [22mIssue #2:
+2026-10-19T22:43:19.2220223Z [2m[WebServer] [22m[2m│     }[22m
+2026-10-19T22:43:19.2220613Z [2m[WebServer] [22m[2m│   }[22m
+2026-10-19T22:43:19.2220951Z [2m[WebServer] [22m[2m│[22m   ::highlight(timeline-search-hit-active) {
+2026-10-19T22:43:19.2221497Z [2m[WebServer] [22m[2m┆[22m               [33m[2m^--[22m 'highlight' is not recognized as a valid pseudo-element. Did you mean ':highlight' (pseudo-class) or is this a typo?[39m
+2026-10-19T22:43:19.2221884Z [2m[WebServer] [22m[2m┆[22m
+2026-10-19T22:43:19.2222466Z [2m[WebServer] [22m[2m│     background-color: var(--v2-icon-icon-accent);[22m
+2026-10-19T22:43:19.2222789Z [2m[WebServer] [22m[2m│     color: var(--v2-background-bg-deep);[22m
+2026-10-19T22:43:19.2223128Z [2m[WebServer] [22m
+2026-10-19T22:43:20.6649948Z [1A[2K[2m[WebServer] [22m[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 1.3s of this 3.3s build (39%).
+2026-10-19T22:43:20.6650320Z 
+2026-10-19T22:43:20.6650878Z [2m[WebServer] [22m1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+2026-10-19T22:43:20.6651483Z [2m[WebServer] [22m  - plugin vite:asset-import-meta-url transform (2 calls)
+2026-10-19T22:43:20.6651943Z [2m[WebServer] [22mSee https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+2026-10-19T22:43:20.6652248Z [2m[WebServer] [22m[39m
+2026-10-19T22:43:20.7082039Z [1A[2K[2m[WebServer] [22m[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 1.3s of this 3.4s build (38%).
+2026-10-19T22:43:20.7082508Z 
+2026-10-19T22:43:20.7083094Z [2m[WebServer] [22mThe slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+2026-10-19T22:43:20.7083830Z [2m[WebServer] [22m  - plugin vite:worker-import-meta-url transform (36%, 1.2s, 1 call)
+2026-10-19T22:43:20.7084505Z [2m[WebServer] [22mAdditional callback time came from the callbacks below and from callbacks under 1s.
+2026-10-19T22:43:20.7085498Z [2m[WebServer] [22m1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+2026-10-19T22:43:20.7086288Z [2m[WebServer] [22m  - plugin vite:asset-import-meta-url transform (5 calls)
+2026-10-19T22:43:20.7086857Z [2m[WebServer] [22mSee https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+2026-10-19T22:43:20.7087253Z [2m[WebServer] [22m[39m
+2026-10-19T22:43:24.4501274Z [1A[2K[2m[WebServer] [22m[33m[plugin builtin:vite-reporter] [33;1m
+2026-10-19T22:43:24.4503125Z 
+2026-10-19T22:43:24.4504079Z [2m[WebServer] [22m(!) Some chunks are larger than 500 kB after minification. Consider:
+2026-10-19T22:43:24.4504472Z [2m[WebServer] [22m- Using dynamic import() to code-split the application
+2026-10-19T22:43:24.4505304Z [2m[WebServer] [22m- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+2026-10-19T22:43:24.4506107Z [2m[WebServer] [22m- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[0m[39m
+2026-10-19T22:43:26.3453728Z [1A[2K[2m[WebServer] [22m[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 10.2s of this 10.5s build (98%).
+2026-10-19T22:43:26.3454376Z [2m[WebServer] [22mThe slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+2026-10-19T22:43:26.3454830Z [2m[WebServer] [22m  - plugin solid transform (38%, 4.0s, 6086 calls)
+2026-10-19T22:43:26.3455188Z [2m[WebServer] [22m  - plugin vite:worker load (33%, 3.5s, 1 call)
+2026-10-19T22:43:26.3455553Z [2m[WebServer] [22m  - plugin vite-plugin-pwa:build closeBundle (18%, 1.9s, 1 call)
+2026-10-19T22:43:26.3456002Z [2m[WebServer] [22mAdditional callback time came from the callbacks below and from callbacks under 1s.
+2026-10-19T22:43:26.3456643Z [2m[WebServer] [22m5 callbacks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+2026-10-19T22:43:26.3457149Z [2m[WebServer] [22m  - plugin vite:css transform (66 calls)
+2026-10-19T22:43:26.3457425Z [2m[WebServer] [22m  - plugin vite:asset load (71 calls)
+2026-10-19T22:43:26.3457938Z [2m[WebServer] [22m  - plugin @tailwindcss/vite:generate:build transform (66 calls)
+2026-10-19T22:43:26.3458237Z [2m[WebServer] [22m  … and 2 more
+2026-10-19T22:43:26.3458608Z [2m[WebServer] [22mSee https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+2026-10-19T22:43:26.3458915Z [2m[WebServer] [22m[39m
+2026-10-19T22:43:26.3459049Z 
+2026-10-19T22:43:30.1139487Z 
+2026-10-19T22:43:30.1140225Z Running 240 tests using 5 workers, shard 2 of 2
+2026-10-19T22:43:30.1140451Z 
+2026-10-19T22:43:31.7556781Z [1A[2K[1/240] [chromium] › e2e\regression\side-panels.spec.ts:7:1 › review and terminal tabs follow the session tab and the terminal stays mounted
+2026-10-19T22:43:31.7763098Z [1A[2K[2/240] [chromium] › e2e\regression\settings-wsl.spec.ts:10:3 › manages a failed configured WSL server from the Servers page
+2026-10-19T22:43:31.8597348Z [1A[2K[3/240] [chromium] › e2e\regression\settings.spec.ts:57:1 › settings has its own route and returns through app history
+2026-10-19T22:43:31.8716631Z [1A[2K[4/240] [chromium] › e2e\regression\patch-border.spec.ts:11:1 › patch file borders retain a full CSS pixel at 390px on high-density displays
+2026-10-19T22:43:33.6398932Z [1A[2K[5/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:7:3 › bottom mobile navigation adds no extra top panel gutter in ltr
+2026-10-19T22:43:34.3982679Z [1A[2K[6/240] [chromium] › e2e\regression\settings.spec.ts:73:1 › Ctrl+, opens settings as soon as the app loads
+2026-10-19T22:43:34.8944919Z [1A[2K[7/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › home keeps an 8px top gutter and only inline border clearance on mobile in ltr
+2026-10-19T22:43:35.7023301Z [1A[2K[8/240] [chromium] › e2e\regression\settings.spec.ts:87:1 › a settings page survives refresh
+2026-10-19T22:43:35.8678180Z [1A[2K[9/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › new-session keeps an 8px top gutter and only inline border clearance on mobile in ltr
+2026-10-19T22:43:35.9362899Z [1A[2K[10/240] [chromium] › e2e\regression\settings-wsl.spec.ts:10:3 › manages a stopped configured WSL server from the Servers page
+2026-10-19T22:43:37.2428895Z [1A[2K[11/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › session keeps an 8px top gutter and only inline border clearance on mobile in ltr
+2026-10-19T22:43:38.2061820Z [1A[2K[12/240] [chromium] › e2e\regression\settings.spec.ts:97:1 › another server's settings page survives refresh
+2026-10-19T22:43:38.7664357Z [1A[2K[13/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › settings keeps an 8px top gutter and only inline border clearance on mobile in ltr
+2026-10-19T22:43:39.5731370Z [1A[2K[14/240] [chromium] › e2e\regression\side-panels.spec.ts:99:1 › review content stays aligned with the side region in both directions
+2026-10-19T22:43:39.7387216Z [1A[2K[15/240] [chromium] › e2e\regression\settings-wsl.spec.ts:10:3 › manages a ready configured WSL server from the Servers page
+2026-10-19T22:43:39.8131626Z [1A[2K[16/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:7:3 › bottom mobile navigation adds no extra top panel gutter in rtl
+2026-10-19T22:43:41.9699718Z [1A[2K[17/240] [chromium] › e2e\regression\settings.spec.ts:114:1 › single-server settings expose scoped pages without a server picker
+2026-10-19T22:43:43.0794843Z [1A[2K[18/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › home keeps an 8px top gutter and only inline border clearance on mobile in rtl
+2026-10-19T22:43:43.6861882Z [1A[2K[19/240] [chromium] › e2e\regression\settings-wsl.spec.ts:53:1 › adding a WSL server while the WSL extension is down shows that WSL is unavailable
+2026-10-19T22:43:44.2105211Z [1A[2K[20/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › new-session keeps an 8px top gutter and only inline border clearance on mobile in rtl
+2026-10-19T22:43:44.8721286Z [1A[2K[21/240] [chromium] › e2e\regression\settings.spec.ts:137:1 › several servers share one selected server across per-server pages
+2026-10-19T22:43:45.6739143Z [1A[2K[22/240] [chromium] › e2e\regression\settings-wsl.spec.ts:75:1 › adding an SSH server while the SSH extension is down fails instead of connecting forever
+2026-10-19T22:43:45.8145311Z [1A[2K[23/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › session keeps an 8px top gutter and only inline border clearance on mobile in rtl
+2026-10-19T22:43:45.9879994Z [1A[2K[24/240] [chromium] › e2e\regression\tabs.spec.ts:29:1 › tab strip keeps draft tabs as wide as session tabs and navigates on mouse down
+2026-10-19T22:43:47.6942108Z [1A[2K[25/240] [chromium] › e2e\regression\shell-panel-spacing.spec.ts:48:5 › settings keeps an 8px top gutter and only inline border clearance on mobile in rtl
+2026-10-19T22:43:47.7095123Z [1A[2K[26/240] [chromium] › e2e\regression\tabs.spec.ts:61:1 › inactive session attention dots share the close control without marking the avatar or active tab
+2026-10-19T22:43:47.8893850Z [1A[2K[27/240] [chromium] › e2e\regression\settings-wsl.spec.ts:98:1 › an open session's terminal follows its WSL server to the endpoint it restarts on
+2026-10-19T22:43:49.0903163Z [1A[2K[28/240] [chromium] › e2e\regression\terminal-input.spec.ts:11:1 › clears the terminal line with Command+Delete
+2026-10-19T22:43:49.6053580Z [1A[2K[29/240] [chromium] › e2e\regression\tabs.spec.ts:126:1 › a tab does not reopen its title editor while a rename is saving
+2026-10-19T22:43:50.6068835Z [1A[2K[30/240] [chromium] › e2e\regression\terminal-input.spec.ts:22:1 › reveals the terminal after its first output and hides the native caret
+2026-10-19T22:43:51.1694645Z [1A[2K[31/240] [chromium] › e2e\regression\settings-wsl.spec.ts:140:1 › WSL session and draft tabs outlive the extension going away until the server is removed
+2026-10-19T22:43:51.1775467Z [1A[2K[32/240] [chromium] › e2e\regression\tabs.spec.ts:152:1 › keyboard navigation follows the visible tab order and skips unresolved tabs
+2026-10-19T22:43:52.3070455Z [1A[2K[33/240] [chromium] › e2e\regression\terminal-input.spec.ts:37:1 › routes typing to the composer unless the open terminal is focused
+2026-10-19T22:43:52.5285871Z [1A[2K[34/240] [chromium] › e2e\regression\tabs.spec.ts:167:1 › option arrows move to the previous or next tab, and with shift to the next unread one
+2026-10-19T22:43:53.8728725Z [1A[2K[35/240] [chromium] › e2e\regression\terminal-input.spec.ts:60:3 › keeps newer composer focus while a cached terminal finishes mounting
+2026-10-19T22:43:54.1439558Z [1A[2K[36/240] [chromium] › e2e\regression\settings-wsl.spec.ts:192:1 › an SSH host that asks for sign-in again opens the dialog once per selected tab
+2026-10-19T22:43:54.3614775Z [1A[2K[37/240] [chromium] › e2e\regression\tabs.spec.ts:194:3 › switching session tabs restores the caret and pastes into the destination draft (horizontal)
+2026-10-19T22:43:55.6705872Z [1A[2K[38/240] [chromium] › e2e\regression\terminal-input.spec.ts:60:3 › keeps newer composer focus while a explicit terminal finishes mounting
+2026-10-19T22:43:55.9869474Z [1A[2K[39/240] [chromium] › e2e\regression\settings-wsl.spec.ts:238:1 › an open session moves to the controller a new SSH sign-in creates
+2026-10-19T22:43:56.2039183Z [1A[2K[40/240] [chromium] › e2e\regression\tabs.spec.ts:194:3 › switching session tabs restores the caret and pastes into the destination draft (vertical)
+2026-10-19T22:43:57.2498368Z [1A[2K[41/240] [chromium] › e2e\regression\terminal-input.spec.ts:102:1 › reconnects the same terminal after a transient connection failure
+2026-10-19T22:43:58.1103680Z [1A[2K[42/240] [chromium] › e2e\regression\tabs.spec.ts:194:3 › switching session tabs restores the caret and pastes into the destination draft (keyboard)
+2026-10-19T22:43:59.1801504Z [1A[2K[43/240] [chromium] › e2e\regression\tabs.spec.ts:242:5 › mobile drawer (horizontal) › mobile drawer exposes close controls and navigates between tabs (horizontal)
+2026-10-19T22:43:59.4710212Z [1A[2K[44/240] [chromium] › e2e\regression\terminal-input.spec.ts:133:1 › opens terminals as side panel tabs from the + menu
+2026-10-19T22:43:59.8732565Z [1A[2K[45/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:38:1 › navigates to a subagent child session missing from the session list
+2026-10-19T22:44:01.1677827Z [1A[2K[46/240] [chromium] › e2e\regression\tabs.spec.ts:242:5 › mobile drawer (vertical) › mobile drawer exposes close controls and navigates between tabs (vertical)
+2026-10-19T22:44:01.8339179Z [1A[2K[47/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:52:1 › keeps the parent title anchored when opening a subagent
+2026-10-19T22:44:02.1538895Z [1A[2K[48/240] [chromium] › e2e\regression\terminal-input.spec.ts:167:1 › focuses the terminal opened from the command palette
+2026-10-19T22:44:03.0827394Z [1A[2K[49/240] [chromium] › e2e\regression\tabs.spec.ts:305:1 › icon-only inactive tabs retain their avatar and attention badge instead of showing a close overlay
+2026-10-19T22:44:03.9467700Z [1A[2K[50/240] [chromium] › e2e\regression\terminal-input.spec.ts:184:1 › closing the last restored terminal does not create a hidden replacement
+2026-10-19T22:44:04.9670519Z [1A[2K[51/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:81:1 › navigates from a running subagent card and hides background controls in the child
+2026-10-19T22:44:05.6314486Z [1A[2K[52/240] [chromium] › e2e\regression\tabs.spec.ts:343:1 › vertical tabs resize, scroll, show shortcut hints, and navigate
+2026-10-19T22:44:06.2076762Z [1A[2K[53/240] [chromium] › e2e\regression\timeline-cache.spec.ts:14:3 › reveals a cold timeline at the tail only after Markdown is measured at 1440px
+2026-10-19T22:44:06.8325424Z [1A[2K[54/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:118:1 › opens a directly linked nested subagent in its root session tab
+2026-10-19T22:44:08.2528846Z [1A[2K[55/240] [chromium] › e2e\regression\tabs.spec.ts:416:3 › collapsed vertical tabs sidebar reopens from the home screen
+2026-10-19T22:44:08.7664020Z [1A[2K[56/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:130:1 › shows the full ancestor path and navigates to an earlier subagent
+2026-10-19T22:44:09.4275308Z [1A[2K[57/240] [chromium] › e2e\regression\tabs.spec.ts:416:3 › collapsed vertical tabs sidebar reopens from the new session screen
+2026-10-19T22:44:10.4994979Z [1A[2K[58/240] [chromium] › e2e\regression\timeline-cache.spec.ts:14:3 › reveals a cold timeline at the tail only after Markdown is measured at 390px
+2026-10-19T22:44:10.8375255Z [1A[2K[59/240] [chromium] › e2e\regression\tabs.spec.ts:416:3 › collapsed vertical tabs sidebar reopens from the settings screen
+2026-10-19T22:44:11.0066250Z [1A[2K[60/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:59:1 › remeasures a recent explored context group before the next paint
+2026-10-19T22:44:12.5480533Z [1A[2K[61/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:146:1 › keeps the active nested session visible in a narrow desktop header
+2026-10-19T22:44:12.9860050Z [1A[2K[62/240] [chromium] › e2e\regression\tabs.spec.ts:416:3 › collapsed vertical tabs sidebar reopens from the session screen
+2026-10-19T22:44:13.2214627Z [1A[2K[63/240] (retries) [chromium] › e2e\regression\settings.spec.ts:137:1 › several servers share one selected server across per-server pages (retry #1)
+2026-10-19T22:44:15.2952861Z [1A[2K[64/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:124:1 › keeps a grouped tool summary stable as its calls complete
+2026-10-19T22:44:17.1070670Z [1A[2K[65/240] [chromium] › e2e\regression\tabs.spec.ts:444:3 › collapsed sidebar toggle clears the macOS traffic lights (windowed)
+2026-10-19T22:44:17.3180196Z [1A[2K[66/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:172:1 › shows parent lineage while the child timeline loads
+2026-10-19T22:44:18.0796887Z [1A[2K[67/240] [chromium] › e2e\regression\timeline-cache.spec.ts:75:1 › paints cold and warm session tabs at the latest message
+2026-10-19T22:44:21.7895086Z [1A[2K[68/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:190:1 › keeps a file diff anchored while it expands and collapses
+2026-10-19T22:44:22.7700746Z [1A[2K[69/240] [chromium] › e2e\regression\tabs.spec.ts:444:3 › collapsed sidebar toggle clears the macOS traffic lights (fullscreen)
+2026-10-19T22:44:23.8013614Z [1A[2K[70/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:196:1 › keeps the parent visible while the child session resolves
+2026-10-19T22:44:24.9401835Z [1A[2K[71/240] [chromium] › e2e\regression\tabs.spec.ts:466:1 › vertical tab gaps hover and select the nearest row
+2026-10-19T22:44:26.1048754Z [1A[2K[72/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:220:1 › keeps the parent tab selected while a loaded child session resolves
+2026-10-19T22:44:26.6641989Z [1A[2K[73/240] [chromium] › e2e\regression\timeline-cache.spec.ts:101:1 › scrolls within a long answer without mounting unrelated history
+2026-10-19T22:44:28.5864600Z [1A[2K[74/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:314:3 › keeps the shell outline at 1.25x inside a fractionally short virtual row
+2026-10-19T22:44:28.6270531Z [1A[2K[75/240] [chromium] › e2e\regression\tabs.spec.ts:527:1 › tab preview opens cold, switches immediately between tabs, and closes outside the strip
+2026-10-19T22:44:29.0420497Z [1A[2K[76/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:259:1 › shows the not found fallback when the viewed session is deleted
+2026-10-19T22:44:30.5363202Z [1A[2K[77/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:314:3 › keeps the shell outline at 1.5x inside a fractionally short virtual row
+2026-10-19T22:44:31.1782664Z [1A[2K[78/240] [chromium] › e2e\regression\timeline-cache.spec.ts:128:1 › fills a short cold transcript before revealing it
+2026-10-19T22:44:31.7276570Z [1A[2K[79/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:283:3 › session ID links › opens a verified session from agent prose or inline code with the keyboard
+2026-10-19T22:44:32.4530041Z [1A[2K[80/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:314:3 › keeps the patch card inside a fractionally short virtual row
+2026-10-19T22:44:32.6968615Z [1A[2K[81/240] [chromium] › e2e\regression\timeline-cache.spec.ts:153:1 › recovers from a failed cold history load when another session is selected
+2026-10-19T22:44:34.0846467Z [1A[2K[82/240] [chromium] › e2e\regression\subagent-child-navigation.spec.ts:302:3 › session ID links › does not navigate to an ID that is absent from the current server
+2026-10-19T22:44:34.0939413Z [1A[2K[83/240] [chromium] › e2e\regression\tabs.spec.ts:605:1 › closing the active server's last tab opens the remaining server tab
+2026-10-19T22:44:34.4240686Z [1A[2K[84/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:463:3 › keeps a submitted prompt in place until Working shows
+2026-10-19T22:44:34.8299478Z [1A[2K[85/240] [chromium] › e2e\regression\timeline-cache.spec.ts:167:1 › focuses Find in the selected cached timeline
+2026-10-19T22:44:36.5198508Z [1A[2K[86/240] [chromium] › e2e\regression\tabs.spec.ts:628:1 › a remote tab stays busy while a child session runs
+2026-10-19T22:44:36.8177563Z [1A[2K[87/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:463:3 › keeps a submitted prompt in place until Working shows after an error
+2026-10-19T22:44:37.8756032Z [1A[2K[88/240] [chromium] › e2e\regression\tabs.spec.ts:643:1 › inactive tabs stay busy while work waits in their inbox, and pulse on a new prompt, as in the TUI
+2026-10-19T22:44:38.0843565Z [1A[2K[89/240] [chromium] › e2e\regression\timeline-cache.spec.ts:188:1 › disposes the old workspace's shell while destination history is loading
+2026-10-19T22:44:38.2855450Z [1A[2K[90/240] [chromium] › e2e\regression\timeline-history.spec.ts:20:3 › timeline history › keeps visible rows fixed while an older page prepends
+2026-10-19T22:44:38.9028991Z [1A[2K[91/240] [chromium] › e2e\regression\timeline-geometry.spec.ts:635:1 › scrolls the timeline behind the composer region, fading at the card, and keeps its end above the region
+2026-10-19T22:44:40.0332374Z [1A[2K[92/240] [chromium] › e2e\regression\timeline-cache.spec.ts:271:1 › loads the transcript code font before opening rich history
+2026-10-19T22:44:40.6861752Z [1A[2K[93/240] [chromium] › e2e\regression\tabs.spec.ts:708:1 › switching between busy sessions keeps the busy indicators and the activity capsule at rest
+2026-10-19T22:44:40.7458846Z [1A[2K[94/240] [chromium] › e2e\regression\timeline-history.spec.ts:72:3 › timeline history › mounts every part once and in order while paging to the start
+2026-10-19T22:44:41.3361946Z [1A[2K[95/240] [chromium] › e2e\regression\timeline-cache.spec.ts:300:1 › waits for the requested session's history before constructing its cold timeline
+2026-10-19T22:44:42.5898703Z [1A[2K[96/240] [chromium] › e2e\regression\timeline-stream.spec.ts:46:3 › static projection › renders current protocol notices in CLI order
+2026-10-19T22:44:42.6174269Z [1A[2K[97/240] [chromium] › e2e\regression\tabs.spec.ts:758:1 › selecting a tab with waiting work waits for its transcript instead of showing only the inbox
+2026-10-19T22:44:45.2966820Z [1A[2K[98/240] [chromium] › e2e\regression\timeline-stream.spec.ts:88:3 › static projection › projects gaps, dividers, assistant parts, and errors together
+2026-10-19T22:44:45.4614788Z [1A[2K[99/240] [chromium] › e2e\regression\tabs.spec.ts:797:1 › inactive tabs load attention and inbox, but read the transcript only on selection
+2026-10-19T22:44:46.7466045Z [1A[2K[100/240] [chromium] › e2e\regression\timeline-stream.spec.ts:135:3 › static projection › does not repeat a review comment file as an attachment
+2026-10-19T22:44:47.0156653Z [1A[2K[101/240] [chromium] › e2e\regression\timeline-cache.spec.ts:327:3 › restores a grouped timeline after inactive updates and a resize
+2026-10-19T22:44:47.9963303Z [1A[2K[102/240] [chromium] › e2e\regression\tabs.spec.ts:874:1 › five loaded workspace tabs stay rendered and reactive through repeated switches
+2026-10-19T22:44:50.2428942Z [1A[2K[103/240] [chromium] › e2e\regression\timeline-stream.spec.ts:174:3 › static projection › groups instruction files loaded by the same read
+2026-10-19T22:44:51.1128691Z [1A[2K[104/240] [chromium] › e2e\regression\timeline-cache.spec.ts:327:3 › restores a separate timeline after inactive updates and a resize
+2026-10-19T22:44:51.4174660Z [1A[2K[105/240] [chromium] › e2e\regression\timeline-stream.spec.ts:204:3 › static projection › groups only consecutive successful skill tools
+2026-10-19T22:44:53.0842304Z [1A[2K[106/240] [chromium] › e2e\regression\timeline-stream.spec.ts:226:3 › static projection › leaves tools expanded by settings outside the collapsed stack
+2026-10-19T22:44:53.8178065Z [1A[2K[107/240] [chromium] › e2e\regression\whats-new.spec.ts:68:1 › What's New shows the highlights since the version seen, pages to Get started, and is seen once shown
+2026-10-19T22:44:54.2187644Z [1A[2K[108/240] [chromium] › e2e\regression\tabs.spec.ts:933:1 › each session tab shows its own file tab after a switch to a session in another folder
+2026-10-19T22:44:54.4512025Z [1A[2K[109/240] [chromium] › e2e\regression\timeline-stream.spec.ts:249:1 › combines adjacent patch calls and repeated files into one group
+2026-10-19T22:44:56.8554802Z [1A[2K[110/240] [chromium] › e2e\regression\timeline-stream.spec.ts:307:1 › keeps a failed patch in Used without losing the surviving file choice
+2026-10-19T22:44:57.5703040Z [1A[2K[111/240] [chromium] › e2e\regression\whats-new.spec.ts:103:1 › Don't show these in the future turns release notes off and closes What's New
+2026-10-19T22:44:59.4714664Z [1A[2K[112/240] [chromium] › e2e\regression\timeline-stream.spec.ts:366:1 › does not remount an edit diff when a sibling part arrives
+2026-10-19T22:45:00.5342078Z [1A[2K[113/240] [chromium] › e2e\regression\whats-new.spec.ts:112:1 › a rejected update check shows one failure title without repeating it as a description
+2026-10-19T22:45:00.7170035Z [1A[2K[114/240] [chromium] › e2e\regression\tabs.spec.ts:983:1 › tab shortcuts cycle side-panel tabs when the side panel is focused with multiple tabs
+2026-10-19T22:45:02.1788368Z [1A[2K[115/240] [chromium] › e2e\regression\whats-new.spec.ts:126:1 › What's New opened after the attachment mounts waits for the routes, then keeps focus over restored Settings
+2026-10-19T22:45:02.2676808Z [1A[2K[116/240] [chromium] › e2e\regression\timeline-stream.spec.ts:472:3 › stops active Thinking on reasoning-end without a following tool
+2026-10-19T22:45:03.9855055Z [1A[2K[117/240] [chromium] › e2e\regression\timeline-stream.spec.ts:472:3 › stops active Thinking on idle without a following tool
+2026-10-19T22:45:04.8441436Z [1A[2K[118/240] [chromium] › e2e\regression\tabs.spec.ts:1051:1 › the Windows titlebar menu pastes through the desktop edit action
+2026-10-19T22:45:05.1765215Z [1A[2K[119/240] [chromium] › e2e\regression\whats-new.spec.ts:153:1 › a failed changelog request leaves What's New for the next start
+2026-10-19T22:45:05.8534708Z [1A[2K[120/240] [chromium] › e2e\regression\timeline-stream.spec.ts:472:3 › stops active Thinking on retry without a following tool
+2026-10-19T22:45:06.5982565Z [1A[2K[121/240] [chromium] › e2e\user-story\model-selection-flow.spec.ts:9:1 › creates a session in a new project and selects its model
+2026-10-19T22:45:07.2541501Z [1A[2K[122/240] [chromium] › e2e\regression\whats-new.spec.ts:193:3 › What's New: the first run only remembers the version
+2026-10-19T22:45:08.3948274Z [1A[2K[123/240] [chromium] › e2e\regression\whats-new.spec.ts:193:3 › What's New: a version seen before, stored as highlights.v1, shows nothing
+2026-10-19T22:45:08.4378592Z [1A[2K[124/240] [chromium] › e2e\regression\timeline-stream.spec.ts:497:3 › keeps separate shell and reasoning disclosure through completion from the collapsed shell default
+2026-10-19T22:45:09.1463496Z [1A[2K[125/240] [chromium] › e2e\regression\whats-new.spec.ts:193:3 › What's New: release notes turned off before, in settings.v3, only remember the version
+2026-10-19T22:45:10.6366135Z [1A[2K[126/240] [chromium] › e2e\regression\whats-new.spec.ts:193:3 › What's New: a changelog without desktop highlights since the version seen only remembers the version
+2026-10-19T22:45:10.7555315Z [1A[2K[127/240] [chromium] › e2e\regression\timeline-stream.spec.ts:497:3 › keeps separate shell and reasoning disclosure through completion from the expanded shell default
+2026-10-19T22:45:10.8927005Z [1A[2K[128/240] [chromium] › e2e\user-story\model-selection-flow.spec.ts:119:1 › restores each existing session's model and variant when switching tabs
+2026-10-19T22:45:13.3503847Z [1A[2K[129/240] [chromium] › e2e\regression\timeline-stream.spec.ts:553:1 › shows a background subagent's outcome as its own row where it finished
+2026-10-19T22:45:14.9404646Z [1A[2K[130/240] [chromium] › e2e\regression\timeline-stream.spec.ts:650:3 › Working › shows Working between busy and reasoning states
+2026-10-19T22:45:16.0995610Z [1A[2K[131/240] (retries) [chromium] › e2e\regression\settings.spec.ts:137:1 › several servers share one selected server across per-server pages (retry #2)
+2026-10-19T22:45:16.6938062Z [1A[2K[132/240] [chromium] › e2e\regression\timeline-stream.spec.ts:683:3 › Working › keeps Working instead of Used 1 Thought while reasoning is the only activity
+2026-10-19T22:45:18.3365203Z [1A[2K[133/240] [chromium] › e2e\regression\timeline-stream.spec.ts:705:5 › Working › hides Working during shell input and execution, then restores it on completion
+2026-10-19T22:45:19.6547877Z [1A[2K[134/240] [chromium] › e2e\regression\timeline-stream.spec.ts:705:5 › Working › hides Working during patch input and execution, then restores it on completion
+2026-10-19T22:45:20.8719032Z [1A[2K[135/240] [chromium] › e2e\regression\timeline-stream.spec.ts:705:5 › Working › hides Working during subagent input and execution, then restores it on completion
+2026-10-19T22:45:21.2104187Z [1A[2K[136/240] [chromium] › e2e\regression\timeline-history.spec.ts:145:5 › timeline history › keeps visible content through completion
+2026-10-19T22:45:22.0947302Z [1A[2K[137/240] [chromium] › e2e\regression\timeline-stream.spec.ts:751:3 › Working › keeps Working while a new read joins a standalone read group
+2026-10-19T22:45:22.9829559Z [1A[2K[138/240] [chromium] › e2e\regression\timeline-history.spec.ts:145:5 › timeline history › keeps visible content through interruption
+2026-10-19T22:45:23.3264489Z [1A[2K[139/240] [chromium] › e2e\regression\timeline-stream.spec.ts:789:5 › Working › uses standalone background shell presentation
+2026-10-19T22:45:24.3767241Z [1A[2K[140/240] [chromium] › e2e\regression\timeline-stream.spec.ts:789:5 › Working › uses grouped background shell presentation
+2026-10-19T22:45:24.5573337Z [1A[2K[141/240] [chromium] › e2e\regression\timeline-history.spec.ts:248:5 › timeline history › renders the assistant-only tail before parent hydration and preserves it afterward
+2026-10-19T22:45:25.6501055Z [1A[2K[142/240] [chromium] › e2e\regression\timeline-stream.spec.ts:830:3 › Working › replaces Working with Retry and restores it on recovery
+2026-10-19T22:45:26.1301976Z [1A[2K[143/240] [chromium] › e2e\regression\timeline-history.spec.ts:248:5 › timeline history › renders the mixed tail before parent hydration and preserves it afterward
+2026-10-19T22:45:26.6283973Z [1A[2K[144/240] [chromium] › e2e\regression\timeline-stream.spec.ts:849:3 › Working › hides Working while assistant text streams
+2026-10-19T22:45:27.5385112Z [1A[2K[145/240] [chromium] › e2e\regression\timeline-stream.spec.ts:880:3 › background shortcut › offers a standalone running subagent to the background with Ctrl+B
+2026-10-19T22:45:27.8397633Z [1A[2K[146/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:33:5 › Pixel 7 › reversing a touch drag stops following streamed output
+2026-10-19T22:45:28.4677366Z [1A[2K[147/240] [chromium] › e2e\regression\timeline-stream.spec.ts:906:5 › background shortcut › keeps Working and the shortcut for a grouped running read
+2026-10-19T22:45:29.4423598Z [1A[2K  1) [chromium] › e2e\regression\settings.spec.ts:137:1 › several servers share one selected server across per-server pages 
+2026-10-19T22:45:29.4425470Z 
+2026-10-19T22:45:29.4426017Z     Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+2026-10-19T22:45:29.4426258Z 
+2026-10-19T22:45:29.4426472Z     Locator:  getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')
+2026-10-19T22:45:29.4426834Z     Expected: [32m"Server127.0.0.1:[7m4096[27m"[39m
+2026-10-19T22:45:29.4427088Z     Received: [31m"Server127.0.0.1:[7m3000[27m"[39m
+2026-10-19T22:45:29.4427635Z     Timeout:  10000ms
+2026-10-19T22:45:29.4427785Z 
+2026-10-19T22:45:29.4427894Z     Call log:
+2026-10-19T22:45:29.4428448Z     [2m  - Expect "toHaveText" with timeout 10000ms[22m
+2026-10-19T22:45:29.4428852Z     [2m  - waiting for getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')[22m
+2026-10-19T22:45:29.4429772Z     [2m    13 × locator resolved to <button type="button" data-closed="" data-size="small" aria-haspopup="true" aria-expanded="false" data-variant="outline" data-component="button-v2" id="dropdownmenu-cl-62-trigger" class="settings-server-switcher" data-action="settings-server-select">…</button>[22m
+2026-10-19T22:45:29.4430566Z     [2m       - unexpected value "Server127.0.0.1:3000"[22m
+2026-10-19T22:45:29.4430726Z 
+2026-10-19T22:45:29.4430756Z 
+2026-10-19T22:45:29.4430846Z       159 |
+2026-10-19T22:45:29.4431090Z       160 |   await settings.getByRole("tab", { name: "Providers", exact: true }).click()
+2026-10-19T22:45:29.4431391Z     > 161 |   await expect(switcher).toHaveText("Server127.0.0.1:4096")
+2026-10-19T22:45:29.4431634Z           |                          ^
+2026-10-19T22:45:29.4431893Z       162 |   await expect(connected.getByText("No connected providers")).toBeVisible()
+2026-10-19T22:45:29.4432206Z       163 |   await switcher.click()
+2026-10-19T22:45:29.4432493Z       164 |   await page.getByRole("menuitemradio", { name: "Build server", exact: true }).click()
+2026-10-19T22:45:29.4432869Z         at C:\runner\_work\opencode\opencode\packages\app\e2e\regression\settings.spec.ts:161:26
+2026-10-19T22:45:29.4433068Z 
+2026-10-19T22:45:29.4433308Z     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4433734Z     e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium\test-failed-1.png
+2026-10-19T22:45:29.4434157Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4434330Z 
+2026-10-19T22:45:29.4434590Z     Error Context: e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium\error-context.md
+2026-10-19T22:45:29.4434866Z 
+2026-10-19T22:45:29.4435604Z     Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4435781Z 
+2026-10-19T22:45:29.4436376Z     Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+2026-10-19T22:45:29.4436714Z 
+2026-10-19T22:45:29.4436913Z     Locator:  getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')
+2026-10-19T22:45:29.4437237Z     Expected: [32m"Server127.0.0.1:[7m4096[27m"[39m
+2026-10-19T22:45:29.4437475Z     Received: [31m"Server127.0.0.1:[7m3000[27m"[39m
+2026-10-19T22:45:29.4437654Z     Timeout:  10000ms
+2026-10-19T22:45:29.4437755Z 
+2026-10-19T22:45:29.4437834Z     Call log:
+2026-10-19T22:45:29.4438027Z     [2m  - Expect "toHaveText" with timeout 10000ms[22m
+2026-10-19T22:45:29.4438403Z     [2m  - waiting for getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')[22m
+2026-10-19T22:45:29.4439253Z     [2m    13 × locator resolved to <button type="button" data-closed="" data-size="small" aria-haspopup="true" aria-expanded="false" data-variant="outline" data-component="button-v2" id="dropdownmenu-cl-62-trigger" class="settings-server-switcher" data-action="settings-server-select">…</button>[22m
+2026-10-19T22:45:29.4439904Z     [2m       - unexpected value "Server127.0.0.1:3000"[22m
+2026-10-19T22:45:29.4440057Z 
+2026-10-19T22:45:29.4440089Z 
+2026-10-19T22:45:29.4440269Z       159 |
+2026-10-19T22:45:29.4440497Z       160 |   await settings.getByRole("tab", { name: "Providers", exact: true }).click()
+2026-10-19T22:45:29.4440786Z     > 161 |   await expect(switcher).toHaveText("Server127.0.0.1:4096")
+2026-10-19T22:45:29.4440997Z           |                          ^
+2026-10-19T22:45:29.4441243Z       162 |   await expect(connected.getByText("No connected providers")).toBeVisible()
+2026-10-19T22:45:29.4441488Z       163 |   await switcher.click()
+2026-10-19T22:45:29.4441760Z       164 |   await page.getByRole("menuitemradio", { name: "Build server", exact: true }).click()
+2026-10-19T22:45:29.4442146Z         at C:\runner\_work\opencode\opencode\packages\app\e2e\regression\settings.spec.ts:161:26
+2026-10-19T22:45:29.4442365Z 
+2026-10-19T22:45:29.4442586Z     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4443007Z     e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry1\test-failed-1.png
+2026-10-19T22:45:29.4443447Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4443612Z 
+2026-10-19T22:45:29.4443822Z     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4444222Z     e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry1\video.webm
+2026-10-19T22:45:29.4444639Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4444810Z 
+2026-10-19T22:45:29.4445320Z     Error Context: e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry1\error-context.md
+2026-10-19T22:45:29.4445679Z 
+2026-10-19T22:45:29.4445893Z     attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4446295Z     e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry1\trace.zip
+2026-10-19T22:45:29.4446605Z     Usage:
+2026-10-19T22:45:29.4446702Z 
+2026-10-19T22:45:29.4447005Z         npx playwright show-trace e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry1\trace.zip
+2026-10-19T22:45:29.4447334Z 
+2026-10-19T22:45:29.4447526Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4447697Z 
+2026-10-19T22:45:29.4447886Z     Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4448063Z 
+2026-10-19T22:45:29.4448307Z     Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+2026-10-19T22:45:29.4448530Z 
+2026-10-19T22:45:29.4448725Z     Locator:  getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')
+2026-10-19T22:45:29.4449053Z     Expected: [32m"Server127.0.0.1:[7m4096[27m"[39m
+2026-10-19T22:45:29.4449288Z     Received: [31m"Server127.0.0.1:[7m3000[27m"[39m
+2026-10-19T22:45:29.4449473Z     Timeout:  10000ms
+2026-10-19T22:45:29.4449568Z 
+2026-10-19T22:45:29.4449643Z     Call log:
+2026-10-19T22:45:29.4449835Z     [2m  - Expect "toHaveText" with timeout 10000ms[22m
+2026-10-19T22:45:29.4450207Z     [2m  - waiting for getByTestId('settings-screen').locator('[data-action="settings-server-select"]:visible')[22m
+2026-10-19T22:45:29.4451145Z     [2m    13 × locator resolved to <button type="button" data-closed="" data-size="small" aria-haspopup="true" aria-expanded="false" data-variant="outline" data-component="button-v2" id="dropdownmenu-cl-62-trigger" class="settings-server-switcher" data-action="settings-server-select">…</button>[22m
+2026-10-19T22:45:29.4451804Z     [2m       - unexpected value "Server127.0.0.1:3000"[22m
+2026-10-19T22:45:29.4452016Z 
+2026-10-19T22:45:29.4452046Z 
+2026-10-19T22:45:29.4452139Z       159 |
+2026-10-19T22:45:29.4452364Z       160 |   await settings.getByRole("tab", { name: "Providers", exact: true }).click()
+2026-10-19T22:45:29.4452661Z     > 161 |   await expect(switcher).toHaveText("Server127.0.0.1:4096")
+2026-10-19T22:45:29.4452894Z           |                          ^
+2026-10-19T22:45:29.4453138Z       162 |   await expect(connected.getByText("No connected providers")).toBeVisible()
+2026-10-19T22:45:29.4453395Z       163 |   await switcher.click()
+2026-10-19T22:45:29.4453660Z       164 |   await page.getByRole("menuitemradio", { name: "Build server", exact: true }).click()
+2026-10-19T22:45:29.4454019Z         at C:\runner\_work\opencode\opencode\packages\app\e2e\regression\settings.spec.ts:161:26
+2026-10-19T22:45:29.4454223Z 
+2026-10-19T22:45:29.4454434Z     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4454887Z     e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry2\test-failed-1.png
+2026-10-19T22:45:29.4455434Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-19T22:45:29.4455608Z 
+2026-10-19T22:45:29.4455900Z     Error Context: e2e\test-results\regression-settings-severa-06974-ver-across-per-server-pages-chromium-retry2\error-context.md
+2026-10-19T22:45:29.4456195Z 
+2026-10-19T22:45:29.4456233Z 
+2026-10-19T22:45:29.4611890Z [1A[2K[148/240] [chromium] › e2e\regression\timeline-stream.spec.ts:906:5 › background shortcut › keeps Working and the shortcut for a grouped running shell
+2026-10-19T22:45:29.9326601Z [1A[2K[149/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:234:7 › Pixel 7 › nested output owns the gesture or chains at its boundary (500)
+2026-10-19T22:45:30.4793869Z [1A[2K[150/240] [chromium] › e2e\regression\timeline-stream.spec.ts:949:3 › background shortcut › separates blocking and already-backgrounded work into two rows
+2026-10-19T22:45:31.9542683Z [1A[2K[151/240] [chromium] › e2e\regression\settings.spec.ts:181:1 › project list menus rename, edit, add, and stay inside the scrollport
+2026-10-19T22:45:32.4138206Z [1A[2K[152/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:234:7 › Pixel 7 › nested output owns the gesture or chains at its boundary (0)
+2026-10-19T22:45:32.8066299Z [1A[2K[153/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1148:5 › background shortcut › holds a revealed shell from far below just under its stuck group header
+2026-10-19T22:45:34.8256098Z [1A[2K[154/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1148:5 › background shortcut › holds a revealed shell that opens the last row just under its stuck group header
+2026-10-19T22:45:34.9136129Z [1A[2K[155/240] [chromium] › e2e\regression\settings.spec.ts:260:1 › project settings open as a nested view that keeps its route
+2026-10-19T22:45:36.0531182Z [1A[2K[156/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:352:7 › Pixel 7 › detached session gestures do not unpin the selected session (390px, touchEnd)
+2026-10-19T22:45:37.8831405Z [1A[2K[157/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1148:5 › background shortcut › holds a revealed shell at the end of the timeline just under its stuck group header
+2026-10-19T22:45:38.5939573Z [1A[2K[158/240] [chromium] › e2e\regression\settings.spec.ts:293:1 › a project whose folder is gone opens its settings with a notice
+2026-10-19T22:45:39.1506441Z [1A[2K[159/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:82:5 › Pixel 7 › keeps the reading anchor when 2 earlier images load during a drag
+2026-10-19T22:45:40.5750505Z [1A[2K[160/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1234:3 › background shortcut › shows a running subagent's working indicator beside its title
+2026-10-19T22:45:40.6742294Z [1A[2K[161/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:352:7 › Pixel 7 › detached session gestures do not unpin the selected session (1000px, touchCancel)
+2026-10-19T22:45:40.8379650Z [1A[2K[162/240] [chromium] › e2e\regression\settings.spec.ts:350:3 › project autosave keeps the final color when reverting during a save
+2026-10-19T22:45:42.9908801Z [1A[2K[163/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:160:5 › Pixel 7 › reaches the start without a gap or release jump after earlier output shrinks
+2026-10-19T22:45:43.8186022Z [1A[2K[164/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1293:3 › compaction › renders compaction progress, summary, and outcome in order
+2026-10-19T22:45:44.4305951Z [1A[2K[165/240] [chromium] › e2e\regression\settings.spec.ts:350:3 › project autosave keeps the final name when reverting during a save
+2026-10-19T22:45:45.6931737Z [1A[2K[166/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › Home owns pending touch adjustments (held)
+2026-10-19T22:45:46.2697759Z [1A[2K[167/240] [chromium] › e2e\regression\settings.spec.ts:350:3 › project autosave keeps the final startup script when reverting during a save
+2026-10-19T22:45:46.8340379Z [1A[2K[168/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1383:5 › compaction › ends running compactions as failed, then cancelled
+2026-10-19T22:45:47.6896670Z [1A[2K[169/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › End owns pending touch adjustments (released)
+2026-10-19T22:45:49.1546673Z [1A[2K[170/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1383:5 › compaction › ends running compactions as interrupted
+2026-10-19T22:45:49.2649804Z [1A[2K[171/240] [chromium] › e2e\regression\settings.spec.ts:394:1 › clearing project fields sends explicit removal values
+2026-10-19T22:45:50.5090745Z [1A[2K[172/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › Control+Home owns pending touch adjustments (held)
+2026-10-19T22:45:50.5350606Z [1A[2K[173/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › latest owns pending touch adjustments (released)
+2026-10-19T22:45:51.1896872Z [1A[2K[174/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1439:1 › reducer-hardening: converges when idle arrives before final part and message completion
+2026-10-19T22:45:52.8542399Z [1A[2K[175/240] [chromium] › e2e\regression\settings.spec.ts:427:1 › the new session shortcut waits for a shortcut recording, then leaves settings
+2026-10-19T22:45:53.0515257Z [1A[2K[176/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1454:1 › changes timeline presets and saves custom thinking details
+2026-10-19T22:45:53.8672589Z [1A[2K[177/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › scrollbar owns pending touch adjustments (held)
+2026-10-19T22:45:54.7130999Z [1A[2K[178/240] [chromium] › e2e\regression\settings.spec.ts:446:3 › pages open before slow data › worktrees
+2026-10-19T22:45:55.5744794Z [1A[2K[179/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › Pixel 7 › scrollbar-large owns pending touch adjustments (held)
+2026-10-19T22:45:55.6079545Z [1A[2K[180/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1517:5 › shell completion › stops standalone background shell shimmer when exited
+2026-10-19T22:45:56.3007883Z [1A[2K[181/240] [chromium] › e2e\regression\settings.spec.ts:476:3 › pages open before slow data › extensions
+2026-10-19T22:45:56.8920248Z [1A[2K[182/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › Pixel 7 › returns Home after scrolling the touch target out of view (touchEnd)
+2026-10-19T22:45:58.3761728Z [1A[2K[183/240] [chromium] › e2e\regression\settings.spec.ts:489:5 › pages open before slow data › about updates contributors later
+2026-10-19T22:45:59.0262488Z [1A[2K[184/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1517:5 › shell completion › stops grouped background shell shimmer when killed
+2026-10-19T22:45:59.6814104Z [1A[2K[185/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › Pixel 7 › returns Home after scrolling the touch target out of view (touchCancel)
+2026-10-19T22:46:00.9707886Z [1A[2K[186/240] [chromium] › e2e\regression\settings.spec.ts:489:5 › pages open before slow data › about keeps its fallback when contributors fail
+2026-10-19T22:46:01.9106264Z [1A[2K[187/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › Pixel 7 › returns Home after streaming replaces the touch target (touchEnd)
+2026-10-19T22:46:03.9145257Z [1A[2K[188/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1646:3 › shell completion › shows the authoritative foreground result after streaming shell output
+2026-10-19T22:46:04.6470442Z [1A[2K[189/240] [chromium] › e2e\regression\settings.spec.ts:529:1 › worktrees follow inventory events, wait for session counts, and delete by project
+2026-10-19T22:46:05.7535348Z [1A[2K[190/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1700:1 › quotes plain timeline text into the composer, with or without a comment
+2026-10-19T22:46:08.1324451Z [1A[2K[191/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1792:1 › quotes table rows and diff lines selected across a diff viewer
+2026-10-19T22:46:08.2875549Z [1A[2K[192/240] [chromium] › e2e\regression\settings.spec.ts:614:5 › worktrees prefetch › project Worktrees hover prefetches only its inventory and reuses the request
+2026-10-19T22:46:09.2461564Z [1A[2K[193/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › Pixel 7 › returns Home after streaming replaces the touch target (touchCancel)
+2026-10-19T22:46:10.4226808Z [1A[2K[194/240] [chromium] › e2e\regression\settings.spec.ts:614:5 › worktrees prefetch › project Worktrees focus prefetches only its inventory and reuses the request
+2026-10-19T22:46:11.6649204Z [1A[2K[195/240] [chromium] › e2e\regression\timeline-stream.spec.ts:1878:1 › places the quote action by the end a selection was made towards
+2026-10-19T22:46:11.6874666Z [1A[2K[196/240] [chromium] › e2e\regression\settings.spec.ts:661:3 › worktrees prefetch › server Worktrees hover only prefetches metadata
+2026-10-19T22:46:13.1120291Z [1A[2K[197/240] [chromium] › e2e\regression\settings.spec.ts:722:3 › project LSPs: configured
+2026-10-19T22:46:14.0262830Z [1A[2K[198/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:790:5 › Pixel 7 › keeps the visible row anchored through reflow and touch cancellation
+2026-10-19T22:46:14.4246877Z [1A[2K[199/240] [chromium] › e2e\regression\settings.spec.ts:722:3 › project LSPs: disabled
+2026-10-19T22:46:15.5816307Z [1A[2K[200/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:33:5 › iPhone 13 › reversing a touch drag stops following streamed output
+2026-10-19T22:46:16.0733686Z [1A[2K[201/240] [chromium] › e2e\regression\settings.spec.ts:722:3 › project LSPs: failure
+2026-10-19T22:46:16.8857912Z [1A[2K[202/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:82:5 › iPhone 13 › keeps the reading anchor when 2 earlier images load during a drag
+2026-10-19T22:46:17.7452192Z [1A[2K[203/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:160:5 › iPhone 13 › reaches the start without a gap or release jump after earlier output shrinks
+2026-10-19T22:46:17.7800333Z [1A[2K[204/240] [chromium] › e2e\regression\timeline-stream.spec.ts:2005:1 › keeps the quote action by a triple-clicked paragraph whose selection runs on to the next message
+2026-10-19T22:46:18.6705621Z [1A[2K[205/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:234:7 › iPhone 13 › nested output owns the gesture or chains at its boundary (500)
+2026-10-19T22:46:19.5523973Z [1A[2K[206/240] [chromium] › e2e\regression\timeline-stream.spec.ts:2058:3 › places the quote action: a narrow window with a mouse anchors it to the selection
+2026-10-19T22:46:20.9138802Z [1A[2K[207/240] [chromium] › e2e\regression\timeline-stream.spec.ts:2058:3 › places the quote action: a touch screen docks it to the timeline's bottom
+2026-10-19T22:46:21.6659814Z [1A[2K[208/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:234:7 › iPhone 13 › nested output owns the gesture or chains at its boundary (0)
+2026-10-19T22:46:21.7002992Z [1A[2K[209/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:352:7 › iPhone 13 › detached session gestures do not unpin the selected session (390px, touchEnd)
+2026-10-19T22:46:22.7015234Z [1A[2K[210/240] [chromium] › e2e\regression\timeline-stream.spec.ts:2082:1 › opens a quote's comment with Alt-click
+2026-10-19T22:46:22.8000390Z [1A[2K[211/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:352:7 › iPhone 13 › detached session gestures do not unpin the selected session (1000px, touchCancel)
+2026-10-19T22:46:25.0032421Z [1A[2K[212/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › Home owns pending touch adjustments (held)
+2026-10-19T22:46:25.7275068Z [1A[2K[213/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › End owns pending touch adjustments (released)
+2026-10-19T22:46:25.9757833Z [1A[2K[214/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › Control+Home owns pending touch adjustments (held)
+2026-10-19T22:46:26.0341848Z [1A[2K[215/240] [chromium] › e2e\regression\settings.spec.ts:782:3 › providers: a fresh install offers the Console sign-in
+2026-10-19T22:46:27.6422424Z [1A[2K[216/240] [chromium] › e2e\regression\settings.spec.ts:782:3 › providers: a stored Zen API key keeps the Console sign-in
+2026-10-19T22:46:27.9795828Z [1A[2K[217/240] [chromium] › e2e\regression\timeline-stream.spec.ts:2151:1 › reaches the quote action from the keyboard and blocks a selection over the limit
+2026-10-19T22:46:28.8478305Z [1A[2K[218/240] [chromium] › e2e\regression\settings.spec.ts:782:3 › providers: a Console account hides the sign-in row
+2026-10-19T22:46:29.9676107Z [1A[2K[219/240] [chromium] › e2e\regression\settings.spec.ts:842:1 › providers: OpenCode Console signs in from its method list
+2026-10-19T22:46:30.0017913Z [1A[2K[220/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › latest owns pending touch adjustments (released)
+2026-10-19T22:46:30.3285234Z [1A[2K[221/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › scrollbar owns pending touch adjustments (held)
+2026-10-19T22:46:31.2939697Z [1A[2K[222/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › iPhone 13 › returns Home after scrolling the touch target out of view (touchEnd)
+2026-10-19T22:46:32.2905910Z [1A[2K[223/240] [chromium] › e2e\regression\settings.spec.ts:868:1 › providers: OpenCode Go connects with its own methods, not the Console sign-in
+2026-10-19T22:46:33.7630472Z [1A[2K[224/240] [chromium] › e2e\regression\settings.spec.ts:890:1 › providers: the free tier upsell opens Go on its own, sized to its content
+2026-10-19T22:46:34.8362755Z [1A[2K[225/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › iPhone 13 › returns Home after scrolling the touch target out of view (touchCancel)
+2026-10-19T22:46:35.1817479Z [1A[2K[226/240] [chromium] › e2e\regression\settings.spec.ts:926:1 › providers: the connect dialog lists connected providers and manages their accounts
+2026-10-19T22:46:36.0024630Z [1A[2K[227/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › iPhone 13 › returns Home after streaming replaces the touch target (touchEnd)
+2026-10-19T22:46:38.7354197Z [1A[2K[228/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:438:7 › iPhone 13 › scrollbar-large owns pending touch adjustments (held)
+2026-10-19T22:46:39.0599023Z [1A[2K[229/240] [chromium] › e2e\regression\settings.spec.ts:1016:1 › providers: adding an account starts a lone method once
+2026-10-19T22:46:40.9504203Z [1A[2K[230/240] [chromium] › e2e\regression\settings.spec.ts:1062:1 › providers: the account options rename and remove the active account
+2026-10-19T22:46:41.7664317Z [1A[2K[231/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:650:9 › iPhone 13 › returns Home after streaming replaces the touch target (touchCancel)
+2026-10-19T22:46:43.6619865Z [1A[2K[232/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:790:5 › iPhone 13 › keeps the visible row anchored through reflow and touch cancellation
+2026-10-19T22:46:44.3794280Z [1A[2K[233/240] [chromium] › e2e\regression\settings.spec.ts:1128:1 › providers: switching to a Zen API key does not wait for a Console workspace
+2026-10-19T22:46:46.0761625Z [1A[2K[234/240] [chromium] › e2e\regression\settings.spec.ts:1188:1 › providers: adding a Console account keeps the Console row in place
+2026-10-19T22:46:46.3504907Z [1A[2K[235/240] [chromium-touch-scroll] › e2e\regression\mobile-timeline-scroll.spec.ts:855:1 › painted motion rejects a prompt whose pixels disappear
+2026-10-19T22:46:48.6585106Z [1A[2K[236/240] [chromium] › e2e\regression\settings.spec.ts:1259:1 › providers: switching Console accounts keeps the list until the new workspace loads
+2026-10-19T22:46:50.1879482Z [1A[2K[237/240] [chromium] › e2e\regression\settings.spec.ts:1323:1 › the add server dialog keeps focus above fullscreen settings
+2026-10-19T22:46:51.4721430Z [1A[2K[238/240] [chromium] › e2e\regression\settings.spec.ts:1345:1 › the add server dialog pairs from a one-time link and explains a spent one
+2026-10-19T22:46:52.8041131Z [1A[2K[239/240] [chromium] › e2e\regression\settings.spec.ts:1381:1 › a pairing code with several addresses keeps the first one that works with its token
+2026-10-19T22:46:53.8649460Z [1A[2K[240/240] [chromium] › e2e\regression\settings.spec.ts:1418:1 › the Side tabs interface mode switches to vertical tabs and survives reload
+2026-10-19T22:46:55.0066446Z [1A[2K[241/240] [chromium] › e2e\regression\settings.spec.ts:1437:3 › settings layout (desktop): every page scrolls inside its panel with room below
+2026-10-19T22:46:58.1207545Z [1A[2K[242/240] [chromium] › e2e\regression\settings.spec.ts:1437:3 › settings layout (mobile): every page scrolls inside its panel with room below
+2026-10-19T22:47:05.1799095Z [1A[2K  1 failed
+2026-10-19T22:47:05.1800120Z     [chromium] › e2e\regression\settings.spec.ts:137:1 › several servers share one selected server across per-server pages 
+2026-10-19T22:47:05.1800471Z   239 passed (3.9m)
+2026-10-19T22:47:05.2261701Z error: script "test:e2e:built" exited with code 1
+2026-10-19T22:47:05.2356190Z ##[error]Process completed with exit code 1.
+2026-10-19T22:47:05.2590182Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-19T22:47:05.2590642Z with:
+2026-10-19T22:47:05.2590884Z   name: playwright-windows-app-2-1
+2026-10-19T22:47:05.2591182Z   if-no-files-found: ignore
+2026-10-19T22:47:05.2591409Z   retention-days: 7
+2026-10-19T22:47:05.2592784Z   path: packages/app/e2e/test-results
+packages/app/e2e/playwright-report
+packages/session-ui/component-tests/test-results
+packages/session-ui/component-tests/playwright-report
+packages/app/component-tests/test-results
+packages/app/component-tests/playwright-report
+
+2026-10-19T22:47:05.2594013Z   compression-level: 6
+2026-10-19T22:47:05.2594271Z   overwrite: false
+2026-10-19T22:47:05.2594492Z   include-hidden-files: false
+2026-10-19T22:47:05.2594733Z env:
+2026-10-19T22:47:05.2594960Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:47:05.2595362Z   PLAYWRIGHT_BROWSERS_PATH: C:\runner\_work\opencode\opencode/.playwright-browsers
+2026-10-19T22:47:05.2595811Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:47:05.2596077Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:47:05.2596334Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:47:05.2596588Z ##[endgroup]
+2026-10-19T22:47:05.4208630Z (node:2072) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:47:05.4226469Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:47:05.4605878Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-10-19T22:47:05.4608692Z The least common ancestor is C:\runner\_work\opencode\opencode\packages. This will be the root directory of the artifact
+2026-10-19T22:47:05.4609445Z With the provided path, there will be 66 files uploaded
+2026-10-19T22:47:05.4613341Z Artifact name is valid!
+2026-10-19T22:47:05.4614591Z Root directory input is valid!
+2026-10-19T22:47:05.6701915Z Beginning upload of artifact content to blob storage
+2026-10-19T22:47:05.8703342Z (node:2072) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-19T22:47:06.0224429Z Uploaded bytes 5085570
+2026-10-19T22:47:06.0408861Z Finished uploading artifact content to blob storage!
+2026-10-19T22:47:06.0409457Z SHA256 digest of uploaded artifact zip is cbbed13d5355fd99891e34a86f4d541f4d298578d6d9efac110ec310eef609c3
+2026-10-19T22:47:06.0410695Z Finalizing artifact upload
+2026-10-19T22:47:06.2936523Z Artifact playwright-windows-app-2-1.zip successfully finalized. Artifact ID 12227685510
+2026-10-19T22:47:06.2937278Z Artifact playwright-windows-app-2-1 has been successfully uploaded! Final size is 5085570 bytes. Artifact ID is 12227685510
+2026-10-19T22:47:06.2953697Z Artifact download URL: https://github.com/anomalyco/opencode/actions/runs/39336671982/artifacts/12227685510
+2026-10-19T22:47:06.3382828Z Post job cleanup.
+2026-10-19T22:47:06.3405913Z ##[start-action display=Setup Bun;id=__8b425dc2-4b49-4724-9e41-905a24fb1bb4.__oven-sh_setup-bun]
+2026-10-19T22:47:06.3408036Z ##[end-action id=__8b425dc2-4b49-4724-9e41-905a24fb1bb4.__oven-sh_setup-bun;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:47:06.3410039Z ##[start-action display=Setup Node;id=__8b425dc2-4b49-4724-9e41-905a24fb1bb4.__actions_setup-node]
+2026-10-19T22:47:06.3411513Z ##[end-action id=__8b425dc2-4b49-4724-9e41-905a24fb1bb4.__actions_setup-node;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:47:06.3610444Z Post job cleanup.
+2026-10-19T22:47:06.5150858Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-19T22:47:06.5436789Z git version 2.55.0.windows.4
+2026-10-19T22:47:06.5534522Z Temporarily overriding HOME='C:\runner\_work\_temp\ebe9b552-affc-4310-a825-7aa3288bc3ed' before making global git config changes
+2026-10-19T22:47:06.5535258Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:47:06.5545708Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory C:\runner\_work\opencode\opencode
+2026-10-19T22:47:06.5911460Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:47:06.6254734Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-19T22:47:07.1808106Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:47:07.2032503Z http.https://github.com/.extraheader
+2026-10-19T22:47:07.2090701Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+2026-10-19T22:47:07.2403050Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-19T22:47:07.8788953Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:47:07.9099608Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-19T22:47:08.5592421Z A job completed hook has been configured by the self-hosted runner administrator
+2026-10-19T22:47:08.5731445Z ##[group]Run 'C:\job_completed.ps1'
+2026-10-19T22:47:08.5846594Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-19T22:47:08.5846890Z env:
+2026-10-19T22:47:08.5847069Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 159
+2026-10-19T22:47:08.5847259Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 543
+2026-10-19T22:47:08.5847448Z   BLACKSMITH_CHECK_RUN_ID: 118347861764
+2026-10-19T22:47:08.5847676Z   BLACKSMITH_JOB_DISPLAY_NAME: e2e (windows, app-2)
+2026-10-19T22:47:08.5847964Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T22:47:08.5848145Z ##[endgroup]
+2026-10-19T22:47:08.9552647Z No active SSH sessions detected. Proceeding with shutdown immediately.
+2026-10-19T22:47:09.0152709Z Cleaning up orphan processes
+2026-10-19T22:47:09.0266239Z Terminate orphan process: pid (2172) (nginx)
+2026-10-19T22:47:09.0337675Z Terminate orphan process: pid (3076) (nginx)
+2026-10-19T22:47:09.0377664Z Terminate orphan process: pid (4900) (conhost)
+2026-10-19T22:47:09.1273643Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830, actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,1554 @@
+﻿2026-10-19T22:27:11.5330723Z Current runner version: '2.337.0'
+2026-10-19T22:27:11.5354956Z Runner name: 'blacksmith-4vcpu-windows-2025-bean5urd7c52w43x'
+2026-10-19T22:27:11.5356751Z Runner group name: 'blacksmith scale sets - blacksmith-4vcpu-windows-2025'
+2026-10-19T22:27:11.5358452Z Machine name: 'BLACKSMITH-WIN'
+2026-10-19T22:27:11.5363137Z ##[group]GITHUB_TOKEN Permissions
+2026-10-19T22:27:11.5370592Z Checks: write
+2026-10-19T22:27:11.5371123Z Contents: read
+2026-10-19T22:27:11.5371620Z Metadata: read
+2026-10-19T22:27:11.5372216Z ##[endgroup]
+2026-10-19T22:27:11.5376678Z Secret source: Actions
+2026-10-19T22:27:11.5377580Z Cache mode: write
+2026-10-19T22:27:11.5378240Z Prepare workflow directory
+2026-10-19T22:27:11.5825179Z Prepare all required actions
+2026-10-19T22:27:11.5878565Z Getting action download info
+2026-10-19T22:27:11.7632390Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-10-19T22:27:13.2288091Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-19T22:27:17.4158044Z Setting BLACKSMITH_ACTIONS_RESULTS_URL to https://results-receiver.actions.githubusercontent.com/
+2026-10-19T22:27:17.4210150Z Complete job name: unit (windows)
+2026-10-19T22:27:19.0310095Z A job started hook has been configured by the self-hosted runner administrator
+2026-10-19T22:27:22.4763743Z ##[group]Run 'C:\setup.ps1'
+2026-10-19T22:27:22.4879568Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-19T22:27:22.4880138Z env:
+2026-10-19T22:27:22.4880324Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:22.4880503Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:22.4880668Z   BLACKSMITH_CHECK_RUN_ID: 118341880887
+2026-10-19T22:27:22.4880846Z   BLACKSMITH_JOB_DISPLAY_NAME: unit (windows)
+2026-10-19T22:27:22.4881037Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T22:27:22.4881196Z ##[endgroup]
+2026-10-19T22:27:27.2510681Z Starting Blacksmith setup for Windows VM...
+2026-10-19T22:27:27.2948789Z 
+2026-10-19T22:27:27.2949647Z Enabling Blacksmith transparent cache
+2026-10-19T22:27:27.3015193Z Starting NGINX cache proxy...
+2026-10-19T22:27:27.3818533Z NGINX cache proxy started
+2026-10-19T22:27:27.6405726Z Transparent cache setup initiated
+2026-10-19T22:27:27.6410093Z Running adoption reporting and SSH setup...
+2026-10-19T22:27:27.7142653Z GitHub adoption metrics: duration=65167ms, currentTime=1792448847704ms, creationTime=1792448782537ms
+2026-10-19T22:27:27.7144107Z Reporting GitHub adoption metrics to internal metrics endpoint: duration=65167ms
+2026-10-19T22:27:27.7279127Z GitHub adoption metrics reported successfully to internal metrics endpoint
+2026-10-19T22:27:28.3192289Z Adoption reporting completed successfully
+2026-10-19T22:27:28.3231594Z Starting logging daemon (blacksmithd for logs)...
+2026-10-19T22:27:28.4410856Z Started blacksmithd with PID: 6496
+2026-10-19T22:27:28.4413512Z Logging daemon (blacksmithd for logs) started
+2026-10-19T22:27:28.4418814Z Starting results daemon (blacksmithd for results)...
+2026-10-19T22:27:28.4583584Z Started blacksmithd with PID: 6404
+2026-10-19T22:27:28.4586143Z Results daemon (blacksmithd for results) started
+2026-10-19T22:27:28.4607834Z 
+2026-10-19T22:27:28.4618571Z ----------------------------------------
+2026-10-19T22:27:28.4642070Z View this job: https://app.blacksmith.sh/anomalyco/runs/39334919428/jobs/118341880887
+2026-10-19T22:27:28.4647518Z SSH Access (using your GitHub SSH key):
+2026-10-19T22:27:28.4652044Z   ssh -p 64005 runneradmin@blacksmith-4vcpu-windows-2025-bean5urd7c52w43x.vm.blacksmith.sh
+2026-10-19T22:27:28.4654388Z 
+2026-10-19T22:27:28.4662842Z No GitHub SSH key? Add one at:
+2026-10-19T22:27:28.4664356Z https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+2026-10-19T22:27:28.4684770Z 
+2026-10-19T22:27:28.4685651Z ----------------------------------------
+2026-10-19T22:27:28.4688668Z 
+2026-10-19T22:27:28.4727455Z VM ID: blacksmith-4vcpu-windows-2025-bean5urd7c52w43x
+2026-10-19T22:27:28.4746014Z Host: production-152.236.39.128-x8664
+2026-10-19T22:27:28.4774566Z Host Agent PID: 1026149
+2026-10-19T22:27:28.4782719Z Host Agent Git SHA: 360540c94
+2026-10-19T22:27:28.4819398Z Host CPU Manufacturer: AuthenticAMD
+2026-10-19T22:27:28.4824880Z Blacksmith Host Generation: gen 2
+2026-10-19T22:27:28.4826157Z Petname: production-prepared-cow-43a87f22
+2026-10-19T22:27:28.4836625Z Static Egress IP: 152.236.40.220
+2026-10-19T22:27:28.4849849Z Region: us-east
+2026-10-19T22:27:28.4850407Z Rootfs Version: windows25-full-x64-260817
+2026-10-19T22:27:28.4850881Z Setup completed successfully
+2026-10-19T22:27:28.5840600Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+2026-10-19T22:27:28.5840973Z with:
+2026-10-19T22:27:28.5842423Z   token: ***
+2026-10-19T22:27:28.5842633Z   fetch-depth: 2
+2026-10-19T22:27:28.5842848Z   repository: anomalyco/opencode
+2026-10-19T22:27:28.5843087Z   ssh-strict: true
+2026-10-19T22:27:28.5843214Z   ssh-user: git
+2026-10-19T22:27:28.5843380Z   persist-credentials: true
+2026-10-19T22:27:28.5843552Z   clean: true
+2026-10-19T22:27:28.5843701Z   sparse-checkout-cone-mode: true
+2026-10-19T22:27:28.5843877Z   fetch-tags: false
+2026-10-19T22:27:28.5844015Z   show-progress: true
+2026-10-19T22:27:28.5844209Z   lfs: false
+2026-10-19T22:27:28.5844378Z   submodules: false
+2026-10-19T22:27:28.5844573Z   set-safe-directory: true
+2026-10-19T22:27:28.5844737Z env:
+2026-10-19T22:27:28.5845104Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:28.5845446Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:28.5845680Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:28.5845849Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:28.5846031Z ##[endgroup]
+2026-10-19T22:27:28.9305978Z Syncing repository: anomalyco/opencode
+2026-10-19T22:27:28.9307839Z ##[group]Getting Git version info
+2026-10-19T22:27:28.9308303Z Working directory is 'C:\runner\_work\opencode\opencode'
+2026-10-19T22:27:28.9689445Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-19T22:27:29.0354484Z git version 2.55.0.windows.4
+2026-10-19T22:27:29.0406597Z ##[endgroup]
+2026-10-19T22:27:29.0427489Z Temporarily overriding HOME='C:\runner\_work\_temp\a139f942-836b-41c9-b937-01a8e2016dd2' before making global git config changes
+2026-10-19T22:27:29.0428239Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:27:29.0438678Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory C:\runner\_work\opencode\opencode
+2026-10-19T22:27:29.0852022Z Deleting the contents of 'C:\runner\_work\opencode\opencode'
+2026-10-19T22:27:29.0861318Z ##[group]Initializing the repository
+2026-10-19T22:27:29.0872908Z [command]"C:\Program Files\Git\bin\git.exe" init C:\runner\_work\opencode\opencode
+2026-10-19T22:27:29.1305997Z Initialized empty Git repository in C:/runner/_work/opencode/opencode/.git/
+2026-10-19T22:27:29.1389672Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/anomalyco/opencode
+2026-10-19T22:27:29.1813347Z ##[endgroup]
+2026-10-19T22:27:29.1813799Z ##[group]Disabling automatic garbage collection
+2026-10-19T22:27:29.1814329Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-10-19T22:27:29.2126519Z ##[endgroup]
+2026-10-19T22:27:29.2126915Z ##[group]Setting up auth
+2026-10-19T22:27:29.2141805Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:27:29.2452134Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-19T22:27:30.2463757Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:27:30.2844960Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-19T22:27:30.9060192Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:27:30.9475835Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-19T22:27:31.5805673Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-10-19T22:27:31.6249051Z ##[endgroup]
+2026-10-19T22:27:31.6249795Z ##[group]Fetching the repository
+2026-10-19T22:27:31.6262224Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=2 origin +95a35e3b5f2ca3ef4b137751f9c5597b031b0c1e:refs/remotes/pull/57016/merge
+2026-10-19T22:27:35.0829567Z From https://github.com/anomalyco/opencode
+2026-10-19T22:27:35.0831199Z  * [new ref]         95a35e3b5f2ca3ef4b137751f9c5597b031b0c1e -> pull/57016/merge
+2026-10-19T22:27:35.0897254Z ##[endgroup]
+2026-10-19T22:27:35.0899764Z ##[group]Determining the checkout info
+2026-10-19T22:27:35.0900241Z ##[endgroup]
+2026-10-19T22:27:35.0917179Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-10-19T22:27:35.1310386Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-10-19T22:27:35.1632573Z ##[group]Checking out the ref
+2026-10-19T22:27:35.1641563Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/57016/merge
+2026-10-19T22:27:36.2125777Z Updating files:  23% (2073/8675)
+2026-10-19T22:27:36.4410581Z Updating files:  24% (2082/8675)
+2026-10-19T22:27:36.4821211Z Updating files:  25% (2169/8675)
+2026-10-19T22:27:36.5524011Z Updating files:  26% (2256/8675)
+2026-10-19T22:27:36.7217632Z Updating files:  27% (2343/8675)
+2026-10-19T22:27:36.9316996Z Updating files:  28% (2429/8675)
+2026-10-19T22:27:37.2099944Z Updating files:  29% (2516/8675)
+2026-10-19T22:27:37.2505620Z Updating files:  29% (2584/8675)
+2026-10-19T22:27:37.5474114Z Updating files:  30% (2603/8675)
+2026-10-19T22:27:37.5876853Z Updating files:  31% (2690/8675)
+2026-10-19T22:27:37.6302167Z Updating files:  32% (2776/8675)
+2026-10-19T22:27:37.7776490Z Updating files:  33% (2863/8675)
+2026-10-19T22:27:37.8305252Z Updating files:  34% (2950/8675)
+2026-10-19T22:27:37.8783476Z Updating files:  35% (3037/8675)
+2026-10-19T22:27:37.9874288Z Updating files:  36% (3123/8675)
+2026-10-19T22:27:38.2148502Z Updating files:  37% (3210/8675)
+2026-10-19T22:27:38.2433875Z Updating files:  37% (3288/8675)
+2026-10-19T22:27:38.3466106Z Updating files:  38% (3297/8675)
+2026-10-19T22:27:38.4005204Z Updating files:  39% (3384/8675)
+2026-10-19T22:27:38.4368850Z Updating files:  40% (3470/8675)
+2026-10-19T22:27:38.4718605Z Updating files:  41% (3557/8675)
+2026-10-19T22:27:38.5052803Z Updating files:  42% (3644/8675)
+2026-10-19T22:27:38.5312720Z Updating files:  43% (3731/8675)
+2026-10-19T22:27:38.5537278Z Updating files:  44% (3817/8675)
+2026-10-19T22:27:38.5890731Z Updating files:  45% (3904/8675)
+2026-10-19T22:27:38.6169268Z Updating files:  46% (3991/8675)
+2026-10-19T22:27:38.6383871Z Updating files:  47% (4078/8675)
+2026-10-19T22:27:38.6683199Z Updating files:  48% (4164/8675)
+2026-10-19T22:27:38.6970024Z Updating files:  49% (4251/8675)
+2026-10-19T22:27:38.7386550Z Updating files:  50% (4338/8675)
+2026-10-19T22:27:38.7824306Z Updating files:  51% (4425/8675)
+2026-10-19T22:27:38.8223475Z Updating files:  52% (4511/8675)
+2026-10-19T22:27:38.8740570Z Updating files:  53% (4598/8675)
+2026-10-19T22:27:38.9283439Z Updating files:  54% (4685/8675)
+2026-10-19T22:27:38.9775246Z Updating files:  55% (4772/8675)
+2026-10-19T22:27:39.0090511Z Updating files:  56% (4858/8675)
+2026-10-19T22:27:39.0432803Z Updating files:  57% (4945/8675)
+2026-10-19T22:27:39.0945122Z Updating files:  58% (5032/8675)
+2026-10-19T22:27:39.1452667Z Updating files:  59% (5119/8675)
+2026-10-19T22:27:39.2170341Z Updating files:  60% (5205/8675)
+2026-10-19T22:27:39.2181428Z Updating files:  60% (5290/8675)
+2026-10-19T22:27:39.2881218Z Updating files:  61% (5292/8675)
+2026-10-19T22:27:39.3329679Z Updating files:  62% (5379/8675)
+2026-10-19T22:27:39.4926712Z Updating files:  63% (5466/8675)
+2026-10-19T22:27:39.6349313Z Updating files:  64% (5552/8675)
+2026-10-19T22:27:39.7518495Z Updating files:  65% (5639/8675)
+2026-10-19T22:27:39.8253948Z Updating files:  66% (5726/8675)
+2026-10-19T22:27:39.8871092Z Updating files:  67% (5813/8675)
+2026-10-19T22:27:39.9292640Z Updating files:  68% (5899/8675)
+2026-10-19T22:27:39.9591664Z Updating files:  69% (5986/8675)
+2026-10-19T22:27:40.0055504Z Updating files:  70% (6073/8675)
+2026-10-19T22:27:40.0292357Z Updating files:  71% (6160/8675)
+2026-10-19T22:27:40.0586095Z Updating files:  72% (6246/8675)
+2026-10-19T22:27:40.0851833Z Updating files:  73% (6333/8675)
+2026-10-19T22:27:40.1165784Z Updating files:  74% (6420/8675)
+2026-10-19T22:27:40.1437778Z Updating files:  75% (6507/8675)
+2026-10-19T22:27:40.1718905Z Updating files:  76% (6593/8675)
+2026-10-19T22:27:40.2060462Z Updating files:  77% (6680/8675)
+2026-10-19T22:27:40.2207913Z Updating files:  78% (6767/8675)
+2026-10-19T22:27:40.2492388Z Updating files:  78% (6796/8675)
+2026-10-19T22:27:40.2892430Z Updating files:  79% (6854/8675)
+2026-10-19T22:27:40.3187714Z Updating files:  80% (6940/8675)
+2026-10-19T22:27:40.3398143Z Updating files:  81% (7027/8675)
+2026-10-19T22:27:40.3578693Z Updating files:  82% (7114/8675)
+2026-10-19T22:27:40.3832693Z Updating files:  83% (7201/8675)
+2026-10-19T22:27:40.4226274Z Updating files:  84% (7287/8675)
+2026-10-19T22:27:40.4612260Z Updating files:  85% (7374/8675)
+2026-10-19T22:27:40.4945550Z Updating files:  86% (7461/8675)
+2026-10-19T22:27:40.5242444Z Updating files:  87% (7548/8675)
+2026-10-19T22:27:40.5863922Z Updating files:  88% (7634/8675)
+2026-10-19T22:27:40.6160923Z Updating files:  89% (7721/8675)
+2026-10-19T22:27:40.6454781Z Updating files:  90% (7808/8675)
+2026-10-19T22:27:40.6741429Z Updating files:  91% (7895/8675)
+2026-10-19T22:27:40.9404777Z Updating files:  92% (7981/8675)
+2026-10-19T22:27:41.0672282Z Updating files:  93% (8068/8675)
+2026-10-19T22:27:41.2141181Z Updating files:  94% (8155/8675)
+2026-10-19T22:27:41.2373513Z Updating files:  95% (8242/8675)
+2026-10-19T22:27:41.2879667Z Updating files:  95% (8275/8675)
+2026-10-19T22:27:41.3611034Z Updating files:  96% (8328/8675)
+2026-10-19T22:27:41.4172926Z Updating files:  97% (8415/8675)
+2026-10-19T22:27:41.4615000Z Updating files:  98% (8502/8675)
+2026-10-19T22:27:41.5072488Z Updating files:  99% (8589/8675)
+2026-10-19T22:27:41.5072919Z Updating files: 100% (8675/8675)
+2026-10-19T22:27:41.5073162Z Updating files: 100% (8675/8675), done.
+2026-10-19T22:27:41.5305320Z Note: switching to 'refs/remotes/pull/57016/merge'.
+2026-10-19T22:27:41.5305824Z 
+2026-10-19T22:27:41.5306194Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-19T22:27:41.5306614Z changes and commit them, and you can discard any commits you make in this
+2026-10-19T22:27:41.5307087Z state without impacting any branches by switching back to a branch.
+2026-10-19T22:27:41.5307463Z 
+2026-10-19T22:27:41.5307700Z If you want to create a new branch to retain commits you create, you may
+2026-10-19T22:27:41.5308135Z do so (now or later) by using -c with the switch command. Example:
+2026-10-19T22:27:41.5308369Z 
+2026-10-19T22:27:41.5308631Z   git switch -c <new-branch-name>
+2026-10-19T22:27:41.5308870Z 
+2026-10-19T22:27:41.5309021Z Or undo this operation with:
+2026-10-19T22:27:41.5309179Z 
+2026-10-19T22:27:41.5309334Z   git switch -
+2026-10-19T22:27:41.5309464Z 
+2026-10-19T22:27:41.5309660Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-19T22:27:41.5309934Z 
+2026-10-19T22:27:41.5310250Z HEAD is now at 95a35e3 Merge 407829f17a9477a6d9a5bd0969a41c438b87594d into 67bcba0cf8aa5b0527f98c256a48e783e413e9b6
+2026-10-19T22:27:41.5532522Z ##[endgroup]
+2026-10-19T22:27:41.5978231Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-10-19T22:27:41.6310011Z 95a35e3b5f2ca3ef4b137751f9c5597b031b0c1e
+2026-10-19T22:27:41.6984034Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T22:27:41.6985232Z with:
+2026-10-19T22:27:41.6985475Z   node-version: 24
+2026-10-19T22:27:41.6985695Z   always-auth: false
+2026-10-19T22:27:41.6985930Z   check-latest: false
+2026-10-19T22:27:41.6988419Z   token: ***
+2026-10-19T22:27:41.6988620Z env:
+2026-10-19T22:27:41.6988835Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:41.6989125Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:41.6989426Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:41.6989770Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:41.6990050Z ##[endgroup]
+2026-10-19T22:27:41.9060319Z Found in cache @ C:\hostedtoolcache\windows\node\24.19.0\x64
+2026-10-19T22:27:41.9071414Z (node:7128) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:27:41.9072179Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:27:41.9073282Z ##[group]Environment details
+2026-10-19T22:27:43.4837538Z node: v24.19.0
+2026-10-19T22:27:43.4841716Z npm: 11.17.0
+2026-10-19T22:27:43.4849085Z yarn: 1.22.22
+2026-10-19T22:27:43.4849885Z ##[endgroup]
+2026-10-19T22:27:43.5369489Z Prepare all required actions
+2026-10-19T22:27:43.5371261Z Getting action download info
+2026-10-19T22:27:43.6175520Z Download action repository 'oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
+2026-10-19T22:27:43.8155616Z Download action repository 'actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+2026-10-19T22:27:44.0470797Z ##[group]Run ./.github/actions/setup-bun
+2026-10-19T22:27:44.0471995Z with:
+2026-10-19T22:27:44.0472195Z env:
+2026-10-19T22:27:44.0472395Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:44.0472665Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:44.0472948Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:44.0473193Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:44.0473437Z ##[endgroup]
+2026-10-19T22:27:44.0616393Z ##[start-action display=Setup Node;id=__self.__actions_setup-node]
+2026-10-19T22:27:44.0852780Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T22:27:44.0853164Z with:
+2026-10-19T22:27:44.0853353Z   node-version: 24
+2026-10-19T22:27:44.0853554Z   always-auth: false
+2026-10-19T22:27:44.0853784Z   check-latest: false
+2026-10-19T22:27:44.0855792Z   token: ***
+2026-10-19T22:27:44.0855989Z env:
+2026-10-19T22:27:44.0856196Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:44.0856488Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:44.0856790Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:44.0857099Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:44.0857359Z ##[endgroup]
+2026-10-19T22:27:44.2589810Z Found in cache @ C:\hostedtoolcache\windows\node\24.19.0\x64
+2026-10-19T22:27:44.2594360Z (node:1488) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T22:27:44.2595153Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T22:27:44.2596963Z ##[group]Environment details
+2026-10-19T22:27:44.7325066Z node: v24.19.0
+2026-10-19T22:27:44.7325391Z npm: 11.17.0
+2026-10-19T22:27:44.7325609Z yarn: 1.22.22
+2026-10-19T22:27:44.7326170Z ##[endgroup]
+2026-10-19T22:27:44.7524716Z ##[end-action id=__self.__actions_setup-node;outcome=success;conclusion=success;duration_ms=689]
+2026-10-19T22:27:44.7528263Z ##[start-action display=Get baseline download URL;id=__self.bun-url]
+2026-10-19T22:27:44.7768415Z ##[group]Run if [ "$RUNNER_ARCH" = "X64" ]; then
+2026-10-19T22:27:44.7768866Z [36;1mif [ "$RUNNER_ARCH" = "X64" ]; then[0m
+2026-10-19T22:27:44.7769128Z [36;1m  V=""[0m
+2026-10-19T22:27:44.7769489Z [36;1m  if [ -z "$V" ]; then V=$(node -p "require('./package.json').packageManager.split('@')[1]"); fi[0m
+2026-10-19T22:27:44.7769892Z [36;1m  TAG=$([ "$V" = "canary" ] && echo "canary" || echo "bun-v${V}")[0m
+2026-10-19T22:27:44.7770205Z [36;1m  case "$RUNNER_OS" in[0m
+2026-10-19T22:27:44.7770449Z [36;1m    macOS)   OS=darwin ;;[0m
+2026-10-19T22:27:44.7770669Z [36;1m    Linux)   OS=linux ;;[0m
+2026-10-19T22:27:44.7770972Z [36;1m    Windows) OS=windows ;;[0m
+2026-10-19T22:27:44.7771207Z [36;1m  esac[0m
+2026-10-19T22:27:44.7771613Z [36;1m  echo "url=https://github.com/oven-sh/bun/releases/download/${TAG}/bun-${OS}-x64-baseline.zip" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:27:44.7772046Z [36;1mfi[0m
+2026-10-19T22:27:44.7783783Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:27:44.7784120Z env:
+2026-10-19T22:27:44.7784337Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:44.7784602Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:44.7784843Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:44.7785086Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:44.7785327Z ##[endgroup]
+2026-10-19T22:27:45.0368043Z ##[end-action id=__self.bun-url;outcome=success;conclusion=success;duration_ms=283]
+2026-10-19T22:27:45.0374246Z ##[start-action display=Setup Bun;id=__self.__oven-sh_setup-bun]
+2026-10-19T22:27:45.0586983Z ##[group]Run oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+2026-10-19T22:27:45.0587328Z with:
+2026-10-19T22:27:45.0587871Z   bun-download-url: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-windows-x64-baseline.zip
+2026-10-19T22:27:45.0588302Z   no-cache: false
+2026-10-19T22:27:45.0590233Z   token: ***
+2026-10-19T22:27:45.0590414Z env:
+2026-10-19T22:27:45.0590637Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:45.0591402Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:45.0591664Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:45.0591958Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:45.0592205Z ##[endgroup]
+2026-10-19T22:27:45.2561286Z Obtained version 1.4.2 from package.json
+2026-10-19T22:27:45.2579152Z Downloading a new version of Bun: https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-windows-x64-baseline.zip
+2026-10-19T22:27:46.0916987Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('C:\runner\_work\_temp\45d17a2d-a601-47b8-b0b7-6a7b7d5855bb.zip', 'C:\runner\_work\_temp\33205649-c1c7-491b-bcc9-a44d23ca1f87', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'C:\runner\_work\_temp\45d17a2d-a601-47b8-b0b7-6a7b7d5855bb.zip' -DestinationPath 'C:\runner\_work\_temp\33205649-c1c7-491b-bcc9-a44d23ca1f87' -Force } else { throw $_ } } ;"
+2026-10-19T22:27:46.7859798Z [command]C:\Users\runneradmin\.bun\bin\bun.exe --revision
+2026-10-19T22:27:47.0828393Z 1.4.2+744846f84
+2026-10-19T22:27:47.1040602Z ##[end-action id=__self.__oven-sh_setup-bun;outcome=success;conclusion=success;duration_ms=2064]
+2026-10-19T22:27:47.1043160Z ##[start-action display=Get cache directory;id=__self.cache]
+2026-10-19T22:27:47.1192177Z ##[group]Run echo "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"
+2026-10-19T22:27:47.1192563Z [36;1mecho "dir=$(bun pm cache)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:27:47.1192883Z [36;1mecho "version=$(bun --version)" >> "$GITHUB_OUTPUT"[0m
+2026-10-19T22:27:47.1201784Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:27:47.1202281Z env:
+2026-10-19T22:27:47.1202473Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:47.1202732Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:47.1202971Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:47.1203211Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:47.1203478Z ##[endgroup]
+2026-10-19T22:27:47.2399229Z ##[end-action id=__self.cache;outcome=success;conclusion=success;duration_ms=135]
+2026-10-19T22:27:47.2402568Z ##[start-action display=Restore Bun dependencies;id=__self.bun-cache]
+2026-10-19T22:27:47.2415134Z ##[end-action id=__self.bun-cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:27:47.2417888Z ##[start-action display=Install setuptools for distutils compatibility;id=__self.__run]
+2026-10-19T22:27:47.2578474Z ##[group]Run python3 -m pip install setuptools || pip install setuptools || true
+2026-10-19T22:27:47.2578984Z [36;1mpython3 -m pip install setuptools || pip install setuptools || true[0m
+2026-10-19T22:27:47.2588441Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:27:47.2588806Z env:
+2026-10-19T22:27:47.2589013Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:47.2589290Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:47.2589533Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:47.2589833Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:47.2590074Z ##[endgroup]
+2026-10-19T22:27:50.1620344Z Collecting setuptools
+2026-10-19T22:27:50.2961705Z   Downloading setuptools-84.2.0-py3-none-any.whl.metadata (6.6 kB)
+2026-10-19T22:27:50.3183729Z Downloading setuptools-84.2.0-py3-none-any.whl (875 kB)
+2026-10-19T22:27:50.4257519Z    ---------------------------------------- 875.8/875.8 kB 13.1 MB/s  0:00:00
+2026-10-19T22:27:50.4934201Z Installing collected packages: setuptools
+2026-10-19T22:27:51.2706435Z Successfully installed setuptools-84.2.0
+2026-10-19T22:27:51.3473533Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=4102]
+2026-10-19T22:27:51.3475722Z ##[start-action display=Install dependencies;id=__self.__run_2]
+2026-10-19T22:27:51.3609608Z ##[group]Run bun install --frozen-lockfile 
+2026-10-19T22:27:51.3609829Z [36;1mbun install --frozen-lockfile [0m
+2026-10-19T22:27:51.3617638Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:27:51.3617866Z env:
+2026-10-19T22:27:51.3618045Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:27:51.3618256Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:27:51.3618422Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:27:51.3618600Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:27:51.3618759Z ##[endgroup]
+2026-10-19T22:27:51.4063160Z bun install v1.4.2 (744846f84)
+2026-10-19T22:27:51.4312224Z Resolving dependencies
+2026-10-19T22:27:51.4318794Z Resolved, downloaded and extracted [19]
+2026-10-19T22:28:36.3788419Z 
+2026-10-19T22:28:36.3834302Z $ bun run --cwd packages/core fix-node-pty
+2026-10-19T22:28:36.4028768Z $ bun run script/fix-node-pty.ts
+2026-10-19T22:28:36.4388812Z $ husky
+2026-10-19T22:28:36.5698078Z 
+2026-10-19T22:28:36.5698975Z + @actions/artifact@5.0.1
+2026-10-19T22:28:36.5699473Z + @ast-grep/cli@0.44.0
+2026-10-19T22:28:36.5699859Z + @oxlint/plugins@1.60.0
+2026-10-19T22:28:36.5700123Z + @tsconfig/bun@1.0.9
+2026-10-19T22:28:36.5700378Z + @types/bun@1.4.0
+2026-10-19T22:28:36.5700625Z + @types/mime-types@3.0.1
+2026-10-19T22:28:36.5701254Z + @types/react@19.2.17
+2026-10-19T22:28:36.5701543Z + @types/react-dom@19.2.3
+2026-10-19T22:28:36.5701753Z + @typescript/native@7.0.2
+2026-10-19T22:28:36.5702167Z + glob@13.0.5
+2026-10-19T22:28:36.5702371Z + husky@9.1.7
+2026-10-19T22:28:36.5702551Z + oxlint@1.60.0
+2026-10-19T22:28:36.5702806Z + oxlint-tsgolint@0.21.0
+2026-10-19T22:28:36.5703005Z + prettier@3.6.2
+2026-10-19T22:28:36.5703217Z + semver@7.8.5
+2026-10-19T22:28:36.5703432Z + sst@4.13.1
+2026-10-19T22:28:36.5703666Z + turbo@2.10.2
+2026-10-19T22:28:36.5703963Z + @aws-sdk/client-s3@3.933.0
+2026-10-19T22:28:36.5704342Z + heap-snapshot-toolkit@1.1.3
+2026-10-19T22:28:36.5704913Z + typescript@6.0.2
+2026-10-19T22:28:36.5705108Z 
+2026-10-19T22:28:36.5705245Z 2135 packages installed [45.16s]
+2026-10-19T22:28:36.5912850Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=45234]
+2026-10-19T22:28:36.5916315Z ##[start-action display=Save Bun dependencies;id=__self.__actions_cache]
+2026-10-19T22:28:36.5923804Z ##[end-action id=__self.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:28:36.6095916Z ##[group]Run git config --global user.email "bot@opencode.ai"
+2026-10-19T22:28:36.6096387Z [36;1mgit config --global user.email "bot@opencode.ai"[0m
+2026-10-19T22:28:36.6096751Z [36;1mgit config --global user.name "opencode"[0m
+2026-10-19T22:28:36.6106129Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:28:36.6106575Z env:
+2026-10-19T22:28:36.6107087Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:28:36.6107669Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:28:36.6108101Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:28:36.6108368Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:28:36.6108618Z ##[endgroup]
+2026-10-19T22:28:36.7184555Z ##[group]Run # The runners have four vCPUs, and each Bun test process performs its own concurrent work.
+2026-10-19T22:28:36.7185123Z [36;1m# The runners have four vCPUs, and each Bun test process performs its own concurrent work.[0m
+2026-10-19T22:28:36.7185402Z [36;1mif [ "pull_request" = "workflow_dispatch" ]; then[0m
+2026-10-19T22:28:36.7185694Z [36;1m  GITHUB_ACTIONS=false bun turbo test --concurrency=3[0m
+2026-10-19T22:28:36.7185998Z [36;1m  exit 0[0m
+2026-10-19T22:28:36.7186170Z [36;1mfi[0m
+2026-10-19T22:28:36.7186350Z [36;1mGITHUB_ACTIONS=false bun turbo test --affected --concurrency=3[0m
+2026-10-19T22:28:36.7195395Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2026-10-19T22:28:36.7195686Z env:
+2026-10-19T22:28:36.7195897Z   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+2026-10-19T22:28:36.7196150Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:28:36.7196389Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:28:36.7196655Z   GITHUB_REPO_NAME: anomalyco/opencode
+2026-10-19T22:28:36.7196852Z   OPENCODE_EXPERIMENTAL_DISABLE_FILEWATCHER: true
+2026-10-19T22:28:36.7197146Z   TURBO_SCM_BASE: 95a35e3b5f2ca3ef4b137751f9c5597b031b0c1e^1
+2026-10-19T22:28:36.7197393Z   TURBO_SCM_HEAD: 95a35e3b5f2ca3ef4b137751f9c5597b031b0c1e
+2026-10-19T22:28:36.7197573Z ##[endgroup]
+2026-10-19T22:28:36.9206968Z 
+2026-10-19T22:28:36.9208587Z Attention:
+2026-10-19T22:28:36.9209338Z Turborepo now collects completely anonymous telemetry regarding usage.
+2026-10-19T22:28:36.9210019Z This information is used to shape the Turborepo roadmap and prioritize features.
+2026-10-19T22:28:36.9210787Z You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-10-19T22:28:36.9212465Z https://turborepo.dev/docs/telemetry
+2026-10-19T22:28:36.9212764Z 
+2026-10-19T22:28:37.1013073Z  WARNING  An issue occurred while attempting to parse C:\runner\_work\opencode\opencode\bun.lock. Turborepo will still function, but some features may not be available:
+2026-10-19T22:28:37.1013871Z    x Could not resolve workspaces.
+2026-10-19T22:28:37.1014101Z   `-> Unsupported bun lockfile version: 2
+2026-10-19T22:28:37.1014234Z 
+2026-10-19T22:28:37.3833015Z 
+2026-10-19T22:28:37.3837360Z    • Packages in scope: //, @opencode/ai, @opencode/app, @opencode/changelog, @opencode/cli, @opencode/client, @opencode/codemode, @opencode/console-app, @opencode/console-resource, @opencode/core, @opencode/desktop, @opencode/files, @opencode/function, @opencode/gui-extensions, @opencode/http-recorder, @opencode/httpapi-codegen, @opencode/latex, @opencode/merman, @opencode/patchmark, @opencode/plugin, @opencode/plugin-browser, @opencode/plugin-figma, @opencode/plugin-genui, @opencode/posts, @opencode/protocol, @opencode/schema, @opencode/script, @opencode/sdk, @opencode/server, @opencode/session-ui, @opencode/simulation, @opencode/stats-app, @opencode/stats-core, @opencode/stats-server, @opencode/storybook, @opencode/theme, @opencode/tui, @opencode/ui, @opencode/update, @opencode/util, @opencode/web, @opencode/www
+2026-10-19T22:28:37.3863921Z    • Running test in 42 packages
+2026-10-19T22:28:37.3864556Z    • Remote caching disabled
+2026-10-19T22:28:37.3864760Z 
+2026-10-19T22:28:38.2653150Z ##[group]@opencode/http-recorder:test
+2026-10-19T22:28:38.2653949Z cache miss, executing 511758b39a26d7d4
+2026-10-19T22:28:38.2654442Z $ bun test --timeout 30000 --only-failures
+2026-10-19T22:28:38.2654827Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:38.2655181Z 
+2026-10-19T22:28:38.2655400Z  53 pass
+2026-10-19T22:28:38.2655757Z  0 fail
+2026-10-19T22:28:38.2656068Z  88 expect() calls
+2026-10-19T22:28:38.2656582Z Ran 53 tests across 4 files. [780.00ms]
+2026-10-19T22:28:38.2657070Z ##[endgroup]
+2026-10-19T22:28:39.2529322Z ##[group]@opencode/httpapi-codegen:test
+2026-10-19T22:28:39.2530078Z cache miss, executing e76d129d2d2f4eb4
+2026-10-19T22:28:39.2530478Z $ bun test --timeout 5000 --only-failures
+2026-10-19T22:28:39.2552738Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:39.2557064Z 
+2026-10-19T22:28:39.2557430Z  98 pass
+2026-10-19T22:28:39.2557664Z  0 fail
+2026-10-19T22:28:39.2557885Z  218 expect() calls
+2026-10-19T22:28:39.2558137Z Ran 98 tests across 2 files. [926.00ms]
+2026-10-19T22:28:39.2558943Z ##[endgroup]
+2026-10-19T22:28:39.3837196Z ##[group]@opencode/changelog:test
+2026-10-19T22:28:39.3838463Z cache miss, executing e31496b4a6fd9728
+2026-10-19T22:28:39.3862059Z $ bun test
+2026-10-19T22:28:39.3863440Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:39.3863884Z 
+2026-10-19T22:28:39.3864202Z test\markdown.test.ts:
+2026-10-19T22:28:39.3865390Z (pass) parseChangelog > splits entries on version headings and ignores the preamble [1.39ms]
+2026-10-19T22:28:39.3890059Z (pass) parseChangelog > does not split on level-two headings that are not versions [0.11ms]
+2026-10-19T22:28:39.3892964Z (pass) parseChangelog > extracts highlights with bold titles and continuation lines [0.21ms]
+2026-10-19T22:28:39.3893932Z (pass) parseChangelog > keeps detailed sections with their subsections in order [1.06ms]
+2026-10-19T22:28:39.3894834Z (pass) parseChangelog > returns no entries for a changelog without releases [0.21ms]
+2026-10-19T22:28:39.3895702Z (pass) renderMarkdown > escapes raw HTML and drops unsafe links [4.79ms]
+2026-10-19T22:28:39.3896408Z (pass) renderMarkdown > links issue references and opens GitHub in a new tab [0.60ms]
+2026-10-19T22:28:39.3897148Z (pass) renderMarkdown > does not nest references inside existing links [0.55ms]
+2026-10-19T22:28:39.3897825Z (pass) renderMarkdown > shortens bare pull request URLs [0.26ms]
+2026-10-19T22:28:39.3898474Z (pass) renderMarkdown > renders an entry's highlights inline and sections as blocks [3.21ms]
+2026-10-19T22:28:39.3901014Z 
+2026-10-19T22:28:39.3901245Z test\worker.test.ts:
+2026-10-19T22:28:39.3901840Z (pass) handle > renders every release with anchors, highlights and cache headers [10.60ms]
+2026-10-19T22:28:39.3902455Z (pass) handle > answers HEAD without a body [1.02ms]
+2026-10-19T22:28:39.3903064Z (pass) handle > shows the empty state for a changelog without releases [0.30ms]
+2026-10-19T22:28:39.3903652Z (pass) handle > returns a friendly 503 when no copy can be loaded [0.15ms]
+2026-10-19T22:28:39.3904267Z (pass) handle > redirects the trailing slash and version paths [0.16ms]
+2026-10-19T22:28:39.3904875Z (pass) handle > returns 404 for other subpaths and 405 for writes [0.10ms]
+2026-10-19T22:28:39.3905580Z (pass) loadSource > fetches dev's CHANGELOG.md and serves the cached copy while fresh [0.78ms]
+2026-10-19T22:28:39.3906292Z (pass) loadSource > serves a stale copy and keeps it when revalidation fails [0.17ms]
+2026-10-19T22:28:39.3907036Z (pass) loadSource > resolves undefined when GitHub fails and nothing is cached [0.11ms]
+2026-10-19T22:28:39.3907483Z 
+2026-10-19T22:28:39.3907749Z  19 pass
+2026-10-19T22:28:39.3908049Z  0 fail
+2026-10-19T22:28:39.3908426Z  52 expect() calls
+2026-10-19T22:28:39.3908801Z Ran 19 tests across 2 files. [68.00ms]
+2026-10-19T22:28:39.3909577Z ##[endgroup]
+2026-10-19T22:28:39.7663064Z ##[group]@opencode/theme:test
+2026-10-19T22:28:39.7664537Z cache miss, executing d35ca4aa7841fdd2
+2026-10-19T22:28:39.7838792Z $ bun test --timeout 30000
+2026-10-19T22:28:39.7929396Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:39.7963696Z 
+2026-10-19T22:28:39.7979062Z test\theme.test.ts:
+2026-10-19T22:28:39.7985226Z (pass) resolves light themes without status tokens [6.11ms]
+2026-10-19T22:28:39.8020957Z (pass) resolves dark themes without status tokens [2.60ms]
+2026-10-19T22:28:39.8062389Z 
+2026-10-19T22:28:39.8070833Z  2 pass
+2026-10-19T22:28:39.8076282Z  0 fail
+2026-10-19T22:28:39.8077553Z  6 expect() calls
+2026-10-19T22:28:39.8078582Z Ran 2 tests across 1 file. [305.00ms]
+2026-10-19T22:28:39.8090885Z ##[endgroup]
+2026-10-19T22:28:40.1447208Z ##[group]@opencode/update:test
+2026-10-19T22:28:40.1451517Z cache miss, executing 9f5ffd2f47b881c5
+2026-10-19T22:28:40.1538306Z $ bun test
+2026-10-19T22:28:40.1576156Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:40.1891541Z 
+2026-10-19T22:28:40.1896037Z test\index.test.ts:
+2026-10-19T22:28:40.1896512Z Update lookup failed 52 |   const body = (await response.json()) as { version: string }
+2026-10-19T22:28:40.1897016Z 53 |   return body.version
+2026-10-19T22:28:40.1898084Z 54 | }
+2026-10-19T22:28:40.1898606Z 55 | 
+2026-10-19T22:28:40.1899805Z 56 | test("returns a retryable 503 when D1 rejects a lookup", async () => {
+2026-10-19T22:28:40.1900286Z 57 |   const overloaded = new Error("D1_ERROR: D1 DB is overloaded. Requests queued for too long.")
+2026-10-19T22:28:40.1901252Z                               ^
+2026-10-19T22:28:40.1902069Z error: D1_ERROR: D1 DB is overloaded. Requests queued for too long.
+2026-10-19T22:28:40.1905149Z       at <anonymous> (C:\runner\_work\opencode\opencode\services\update\test\index.test.ts:57:26)
+2026-10-19T22:28:40.1905987Z 
+2026-10-19T22:28:40.1908475Z (pass) returns a retryable 503 when D1 rejects a lookup [1.81ms]
+2026-10-19T22:28:40.1909251Z (pass) reuses D1 reads across lookups for 1 minute [6.04ms]
+2026-10-19T22:28:40.1909797Z (pass) evicts stale and cold entries without clearing hot reads [65.88ms]
+2026-10-19T22:28:40.1911601Z Update lookup failed 113 |   db.insert({ channel: "retry", version: "1.0.0", time: 1, active: true })
+2026-10-19T22:28:40.1913178Z 114 |   const prepare = db.env.DB.prepare
+2026-10-19T22:28:40.1914428Z 115 |   let fail = true
+2026-10-19T22:28:40.1915439Z 116 |   db.env.DB.prepare = ((sql: string) =>
+2026-10-19T22:28:40.1916658Z 117 |     fail
+2026-10-19T22:28:40.1918677Z 118 |       ? { bind: () => ({ first: () => Promise.reject(new Error("overloaded")) }) }
+2026-10-19T22:28:40.1919408Z                                                                ^
+2026-10-19T22:28:40.1920404Z error: overloaded
+2026-10-19T22:28:40.1921315Z       at first (C:\runner\_work\opencode\opencode\services\update\test\index.test.ts:118:58)
+2026-10-19T22:28:40.1922684Z       at cachedRead (C:\runner\_work\opencode\opencode\services\update\src\index.ts:622:17)
+2026-10-19T22:28:40.1923827Z       at lookup (C:\runner\_work\opencode\opencode\services\update\src\index.ts:98:25)
+2026-10-19T22:28:40.1925146Z       at fetch (C:\runner\_work\opencode\opencode\services\update\src\index.ts:85:12)
+2026-10-19T22:28:40.1925621Z       at <anonymous> (C:\runner\_work\opencode\opencode\services\update\test\index.test.ts:121:17)
+2026-10-19T22:28:40.1926949Z 
+2026-10-19T22:28:40.1927383Z (pass) retries D1 on the next lookup after a failed read [5.13ms]
+2026-10-19T22:28:40.1927926Z (pass) selects the minimum and active artifacts from the partial indexes [5.51ms]
+2026-10-19T22:28:40.1928474Z (pass) caches rollout fallback reads across caller IPs and overlapping releases [21.55ms]
+2026-10-19T22:28:40.1929042Z (pass) accepts publish tokens from refs/heads/dev [0.46ms]
+2026-10-19T22:28:40.1929522Z (pass) accepts publish tokens from refs/heads/beta [0.02ms]
+2026-10-19T22:28:40.1930023Z (pass) rejects publish tokens from refs/heads/v2 [0.15ms]
+2026-10-19T22:28:40.1930462Z (pass) rejects publish tokens from refs/heads/ci [0.01ms]
+2026-10-19T22:28:40.1930962Z (pass) rejects publish tokens from refs/heads/fix/npm-native-binary-install [0.03ms]
+2026-10-19T22:28:40.1931413Z (pass) rejects publish tokens from refs/heads/snapshot-otui
+2026-10-19T22:28:40.1931722Z 
+2026-10-19T22:28:40.1931953Z  12 pass
+2026-10-19T22:28:40.1932245Z  0 fail
+2026-10-19T22:28:40.1932551Z  1866 expect() calls
+2026-10-19T22:28:40.1932968Z Ran 12 tests across 1 file. [284.00ms]
+2026-10-19T22:28:40.1933610Z ##[endgroup]
+2026-10-19T22:28:40.9537938Z ##[group]@opencode/ui:test
+2026-10-19T22:28:40.9542408Z cache miss, executing 53f4a5e131b1152c
+2026-10-19T22:28:40.9543768Z $ bun test src --only-failures
+2026-10-19T22:28:40.9544478Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:40.9574287Z 
+2026-10-19T22:28:40.9577223Z  197 pass
+2026-10-19T22:28:40.9579669Z  0 fail
+2026-10-19T22:28:40.9615477Z  932 expect() calls
+2026-10-19T22:28:40.9681945Z Ran 197 tests across 12 files. [712.00ms]
+2026-10-19T22:28:40.9684007Z ##[endgroup]
+2026-10-19T22:28:41.0460735Z ##[group]@opencode/script:test
+2026-10-19T22:28:41.0467757Z cache miss, executing f260bd86b88eef1a
+2026-10-19T22:28:41.0486406Z $ bun test
+2026-10-19T22:28:41.0490978Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:41.0492883Z 
+2026-10-19T22:28:41.0493745Z test\highlights.test.ts:
+2026-10-19T22:28:41.0494783Z (pass) highlights > parses the v2.0.27 release notes [4.10ms]
+2026-10-19T22:28:41.0551365Z (pass) highlights > joins wrapped lines and drops multiple trailing links [0.29ms]
+2026-10-19T22:28:41.0552180Z (pass) highlights > returns nothing without a Highlights section [0.06ms]
+2026-10-19T22:28:41.0555032Z (pass) highlights > reports malformed highlights instead of failing [0.05ms]
+2026-10-19T22:28:41.0555830Z (pass) highlights > limits the number and length of highlights [0.42ms]
+2026-10-19T22:28:41.0556204Z 
+2026-10-19T22:28:41.0556350Z  5 pass
+2026-10-19T22:28:41.0556620Z  0 fail
+2026-10-19T22:28:41.0556922Z  13 expect() calls
+2026-10-19T22:28:41.0557194Z Ran 5 tests across 1 file. [19.00ms]
+2026-10-19T22:28:41.0558357Z ##[endgroup]
+2026-10-19T22:28:42.5152468Z ##[group]@opencode/util:test
+2026-10-19T22:28:42.5164332Z cache miss, executing d8279b4db5153054
+2026-10-19T22:28:42.5165337Z $ bun test --only-failures
+2026-10-19T22:28:42.5166320Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:42.5166496Z 
+2026-10-19T22:28:42.5166621Z  95 pass
+2026-10-19T22:28:42.5167012Z  0 fail
+2026-10-19T22:28:42.5167372Z  227 expect() calls
+2026-10-19T22:28:42.5167735Z Ran 95 tests across 13 files. [1403.00ms]
+2026-10-19T22:28:42.5168743Z ##[endgroup]
+2026-10-19T22:28:42.5538272Z ##[group]@opencode/function:test
+2026-10-19T22:28:42.5539096Z cache miss, executing 3c24d10547468232
+2026-10-19T22:28:42.5541058Z $ bun test
+2026-10-19T22:28:42.5541575Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:42.5550261Z 
+2026-10-19T22:28:42.5554823Z test\github.test.ts:
+2026-10-19T22:28:42.5559615Z (pass) parseRepositoryClaim > reads repository identity with a legacy subject [0.12ms]
+2026-10-19T22:28:42.5560563Z (pass) parseRepositoryClaim > reads repository identity with an immutable subject [0.03ms]
+2026-10-19T22:28:42.5561254Z (pass) parseRepositoryClaim > does not depend on a repository path in a customized subject [0.01ms]
+2026-10-19T22:28:42.5561878Z (pass) parseRepositoryClaim > rejects a missing repository claim [0.06ms]
+2026-10-19T22:28:42.5562429Z (pass) parseRepositoryClaim > rejects an invalid repository claim [0.03ms]
+2026-10-19T22:28:42.5562786Z 
+2026-10-19T22:28:42.5563023Z  5 pass
+2026-10-19T22:28:42.5563407Z  0 fail
+2026-10-19T22:28:42.5563784Z  5 expect() calls
+2026-10-19T22:28:42.5564287Z Ran 5 tests across 1 file. [6.00ms]
+2026-10-19T22:28:42.5565084Z ##[endgroup]
+2026-10-19T22:28:42.7780018Z ##[group]@opencode/schema:test
+2026-10-19T22:28:42.7780663Z cache miss, executing 51b6729c0e8eb118
+2026-10-19T22:28:42.7792454Z $ bun test --only-failures
+2026-10-19T22:28:42.7793200Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:42.7798607Z 
+2026-10-19T22:28:42.7799829Z  69 pass
+2026-10-19T22:28:42.7800272Z  0 fail
+2026-10-19T22:28:42.7800611Z  261 expect() calls
+2026-10-19T22:28:42.7801029Z Ran 69 tests across 16 files. [187.00ms]
+2026-10-19T22:28:42.7801798Z ##[endgroup]
+2026-10-19T22:28:46.2570750Z [;31m@opencode/patchmark:test[;0m
+2026-10-19T22:28:46.2575105Z cache miss, executing d7074b5bad21b598
+2026-10-19T22:28:46.2590075Z $ bun test --only-failures
+2026-10-19T22:28:46.2590774Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:46.2601424Z 
+2026-10-19T22:28:46.2626362Z test\slow-inputs.test.ts:
+2026-10-19T22:28:46.2627096Z 88 |       }
+2026-10-19T22:28:46.2627569Z 89 | 
+2026-10-19T22:28:46.2628051Z 90 |       const done = stream.finalize()
+2026-10-19T22:28:46.2628946Z 91 |       const elapsed = performance.now() - t0
+2026-10-19T22:28:46.2629256Z 92 |       expect(done.blocks.length).toBeGreaterThan(20_000)
+2026-10-19T22:28:46.2629566Z 93 |       expect(elapsed).toBeLessThan(5_000)
+2026-10-19T22:28:46.2629862Z                            ^
+2026-10-19T22:28:46.2630134Z error: expect(received).toBeLessThan(expected)
+2026-10-19T22:28:46.2630323Z 
+2026-10-19T22:28:46.2630463Z Expected: < 5000
+2026-10-19T22:28:46.2630676Z Received: 6317.1757
+2026-10-19T22:28:46.2630801Z 
+2026-10-19T22:28:46.2631027Z       at <anonymous> (C:\runner\_work\opencode\opencode\packages\patchmark\test\slow-inputs.test.ts:93:23)
+2026-10-19T22:28:46.2631575Z (fail) slow-input linear-time bounds > 1 MB reply streamed 1 char at a time stays linear (<5,000ms for 1,048,576 steps) [6318.93ms]
+2026-10-19T22:28:46.2631866Z 
+2026-10-19T22:28:46.2631957Z  21 pass
+2026-10-19T22:28:46.2632166Z  1 fail
+2026-10-19T22:28:46.2632365Z  65293 expect() calls
+2026-10-19T22:28:46.2632589Z Ran 22 tests across 4 files. [8.79s]
+2026-10-19T22:28:46.2632867Z error: script "test" exited with code 1
+2026-10-19T22:28:46.2633398Z ##[group]@opencode/stats-core:test
+2026-10-19T22:28:46.2633646Z cache miss, executing 1789fc72d70fc09e
+2026-10-19T22:28:46.2633993Z ##[endgroup]
+2026-10-19T22:28:46.2635526Z ##[group]@opencode/ai:test
+2026-10-19T22:28:46.2635807Z cache miss, executing 48e38f5980059c10
+2026-10-19T22:28:46.2636203Z ##[endgroup]
+2026-10-19T22:28:46.2636535Z ##[group]@opencode/protocol:test
+2026-10-19T22:28:46.2636805Z cache miss, executing 8289df836e0504dc
+2026-10-19T22:28:46.2637142Z ##[endgroup]
+2026-10-19T22:28:46.8681737Z ##[group]@opencode/desktop:test
+2026-10-19T22:28:46.8682261Z cache bypass, force executing 0a058ce23063a95e
+2026-10-19T22:28:46.8683008Z $ bun test --timeout 30000
+2026-10-19T22:28:46.8683324Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:46.8683446Z 
+2026-10-19T22:28:46.8683604Z electron-builder.config.test.ts:
+2026-10-19T22:28:46.8683859Z (pass) channel identity for dev [0.73ms]
+2026-10-19T22:28:46.8684292Z (pass) channel identity for beta [0.24ms]
+2026-10-19T22:28:46.8684595Z (pass) channel identity for prod [0.15ms]
+2026-10-19T22:28:46.8684905Z (pass) legacy Linux launcher stays hidden [5.04ms]
+2026-10-19T22:28:46.8685198Z (pass) shared packaging defaults [0.70ms]
+2026-10-19T22:28:46.8685637Z (pass) trims external dependencies without excluding runtime files [35.39ms]
+2026-10-19T22:28:46.8687489Z (pass) the trimmed Zip.js package can still export compressed logs [151.93ms]
+2026-10-19T22:28:46.8687947Z 
+2026-10-19T22:28:46.8688087Z electron.vite.config.test.ts:
+2026-10-19T22:28:46.8688435Z (pass) minifies only builds, previews onboarding only in development, and ships sourcemaps and public assets [1.46ms]
+2026-10-19T22:28:46.8688893Z (pass) bundles one Effect runtime and Drizzle while keeping native dependencies external [2477.50ms]
+2026-10-19T22:28:46.8689113Z 
+2026-10-19T22:28:46.8689207Z scripts\beta-notes.test.ts:
+2026-10-19T22:28:46.8689505Z (pass) parses "feat(app): merge projects across servers in the location dialog" [0.54ms]
+2026-10-19T22:28:46.8689972Z (pass) parses "fix(desktop): disable animated wheel scrolling on linux (#57120)" [0.05ms]
+2026-10-19T22:28:46.8690372Z (pass) parses "perf: cache model list"
+2026-10-19T22:28:46.8690600Z (pass) parses "Feat(core)!: drop legacy sessions"
+2026-10-19T22:28:46.8690977Z (pass) parses "fix(app): keep (#1) in the middle of a summary"
+2026-10-19T22:28:46.8691246Z (pass) parses "chore(sdk): regenerate types"
+2026-10-19T22:28:46.8691650Z (pass) parses "refactor(app): split dialog" [0.05ms]
+2026-10-19T22:28:46.8691973Z (pass) parses "docs: update guide"
+2026-10-19T22:28:46.8692163Z (pass) parses "test(app): cover dialog"
+2026-10-19T22:28:46.8692366Z (pass) parses "ci: cache bun"
+2026-10-19T22:28:46.8692575Z (pass) parses "Merge branch 'dev' into beta"
+2026-10-19T22:28:46.8692776Z (pass) parses "fix the thing without a type"
+2026-10-19T22:28:46.8693002Z (pass) parses "fix(app): (#12)" [0.05ms]
+2026-10-19T22:28:46.8693321Z (pass) embeds the build's commit, its history and the notes of its non-merge feat and fix commits [395.83ms]
+2026-10-19T22:28:46.8693637Z (pass) embeds at most the newest 200 commits [170.56ms]
+2026-10-19T22:28:46.8693788Z 
+2026-10-19T22:28:46.8693921Z scripts\picker.test.ts:
+2026-10-19T22:28:46.8694176Z (pass) serves browser-loadable picker scripts with bundled dev = %s [159.25ms]
+2026-10-19T22:28:46.8694511Z (pass) serves browser-loadable picker scripts with bundled dev = %s [227.83ms]
+2026-10-19T22:28:46.8694696Z 
+2026-10-19T22:28:46.8694931Z scripts\windows-installer.test.ts:
+2026-10-19T22:28:46.8695602Z   • downloaded      label=nsis-3.0.4.1.7z progress=100%
+2026-10-19T22:28:46.8695887Z   • downloaded      label=7zip-win-x64.tar.gz progress=100%
+2026-10-19T22:28:46.8696213Z   • downloaded      label=nsis-resources-3.4.1.7z progress=100%
+2026-10-19T22:28:46.8697373Z ##[endgroup]
+2026-10-19T22:28:46.8697759Z ##[group]@opencode/codemode:test
+2026-10-19T22:28:46.8698176Z cache miss, executing 15992c3a8c8e91f5
+2026-10-19T22:28:46.8698365Z $ bun test
+2026-10-19T22:28:46.8698556Z bun test v1.4.2 (744846f84)
+2026-10-19T22:28:46.8698667Z 
+2026-10-19T22:28:46.8698779Z test\array-callbacks-test262.test.ts:
+2026-10-19T22:28:46.8699690Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/map/15.4.4.19-8-1.js [25.26ms]
+2026-10-19T22:28:46.8700498Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/map/15.4.4.19-8-2.js [4.16ms]
+2026-10-19T22:28:46.8701004Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/map/15.4.4.19-8-b-1.js [2.50ms]
+2026-10-19T22:28:46.8701389Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/filter/15.4.4.20-9-1.js [1.70ms]
+2026-10-19T22:28:46.8701765Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/filter/15.4.4.20-9-2.js [2.21ms]
+2026-10-19T22:28:46.8702149Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/filter/15.4.4.20-9-b-1.js [1.70ms]
+2026-10-19T22:28:46.8702560Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/find/predicate-call-parameters.js [2.66ms]
+2026-10-19T22:28:46.8703040Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/find/return-found-value-predicate-result-is-true.js [1.02ms]
+2026-10-19T22:28:46.8703561Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/find/return-undefined-if-predicate-returns-false-value.js [1.03ms]
+2026-10-19T22:28:46.8704062Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/find/predicate-not-called-on-empty-array.js [1.27ms]
+2026-10-19T22:28:46.8704514Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findIndex/predicate-call-parameters.js [1.93ms]
+2026-10-19T22:28:46.8704976Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findIndex/return-index-predicate-result-is-true.js [0.90ms]
+2026-10-19T22:28:46.8705502Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findIndex/return-negative-one-if-predicate-returns-false-value.js [0.98ms]
+2026-10-19T22:28:46.8705996Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLast/predicate-call-parameters.js [8.64ms]
+2026-10-19T22:28:46.8706476Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLast/return-found-value-predicate-result-is-true.js [0.79ms]
+2026-10-19T22:28:46.8707004Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLast/return-undefined-if-predicate-returns-false-value.js [0.56ms]
+2026-10-19T22:28:46.8707616Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLastIndex/predicate-call-parameters.js [1.47ms]
+2026-10-19T22:28:46.8767228Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLastIndex/return-index-predicate-result-is-true.js [1.16ms]
+2026-10-19T22:28:46.8767826Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/findLastIndex/return-negative-one-if-predicate-returns-false-value.js [1.00ms]
+2026-10-19T22:28:46.8768307Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/some/15.4.4.17-7-1.js [1.23ms]
+2026-10-19T22:28:46.8768679Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/some/15.4.4.17-8-1.js [0.48ms]
+2026-10-19T22:28:46.8769090Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/every/15.4.4.16-7-1.js [1.12ms]
+2026-10-19T22:28:46.8769471Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/every/15.4.4.16-8-1.js [0.39ms]
+2026-10-19T22:28:46.8769848Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/forEach/15.4.4.18-7-1.js [0.81ms]
+2026-10-19T22:28:46.8770221Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/forEach/15.4.4.18-7-2.js [0.78ms]
+2026-10-19T22:28:46.8770597Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduce/15.4.4.21-9-1.js [1.28ms]
+2026-10-19T22:28:46.8770968Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduce/15.4.4.21-9-5.js [0.59ms]
+2026-10-19T22:28:46.8771355Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduce/15.4.4.21-9-c-ii-20.js [1.03ms]
+2026-10-19T22:28:46.8772067Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduce/15.4.4.21-10-1.js [0.89ms]
+2026-10-19T22:28:46.8772578Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduceRight/15.4.4.22-9-1.js [1.42ms]
+2026-10-19T22:28:46.8772970Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduceRight/15.4.4.22-9-5.js [0.69ms]
+2026-10-19T22:28:46.8773378Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduceRight/15.4.4.22-9-c-ii-20.js [0.93ms]
+2026-10-19T22:28:46.8773784Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/reduceRight/15.4.4.22-10-1.js [4.16ms]
+2026-10-19T22:28:46.8774179Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/flatMap/depth-always-one.js [2.85ms]
+2026-10-19T22:28:46.8774592Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/flatMap/mapperfunction-throws.js [1.77ms]
+2026-10-19T22:28:46.8774997Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/sort/S15.4.4.11_A1.1_T1.js [1.21ms]
+2026-10-19T22:28:46.8775382Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/sort/S15.4.4.11_A2.1_T1.js [0.61ms]
+2026-10-19T22:28:46.8775778Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/sort/stability-5-elements.js [2.51ms]
+2026-10-19T22:28:46.8776207Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/toSorted/comparefn-controls-sort.js [1.93ms]
+2026-10-19T22:28:46.8776625Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/toSorted/comparefn-default.js [0.67ms]
+2026-10-19T22:28:46.8777015Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/toSorted/immutable.js [0.60ms]
+2026-10-19T22:28:46.8777446Z (pass) Test262 Array callback adaptations > test/built-ins/Array/prototype/toSorted/zero-or-one-element.js [0.65ms]
+2026-10-19T22:28:46.8777833Z (pass) Array callback regressions > reduce and reduceRight find the first present element [0.69ms]
+2026-10-19T22:28:46.8778314Z (pass) Array callback regressions > reduce and reduceRight reject arrays containing only holes [1.44ms]
+2026-10-19T22:28:46.8778686Z (pass) Array callback regressions > findLast returns the value observed before predicate mutation [0.91ms]
+2026-10-19T22:28:46.8778897Z 
+2026-10-19T22:28:46.8779001Z test\array-core-test262.test.ts:
+2026-10-19T22:28:46.8779291Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/includes/samevaluezero.js [0.89ms]
+2026-10-19T22:28:46.8779671Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/includes/using-fromindex.js [0.65ms]
+2026-10-19T22:28:46.8780041Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/join/S15.4.4.5_A3.1_T1.js [0.40ms]
+2026-10-19T22:28:46.8780399Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/join/S15.4.4.5_A3.2_T1.js [0.86ms]
+2026-10-19T22:28:46.8780768Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/slice/S15.4.4.10_A1.2_T2.js [5.40ms]
+2026-10-19T22:28:46.8781132Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/concat/S15.4.4.4_A1_T1.js [0.63ms]
+2026-10-19T22:28:46.8781495Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/concat/S15.4.4.4_A1_T2.js [0.84ms]
+2026-10-19T22:28:46.8781854Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/concat/S15.4.4.4_A1_T3.js [0.73ms]
+2026-10-19T22:28:46.8782248Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/indexOf/fromindex-zero-conversion.js [0.68ms]
+2026-10-19T22:28:46.8782687Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/indexOf/length-zero-returns-minus-one.js [0.41ms]
+2026-10-19T22:28:46.8783123Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/lastIndexOf/fromindex-zero-conversion.js [0.52ms]
+2026-10-19T22:28:46.8783660Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/lastIndexOf/length-zero-returns-minus-one.js [0.44ms]
+2026-10-19T22:28:46.8784133Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/at/returns-item.js [0.57ms]
+2026-10-19T22:28:46.8784518Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/at/returns-item-relative-index.js [0.64ms]
+2026-10-19T22:28:46.8784960Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/at/returns-undefined-for-out-of-range-index.js [0.66ms]
+2026-10-19T22:28:46.8785390Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/flat/null-undefined-elements.js [0.53ms]
+2026-10-19T22:28:46.8785772Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/flat/positive-infinity.js [0.70ms]
+2026-10-19T22:28:46.8786142Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/reverse/S15.4.4.8_A1_T1.js [0.46ms]
+2026-10-19T22:28:46.8786508Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toReversed/immutable.js [0.54ms]
+2026-10-19T22:28:46.8786898Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toReversed/zero-or-one-element.js [0.46ms]
+2026-10-19T22:28:46.8787309Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/with/immutable.js [0.81ms]
+2026-10-19T22:28:46.8787668Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/with/index-negative.js [0.74ms]
+2026-10-19T22:28:46.8788032Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/push/S15.4.4.7_A1_T1.js [0.90ms]
+2026-10-19T22:28:46.8788393Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/pop/S15.4.4.6_A1.1_T1.js [0.55ms]
+2026-10-19T22:28:46.8788758Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/shift/S15.4.4.9_A1.1_T1.js [0.55ms]
+2026-10-19T22:28:46.8789129Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/unshift/S15.4.4.13_A1_T1.js [2.98ms]
+2026-10-19T22:28:46.8789506Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/splice/S15.4.4.12_A1.1_T1.js [0.67ms]
+2026-10-19T22:28:46.8789886Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/splice/S15.4.4.12_A1.2_T1.js [0.48ms]
+2026-10-19T22:28:46.8790272Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/splice/called_with_one_argument.js [0.48ms]
+2026-10-19T22:28:46.8790651Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toSpliced/immutable.js [1.05ms]
+2026-10-19T22:28:46.8791052Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toSpliced/start-and-deleteCount-missing.js [0.71ms]
+2026-10-19T22:28:46.8791519Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toSpliced/start-undefined-and-deleteCount-missing.js [0.41ms]
+2026-10-19T22:28:46.8791989Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toSpliced/start-and-deleteCount-undefineds.js [0.55ms]
+2026-10-19T22:28:46.8792416Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/toSpliced/holes-not-preserved.js [0.68ms]
+2026-10-19T22:28:46.8792840Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/fill/fill-values-custom-start-and-end.js [1.06ms]
+2026-10-19T22:28:46.8793228Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/fill/return-this.js [0.48ms]
+2026-10-19T22:28:46.8793581Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/fill/fill-values.js [0.80ms]
+2026-10-19T22:28:46.8794000Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/copyWithin/non-negative-target-start-and-end.js [0.55ms]
+2026-10-19T22:28:46.8794420Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/copyWithin/return-this.js [0.53ms]
+2026-10-19T22:28:46.8794779Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/keys/iteration.js [0.74ms]
+2026-10-19T22:28:46.8795126Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/values/iteration.js [0.51ms]
+2026-10-19T22:28:46.8796203Z (pass) Test262 Array core adaptations > test/built-ins/Array/prototype/entries/iteration.js [0.79ms]
+2026-10-19T22:28:46.8796620Z (pass) Test262 Array core adaptations > test/built-ins/Array/isArray/15.4.3.2-0-3.js [0.41ms]
+2026-10-19T22:28:46.8796955Z (pass) Test262 Array core adaptations > test/built-ins/Array/isArray/15.4.3.2-0-4.js [0.49ms]
+2026-10-19T22:28:46.8797319Z (pass) Test262 Array core adaptations > test/built-ins/Array/from/from-array.js [0.83ms]
+2026-10-19T22:28:46.8797639Z (pass) Test262 Array core adaptations > test/built-ins/Array/from/from-string.js [3.32ms]
+2026-10-19T22:28:46.8798043Z (pass) Test262 Array core adaptations > test/built-ins/Array/from/array-like-has-length-but-no-indexes-with-values.js [0.94ms]
+2026-10-19T22:28:46.8798570Z (pass) Test262 Array core adaptations > test/built-ins/Array/of/creates-a-new-array-from-arguments.js [0.48ms]
+2026-10-19T22:28:46.8798790Z 
+2026-10-19T22:28:46.8798872Z test\callbacks.test.ts:
+2026-10-19T22:28:46.8799108Z (pass) built-in method references as callbacks > map accepts Math methods [1.16ms]
+2026-10-19T22:28:46.8799518Z (pass) built-in method references as callbacks > map(JSON.stringify) matches JS: the index replacer and array space are ignored [0.61ms]
+2026-10-19T22:28:46.8799954Z (pass) built-in method references as callbacks > map(Number.parseInt) reproduces the JS radix footgun [0.42ms]
+2026-10-19T22:28:46.8800330Z (pass) built-in method references as callbacks > filter and find accept built-in predicates [0.58ms]
+2026-10-19T22:28:46.8800707Z (pass) built-in method references as callbacks > forEach(console.log) captures one log line per element [0.50ms]
+2026-10-19T22:28:46.8801101Z (pass) built-in method references as callbacks > detached method references lose their receiver, like JS [1.51ms]
+2026-10-19T22:28:46.8801478Z (pass) built-in method references as callbacks > promise reactions accept built-in references [6.60ms]
+2026-10-19T22:28:46.8801868Z (pass) constructors callable without new, like JS > Error constructors work as callbacks and direct calls [1.02ms]
+2026-10-19T22:28:46.8802288Z (pass) constructors callable without new, like JS > error values stringify like JS Error.prototype.toString [3.28ms]
+2026-10-19T22:28:46.8802666Z (pass) constructors callable without new, like JS > literal elisions are real holes, like JS [4.95ms]
+2026-10-19T22:28:46.8803034Z (pass) constructors callable without new, like JS > Array constructs from arguments or a length [31.72ms]
+2026-10-19T22:28:46.8803444Z (pass) constructors callable without new, like JS > Object returns objects unchanged and rejects primitive wrappers [2.33ms]
+2026-10-19T22:28:46.8803899Z (pass) constructors callable without new, like JS > Date() without new returns a deterministic ISO string and ignores arguments [3.22ms]
+2026-10-19T22:28:46.8804308Z (pass) constructors callable without new, like JS > map(Array) matches the JS 3-argument call [1.12ms]
+2026-10-19T22:28:46.8804762Z (pass) constructors callable without new, like JS > array length is bounded below the JS maximum, so one call cannot materialize an unbounded array [19.08ms]
+2026-10-19T22:28:46.8805256Z (pass) constructors callable without new, like JS > returned sparse arrays normalize holes to null at the host boundary [0.94ms]
+2026-10-19T22:28:46.8805684Z (pass) constructors callable without new, like JS > RegExp with non-string flags throws a SyntaxError, like JS [0.97ms]
+2026-10-19T22:28:46.8806102Z (pass) constructors callable without new, like JS > new-requiring constructors throw a TypeError when called [3.25ms]
+2026-10-19T22:28:46.8806512Z (pass) sort accepts the unified callback set > sort preserves trailing holes while toSorted densifies them [2.35ms]
+2026-10-19T22:28:46.8806939Z (pass) sort accepts the unified callback set > sort writes its snapshot without discarding comparator length mutations [2.41ms]
+2026-10-19T22:28:46.8807360Z (pass) sort accepts the unified callback set > sort and toSorted take built-in comparators [1.39ms]
+2026-10-19T22:28:46.8807782Z (pass) sort accepts the unified callback set > a non-callable comparator is rejected [1.35ms]
+2026-10-19T22:28:46.8808537Z (pass) Array.from mapper > maps with (value, index) over arrays, strings, and Sets [3.97ms]
+2026-10-19T22:28:46.8808871Z (pass) Array.from mapper > accepts coercion builtins and an explicit undefined mapper [1.72ms]
+2026-10-19T22:28:46.8809170Z (pass) Array.from mapper > rejects a non-callable mapper [1.10ms]
+2026-10-19T22:28:46.8809509Z (pass) thisArg is accepted and ignored, like JS arrows > iteration methods and Array.from ignore a thisArg [3.47ms]
+2026-10-19T22:28:46.8809919Z (pass) thisArg is accepted and ignored, like JS arrows > Map, Set, and URLSearchParams forEach ignore a thisArg [7.23ms]
+2026-10-19T22:28:46.8810326Z (pass) still-rejected callables get the wrap hint > tool references as callbacks suggest an arrow wrapper [6.84ms]
+2026-10-19T22:28:46.8810743Z (pass) still-rejected callables get the wrap hint > detached Promise statics as callbacks suggest an arrow wrapper [0.67ms]
+2026-10-19T22:28:46.8811205Z (pass) still-rejected callables get the wrap hint > string replacers reject opaque callables with the wrap hint, not a type error [0.62ms]
+2026-10-19T22:28:46.8811618Z (pass) still-rejected callables get the wrap hint > built-in references work as replacers [1.26ms]
+2026-10-19T22:28:46.8811991Z (pass) still-rejected callables get the wrap hint > non-callables still get the plain callback error [0.56ms]
+2026-10-19T22:28:46.8812396Z (pass) still-rejected callables get the wrap hint > promise handlers reject opaque callables with the wrap hint [0.47ms]
+2026-10-19T22:28:46.8812794Z (pass) still-rejected callables get the wrap hint > JSON callbacks use the unified callback gate [1.88ms]
+2026-10-19T22:28:46.8813172Z (pass) still-rejected callables get the wrap hint > non-callable JSON callback arguments are ignored [1.48ms]
+2026-10-19T22:28:46.8813386Z 
+2026-10-19T22:28:46.8813464Z test\codemode.test.ts:
+2026-10-19T22:28:46.8813692Z (pass) CodeMode host failure boundary > preserves explicit tool failures [1.89ms]
+2026-10-19T22:28:46.8814001Z (pass) CodeMode host failure boundary > does not rewrite explicit tool failures [1.26ms]
+2026-10-19T22:28:46.8814363Z (pass) CodeMode host failure boundary > reports failures, defects, rejected Promises, and nested causes [3.86ms]
+2026-10-19T22:28:46.8814696Z (pass) CodeMode host failure boundary > reports invalid host output [1.29ms]
+2026-10-19T22:28:46.8814994Z (pass) CodeMode host failure boundary > reports host output copying errors [0.72ms]
+2026-10-19T22:28:46.8815318Z (pass) CodeMode host failure boundary > caught tool failures are Error values in-program [0.98ms]
+2026-10-19T22:28:46.8815694Z (pass) CodeMode host failure boundary > propagates host interruption instead of returning a diagnostic [0.76ms]
+2026-10-19T22:28:46.8816060Z (pass) CodeMode call hooks > surround the tools actually invoked, with decoded input [2.16ms]
+2026-10-19T22:28:46.8816464Z (pass) CodeMode call hooks > surround each call to an extension global, with its arguments, but not functions inside results [2.38ms]
+2026-10-19T22:28:46.8816885Z (pass) CodeMode call hooks > a failing before hook denies the call; the program catches the host's error [3.55ms]
+2026-10-19T22:28:46.8817332Z (pass) CodeMode call hooks > see a tool defect as the failure the program gets, and an interrupted extension call [1.57ms]
+2026-10-19T22:28:46.8817659Z (pass) CodeMode call hooks > observes interrupted calls [0.79ms]
+2026-10-19T22:28:46.8817947Z (pass) CodeMode call hooks > observes running calls interrupted during completion [0.78ms]
+2026-10-19T22:28:46.8818366Z (pass) CodeMode call hooks > observes calls interrupted by the execution timeout [12.86ms]
+2026-10-19T22:28:46.8818697Z (pass) CodeMode console capture > captures console output as bounded result logs [2.74ms]
+2026-10-19T22:28:46.8818999Z (pass) CodeMode console capture > keeps logs captured before failures [0.99ms]
+2026-10-19T22:28:46.8819409Z (pass) CodeMode console capture > prints NaN and Infinity literally instead of the JSON null [0.89ms]
+2026-10-19T22:28:46.8819819Z (pass) CodeMode console capture > renders CodeMode values nested inside logged containers [1.53ms]
+2026-10-19T22:28:46.8820215Z (pass) CodeMode console capture > console formatting is total: cycles and opaque references render as markers [1.71ms]
+2026-10-19T22:28:46.8820576Z (pass) CodeMode console capture > console.table renders CodeMode value cells [1.38ms]
+2026-10-19T22:28:46.8820885Z (pass) CodeMode console capture > captures console.dir and console.table output [1.02ms]
+2026-10-19T22:28:46.8821201Z (pass) CodeMode output budget > absent maxOutputBytes means no truncation at all [6.15ms]
+2026-10-19T22:28:46.8821553Z (pass) CodeMode output budget > truncates an oversized result value with a marker instead of failing [0.94ms]
+2026-10-19T22:28:46.8821924Z (pass) CodeMode output budget > keeps leading logs within the remaining budget and marks the cut [0.43ms]
+2026-10-19T22:28:46.8822250Z (pass) CodeMode output budget > does not mark results within the budget [0.38ms]
+2026-10-19T22:28:46.8822580Z (pass) CodeMode schema flexibility > accepts render-only JSON Schema input and omitted output [1.01ms]
+2026-10-19T22:28:46.8822950Z (pass) CodeMode schema flexibility > outbound tool arguments follow JSON serialization semantics [0.74ms]
+2026-10-19T22:28:46.8823363Z (pass) CodeMode schema flexibility > dropping undefined values lets optionalKey schemas accept conditional arguments [3.30ms]
+2026-10-19T22:28:46.8823750Z (pass) CodeMode schema flexibility > renders JSON Schema outputs and $defs references [1.08ms]
+2026-10-19T22:28:46.8824129Z (pass) CodeMode schema flexibility > Effect Schema output without an input transform renders void when omitted [0.97ms]
+2026-10-19T22:28:46.8824501Z (pass) CodeMode public contract > keeps one-shot and reusable execution equivalent [1.24ms]
+2026-10-19T22:28:46.8824831Z (pass) CodeMode public contract > a reused execution Effect starts from a clean slate [1.20ms]
+2026-10-19T22:28:46.8825193Z (pass) CodeMode public contract > describes the catalog and keeps the search built-in registered [0.92ms]
+2026-10-19T22:28:46.8825598Z (pass) CodeMode public contract > renders equivalent catalogs identically regardless of tool insertion order [0.81ms]
+2026-10-19T22:28:46.8826012Z (pass) CodeMode public contract > renders bracket notation for tool names that are not JavaScript identifiers [1.55ms]
+2026-10-19T22:28:46.8826409Z (pass) CodeMode public contract > uses one ranked search returning complete tools for large catalogs [1.36ms]
+2026-10-19T22:28:46.8826802Z (pass) CodeMode public contract > search is a counted tool call: it burns maxToolCalls and is observed [10.08ms]
+2026-10-19T22:28:46.8827204Z (pass) CodeMode public contract > search is an opaque, shadowable global like other built-ins [1.69ms]
+2026-10-19T22:28:46.8827562Z (pass) CodeMode public contract > search defaults to 10 results and resolves exact tool paths [9.53ms]
+2026-10-19T22:28:46.8827926Z (pass) CodeMode public contract > scopes search to one namespace and browses it alphabetically [2.52ms]
+2026-10-19T22:28:46.8828290Z (pass) CodeMode public contract > matches input parameter names and partial-word substrings [1.25ms]
+2026-10-19T22:28:46.8828665Z (pass) CodeMode public contract > a query term that is a whole word of the path outranks a substring of it [1.19ms]
+2026-10-19T22:28:46.8829024Z (pass) CodeMode public contract > a plural query term matches singular-only tool text [4.70ms]
+2026-10-19T22:28:46.8829359Z (pass) CodeMode public contract > empty query lists everything alphabetically by path [1.57ms]
+2026-10-19T22:28:46.8829707Z (pass) CodeMode public contract > decodes tool input and output before exposing either side [6.54ms]
+2026-10-19T22:28:46.8830127Z (pass) CodeMode public contract > returns JSON-safe data: undefined vanishes as in JSON.stringify, and a bare undefined is null [1.27ms]
+2026-10-19T22:28:46.8830549Z (pass) CodeMode public contract > returns the final top-level expression when return is omitted [0.48ms]
+2026-10-19T22:28:46.8830981Z (pass) CodeMode public contract > does not implicitly return expressions nested in control flow [0.27ms]
+2026-10-19T22:28:46.8831409Z (pass) CodeMode public contract > returns null when the final top-level statement is not an expression [0.35ms]
+2026-10-19T22:28:46.8831767Z (pass) CodeMode public contract > rejects invalid configuration and search limits [2.64ms]
+2026-10-19T22:28:46.8832086Z (pass) CodeMode public contract > enforces the tool-call limit as a diagnostic [0.66ms]
+2026-10-19T22:28:46.8832452Z (pass) CodeMode public contract > timeoutMs and maxToolCalls have no defaults: absent means unlimited [11.09ms]
+2026-10-19T22:28:46.8832839Z (pass) CodeMode public contract > the timeout interrupts a busy loop without any operation budget [206.97ms]
+2026-10-19T22:28:46.8833048Z 
+2026-10-19T22:28:46.8833146Z test\constructor-test262.test.ts:
+2026-10-19T22:28:46.8833393Z (pass) constructor Test262 parity > test/built-ins/RegExp/S15.10.7_A3_T1.js [0.99ms]
+2026-10-19T22:28:46.8833696Z (pass) constructor Test262 parity > test/built-ins/RegExp/S15.10.7_A3_T2.js [0.64ms]
+2026-10-19T22:28:46.8833999Z (pass) constructor Test262 parity > test/built-ins/Object/S15.2.2.1_A1_T1.js [0.47ms]
+2026-10-19T22:28:46.8834316Z (pass) constructor Test262 parity > every built-in reports itself for its own values [1.29ms]
+2026-10-19T22:28:46.8834504Z 
+2026-10-19T22:28:46.8834586Z test\date-test262.test.ts:
+2026-10-19T22:28:46.8834867Z (pass) Date setter Test262 parity > UTC setters mutate every supported component and return the new time [1.91ms]
+2026-10-19T22:28:46.8835226Z (pass) Date setter Test262 parity > local setters mutate every supported component [4.83ms]
+2026-10-19T22:28:46.8835562Z (pass) Date setter Test262 parity > setter arguments use numeric coercion in source order [0.72ms]
+2026-10-19T22:28:46.8835902Z (pass) Date setter Test262 parity > setters snapshot the Date before coercing arguments [0.66ms]
+2026-10-19T22:28:46.8836230Z (pass) Date setter Test262 parity > setFullYear recovers an invalid local Date [0.49ms]
+2026-10-19T22:28:46.8836592Z (pass) Date setter Test262 parity > abrupt argument coercion stops later coercion and preserves the Date [0.86ms]
+2026-10-19T22:28:46.8837038Z (pass) Date setter Test262 parity > omitted arguments, explicit undefined, extra arguments, and TimeClip match native behavior [0.67ms]
+2026-10-19T22:28:46.8837498Z (pass) Date default primitive Test262 parity > addition and loose equality use the Date string primitive [0.65ms]
+2026-10-19T22:28:46.8837710Z 
+2026-10-19T22:28:46.8837789Z test\enumeration.test.ts:
+2026-10-19T22:28:46.8838062Z (pass) Object.keys over tool references > enumerates top-level namespaces (the transcript program) [0.87ms]
+2026-10-19T22:28:46.8838516Z (pass) Object.keys over tool references > enumerates tool names at a nested namespace [0.40ms]
+2026-10-19T22:28:46.8838860Z (pass) Object.keys over tool references > a callable tool is a leaf and enumerates as [] [0.32ms]
+2026-10-19T22:28:46.8839183Z (pass) Object.keys over tool references > search is a global built-in function [0.24ms]
+2026-10-19T22:28:46.8839514Z (pass) Object.keys over tool references > an unknown namespace is an UnknownTool error [0.35ms]
+2026-10-19T22:28:46.8839896Z (pass) Object.keys over tool references > Object.values/entries on a tool reference explain the working idioms [0.88ms]
+2026-10-19T22:28:46.8840233Z (pass) Object.keys over arrays > returns index strings, like JS [0.47ms]
+2026-10-19T22:28:46.8840511Z (pass) Object.keys over arrays > objects keep their own enumerable keys [0.25ms]
+2026-10-19T22:28:46.8840866Z (pass) Object.keys over arrays > non-object inputs follow ToObject, and nullish inputs name what was received [5.34ms]
+2026-10-19T22:28:46.8841235Z (pass) for...in > iterates own enumerable keys of a plain object with break/continue [1.11ms]
+2026-10-19T22:28:46.8841509Z (pass) for...in > iterates index strings over arrays [0.48ms]
+2026-10-19T22:28:46.8841760Z (pass) for...in > supports let declarations and bare identifiers [0.94ms]
+2026-10-19T22:28:46.8842119Z (pass) for...in > enumerates namespaces and tools from the supplied tools [1.91ms]
+2026-10-19T22:28:46.8842511Z (pass) for...in > non-object values enumerate like JS: strings by index, everything else nothing [1.07ms]
+2026-10-19T22:28:46.8842712Z 
+2026-10-19T22:28:46.8842786Z test\errors.test.ts:
+2026-10-19T22:28:46.8842975Z (pass) source syntax > rejects TypeScript-only syntax [0.29ms]
+2026-10-19T22:28:46.8843273Z (pass) error identity > Error.isError is true for every Error value and nothing else [0.72ms]
+2026-10-19T22:28:46.8843620Z (pass) error identity > awaiting the same rejected promise twice yields the same error object [0.96ms]
+2026-10-19T22:28:46.8843954Z (pass) error identity > allSettled reasons for the same failure are identical [1.17ms]
+2026-10-19T22:28:46.8844269Z (pass) error identity > Promise.any collects the same object a direct catch would [0.96ms]
+2026-10-19T22:28:46.8844597Z (pass) rethrown interpreter failures > keep their diagnostic kind and source location [0.42ms]
+2026-10-19T22:28:46.8844939Z (pass) rethrown interpreter failures > keep their location through a rejection handler [0.82ms]
+2026-10-19T22:28:46.8845246Z (pass) uncaught program throws > an Error reports as name: message [0.33ms]
+2026-10-19T22:28:46.8845516Z (pass) uncaught program throws > a custom name is honored [0.38ms]
+2026-10-19T22:28:46.8845795Z (pass) uncaught program throws > non-Error values keep the Uncaught prefix [0.60ms]
+2026-10-19T22:28:46.8846088Z (pass) source locations > uses the submitted line and 1-based column [0.46ms]
+2026-10-19T22:28:46.8846401Z (pass) source locations > names a missing method on a call instead of the previous line [1.96ms]
+2026-10-19T22:28:46.8846725Z (pass) host errors escaping built-ins > become the same-named program error [0.56ms]
+2026-10-19T22:28:46.8847051Z (pass) host errors escaping built-ins > report the location of the call that raised them [0.69ms]
+2026-10-19T22:28:46.8847488Z (pass) host errors escaping built-ins > a built-in that rejects its arguments before doing any work is located at the call [0.36ms]
+2026-10-19T22:28:46.8847952Z (pass) host errors escaping built-ins > a rejection born inside a promise the built-in created is located at the creating call [2.27ms]
+2026-10-19T22:28:46.8848417Z (pass) host errors escaping built-ins > an un-awaited rejection born inside promise machinery keeps its location in the warning [0.64ms]
+2026-10-19T22:28:46.8848880Z (pass) host errors escaping built-ins > a failure inside a built-in called by another built-in is located at the outer call [0.64ms]
+2026-10-19T22:28:46.8849255Z (pass) call depth > runaway recursion fails fast with a catchable RangeError [86.69ms]
+2026-10-19T22:28:46.8849552Z (pass) call depth > uncaught overflow reports the call that overflowed [86.29ms]
+2026-10-19T22:28:46.8849813Z (pass) call depth > the limit is 10000 nested calls [270.76ms]
+2026-10-19T22:28:46.8850073Z (pass) call depth > recursion through a built-in callback counts [119.19ms]
+2026-10-19T22:28:46.8850373Z (pass) call depth > an await resets the depth, so long async chains are fine [94.79ms]
+2026-10-19T22:28:46.8850708Z (pass) call depth > an async function that recurses before its first await overflows like JS [149.34ms]
+2026-10-19T22:28:46.8850906Z 
+2026-10-19T22:28:46.8850981Z test\extensions.test.ts:
+2026-10-19T22:28:46.8851227Z (pass) extension functions > a global is callable, awaitable, and not constructible [2.81ms]
+2026-10-19T22:28:46.8851572Z (pass) extension functions > a function inside a result is callable and crosses the same way [1.65ms]
+2026-10-19T22:28:46.8851927Z (pass) extension functions > a function inside a result is named by its path in diagnostics [1.57ms]
+2026-10-19T22:28:46.8852290Z (pass) extension functions > a function is invisible to the data boundary like any program function [1.28ms]
+2026-10-19T22:28:46.8852674Z (pass) extension functions > a class global is only a function; calling it throws the host TypeError [1.36ms]
+2026-10-19T22:28:46.8853159Z (pass) values are converted at the boundary, never shared > plain data passed in is a copy the program cannot change afterwards [11.67ms]
+2026-10-19T22:28:46.8853665Z (pass) values are converted at the boundary, never shared > plain data returned is a copy; program writes never reach the host [1.37ms]
+2026-10-19T22:28:46.8854106Z (pass) values are converted at the boundary, never shared > the same host value returned twice is two program values [1.64ms]
+2026-10-19T22:28:46.8854520Z (pass) values are converted at the boundary, never shared > Map and Set contents are converted element-wise [2.04ms]
+2026-10-19T22:28:46.8854915Z (pass) values are converted at the boundary, never shared > Headers cross as copies in both directions [1.61ms]
+2026-10-19T22:28:46.8855359Z (pass) values are converted at the boundary, never shared > bytes cross as copies in both directions; ArrayBuffer comes in as Uint8Array [1.90ms]
+2026-10-19T22:28:46.8855800Z (pass) values are converted at the boundary, never shared > a __proto__ key never reaches the host object [0.62ms]
+2026-10-19T22:28:46.8856253Z (pass) values are converted at the boundary, never shared > a program Error crosses as a host Error with its name, message, cause, and own data [1.54ms]
+2026-10-19T22:28:46.8856719Z (pass) values are converted at the boundary, never shared > an Error with an unknown name crosses as a plain Error [1.21ms]
+2026-10-19T22:28:46.8857177Z (pass) values are converted at the boundary, never shared > functions, promises, iterators, and symbols cannot be passed in [1.61ms]
+2026-10-19T22:28:46.8857608Z (pass) values are converted at the boundary, never shared > only interpreter primitives come out [1.40ms]
+2026-10-19T22:28:46.8858060Z (pass) values are converted at the boundary, never shared > a value that cannot come out carries a location like any built-in error, sync or async [8.02ms]
+2026-10-19T22:28:46.8858572Z (pass) values are converted at the boundary, never shared > a class instance cannot come out [4.01ms]
+2026-10-19T22:28:46.8858908Z (pass) host errors > a synchronous throw becomes the matching program error [1.13ms]
+2026-10-19T22:28:46.8859264Z (pass) host errors > a host Error arrives with its cause and own data; what cannot cross is left behind [1.42ms]
+2026-10-19T22:28:46.8859672Z (pass) host errors > a thrown or rejected value crosses like a return, so the program catches what was thrown [2.78ms]
+2026-10-19T22:28:46.8860002Z (pass) configuration > extension calls are not tool calls [1.31ms]
+2026-10-19T22:28:46.8860271Z (pass) configuration > a result handed to a tool is plain data [1.84ms]
+2026-10-19T22:28:46.8860523Z (pass) configuration > a global must be a function [3.48ms]
+2026-10-19T22:28:46.8860799Z (pass) configuration > a global may not shadow a built-in or another extension [0.35ms]
+2026-10-19T22:28:46.8860979Z 
+2026-10-19T22:28:46.8861069Z test\for-await-test262.test.ts:
+2026-10-19T22:28:46.8861354Z (pass) Test262 for-await-of adaptations > awaits promise and plain values from a synchronous array [3.26ms]
+2026-10-19T22:28:46.8861744Z (pass) Test262 for-await-of adaptations > defers the body even for an already-resolved or plain value [1.06ms]
+2026-10-19T22:28:46.8862120Z (pass) Test262 for-await-of adaptations > an awaited rejection exits through normal try/catch [3.23ms]
+2026-10-19T22:28:46.8862480Z (pass) Test262 for-await-of adaptations > destructures after resolving each yielded value [0.85ms]
+2026-10-19T22:28:46.8862798Z (pass) Test262 for-await-of adaptations > supports assignment targets [0.60ms]
+2026-10-19T22:28:46.8863119Z (pass) Test262 for-await-of adaptations > preserves fresh lexical bindings per iteration [2.03ms]
+2026-10-19T22:28:46.8863466Z (pass) Test262 for-await-of adaptations > supports every existing collection iterable [1.53ms]
+2026-10-19T22:28:46.8863809Z (pass) Test262 for-await-of adaptations > preserves labeled break and continue behavior [1.53ms]
+2026-10-19T22:28:46.8864151Z (pass) Test262 for-await-of adaptations > drives a custom async iterator sequentially [1.84ms]
+2026-10-19T22:28:46.8864582Z (pass) Test262 for-await-of adaptations > leaves async iterator values under the iterator's control [0.90ms]
+2026-10-19T22:28:46.8865034Z (pass) Test262 for-await-of adaptations > awaits synchronous results from an async iterator before the body [1.09ms]
+2026-10-19T22:28:46.8865402Z (pass) Test262 for-await-of adaptations > falls back to a custom synchronous iterator [0.99ms]
+2026-10-19T22:28:46.8865770Z (pass) Test262 for-await-of adaptations > adopts terminal and close values from synchronous iterators [1.07ms]
+2026-10-19T22:28:46.8866148Z (pass) Test262 for-await-of adaptations > captures the next method when acquiring the iterator [0.72ms]
+2026-10-19T22:28:46.8866531Z (pass) Test262 for-await-of adaptations > captures synchronous iterator result fields before suspending [0.66ms]
+2026-10-19T22:28:46.8866938Z (pass) Test262 for-await-of adaptations > preserves the async close turn for a sync iterator without return [0.57ms]
+2026-10-19T22:28:46.8867331Z (pass) Test262 for-await-of adaptations > defers synchronous iterator protocol errors [1.76ms]
+2026-10-19T22:28:46.8867687Z (pass) Test262 for-await-of adaptations > prefers Symbol.asyncIterator over Symbol.iterator [1.10ms]
+2026-10-19T22:28:46.8868047Z (pass) Test262 for-await-of adaptations > closes a custom iterator on abrupt loop completion [0.73ms]
+2026-10-19T22:28:46.8868398Z (pass) Test262 for-await-of adaptations > treats a null iterator return method as absent [0.76ms]
+2026-10-19T22:28:46.8868772Z (pass) Test262 for-await-of adaptations > a non-callable return method replaces break with TypeError [0.82ms]
+2026-10-19T22:28:46.8869145Z (pass) Test262 for-await-of adaptations > a body throw wins over a non-callable return method [0.67ms]
+2026-10-19T22:28:46.8869498Z (pass) Test262 for-await-of adaptations > rejects a primitive iterator return result [0.60ms]
+2026-10-19T22:28:46.8869835Z (pass) Test262 for-await-of adaptations > propagates iterator acquisition failures [0.68ms]
+2026-10-19T22:28:46.8870208Z (pass) Test262 for-await-of adaptations > rejects malformed iterator acquisition methods and results [1.02ms]
+2026-10-19T22:28:46.8870593Z (pass) Test262 for-await-of adaptations > preserves iterator protocol keys through object copies [1.06ms]
+2026-10-19T22:28:46.8870949Z (pass) Test262 for-await-of adaptations > rejects malformed iterator protocol results [0.69ms]
+2026-10-19T22:28:46.8871307Z (pass) Test262 for-await-of adaptations > rejects objects without an iterator protocol method [0.52ms]
+2026-10-19T22:28:46.8871508Z 
+2026-10-19T22:28:46.8871596Z test\generator-test262.test.ts:
+2026-10-19T22:28:46.8871870Z (pass) confined generators > parameters are bound at the call; only the body waits for next() [3.01ms]
+2026-10-19T22:28:46.8872251Z (pass) confined generators > is lazy and preserves next(value), nested suspension, return, and exhaustion [1.11ms]
+2026-10-19T22:28:46.8872607Z (pass) confined generators > routes throw and return through catch and finally [0.87ms]
+2026-10-19T22:28:46.8872938Z (pass) confined generators > throws into a suspended generator and after exhaustion [0.78ms]
+2026-10-19T22:28:46.8873247Z (pass) confined generators > rejects synchronous generator reentry [0.56ms]
+2026-10-19T22:28:46.8873615Z (pass) confined generators > delegates yield*, forwards next values, and receives the delegate return value [1.24ms]
+2026-10-19T22:28:46.8873968Z (pass) confined generators > delegates throw and return to custom iterators [1.05ms]
+2026-10-19T22:28:46.8874307Z (pass) confined generators > uses the missing-throw delegation path for built-in iterables [1.10ms]
+2026-10-19T22:28:46.8874677Z (pass) confined generators > exposes only the appropriate iterator symbol and works in for...of [1.69ms]
+2026-10-19T22:28:46.8875040Z (pass) confined generators > accepts generator methods as iterator acquisition results [1.91ms]
+2026-10-19T22:28:46.8875370Z (pass) confined generators > closes a generator when for...of exits abruptly [1.86ms]
+2026-10-19T22:28:46.8875781Z (pass) confined generators > async generator requests are promises and execute in request order [2.39ms]
+2026-10-19T22:28:46.8876218Z (pass) confined generators > keeps requests queued while a completed generator adopts return values [3.43ms]
+2026-10-19T22:28:46.8876582Z (pass) confined generators > serializes requests made after async generator exhaustion [3.13ms]
+2026-10-19T22:28:46.8876954Z (pass) confined generators > async generators adopt yielded, returned, and return-request promises [1.50ms]
+2026-10-19T22:28:46.8877348Z (pass) confined generators > awaits return-request promises before injecting completion [2.38ms]
+2026-10-19T22:28:46.8877689Z (pass) confined generators > loop consumers call iterator next with no arguments [0.97ms]
+2026-10-19T22:28:46.8878050Z (pass) confined generators > supports async generators in for await...of and keeps them out of for...of [2.05ms]
+2026-10-19T22:28:46.8878505Z (pass) confined generators > a returned generator serializes as {} like JSON.stringify [1.51ms]
+2026-10-19T22:28:46.8878884Z (pass) confined generators > honors sync return and throw in suspended-start and completed states [1.15ms]
+2026-10-19T22:28:46.8879262Z (pass) confined generators > honors async return and throw in suspended-start and completed states [1.30ms]
+2026-10-19T22:28:46.8879636Z (pass) confined generators > runs finally yields and lets finally completions override requests [3.05ms]
+2026-10-19T22:28:46.8880038Z (pass) confined generators > rejects yielded promises and closes direct and sync-delegating async generators [0.97ms]
+2026-10-19T22:28:46.8880415Z (pass) confined generators > closes sync iterators when async-from-sync values reject [9.65ms]
+2026-10-19T22:28:46.8880764Z (pass) confined generators > does not close rejected terminal or delegated return values [6.82ms]
+2026-10-19T22:28:46.8881132Z (pass) confined generators > serializes a mixed async next, throw, return, and next request queue [2.72ms]
+2026-10-19T22:28:46.8881500Z (pass) confined generators > orders async requests enqueued while generators are executing [2.24ms]
+2026-10-19T22:28:46.8881884Z (pass) confined generators > preserves async iterator promise values but unwraps async-from-sync values [1.83ms]
+2026-10-19T22:28:46.8882319Z (pass) confined generators > captures delegated result done before awaiting async-from-sync values [3.97ms]
+2026-10-19T22:28:46.8882711Z (pass) confined generators > forwards next, return, and throw through sync and async yield delegates [3.46ms]
+2026-10-19T22:28:46.8883079Z (pass) confined generators > continues delegation when return and throw report done false [1.53ms]
+2026-10-19T22:28:46.8883440Z (pass) confined generators > rejects malformed yield delegate methods and iterator results [1.29ms]
+2026-10-19T22:28:46.8883838Z (pass) confined generators > supports declaration, expression, and method forms with closures and parameters [1.05ms]
+2026-10-19T22:28:46.8884256Z (pass) confined generators > steps holes and rest and closes array binding and assignment patterns early [2.17ms]
+2026-10-19T22:28:46.8884680Z (pass) confined generators > closes on destructuring defaults and preserves the binding error over return failure [1.01ms]
+2026-10-19T22:28:46.8885088Z (pass) confined generators > does not close an exhausted iterator when a destructuring default fails [1.02ms]
+2026-10-19T22:28:46.8885497Z (pass) confined generators > consumes generators in array and argument spread without awaiting yielded promises [0.97ms]
+2026-10-19T22:28:46.8885886Z (pass) confined generators > constructs Map, Set, and URLSearchParams from generators lazily [2.18ms]
+2026-10-19T22:28:46.8886245Z (pass) confined generators > keeps built-in collection iteration live during callbacks [1.58ms]
+2026-10-19T22:28:46.8886622Z (pass) confined generators > keeps built-in collection iteration live in loops and yield delegation [1.38ms]
+2026-10-19T22:28:46.8887016Z (pass) confined generators > preserves async-from-sync turns for built-in loop completion and close [0.81ms]
+2026-10-19T22:28:46.8887375Z (pass) confined generators > reads iterator return only when closing [0.72ms]
+2026-10-19T22:28:46.8888221Z (pass) confined generators > accepts iterable URLSearchParams entry pairs [0.69ms]
+2026-10-19T22:28:46.8888809Z (pass) confined generators > coerces URLSearchParams pair elements like JS and closes both generators [1.26ms]
+2026-10-19T22:28:46.8889211Z (pass) confined generators > validates URLSearchParams pair lengths after converting the outer sequence [0.88ms]
+2026-10-19T22:28:46.8889604Z (pass) confined generators > closes entry constructors when a generator yields a malformed entry [1.02ms]
+2026-10-19T22:28:46.8889977Z (pass) confined generators > interleaves Array.from mapping and closes when its mapper fails [1.40ms]
+2026-10-19T22:28:46.8890341Z (pass) confined generators > reads array-like Array.from values immediately before mapping [1.33ms]
+2026-10-19T22:28:46.8890743Z (pass) confined generators > interleaves Object.groupBy and Map.groupBy callbacks and closes on callback failure [1.82ms]
+2026-10-19T22:28:46.8891156Z (pass) confined generators > consumes Promise combinator generators in order and observes rejections [2.54ms]
+2026-10-19T22:28:46.8891567Z (pass) confined generators > finishes Promise combinator iterator consumption before returning the promise [1.14ms]
+2026-10-19T22:28:46.8891981Z (pass) confined generators > closes Object.fromEntries on malformed entries and consumes valid generators [1.08ms]
+2026-10-19T22:28:46.8892408Z (pass) confined generators > consumes AggregateError and Math.sumPrecise generators and closes on invalid numbers [1.20ms]
+2026-10-19T22:28:46.8892806Z (pass) confined generators > rejects async generators in every synchronous iterable consumer [2.13ms]
+2026-10-19T22:28:46.8893187Z (pass) confined generators > does not close when iterator acquisition or next-result validation fails [1.40ms]
+2026-10-19T22:28:46.8893571Z (pass) confined generators > reports synchronous iterator failures before queued promise reactions [1.37ms]
+2026-10-19T22:28:46.8894008Z (pass) confined generators > a generator's return() through for...of or destructuring surfaces a failing close, as break does [2.63ms]
+2026-10-19T22:28:46.8894256Z 
+2026-10-19T22:28:46.8894340Z test\groupby-test262.test.ts:
+2026-10-19T22:28:46.8894590Z (pass) Object.groupBy Test262 parity > groups values by coerced property keys [1.65ms]
+2026-10-19T22:28:46.8894920Z (pass) Object.groupBy Test262 parity > passes each value and index to the callback [1.04ms]
+2026-10-19T22:28:46.8895239Z (pass) Object.groupBy Test262 parity > supports strings and empty collections [1.03ms]
+2026-10-19T22:28:46.8895620Z (pass) Object.groupBy Test262 parity > rejects invalid inputs and propagates callback and key-coercion failures [1.12ms]
+2026-10-19T22:28:46.8896166Z (pass) Map.groupBy Test262 parity > returns a Map with identity-preserving groups [1.05ms]
+2026-10-19T22:28:46.8896517Z (pass) Map.groupBy Test262 parity > normalizes negative zero and passes each value and index [0.84ms]
+2026-10-19T22:28:46.8896848Z (pass) Map.groupBy Test262 parity > supports strings and empty collections [0.64ms]
+2026-10-19T22:28:46.8897245Z (pass) Map.groupBy Test262 parity > rejects invalid inputs and propagates callback failures [0.86ms]
+2026-10-19T22:28:46.8897447Z 
+2026-10-19T22:28:46.8897547Z test\json-callbacks-test262.test.ts:
+2026-10-19T22:28:46.8897842Z (pass) Test262 JSON.parse reviver adaptations > test/built-ins/JSON/parse/reviver-call-order.js [0.91ms]
+2026-10-19T22:28:46.8898270Z (pass) Test262 JSON.parse reviver adaptations > deletes properties and array elements when the reviver returns undefined [1.49ms]
+2026-10-19T22:28:46.8898662Z (pass) Test262 JSON.parse reviver adaptations > replaces the root and may delete it [0.96ms]
+2026-10-19T22:28:46.8899022Z (pass) Test262 JSON.parse reviver adaptations > test/built-ins/JSON/parse/reviver-call-err.js [0.42ms]
+2026-10-19T22:28:46.8899441Z (pass) Test262 JSON.stringify replacer adaptations > array replacers filter keys in their own order and apply recursively [1.12ms]
+2026-10-19T22:28:46.8899948Z (pass) Test262 JSON.stringify replacer adaptations > array replacers deduplicate and coerce number primitives [0.76ms]
+2026-10-19T22:28:46.8900416Z (pass) Test262 JSON.stringify replacer adaptations > array replacers ignore unsupported entry types [0.65ms]
+2026-10-19T22:28:46.8900854Z (pass) Test262 JSON.stringify replacer adaptations > function replacers receive keys and values in preorder including the root [0.66ms]
+2026-10-19T22:28:46.8901348Z (pass) Test262 JSON.stringify replacer adaptations > test/built-ins/JSON/stringify/replacer-function-object-deleted-property.js [0.65ms]
+2026-10-19T22:28:46.8901833Z (pass) Test262 JSON.stringify replacer adaptations > test/built-ins/JSON/stringify/replacer-function-object-circular.js [0.75ms]
+2026-10-19T22:28:46.8902297Z (pass) Test262 JSON.stringify replacer adaptations > test/built-ins/JSON/stringify/replacer-function-array-circular.js [0.56ms]
+2026-10-19T22:28:46.8902756Z (pass) Test262 JSON.stringify replacer adaptations > repeated objects outside the active ancestor chain are not circular [0.45ms]
+2026-10-19T22:28:46.8903222Z (pass) Test262 JSON.stringify replacer adaptations > function replacers replace values and map undefined to omission or null [3.10ms]
+2026-10-19T22:28:46.8903667Z (pass) Test262 JSON.stringify replacer adaptations > callable replacer results follow JSON omission semantics [0.85ms]
+2026-10-19T22:28:46.8904099Z (pass) Test262 JSON.stringify replacer adaptations > built-in toJSON conversion runs before the function replacer [1.00ms]
+2026-10-19T22:28:46.8904533Z (pass) Test262 JSON.stringify replacer adaptations > test/built-ins/JSON/stringify/replacer-function-abrupt.js [0.62ms]
+2026-10-19T22:28:46.8904920Z (pass) CodeMode JSON callback boundaries > revivers and replacers see the holder as this [1.06ms]
+2026-10-19T22:28:46.8905300Z (pass) CodeMode JSON callback boundaries > prototype-named keys parse as own data and reach the reviver [0.84ms]
+2026-10-19T22:28:46.8905682Z (pass) CodeMode JSON callback boundaries > JSON.stringify serializes prototype-named own keys [0.63ms]
+2026-10-19T22:28:46.8905883Z 
+2026-10-19T22:28:46.8905981Z test\labeled-control-test262.test.ts:
+2026-10-19T22:28:46.8906253Z (pass) Test262 labeled break adaptations > break exits the matching labeled statement [0.67ms]
+2026-10-19T22:28:46.8906643Z (pass) Test262 labeled break adaptations > break crosses nested loops and switches without being consumed early [8.53ms]
+2026-10-19T22:28:46.8907014Z (pass) Test262 labeled break adaptations > break targets every supported loop form [1.47ms]
+2026-10-19T22:28:46.8907393Z (pass) Test262 labeled break adaptations > nested labels consume only their matching break [0.44ms]
+2026-10-19T22:28:46.8907742Z (pass) Test262 labeled continue adaptations > continue targets its labeled for loop [0.45ms]
+2026-10-19T22:28:46.8908118Z (pass) Test262 labeled continue adaptations > continue escapes an inner loop for the targeted outer loop [0.50ms]
+2026-10-19T22:28:46.8908517Z (pass) Test262 labeled continue adaptations > multiple labels can target the same iteration statement [0.34ms]
+2026-10-19T22:28:46.8908907Z (pass) Test262 labeled continue adaptations > labeled continue works for every supported loop form [0.74ms]
+2026-10-19T22:28:46.8909305Z (pass) Test262 labeled continue adaptations > labeled continues preserve per-iteration lexical bindings [0.56ms]
+2026-10-19T22:28:46.8909694Z (pass) Test262 labeled continue adaptations > finally completions override labeled loop control [0.43ms]
+2026-10-19T22:28:46.8910093Z (pass) Test262 labeled continue adaptations > a label on a non-iteration statement is not a continue target [0.17ms]
+2026-10-19T22:28:46.8910312Z 
+2026-10-19T22:28:46.8910417Z test\lexical-test262.test.ts:
+2026-10-19T22:28:46.8910710Z (pass) Test262 lexical temporal dead zones > program and block bindings exist before initialization [3.46ms]
+2026-10-19T22:28:46.8911105Z (pass) Test262 lexical temporal dead zones > self-initialization and closure assignment observe the TDZ [0.92ms]
+2026-10-19T22:28:46.8911546Z (pass) Test262 lexical temporal dead zones > for-of and for-in bound names are in the head TDZ [0.51ms]
+2026-10-19T22:28:46.8911972Z (pass) Test262 lexical loop environments > classic for creates fresh single and multiple bindings [0.82ms]
+2026-10-19T22:28:46.8912325Z (pass) Test262 lexical loop environments > for-of and for-in create fresh bindings [0.72ms]
+2026-10-19T22:28:46.8912702Z (pass) Test262 lexical loop environments > classic for separates declaration and per-iteration environments [0.42ms]
+2026-10-19T22:28:46.8913126Z (pass) Test262 switch and parameter environments > switch creates its lexical environment after the discriminant [0.36ms]
+2026-10-19T22:28:46.8913566Z (pass) Test262 switch and parameter environments > all switch cases share one lexical environment that closes afterward [0.47ms]
+2026-10-19T22:28:46.8914015Z (pass) Test262 switch and parameter environments > parameter defaults see prior bindings but not self or later bindings [0.45ms]
+2026-10-19T22:28:46.8914254Z 
+2026-10-19T22:28:46.8914328Z test\limits.test.ts:
+2026-10-19T22:28:46.8914636Z (pass) one built-in cannot build an unbounded value > strings: repeat, pad, concat, join, +, template, JSON.stringify [47.45ms]
+2026-10-19T22:28:46.8915063Z (pass) one built-in cannot build an unbounded value > arrays: constructor, length, Array.from, concat, flat [311.55ms]
+2026-10-19T22:28:46.8915511Z (pass) one built-in cannot build an unbounded value > promises: too many pending at once, while settled ones do not count [631.62ms]
+2026-10-19T22:28:46.8915748Z 
+2026-10-19T22:28:46.8915837Z test\new-expression.test.ts:
+2026-10-19T22:28:46.8916230Z (pass) new on a non-constructible callee > built-in functions without construction point at the plain call [4.41ms]
+2026-10-19T22:28:46.8916603Z (pass) new on a non-constructible callee > non-callable values are not constructors [2.07ms]
+2026-10-19T22:28:46.8916949Z (pass) new on a non-constructible callee > user-defined functions explain the documented gap [2.41ms]
+2026-10-19T22:28:46.8917324Z (pass) new on a non-constructible callee > the failure is a catchable TypeError [0.83ms]
+2026-10-19T22:28:46.8917682Z (pass) new on a non-constructible callee > an undeclared callee still fails as an unknown identifier [0.96ms]
+2026-10-19T22:28:46.8918024Z (pass) new on a non-constructible callee > classes remain unsupported syntax [0.91ms]
+2026-10-19T22:28:46.8918196Z 
+2026-10-19T22:28:46.8918296Z test\object-coercion-test262.test.ts:
+2026-10-19T22:28:46.8918609Z (pass) Object.keys Test262 parity > test/built-ins/Object/keys/15.2.3.14-1-{1,2,3}.js: primitives are coerced [18.00ms]
+2026-10-19T22:28:46.8919042Z (pass) Object.keys Test262 parity > test/built-ins/Object/keys/15.2.3.14-1-{4,5}.js: null and undefined throw TypeError [2.70ms]
+2026-10-19T22:28:46.8919468Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/entries/primitive-strings.js [0.86ms]
+2026-10-19T22:28:46.8919885Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/entries/primitive-numbers.js [0.64ms]
+2026-10-19T22:28:46.8920301Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/entries/primitive-booleans.js [0.57ms]
+2026-10-19T22:28:46.8920716Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/values/primitive-strings.js [0.75ms]
+2026-10-19T22:28:46.8921123Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/values/primitive-numbers.js [0.84ms]
+2026-10-19T22:28:46.8921527Z (pass) Object.entries and Object.values Test262 parity > test/built-ins/Object/values/primitive-booleans.js [0.81ms]
+2026-10-19T22:28:46.8921920Z (pass) Object.hasOwn Test262 parity > test/built-ins/Object/hasOwn/toobject_{null,undefined}.js [1.17ms]
+2026-10-19T22:28:46.8922280Z (pass) Object.hasOwn Test262 parity > test/built-ins/Object/hasOwn/hasown_nonexistent.js [0.62ms]
+2026-10-19T22:28:46.8922621Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/Source-String.js [0.60ms]
+2026-10-19T22:28:46.8923028Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/Source-Null-Undefined.js [0.47ms]
+2026-10-19T22:28:46.8923430Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/target-Array.js [0.68ms]
+2026-10-19T22:28:46.8923760Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/target-Array.js [0.78ms]
+2026-10-19T22:28:46.8924104Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/Target-{Null,Undefined}.js [0.77ms]
+2026-10-19T22:28:46.8924450Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/Target-Object.js [0.39ms]
+2026-10-19T22:28:46.8924771Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/Override.js [0.51ms]
+2026-10-19T22:28:46.8925135Z (pass) Object.assign Test262 parity > test/built-ins/Object/assign/ObjectOverride-sameproperty.js [0.36ms]
+2026-10-19T22:28:46.8925350Z 
+2026-10-19T22:28:46.8925424Z test\openapi.test.ts:
+2026-10-19T22:28:46.8925685Z (pass) OpenAPI.fromSpec > covers a representative API from generation through execution [31.69ms]
+2026-10-19T22:28:46.8926057Z (pass) OpenAPI.fromSpec > generates supported operations and reports unsupported transports [4.81ms]
+2026-10-19T22:28:46.8926419Z (pass) OpenAPI.fromSpec > preserves operation path sanitization and collision handling [0.35ms]
+2026-10-19T22:28:46.8926807Z (pass) OpenAPI.fromSpec > does not reserve names for unsupported operations between duplicate operation IDs [0.44ms]
+2026-10-19T22:28:46.8927200Z (pass) OpenAPI.fromSpec > synthesizes flat operation IDs from methods and paths [0.58ms]
+2026-10-19T22:28:46.8927541Z (pass) OpenAPI.fromSpec > lets operation parameters override matching path parameters [0.24ms]
+2026-10-19T22:28:46.8927856Z (pass) OpenAPI.fromSpec > normalizes OpenAPI 3.0 schemas with Effect [0.90ms]
+2026-10-19T22:28:46.8928190Z (pass) OpenAPI.fromSpec > preserves schema-local definitions alongside component definitions [0.24ms]
+2026-10-19T22:28:46.8941772Z ##[error]@opencode/patchmark#test: command (C:\runner\_work\opencode\opencode\packages\patchmark) C:\Users\runneradmin\.bun\bin\bun.exe run test exited (1)
+2026-10-19T22:28:46.8946241Z  ERROR  @opencode/patchmark#test: command (C:\runner\_work\opencode\opencode\packages\patchmark) C:\Users\runneradmin\.bun\bin\bun.exe run test exited (1)
+2026-10-19T22:28:46.8946610Z  ERROR  run failed: command  exited (1)
+2026-10-19T22:28:46.8946912Z (pass) OpenAPI.fromSpec > projects read-only and write-only properties by schema direction [2.10ms]
+2026-10-19T22:28:46.8947362Z (pass) OpenAPI.fromSpec > projects directional annotations through local refs and allOf composition [0.40ms]
+2026-10-19T22:28:46.8947718Z (pass) OpenAPI.fromSpec > honors declarations that are siblings of a $ref [0.29ms]
+2026-10-19T22:28:46.8948063Z (pass) OpenAPI.fromSpec > honors directional declarations on intermediate reference hops [0.28ms]
+2026-10-19T22:28:46.8948405Z (pass) OpenAPI.fromSpec > projects cyclic component references without hanging [0.27ms]
+2026-10-19T22:28:46.8948736Z (pass) OpenAPI.fromSpec > projects diamond-shaped reference graphs in linear time [2.81ms]
+2026-10-19T22:28:46.8949111Z (pass) OpenAPI.fromSpec > resolves hiding through reference cycles regardless of evaluation order [0.50ms]
+2026-10-19T22:28:46.8949462Z (pass) OpenAPI.fromSpec > keeps not, if, and contains subschemas unprojected [0.47ms]
+2026-10-19T22:28:46.8949853Z (pass) OpenAPI.fromSpec > does not hide properties whose direction is declared only in anyOf or oneOf alternatives [1.06ms]
+2026-10-19T22:28:46.8950259Z (pass) OpenAPI.fromSpec > does not misresolve shadowed local $defs when flattening body fields [0.28ms]
+2026-10-19T22:28:46.8950616Z (pass) OpenAPI.fromSpec > projects directional annotations inside parameter schemas [0.76ms]
+2026-10-19T22:28:46.8950935Z (pass) OpenAPI.fromSpec > ignores inherited directional annotations [0.31ms]
+2026-10-19T22:28:46.8951229Z (pass) OpenAPI.fromSpec > cleans required properties across allOf branches [0.34ms]
+2026-10-19T22:28:46.8951759Z (pass) OpenAPI.fromSpec > keeps directional schemas model-facing while preserving runtime pass-through [1.83ms]
+2026-10-19T22:28:46.8952195Z (pass) OpenAPI.fromSpec > exposes generated operations through CodeMode discovery [3.42ms]
+2026-10-19T22:28:46.8952527Z (pass) OpenAPI.fromSpec > serializes supported simple and form parameter shapes [2.31ms]
+2026-10-19T22:28:46.8952867Z (pass) OpenAPI.fromSpec > preserves ordered exploded and deep-object query parameters [1.22ms]
+2026-10-19T22:28:46.8953218Z (pass) OpenAPI.fromSpec > skips unsupported parameter encodings and malformed security [0.51ms]
+2026-10-19T22:28:46.8953564Z (pass) OpenAPI.fromSpec > fails closed on prototype-named missing security schemes [0.20ms]
+2026-10-19T22:28:46.8953903Z (pass) OpenAPI.fromSpec > resolves bearer authentication without exposing it as input [0.90ms]
+2026-10-19T22:28:46.8954268Z (pass) OpenAPI.fromSpec > applies authentication carriers without prototype or collision loss [1.20ms]
+2026-10-19T22:28:46.8954628Z (pass) OpenAPI.fromSpec > honors server precedence and rejects ambiguous base URLs [0.87ms]
+2026-10-19T22:28:46.8954995Z (pass) OpenAPI.fromSpec > resolves chained response refs before detecting unsupported transports [0.12ms]
+2026-10-19T22:28:46.8955353Z (pass) OpenAPI.fromSpec > resolves response schemas before detecting binary output [0.11ms]
+2026-10-19T22:28:46.8955672Z (pass) OpenAPI.fromSpec > validates composite parameters before resolving auth [0.33ms]
+2026-10-19T22:28:46.8956001Z (pass) OpenAPI.fromSpec > preserves JSON media types and rejects unencodable bodies [1.82ms]
+2026-10-19T22:28:46.8956474Z (pass) OpenAPI.fromSpec > rejects oversized and malformed JSON responses [69.44ms]
+2026-10-19T22:28:46.8956805Z (pass) OpenAPI.fromSpec > keeps non-JSON responses raw and unions every success output [2.16ms]
+2026-10-19T22:28:46.8957157Z (pass) OpenAPI.fromSpec > fails missing required parameters before auth and network [12.10ms]
+2026-10-19T22:28:46.8957550Z (pass) OpenAPI.fromSpec > prefixes cross-location collisions and reconstructs the HTTP request [3.08ms]
+2026-10-19T22:28:46.8957917Z (pass) OpenAPI.fromSpec > keeps bodies nested when flattening would lose schema semantics [0.50ms]
+2026-10-19T22:28:46.8958121Z 
+2026-10-19T22:28:46.8958201Z test\parity.test.ts:
+2026-10-19T22:28:46.8958498Z (pass) H2: string property access reads as undefined (not a throw) > unknown property on a string is undefined [0.96ms]
+2026-10-19T22:28:46.8958937Z (pass) H2: string property access reads as undefined (not a throw) > optional chaining + fallback on a string does not throw [0.43ms]
+2026-10-19T22:28:46.8959432Z (pass) H2: string property access reads as undefined (not a throw) > the real MCP pattern: result is a JSON string, defensive read falls through [0.37ms]
+2026-10-19T22:28:46.8959885Z (pass) H2: string property access reads as undefined (not a throw) > unknown property on a number is undefined [0.28ms]
+2026-10-19T22:28:46.8960307Z (pass) H2: string property access reads as undefined (not a throw) > only canonical string index keys access characters [0.41ms]
+2026-10-19T22:28:46.8960722Z (pass) H3: array property access reads as undefined (not a throw) > unknown property on an array is undefined [0.55ms]
+2026-10-19T22:28:46.8961129Z (pass) H3: array property access reads as undefined (not a throw) > optional chaining on an array does not throw [0.29ms]
+2026-10-19T22:28:46.8961597Z (pass) H3: array property access reads as undefined (not a throw) > unknown property reads stay undefined for methods CodeMode does not implement [0.24ms]
+2026-10-19T22:28:46.8962027Z (pass) H3: array property access reads as undefined (not a throw) > array indexing still works [0.41ms]
+2026-10-19T22:28:46.8962420Z (pass) H3: array property access reads as undefined (not a throw) > only canonical array index keys access elements [0.30ms]
+2026-10-19T22:28:46.8962875Z (pass) H3: array property access reads as undefined (not a throw) > noncanonical keys are ordinary properties that never alias an element [0.39ms]
+2026-10-19T22:28:46.8963411Z (pass) H3: array property access reads as undefined (not a throw) > the maximum array length is a property, not an index [0.31ms]
+2026-10-19T22:28:46.8963844Z (pass) H6: object spread of null/undefined is a no-op > spreading null is a no-op [0.34ms]
+2026-10-19T22:28:46.8964204Z (pass) H6: object spread of null/undefined is a no-op > spreading an absent argument merges cleanly [0.41ms]
+2026-10-19T22:28:46.8964565Z (pass) H6: object spread of null/undefined is a no-op > spreading a real object still works [0.31ms]
+2026-10-19T22:28:46.8964973Z (pass) H6: object spread of null/undefined is a no-op > spreading an array or string into an object copies index keys, like JS [0.76ms]
+2026-10-19T22:28:46.8965389Z (pass) H4: typeof on an undeclared identifier is 'undefined' > feature-detection guard does not throw [0.26ms]
+2026-10-19T22:28:46.8965781Z (pass) H4: typeof on an undeclared identifier is 'undefined' > typeof of a declared binding is unaffected [0.45ms]
+2026-10-19T22:28:46.8966221Z (pass) H4: typeof on an undeclared identifier is 'undefined' > referencing an undeclared identifier outside typeof still throws [0.39ms]
+2026-10-19T22:28:46.8966643Z (pass) CodeMode lexical scope integration > keeps self, cross, and destructuring defaults in the TDZ [0.52ms]
+2026-10-19T22:28:46.8967024Z (pass) CodeMode lexical scope integration > keeps typeof and constant assignment inside the TDZ [0.47ms]
+2026-10-19T22:28:46.8967425Z (pass) CodeMode lexical scope integration > shadows builtins from the start of the program scope [0.33ms]
+2026-10-19T22:28:46.8967797Z (pass) CodeMode lexical scope integration > keeps classic for initializers inside the header TDZ [0.34ms]
+2026-10-19T22:28:46.8968185Z (pass) CodeMode lexical scope integration > removes loop scopes when per-iteration initialization fails [0.38ms]
+2026-10-19T22:28:46.8968514Z (pass) unary void > evaluates its operand and returns undefined [1.61ms]
+2026-10-19T22:28:46.8968756Z (pass) unary void > discards opaque values [0.35ms]
+2026-10-19T22:28:46.8969055Z (pass) property deletion > deletes plain object fields and reports missing fields as successful [0.41ms]
+2026-10-19T22:28:46.8969466Z (pass) property deletion > a non-reference operand is evaluated and the result is true; a variable cannot be deleted [0.50ms]
+2026-10-19T22:28:46.8969844Z (pass) property deletion > evaluates computed object and key expressions once [0.48ms]
+2026-10-19T22:28:46.8970192Z (pass) property deletion > deleting an array index creates a hole without changing its length [0.44ms]
+2026-10-19T22:28:46.8970497Z (pass) property deletion > array length is not configurable [0.34ms]
+2026-10-19T22:28:46.8970827Z (pass) property deletion > arrays accept named properties like JS, and they stay out of the JSON form [0.40ms]
+2026-10-19T22:28:46.8971202Z (pass) property deletion > optional deletion short-circuits without evaluating the key [0.27ms]
+2026-10-19T22:28:46.8971530Z (pass) property deletion > rejects deletion from opaque runtime references [0.27ms]
+2026-10-19T22:28:46.8971842Z (pass) property deletion > prototype-named keys delete like any own data key [0.54ms]
+2026-10-19T22:28:46.8972283Z (pass) H1: NaN/Infinity flow as intermediates and normalize to null at the boundary > guards run instead of the program crashing on a transient NaN [1.08ms]
+2026-10-19T22:28:46.8972805Z (pass) H1: NaN/Infinity flow as intermediates and normalize to null at the boundary > a non-finite value becomes null when it leaves CodeMode [0.90ms]
+2026-10-19T22:28:46.8973337Z (pass) H1: NaN/Infinity flow as intermediates and normalize to null at the boundary > NaN and Infinity are usable identifiers and inspectable in-CodeMode [1.30ms]
+2026-10-19T22:28:46.8973891Z (pass) H1: NaN/Infinity flow as intermediates and normalize to null at the boundary > the boundary normalizes non-finite numbers to null like JSON.stringify [0.39ms]
+2026-10-19T22:28:46.8974293Z (pass) undefined at the boundary > vanishes like JSON.stringify [0.67ms]
+2026-10-19T22:28:46.8974606Z (pass) Error values and instanceof > new Error carries name/message and is instanceof Error [0.33ms]
+2026-10-19T22:28:46.8974999Z (pass) Error values and instanceof > Error without new behaves like new Error [0.47ms]
+2026-10-19T22:28:46.8975425Z (pass) Error values and instanceof > specific error types are instanceof themselves and Error, not each other [0.55ms]
+2026-10-19T22:28:46.8975880Z (pass) Error values and instanceof > new Error(message, { cause }) installs a non-enumerable cause only when the option is present [2.43ms]
+2026-10-19T22:28:46.8976280Z (pass) Error values and instanceof > thrown errors keep instanceof through try/catch [0.55ms]
+2026-10-19T22:28:46.8976728Z (pass) Error values and instanceof > interpreter runtime failures are caught as Error values [0.69ms]
+2026-10-19T22:28:46.8977135Z (pass) Error values and instanceof > caught failures carry the constructor name the real-JS failure would have [2.49ms]
+2026-10-19T22:28:46.8977573Z (pass) Error values and instanceof > interpreter failures are TypeErrors; unsupported syntax is a SyntaxError [1.17ms]
+2026-10-19T22:28:46.8977996Z (pass) Error values and instanceof > errors inherit constructor and instanceof through a real prototype chain [0.61ms]
+2026-10-19T22:28:46.8978381Z (pass) Error values and instanceof > Promise.allSettled rejection reasons are Error values [0.46ms]
+2026-10-19T22:28:46.8978732Z (pass) Error values and instanceof > non-error thrown values are not instanceof Error [0.57ms]
+2026-10-19T22:28:46.8979053Z (pass) Error values and instanceof > plain data is never instanceof Error [0.32ms]
+2026-10-19T22:28:46.8979406Z (pass) Error values and instanceof > errors serialize as { name, message } by brand; neither is enumerable [0.93ms]
+2026-10-19T22:28:46.8979800Z (pass) Error values and instanceof > spreading an error loses the brand, like losing the prototype in JS [0.54ms]
+2026-10-19T22:28:46.8980224Z (pass) Error values and instanceof > typeof Error is function; an unknown instanceof right-hand side is a catchable error [0.85ms]
+2026-10-19T22:28:46.8980638Z (pass) CodeMode-specific array behavior > sort with a comparator mutates and returns the receiver [0.52ms]
+2026-10-19T22:28:46.8980992Z (pass) CodeMode-specific array behavior > splice can replace and insert elements [0.54ms]
+2026-10-19T22:28:46.8981340Z (pass) CodeMode-specific array behavior > splice rejects inserting a container into itself [0.45ms]
+2026-10-19T22:28:46.8981727Z (pass) CodeMode-specific array behavior > indexOf and lastIndexOf with no argument search for undefined [0.64ms]
+2026-10-19T22:28:46.8982148Z (pass) CodeMode-specific array behavior > keys/values/entries return iterators usable with for...of and spread [1.08ms]
+2026-10-19T22:28:46.8982532Z (pass) CodeMode-specific string behavior > localeCompare orders strings for sorting [0.37ms]
+2026-10-19T22:28:46.8982893Z (pass) CodeMode-specific string behavior > an invalid normalize form is a clear catchable error [0.32ms]
+2026-10-19T22:28:46.8983270Z (pass) CodeMode-specific string behavior > exposes the Annex B string aliases every engine ships [0.26ms]
+2026-10-19T22:28:46.8983684Z (pass) compound assignment matches its binary operator > CodeMode Date += concatenates its string form, like d = d + 1 [0.73ms]
+2026-10-19T22:28:46.8984121Z (pass) compound assignment matches its binary operator > CodeMode Date numeric compound ops use its time value [1.05ms]
+2026-10-19T22:28:46.8984519Z (pass) compound assignment matches its binary operator > string += object/array matches x = x + obj [1.16ms]
+2026-10-19T22:28:46.8984947Z (pass) compound assignment matches its binary operator > compound assignment through a member target coerces the same way [0.62ms]
+2026-10-19T22:28:46.8985427Z (pass) compound assignment matches its binary operator > numeric and string compound operators sweep identically to their expansions [6.05ms]
+2026-10-19T22:28:46.8985864Z (pass) H5: builtin coercion functions work as array callbacks > filter(Boolean) drops falsy values [0.49ms]
+2026-10-19T22:28:46.8986233Z (pass) H5: builtin coercion functions work as array callbacks > map(String) coerces each element [0.35ms]
+2026-10-19T22:28:46.8986686Z (pass) H5: builtin coercion functions work as array callbacks > a non-callable callback is still rejected [0.38ms]
+2026-10-19T22:28:46.8987136Z (pass) for...of assignment destructuring > assigns entry pairs into predeclared variables [0.70ms]
+2026-10-19T22:28:46.8987526Z (pass) for...of assignment destructuring > assigns object patterns and defaults [0.61ms]
+2026-10-19T22:28:46.8987855Z (pass) sequence expressions > evaluate left to right and return the final value [0.40ms]
+2026-10-19T22:28:46.8988171Z (pass) sequence expressions > support comma-separated for-loop updates [0.42ms]
+2026-10-19T22:28:46.8988508Z (pass) destructuring assignment > assigns object and array patterns to existing bindings [0.44ms]
+2026-10-19T22:28:46.8988865Z (pass) destructuring assignment > supports defaults, nesting, rest, and member targets [0.67ms]
+2026-10-19T22:28:46.8989170Z (pass) destructuring assignment > returns the assigned value [0.33ms]
+2026-10-19T22:28:46.8989494Z (pass) destructuring assignment > supports computed object keys and evaluates them once [0.49ms]
+2026-10-19T22:28:46.8989899Z (pass) destructuring assignment > supports object patterns over arrays; detached methods lose their receiver like JS [0.72ms]
+2026-10-19T22:28:46.8990292Z (pass) destructuring assignment > preserves exact computed property names on arrays [0.55ms]
+2026-10-19T22:28:46.8990667Z (pass) destructuring assignment > supports array patterns over strings, Maps, Sets, and URLSearchParams [0.82ms]
+2026-10-19T22:28:46.8991050Z (pass) destructuring assignment > supports iterable patterns in assignment and parameters [16.75ms]
+2026-10-19T22:28:46.8991397Z (pass) destructuring assignment > excludes computed numeric keys from object rest [1.27ms]
+2026-10-19T22:28:46.8991754Z (pass) destructuring assignment > computed keys of any type become their string form, as in JS [1.11ms]
+2026-10-19T22:28:46.8992197Z (pass) coercion parity: zero-argument coercion functions > Number() is 0 and String() is empty, unlike their undefined-argument forms [1.02ms]
+2026-10-19T22:28:46.8992663Z (pass) coercion parity: zero-argument coercion functions > parseInt() and parseFloat() stay NaN with no argument [0.45ms]
+2026-10-19T22:28:46.8993101Z (pass) coercion parity: global isFinite and isNaN > coerce their argument like native JS, unlike the Number statics [1.01ms]
+2026-10-19T22:28:46.8993484Z (pass) coercion parity: global isFinite and isNaN > zero-argument forms match native [0.36ms]
+2026-10-19T22:28:46.8993801Z (pass) coercion parity: global isFinite and isNaN > read as functions [0.41ms]
+2026-10-19T22:28:46.8994101Z (pass) coercion parity: global isFinite and isNaN > work as array callbacks [0.43ms]
+2026-10-19T22:28:46.8994458Z (pass) coercion parity: built-in arguments coerce as in JS > numeric arguments apply ToIntegerOrInfinity [1.73ms]
+2026-10-19T22:28:46.8994896Z (pass) coercion parity: built-in arguments coerce as in JS > join separators, JSON.parse text, and Array.from length coerce [0.99ms]
+2026-10-19T22:28:46.8995405Z (pass) coercion parity: arrays coerce to numbers through their string form > arrays with objects become NaN instead of crashing on host ToPrimitive [0.88ms]
+2026-10-19T22:28:46.8995923Z (pass) coercion parity: arrays coerce to numbers through their string form > single-element and empty arrays match native Number() [0.66ms]
+2026-10-19T22:28:46.8996368Z (pass) coercion parity: String method arguments coerce like native JS > includes and indexOf coerce numbers [0.57ms]
+2026-10-19T22:28:46.8996897Z (pass) coercion parity: String method arguments coerce like native JS > slice, repeat, and padStart coerce numeric strings [0.61ms]
+2026-10-19T22:28:46.8997384Z (pass) coercion parity: String method arguments coerce like native JS > split coerces separators but treats undefined as absent [1.05ms]
+2026-10-19T22:28:46.8997838Z (pass) coercion parity: String method arguments coerce like native JS > replace coerces search and replacement values [0.48ms]
+2026-10-19T22:28:46.8998354Z (pass) coercion parity: String method arguments coerce like native JS > repeat rejections carry the native RangeError name [0.35ms]
+2026-10-19T22:28:46.8998916Z (pass) coercion parity: String method arguments coerce like native JS > includes, startsWith, and endsWith reject regular expressions with a TypeError [0.80ms]
+2026-10-19T22:28:46.8999417Z (pass) coercion parity: String method arguments coerce like native JS > opaque runtime references still reject as data errors [0.50ms]
+2026-10-19T22:28:46.8999842Z (pass) coercion parity: match() and search() with no argument > behave as an empty pattern like native JS [2.30ms]
+2026-10-19T22:28:46.9000245Z (pass) coercion parity: ++ and -- use CodeMode numeric coercion > numeric strings increment like native JS [3.25ms]
+2026-10-19T22:28:46.9000642Z (pass) coercion parity: ++ and -- use CodeMode numeric coercion > dates increment through their epoch time [0.31ms]
+2026-10-19T22:28:46.9001059Z (pass) coercion parity: ++ and -- use CodeMode numeric coercion > plain data objects become NaN instead of crashing [0.56ms]
+2026-10-19T22:28:46.9001494Z (pass) coercion parity: ++ and -- use CodeMode numeric coercion > opaque runtime references reject with a clear error [0.27ms]
+2026-10-19T22:28:46.9001949Z (pass) coercion parity: unknown static members read as undefined > feature detection on missing statics works like native JS [1.69ms]
+2026-10-19T22:28:46.9002372Z (pass) coercion parity: unknown static members read as undefined > known statics still resolve and run [2.18ms]
+2026-10-19T22:28:46.9002805Z (pass) coercion parity: unknown static members read as undefined > calling an unknown static reports a native-style TypeError [1.35ms]
+2026-10-19T22:28:46.9003253Z (pass) coercion parity: unknown static members read as undefined > built-ins are objects on a real prototype chain [0.36ms]
+2026-10-19T22:28:46.9003653Z (pass) async function line breaks > a line break between function and the name is an async function [0.34ms]
+2026-10-19T22:28:46.9004029Z (pass) async function line breaks > a line break between async and function is not an async function [0.23ms]
+2026-10-19T22:28:46.9004409Z (pass) functions are objects > name follows NamedEvaluation and length counts required parameters [0.56ms]
+2026-10-19T22:28:46.9004783Z (pass) functions are objects > functions hold own properties; name and length are read-only [0.98ms]
+2026-10-19T22:28:46.9005171Z (pass) tagged templates > the tag receives the cooked strings, their raw forms, and the substitutions in order [1.13ms]
+2026-10-19T22:28:46.9005548Z (pass) tagged templates > an invalid escape cooks to undefined and keeps its raw text [0.57ms]
+2026-10-19T22:28:46.9005882Z (pass) tagged templates > each site has one template object; different sites differ [0.86ms]
+2026-10-19T22:28:46.9006274Z (pass) tagged templates > the tag is read like a callee: members, chained tags, async tags, and the not-a-function error [1.29ms]
+2026-10-19T22:28:46.9006591Z (pass) tagged templates > raw is read-only [0.47ms]
+2026-10-19T22:28:46.9006834Z (pass) String.raw > joins the raw strings with the substitutions [0.64ms]
+2026-10-19T22:28:46.9007239Z (pass) String.raw > extra substitutions are dropped, missing ones are skipped, and a program object's toString is used [0.42ms]
+2026-10-19T22:28:46.9007588Z (pass) String.raw > a template without a raw array is a TypeError [0.31ms]
+2026-10-19T22:28:46.9007938Z (pass) sloppy duplicate parameters and for...in targets > a repeated parameter name binds the last argument [0.39ms]
+2026-10-19T22:28:46.9008380Z (pass) sloppy duplicate parameters and for...in targets > for...in assigns to any target: members, computed members, and patterns [2.22ms]
+2026-10-19T22:28:46.9008810Z (pass) loose equality and operator gates on opaque references > == follows IsLooselyEqual for data values [0.59ms]
+2026-10-19T22:28:46.9009277Z (pass) loose equality and operator gates on opaque references > functions and tool references compare by identity and are never equal to nullish [0.50ms]
+2026-10-19T22:28:46.9009853Z (pass) loose equality and operator gates on opaque references > coercing an opaque reference against a non-nullish primitive still rejects [5.41ms]
+2026-10-19T22:28:46.9010925Z (pass) loose equality and operator gates on opaque references > switch and Object.is match opaque references by identity [0.63ms]
+2026-10-19T22:28:46.9011425Z (pass) loose equality and operator gates on opaque references > operators look only at their direct operands, so nested functions coerce like other data [0.55ms]
+2026-10-19T22:28:46.9019994Z (pass) Object.freeze, seal, and preventExtensions > a frozen object rejects writes, additions, and deletes with TypeErrors [0.73ms]
+2026-10-19T22:28:46.9020526Z (pass) Object.freeze, seal, and preventExtensions > seal keeps writes, preventExtensions keeps deletes, and each returns its argument [0.51ms]
+2026-10-19T22:28:46.9020998Z (pass) Object.freeze, seal, and preventExtensions > primitives pass through, and Object.assign honors the flags [0.58ms]
+2026-10-19T22:28:46.9021461Z (pass) Object.freeze, seal, and preventExtensions > frozen arrays reject element, length, and mutating-method writes like JS [0.84ms]
+2026-10-19T22:28:46.9021921Z (pass) Object.freeze, seal, and preventExtensions > sealed and non-extensible arrays allow exactly the writes JS does [0.73ms]
+2026-10-19T22:28:46.9022407Z (pass) Object.freeze, seal, and preventExtensions > typed arrays with elements cannot be frozen; wrappers freeze their properties only [0.75ms]
+2026-10-19T22:28:46.9022894Z (pass) Object.getPrototypeOf and Object.create > getPrototypeOf returns the built-in prototypes for objects and primitives [0.37ms]
+2026-10-19T22:28:46.9023330Z (pass) Object.getPrototypeOf and Object.create > getPrototypeOf rejects null, undefined, and symbols [0.58ms]
+2026-10-19T22:28:46.9023764Z (pass) Object.getPrototypeOf and Object.create > Object.create links the prototype: inherited reads, in, and own-only keys [0.50ms]
+2026-10-19T22:28:46.9024226Z (pass) Object.getPrototypeOf and Object.create > Object.create rejects non-object prototypes and property descriptors [0.76ms]
+2026-10-19T22:28:46.9024625Z (pass) structuredClone > deep-copies data values and keeps shared references shared [0.89ms]
+2026-10-19T22:28:46.9025022Z (pass) structuredClone > regexps reset lastIndex, errors keep name, message, and cause, and extras are dropped [0.64ms]
+2026-10-19T22:28:46.9025471Z (pass) structuredClone > the clone is a plain extensible object: prototypes, symbols, undefined fields, and frozen state drop [0.38ms]
+2026-10-19T22:28:46.9025927Z (pass) structuredClone > functions, symbols, promises, wrappers, and tool references throw a DataCloneError TypeError [1.56ms]
+2026-10-19T22:28:46.9026355Z (pass) error constructor prototype chain > derived error constructors extend Error and inherit its statics [0.41ms]
+2026-10-19T22:28:46.9026819Z (pass) this, arguments, and Function.prototype.call/apply/bind > this is the call receiver for non-arrow functions and lexical for arrows [0.45ms]
+2026-10-19T22:28:46.9027352Z (pass) this, arguments, and Function.prototype.call/apply/bind > this reaches generator and async methods and plain-function callbacks [0.58ms]
+2026-10-19T22:28:46.9027878Z (pass) this, arguments, and Function.prototype.call/apply/bind > arguments is an unmapped array-like that arrows and parameters interact with as in JS [0.82ms]
+2026-10-19T22:28:46.9028414Z (pass) this, arguments, and Function.prototype.call/apply/bind > call, apply, and bind set this and arguments on program functions and built-ins [0.82ms]
+2026-10-19T22:28:46.9028943Z (pass) this, arguments, and Function.prototype.call/apply/bind > call and apply reject non-callable receivers and non-array-like argument lists [164.38ms]
+2026-10-19T22:28:46.9029522Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > program-installed valueOf and toString on opaque values are ignored at every site [1.45ms]
+2026-10-19T22:28:46.9030118Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > == converts an object facing a non-nullish primitive through its own valueOf [1.46ms]
+2026-10-19T22:28:46.9030818Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > operators, unary, template literals, and conversion functions use the object's own methods [1.55ms]
+2026-10-19T22:28:46.9031765Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > the hint picks the method: + and Number prefer valueOf, template literals and String prefer toString [0.82ms]
+2026-10-19T22:28:46.9032397Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > operands convert left then right, and a throwing valueOf surfaces as the program error [1.16ms]
+2026-10-19T22:28:46.9032986Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > arrays keep their built-in join form unless the program replaces toString [0.73ms]
+2026-10-19T22:28:46.9033532Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > update and compound assignment convert the current value [0.54ms]
+2026-10-19T22:28:46.9034137Z (pass) ToPrimitive: operators and conversions honor program valueOf and toString > functions and other opaque values still reject arithmetic, and an object without a primitive form throws [0.98ms]
+2026-10-19T22:28:46.9034672Z (pass) object destructuring from primitives > reads through the primitive's prototype like member access [0.95ms]
+2026-10-19T22:28:46.9035045Z (pass) object destructuring from primitives > only null and undefined sources throw [1.22ms]
+2026-10-19T22:28:46.9035466Z (pass) Date components convert through ToPrimitive > construction and Date.UTC ask each of the first seven arguments in order [1.60ms]
+2026-10-19T22:28:46.9035961Z (pass) Date components convert through ToPrimitive > setters on an invalid Date answer NaN without overwriting a time set during coercion [0.60ms]
+2026-10-19T22:28:46.9036457Z (pass) iteration callbacks receive thisArg > Array, Array.from, Map, Set, URLSearchParams, Headers, and Uint8Array pass it as this [2.08ms]
+2026-10-19T22:28:46.9037086Z (pass) iteration callbacks receive thisArg > arrows keep their lexical this, reduce takes an initial value instead, and opaque values are only bound [0.89ms]
+2026-10-19T22:28:46.9037701Z (pass) computed property keys convert through the object's own toString > reads, writes, compound assignment, in, delete, literals, and destructuring share one conversion [1.01ms]
+2026-10-19T22:28:46.9038303Z (pass) computed property keys convert through the object's own toString > valueOf is the fallback, a symbol result stays a symbol, and conversion failures surface [1.33ms]
+2026-10-19T22:28:46.9038870Z (pass) computed property keys convert through the object's own toString > a nullish base throws before the key converts, as ToObject precedes ToPropertyKey [0.35ms]
+2026-10-19T22:28:46.9039441Z (pass) computed property keys convert through the object's own toString > opaque values keep their built-in key form and a tool reference toString is never called [0.65ms]
+2026-10-19T22:28:46.9039996Z (pass) String and Number method arguments convert through ToPrimitive > string positions use the string hint and numeric positions the number hint [1.07ms]
+2026-10-19T22:28:46.9040550Z (pass) String and Number method arguments convert through ToPrimitive > split, replace, match, and search convert a plain pattern but keep a RegExp as is [1.48ms]
+2026-10-19T22:28:46.9041147Z (pass) String and Number method arguments convert through ToPrimitive > the receiver converts first, then each consumed argument, in spec order; extra arguments are untouched [0.80ms]
+2026-10-19T22:28:46.9041711Z (pass) String and Number method arguments convert through ToPrimitive > conversion failures surface and opaque arguments still reject [3.54ms]
+2026-10-19T22:28:46.9042150Z (pass) WeakMap and WeakSet > hold program objects by identity and answer like JS for non-object keys [3.68ms]
+2026-10-19T22:28:46.9042521Z (pass) WeakMap and WeakSet > reject primitive keys, plain calls, bad receivers, and cloning [9.15ms]
+2026-10-19T22:28:46.9042721Z 
+2026-10-19T22:28:46.9042877Z test\promise-test262.test.ts:
+2026-10-19T22:28:46.9043307Z (pass) Test262 Promise statics > statics are callable and return promises [1.11ms]
+2026-10-19T22:28:46.9043650Z (pass) Test262 Promise statics > Promise.all returns fresh arrays for empty and settled inputs [1.28ms]
+2026-10-19T22:28:46.9044026Z (pass) Test262 Promise statics > Promise.all adopts values and preserves input order and identity [1.21ms]
+2026-10-19T22:28:46.9044417Z (pass) Test262 Promise statics > Promise.allSettled returns fresh arrays and ordered outcome records [0.98ms]
+2026-10-19T22:28:46.9044803Z (pass) Test262 Promise statics > Promise.race preserves fulfillment, rejection, and iterable order [0.98ms]
+2026-10-19T22:28:46.9045153Z (pass) Test262 Promise statics > combinators consume supported string iterables [0.67ms]
+2026-10-19T22:28:46.9045522Z (pass) Test262 Promise statics > Promise.resolve adopts values and preserves CodeMode-promise identity [0.63ms]
+2026-10-19T22:28:46.9045899Z (pass) Test262 Promise statics > Promise.reject preserves primitive and object reasons [1.04ms]
+2026-10-19T22:28:46.9046251Z (pass) Test262 Promise statics > Promise.all resolves duplicate members into every slot [0.63ms]
+2026-10-19T22:28:46.9046609Z (pass) Test262 Promise statics > Promise.allSettled records duplicate members independently [0.56ms]
+2026-10-19T22:28:46.9046964Z (pass) Test262 Promise statics > combinators adopt members that settled before the call [0.84ms]
+2026-10-19T22:28:46.9047350Z (pass) Test262 Promise statics > combinator results follow input order, not settlement order [0.78ms]
+2026-10-19T22:28:46.9047721Z (pass) Test262 Promise statics > Promise.race ignores a rejected loser once the first contender wins [0.55ms]
+2026-10-19T22:28:46.9048114Z (pass) Test262 Promise statics > Promise.race([]) returns a promise whose CodeMode failure is catchable [0.53ms]
+2026-10-19T22:28:46.9048508Z (pass) Test262 Promise statics > Promise.resolve passes the same CodeMode promise through nested chains [0.50ms]
+2026-10-19T22:28:46.9048900Z (pass) Test262 Promise statics > Promise.resolve of a rejected promise preserves identity and reason [0.38ms]
+2026-10-19T22:28:46.9049269Z (pass) Test262 Promise statics > Promise.reject uses a promise reason without flattening it [0.53ms]
+2026-10-19T22:28:46.9049647Z (pass) Test262 async functions and await > declaration, expression, and arrow forms return promises [0.50ms]
+2026-10-19T22:28:46.9050052Z (pass) Test262 async functions and await > async bodies adopt returns and reject throws before and after await [0.74ms]
+2026-10-19T22:28:46.9050455Z (pass) Test262 async functions and await > default-parameter throws reject instead of escaping the call [0.58ms]
+2026-10-19T22:28:46.9050864Z (pass) Test262 async functions and await > async try/finally completion records override earlier completion [0.83ms]
+2026-10-19T22:28:46.9051262Z (pass) Test262 async functions and await > await preserves an object whose then property is not callable [0.31ms]
+2026-10-19T22:28:46.9051633Z (pass) Test262 async functions and await > await returns non-promise operands unchanged [0.36ms]
+2026-10-19T22:28:46.9051994Z (pass) Test262 expected Promise conformance > Promise.all rejects invalid input with TypeError [0.36ms]
+2026-10-19T22:28:46.9052386Z (pass) Test262 expected Promise conformance > Promise.allSettled rejects invalid input with TypeError [0.30ms]
+2026-10-19T22:28:46.9052772Z (pass) Test262 expected Promise conformance > Promise.race rejects invalid input with TypeError [0.27ms]
+2026-10-19T22:28:46.9053149Z (pass) Test262 expected Promise conformance > Promise.any rejects invalid input with TypeError [0.32ms]
+2026-10-19T22:28:46.9053525Z (pass) Test262 expected Promise conformance > Promise.all consumes sparse positions as undefined [0.38ms]
+2026-10-19T22:28:46.9054241Z (pass) Test262 expected Promise conformance > Promise.allSettled consumes sparse positions as undefined [0.40ms]
+2026-10-19T22:28:46.9054779Z (pass) Test262 expected Promise conformance > Promise.race consumes a sparse first position as undefined [0.34ms]
+2026-10-19T22:28:46.9055366Z (pass) Test262 expected Promise conformance > Promise.any consumes a sparse first position as an undefined fulfillment [0.45ms]
+2026-10-19T22:28:46.9056163Z (pass) Test262 expected Promise conformance > Promise.all settles after reactions attached to its inputs [0.63ms]
+2026-10-19T22:28:46.9056585Z (pass) Test262 expected Promise conformance > Promise.allSettled settles after reactions attached to its inputs [0.46ms]
+2026-10-19T22:28:46.9057004Z (pass) Test262 expected Promise conformance > Promise.race settles in a reaction after its winning input [0.55ms]
+2026-10-19T22:28:46.9057451Z (pass) Test262 expected Promise conformance > then reactions route and propagate fulfillment and rejection [1.11ms]
+2026-10-19T22:28:46.9057860Z (pass) Test262 expected Promise conformance > then reactions preserve breadth-first queue order [0.65ms]
+2026-10-19T22:28:46.9058299Z (pass) Test262 expected Promise conformance > then rejects direct self-resolution for fulfilled and rejected sources [0.62ms]
+2026-10-19T22:28:46.9058801Z (pass) Test262 expected Promise conformance > catch delegates rejection handling and preserves fulfillment [3.54ms]
+2026-10-19T22:28:46.9059205Z (pass) Test262 expected Promise conformance > finally preserves or replaces the original settlement [1.17ms]
+2026-10-19T22:28:46.9059567Z (pass) Test262 expected Promise conformance > then ignores non-callable handlers [0.69ms]
+2026-10-19T22:28:46.9059969Z (pass) Test262 expected Promise conformance > finally waits for a returned promise and preserves or replaces settlement [0.73ms]
+2026-10-19T22:28:46.9060368Z (pass) Test262 expected Promise conformance > then adopts a returned rejected promise [0.48ms]
+2026-10-19T22:28:46.9060769Z (pass) Test262 expected Promise conformance > independent reactions on one source each observe the same settlement [1.15ms]
+2026-10-19T22:28:46.9061220Z (pass) Test262 expected Promise conformance > await always resumes in a later reaction and interleaves async functions [0.91ms]
+2026-10-19T22:28:46.9061736Z (pass) Test262 expected Promise conformance > an async function rejects when it resolves with its own promise [0.62ms]
+2026-10-19T22:28:46.9062280Z (pass) Test262 expected Promise conformance > Promise.resolve recursively assimilates callable thenables [0.96ms]
+2026-10-19T22:28:46.9062688Z (pass) Test262 expected Promise conformance > Promise combinators assimilate callable thenable inputs [0.80ms]
+2026-10-19T22:28:46.9063059Z (pass) Test262 expected Promise conformance > await assimilates callable thenables [0.38ms]
+2026-10-19T22:28:46.9063413Z (pass) Test262 expected Promise conformance > await rejects when a callable thenable throws [0.37ms]
+2026-10-19T22:28:46.9063791Z (pass) Test262 expected Promise conformance > thenable resolution is deferred and settles only once [0.43ms]
+2026-10-19T22:28:46.9064197Z (pass) Test262 expected Promise conformance > the first thenable rejection wins over later resolution and throws [0.32ms]
+2026-10-19T22:28:46.9064858Z (pass) Test262 expected Promise conformance > constructors, reactions, finally, and async returns assimilate thenables [1.34ms]
+2026-10-19T22:28:46.9065278Z (pass) Test262 expected Promise conformance > finally settles after its cleanup thenable reactions [1.30ms]
+2026-10-19T22:28:46.9066273Z (pass) Test262 Promise.any > is a callable static that returns a promise [0.70ms]
+2026-10-19T22:28:46.9066606Z (pass) Test262 Promise.any > fulfills with the first fulfilled member, ignoring rejections [0.56ms]
+2026-10-19T22:28:46.9067506Z (pass) Test262 Promise.any > a fulfillment wins over a later rejection of another member [0.99ms]
+2026-10-19T22:28:46.9067866Z (pass) Test262 Promise.any > rejects with an AggregateError carrying the reasons in input order [0.71ms]
+2026-10-19T22:28:46.9068203Z (pass) Test262 Promise.any > rejects an empty input with an empty AggregateError [0.37ms]
+2026-10-19T22:28:46.9068506Z (pass) Test262 Promise.any > consumes a string input as its characters [0.60ms]
+2026-10-19T22:28:46.9068961Z (pass) Test262 Promise.any > rejects an empty string input with an empty AggregateError [0.55ms]
+2026-10-19T22:28:46.9069576Z (pass) Test262 Promise.any > fulfills with the first member that does not reject [0.57ms]
+2026-10-19T22:28:46.9069948Z (pass) Test262 Promise.any > settles after reactions attached to its inputs [0.53ms]
+2026-10-19T22:28:46.9070422Z (pass) Test262 AggregateError > constructs from an errors collection and an optional message [0.38ms]
+2026-10-19T22:28:46.9070773Z (pass) Test262 AggregateError > rejects a non-collection errors argument with TypeError [0.32ms]
+2026-10-19T22:28:46.9071362Z (pass) Test262 AggregateError > is callable without new [0.26ms]
+2026-10-19T22:28:46.9072930Z (pass) Test262 AggregateError > coerces a non-string message to a string [0.29ms]
+2026-10-19T22:28:46.9073289Z (pass) Test262 Promise constructor > constructs a promise, handing the executor callable resolve/reject [0.49ms]
+2026-10-19T22:28:46.9073660Z (pass) Test262 Promise constructor > a missing or non-callable executor is a TypeError [0.61ms]
+2026-10-19T22:28:46.9074026Z (pass) Test262 Promise constructor > resolves immediately or later through an escaping resolver [0.42ms]
+2026-10-19T22:28:46.9074429Z (pass) Test262 Promise constructor > rejects through reject and through an abrupt executor completion [0.63ms]
+2026-10-19T22:28:46.9074884Z (pass) Test262 Promise constructor > only the first settlement counts [0.47ms]
+2026-10-19T22:28:46.9075222Z (pass) Test262 Promise constructor > escaped resolvers keep first-settle-wins in both directions [0.67ms]
+2026-10-19T22:28:46.9075632Z (pass) Test262 Promise constructor > a queued reaction chain observes a later rejection through a handler-less then [0.66ms]
+2026-10-19T22:28:46.9076000Z (pass) Test262 Promise constructor > an exception after resolve is ignored [0.37ms]
+2026-10-19T22:28:46.9076323Z (pass) Test262 Promise constructor > resolving with a promise adopts its settlement [0.72ms]
+2026-10-19T22:28:46.9076675Z (pass) Test262 Promise constructor > resolving with the promise itself rejects with TypeError [0.48ms]
+2026-10-19T22:28:46.9077042Z (pass) Test262 Promise constructor > executor runs synchronously before the constructor returns [0.43ms]
+2026-10-19T22:28:46.9077421Z (pass) Test262 Promise constructor > calling Promise without new throws TypeError [0.51ms]
+2026-10-19T22:28:46.9077605Z 
+2026-10-19T22:28:46.9077688Z test\promise.test.ts:
+2026-10-19T22:28:46.9077969Z (pass) first-class promise values > async functions return promises with isolated concurrent invocations [1.46ms]
+2026-10-19T22:28:46.9078367Z (pass) first-class promise values > async function errors reject instead of throwing at the call site [0.41ms]
+2026-10-19T22:28:46.9078765Z (pass) first-class promise values > an un-awaited tool call starts eagerly, in call order, before any await [1.12ms]
+2026-10-19T22:28:46.9079172Z (pass) first-class promise values > awaiting the same promise twice settles once and never re-runs the call [4.74ms]
+2026-10-19T22:28:46.9079552Z (pass) first-class promise values > await of a non-promise value passes it through unchanged [1.30ms]
+2026-10-19T22:28:46.9079953Z (pass) first-class promise values > returning an un-awaited tool call resolves it (async-function return semantics) [0.72ms]
+2026-10-19T22:28:46.9080364Z (pass) first-class promise values > typeof a promise is 'object', and console.log renders it sensibly [0.45ms]
+2026-10-19T22:28:46.9080745Z (pass) first-class promise values > an awaited failure is catchable exactly like a synchronous throw [1.42ms]
+2026-10-19T22:28:46.9081126Z (pass) first-class promise values > a fire-and-forget call is interrupted when the program returns [0.95ms]
+2026-10-19T22:28:46.9081531Z (pass) first-class promise values > a never-awaited failing call preserves the result and reports the rejection [1.40ms]
+2026-10-19T22:28:46.9081949Z (pass) first-class promise values > a never-awaited failing async function is reported with a successful result [0.68ms]
+2026-10-19T22:28:46.9082425Z (pass) first-class promise values > output truncation bounds warning diagnostics with an in-band marker [2.32ms]
+2026-10-19T22:28:46.9082964Z (pass) first-class promise values > a budget-consuming value does not starve warnings [0.62ms]
+2026-10-19T22:28:46.9083344Z (pass) first-class promise values > an un-awaited async function's pending chain is interrupted at the return [0.91ms]
+2026-10-19T22:28:46.9083740Z (pass) first-class promise values > reports every unhandled rejection in promise creation order [1.01ms]
+2026-10-19T22:28:46.9084137Z (pass) first-class promise values > orders an async function rejection before promises created inside its body [0.46ms]
+2026-10-19T22:28:46.9084531Z (pass) first-class promise values > un-awaited interruptions settle without becoming rejections [0.74ms]
+2026-10-19T22:28:46.9084951Z (pass) first-class promise values > a fatal program error cancels outstanding work without reporting unhandled rejections [0.65ms]
+2026-10-19T22:28:46.9085397Z (pass) first-class promise values > async-function promises remain owned by the execution after the function returns [0.90ms]
+2026-10-19T22:28:46.9085815Z (pass) promises at data boundaries > an un-awaited promise inside a result or tool argument is awaited [1.24ms]
+2026-10-19T22:28:46.9086205Z (pass) promises at data boundaries > a rejected promise inside a result fails the program with its reason [0.65ms]
+2026-10-19T22:28:46.9086575Z (pass) promises at data boundaries > JSON.stringify of a promise is a diagnostic, not '{}' [0.33ms]
+2026-10-19T22:28:46.9086961Z (pass) promises at data boundaries > returning a never-settling promise inside data waits until the timeout [102.11ms]
+2026-10-19T22:28:46.9087344Z (pass) promises at data boundaries > operators reject promise operands [1.09ms]
+2026-10-19T22:28:46.9087704Z (pass) Promise.all over arbitrary arrays > combinators return promises that can be assigned and awaited later [1.23ms]
+2026-10-19T22:28:46.9088130Z (pass) Promise.all over arbitrary arrays > separately-created aggregate batches overlap before either is awaited [3.52ms]
+2026-10-19T22:28:46.9088557Z (pass) Promise.all over arbitrary arrays > an aggregate created before a try block rejects at its later await [1.29ms]
+2026-10-19T22:28:46.9088955Z (pass) Promise.all over arbitrary arrays > awaiting an aggregate repeatedly does not rerun its members [1.23ms]
+2026-10-19T22:28:46.9089327Z (pass) Promise.all over arbitrary arrays > mixes promises and plain values, preserving order [2.06ms]
+2026-10-19T22:28:46.9089736Z (pass) Promise.all over arbitrary arrays > accepts arrays built beforehand, passed as identifiers, and spread elements [0.88ms]
+2026-10-19T22:28:46.9090116Z (pass) Promise.all over arbitrary arrays > runs items.map tool calls in parallel [1.18ms]
+2026-10-19T22:28:46.9090435Z (pass) Promise.all over arbitrary arrays > runs async map callbacks concurrently [2.15ms]
+2026-10-19T22:28:46.9090760Z (pass) Promise.all over arbitrary arrays > does not cap live tool-call concurrency [3.36ms]
+2026-10-19T22:28:46.9091069Z (pass) Promise.all over arbitrary arrays > resolves the empty array [4.04ms]
+2026-10-19T22:28:46.9091401Z (pass) Promise.all over arbitrary arrays > rejects with the first failure, catchable in-program [1.18ms]
+2026-10-19T22:28:46.9091762Z (pass) Promise.all over arbitrary arrays > rejects before an earlier slow promise fulfills [1.05ms]
+2026-10-19T22:28:46.9092152Z (pass) Promise.all over arbitrary arrays > fail-fast does not cancel a sibling the program still holds and awaits [1.13ms]
+2026-10-19T22:28:46.9092583Z (pass) Promise.all over arbitrary arrays > a slower observed sibling is interrupted at completion after failing fast [0.96ms]
+2026-10-19T22:28:46.9092965Z (pass) Promise.all over arbitrary arrays > a non-collection argument is a clear error [0.52ms]
+2026-10-19T22:28:46.9093378Z (pass) Promise.all over arbitrary arrays > exceeding maxToolCalls inside Promise.all is a ToolCallLimitExceeded diagnostic [0.83ms]
+2026-10-19T22:28:46.9093805Z (pass) Promise.allSettled > reports fulfilled and rejected outcomes with catch-normalized reasons [0.91ms]
+2026-10-19T22:28:46.9094204Z (pass) Promise.allSettled > never rejects for program-level failures [0.91ms]
+2026-10-19T22:28:46.9094780Z (pass) Promise.race > first settlement wins and a direct loser is interrupted at completion [0.90ms]
+2026-10-19T22:28:46.9095105Z (pass) Promise.race > a direct loser remains awaitable after the race settles [1.06ms]
+2026-10-19T22:28:46.9095439Z (pass) Promise.race > a nested aggregate loser and its members are interrupted at completion [0.97ms]
+2026-10-19T22:28:46.9095733Z (pass) Promise.race > a rejection can win the race [0.93ms]
+2026-10-19T22:28:46.9095987Z (pass) Promise.race > a plain value wins over pending promises [0.68ms]
+2026-10-19T22:28:46.9096271Z (pass) Promise.race > a rejected race loser is observed by the aggregate [0.68ms]
+2026-10-19T22:28:46.9096560Z (pass) Promise.race > an empty race is a clear error instead of hanging [0.41ms]
+2026-10-19T22:28:46.9096903Z (pass) Promise.resolve / Promise.reject > resolve wraps plain values and passes promises through [1.27ms]
+2026-10-19T22:28:46.9097365Z (pass) Promise.resolve / Promise.reject > reject produces a promise whose await throws the reason [0.43ms]
+2026-10-19T22:28:46.9097729Z (pass) Promise.resolve / Promise.reject > a rejection observed after settlement is handled [0.71ms]
+2026-10-19T22:28:46.9098095Z (pass) Promise.resolve / Promise.reject > an abandoned rejected promise is reported as unhandled [0.80ms]
+2026-10-19T22:28:46.9098481Z (pass) timeout interruption of forked calls > the execution timeout interrupts in-flight forked fibers [108.61ms]
+2026-10-19T22:28:46.9098933Z ##[endgroup]
+2026-10-19T22:28:46.9099019Z 
+2026-10-19T22:28:46.9099115Z  Tasks:    10 successful, 16 total
+2026-10-19T22:28:46.9099284Z Cached:    0 cached, 16 total
+2026-10-19T22:28:46.9099431Z   Time:    9.949s 
+2026-10-19T22:28:46.9099605Z Failed:    @opencode/patchmark#test
+2026-10-19T22:28:46.9099718Z 
+2026-10-19T22:28:46.9103011Z ##[error]Process completed with exit code 1.
+2026-10-19T22:28:46.9276343Z Post job cleanup.
+2026-10-19T22:28:46.9290437Z ##[start-action display=Setup Bun;id=__105d82eb-31d4-4b3b-839b-674d4a63efb3.__oven-sh_setup-bun]
+2026-10-19T22:28:46.9292240Z ##[end-action id=__105d82eb-31d4-4b3b-839b-674d4a63efb3.__oven-sh_setup-bun;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:28:46.9293169Z ##[start-action display=Setup Node;id=__105d82eb-31d4-4b3b-839b-674d4a63efb3.__actions_setup-node]
+2026-10-19T22:28:46.9294123Z ##[end-action id=__105d82eb-31d4-4b3b-839b-674d4a63efb3.__actions_setup-node;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-19T22:28:46.9436369Z Post job cleanup.
+2026-10-19T22:28:47.0669005Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-19T22:28:47.0897208Z git version 2.55.0.windows.4
+2026-10-19T22:28:47.0947097Z Copying 'C:\Users\runneradmin\.gitconfig' to 'C:\runner\_work\_temp\179fac03-5913-45c7-9150-968d47543d60\.gitconfig'
+2026-10-19T22:28:47.0976718Z Temporarily overriding HOME='C:\runner\_work\_temp\179fac03-5913-45c7-9150-968d47543d60' before making global git config changes
+2026-10-19T22:28:47.0978150Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T22:28:47.0987009Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory C:\runner\_work\opencode\opencode
+2026-10-19T22:28:47.1254719Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T22:28:47.1448590Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-19T22:28:47.4964427Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T22:28:47.5128397Z http.https://github.com/.extraheader
+2026-10-19T22:28:47.5166931Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+2026-10-19T22:28:47.5381878Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-19T22:28:47.8648626Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T22:28:47.8821770Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-19T22:28:48.1947536Z A job completed hook has been configured by the self-hosted runner administrator
+2026-10-19T22:28:48.2060099Z ##[group]Run 'C:\job_completed.ps1'
+2026-10-19T22:28:48.2128398Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-19T22:28:48.2128598Z env:
+2026-10-19T22:28:48.2128735Z   BLACKSMITH_RUNNER_MESSAGE_WAIT_MS: 165
+2026-10-19T22:28:48.2128898Z   BLACKSMITH_RUNNER_ACQUIRE_JOB_MS: 823
+2026-10-19T22:28:48.2129075Z   BLACKSMITH_CHECK_RUN_ID: 118341880887
+2026-10-19T22:28:48.2129237Z   BLACKSMITH_JOB_DISPLAY_NAME: unit (windows)
+2026-10-19T22:28:48.2129409Z   GITHUB_ACTIONS_CACHE_MODE: write
+2026-10-19T22:28:48.2129556Z ##[endgroup]
+2026-10-19T22:28:48.4730018Z No active SSH sessions detected. Proceeding with shutdown immediately.
+2026-10-19T22:28:48.5173823Z Cleaning up orphan processes
+2026-10-19T22:28:48.5237892Z Terminate orphan process: pid (4420) (nginx)
+2026-10-19T22:28:48.5267344Z Terminate orphan process: pid (5640) (nginx)
+2026-10-19T22:28:48.5295641Z Terminate orphan process: pid (5588) (conhost)
+2026-10-19T22:28:48.5403053Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
