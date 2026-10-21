@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 39577700789,
+  "job_id": 119147238686,
+  "conclusion": "success",
+  "workflow_name": "ty ecosystem-analyzer",
+  "created_at": "2026-10-21T09:32:04Z",
+  "job_name": "Build-ty-(base)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:06:35Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39573618144,
+  "job_id": 119133604621,
+  "conclusion": "success",
+  "workflow_name": "zizmor GitHub Actions static analysis",
+  "created_at": "2026-10-21T09:00:35Z",
+  "job_name": "Check-whether-there-are-things",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:10:59Z"
+}

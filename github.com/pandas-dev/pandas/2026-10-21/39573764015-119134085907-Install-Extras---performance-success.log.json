@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 39573764015,
+  "job_id": 119134085907,
+  "conclusion": "success",
+  "workflow_name": "Package Checks",
+  "created_at": "2026-10-21T09:01:41Z",
+  "job_name": "Install-Extras---performance",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:26:33Z"
+}

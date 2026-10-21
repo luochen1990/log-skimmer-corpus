@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 39257390296,
+  "job_id": 118080709105,
+  "conclusion": "failure",
+  "workflow_name": "Docker",
+  "created_at": "2026-10-19T13:06:48Z",
+  "job_name": "Build-runner-Docker-image-(lin",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:44:47Z"
+}

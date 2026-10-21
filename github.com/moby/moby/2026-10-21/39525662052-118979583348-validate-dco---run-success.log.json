@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 39525662052,
+  "job_id": 118979583348,
+  "conclusion": "success",
+  "workflow_name": "bin-image",
+  "created_at": "2026-10-21T01:09:31Z",
+  "job_name": "validate-dco---run",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:13:18Z"
+}

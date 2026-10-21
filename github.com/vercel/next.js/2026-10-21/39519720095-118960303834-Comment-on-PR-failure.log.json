@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39519720095,
+  "job_id": 118960303834,
+  "conclusion": "failure",
+  "workflow_name": "PR CI Comment",
+  "created_at": "2026-10-21T00:10:45Z",
+  "job_name": "Comment-on-PR",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:20:30Z"
+}

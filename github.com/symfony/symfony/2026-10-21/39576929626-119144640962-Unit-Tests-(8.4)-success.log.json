@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 39576929626,
+  "job_id": 119144640962,
+  "conclusion": "success",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-10-21T09:26:09Z",
+  "job_name": "Unit-Tests-(8.4)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:49:33Z"
+}

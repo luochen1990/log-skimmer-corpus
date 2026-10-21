@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 39051032698,
+  "job_id": 117449840085,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-17T16:48:43Z",
+  "job_name": "formula-audit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:44:58Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 39144143778,
+  "job_id": 117724435762,
+  "conclusion": "failure",
+  "workflow_name": "Bootstrap",
+  "created_at": "2026-10-18T16:15:05Z",
+  "job_name": "Bootstrap-macos-latest-ghc-9.1",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:58:09Z"
+}

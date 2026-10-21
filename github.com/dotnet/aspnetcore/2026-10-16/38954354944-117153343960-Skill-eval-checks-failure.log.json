@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 38954354944,
+  "job_id": 117153343960,
+  "conclusion": "failure",
+  "workflow_name": "Skill evaluations",
+  "created_at": "2026-10-16T19:21:47Z",
+  "job_name": "Skill-eval-checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:43:40Z"
+}

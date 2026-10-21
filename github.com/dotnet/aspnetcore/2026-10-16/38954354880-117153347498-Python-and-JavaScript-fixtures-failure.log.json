@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 38954354880,
+  "job_id": 117153347498,
+  "conclusion": "failure",
+  "workflow_name": "Workflow tests",
+  "created_at": "2026-10-16T19:21:46Z",
+  "job_name": "Python-and-JavaScript-fixtures",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:43:42Z"
+}

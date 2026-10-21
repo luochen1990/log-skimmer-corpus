@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39534941736,
+  "job_id": 119009304507,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21194 [2/N]: Register the balanced task assignor as a built-in assignor",
+  "created_at": "2026-10-21T02:47:11Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:28:50Z"
+}

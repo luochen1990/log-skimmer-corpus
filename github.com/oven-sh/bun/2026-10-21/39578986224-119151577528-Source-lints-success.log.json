@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39578986224,
+  "job_id": 119151577528,
+  "conclusion": "success",
+  "workflow_name": "source-lints",
+  "created_at": "2026-10-21T09:42:05Z",
+  "job_name": "Source-lints",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:55:23Z"
+}

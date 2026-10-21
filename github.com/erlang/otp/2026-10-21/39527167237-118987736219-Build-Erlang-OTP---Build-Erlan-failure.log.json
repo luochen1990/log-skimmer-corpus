@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 39527167237,
+  "job_id": 118987736219,
+  "conclusion": "failure",
+  "workflow_name": "Build and check Erlang/OTP",
+  "created_at": "2026-10-21T01:24:52Z",
+  "job_name": "Build-Erlang-OTP---Build-Erlan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:02:23Z"
+}

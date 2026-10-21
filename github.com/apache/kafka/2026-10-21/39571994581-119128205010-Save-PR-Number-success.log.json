@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39571994581,
+  "job_id": 119128205010,
+  "conclusion": "success",
+  "workflow_name": "Pull Request Reviewed",
+  "created_at": "2026-10-21T08:47:55Z",
+  "job_name": "Save-PR-Number",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:29:00Z"
+}

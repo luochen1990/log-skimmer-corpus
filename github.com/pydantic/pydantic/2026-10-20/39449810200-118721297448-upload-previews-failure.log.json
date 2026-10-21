@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 39449810200,
+  "job_id": 118721297448,
+  "conclusion": "failure",
+  "workflow_name": "Upload previews",
+  "created_at": "2026-10-20T15:35:22Z",
+  "job_name": "upload-previews",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:27:22Z"
+}

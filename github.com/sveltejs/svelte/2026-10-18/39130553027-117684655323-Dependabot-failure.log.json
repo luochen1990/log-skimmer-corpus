@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39130553027,
+  "job_id": 117684655323,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for brace-expansion - Update #1634200635",
+  "created_at": "2026-10-18T13:12:49Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:19:25Z"
+}

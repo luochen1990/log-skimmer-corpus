@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nvim-telescope/telescope.nvim",
+  "run_id": 33289337193,
+  "job_id": 99198089726,
+  "conclusion": "failure",
+  "workflow_name": "Linting and style checking",
+  "created_at": "2026-08-30T03:02:13Z",
+  "job_name": "stylua",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:03:34Z"
+}

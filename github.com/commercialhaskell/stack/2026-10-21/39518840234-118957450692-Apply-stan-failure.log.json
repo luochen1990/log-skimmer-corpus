@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/commercialhaskell/stack",
+  "run_id": 39518840234,
+  "job_id": 118957450692,
+  "conclusion": "failure",
+  "workflow_name": "Apply stan",
+  "created_at": "2026-10-21T00:02:30Z",
+  "job_name": "Apply-stan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:57:21Z"
+}

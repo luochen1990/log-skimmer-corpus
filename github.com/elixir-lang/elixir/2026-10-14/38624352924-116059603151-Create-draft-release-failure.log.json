@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/elixir-lang/elixir",
+  "run_id": 38624352924,
+  "job_id": 116059603151,
+  "conclusion": "failure",
+  "workflow_name": "Releases",
+  "created_at": "2026-10-14T19:31:10Z",
+  "job_name": "Create-draft-release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:01:59Z"
+}

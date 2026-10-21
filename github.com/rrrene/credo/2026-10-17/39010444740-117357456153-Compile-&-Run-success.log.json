@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 39010444740,
+  "job_id": 117357456153,
+  "conclusion": "success",
+  "workflow_name": "Compatibility: Windows",
+  "created_at": "2026-10-17T06:34:59Z",
+  "job_name": "Compile-&-Run",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:01:38Z"
+}

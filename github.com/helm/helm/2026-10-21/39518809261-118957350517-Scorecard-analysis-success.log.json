@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 39518809261,
+  "job_id": 118957350517,
+  "conclusion": "success",
+  "workflow_name": "Scorecard supply-chain security",
+  "created_at": "2026-10-21T00:02:12Z",
+  "job_name": "Scorecard-analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:11:41Z"
+}

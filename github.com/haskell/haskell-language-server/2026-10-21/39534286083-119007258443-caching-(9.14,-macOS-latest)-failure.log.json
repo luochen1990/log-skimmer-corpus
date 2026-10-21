@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 39534286083,
+  "job_id": 119007258443,
+  "conclusion": "failure",
+  "workflow_name": "Caching",
+  "created_at": "2026-10-21T02:40:06Z",
+  "job_name": "caching-(9.14,-macOS-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:58:26Z"
+}

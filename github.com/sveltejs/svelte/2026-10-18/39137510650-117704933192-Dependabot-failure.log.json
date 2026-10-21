@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39137510650,
+  "job_id": 117704933192,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for source-map-js - Update #1634316463",
+  "created_at": "2026-10-18T14:46:40Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:19:21Z"
+}

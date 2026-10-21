@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39567793939,
+  "job_id": 119114242278,
+  "conclusion": "failure",
+  "workflow_name": "ci-dispatch pr=33271 head=291668223ee0b3f42295cf299d9d0c71fc03a928 check_run_id=119114178499",
+  "created_at": "2026-10-21T08:14:37Z",
+  "job_name": "vs2013-(amd64,-VC-WIN64A-MSVC2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:42:07Z"
+}

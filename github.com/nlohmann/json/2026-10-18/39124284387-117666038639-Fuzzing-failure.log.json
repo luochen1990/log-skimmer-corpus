@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 39124284387,
+  "job_id": 117666038639,
+  "conclusion": "failure",
+  "workflow_name": "CIFuzz",
+  "created_at": "2026-10-18T11:41:53Z",
+  "job_name": "Fuzzing",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:38:26Z"
+}

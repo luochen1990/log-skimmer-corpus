@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 39556273430,
+  "job_id": 119076654153,
+  "conclusion": "failure",
+  "workflow_name": "tests 1",
+  "created_at": "2026-10-21T06:34:40Z",
+  "job_name": "Installation-Test-ubuntu-lates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:17:45Z"
+}

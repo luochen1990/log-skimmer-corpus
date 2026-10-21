@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 37603153972,
+  "job_id": 112732161955,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-07T09:48:39Z",
+  "job_name": "integration-test-[postgresql]-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:01:00Z"
+}

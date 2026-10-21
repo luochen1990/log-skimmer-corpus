@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 39010444718,
+  "job_id": 117357455614,
+  "conclusion": "success",
+  "workflow_name": "Code Scanning w/ SARIF output",
+  "created_at": "2026-10-17T06:34:58Z",
+  "job_name": "security-scan",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:01:39Z"
+}

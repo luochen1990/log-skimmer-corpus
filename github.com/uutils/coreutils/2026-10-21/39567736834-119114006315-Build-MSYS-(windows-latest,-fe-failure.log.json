@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 39567736834,
+  "job_id": 119114006315,
+  "conclusion": "failure",
+  "workflow_name": "make",
+  "created_at": "2026-10-21T08:14:09Z",
+  "job_name": "Build-MSYS-(windows-latest,-fe",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:07:59Z"
+}

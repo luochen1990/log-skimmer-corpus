@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 39549226601,
+  "job_id": 119054338649,
+  "conclusion": "failure",
+  "workflow_name": "publish release - npm, trace viewer",
+  "created_at": "2026-10-21T05:22:55Z",
+  "job_name": "publish-Trace-Viewer-to-trace.",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:17:47Z"
+}

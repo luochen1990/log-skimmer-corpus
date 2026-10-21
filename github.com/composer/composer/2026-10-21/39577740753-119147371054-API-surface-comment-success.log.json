@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 39577740753,
+  "job_id": 119147371054,
+  "conclusion": "success",
+  "workflow_name": "API Surface Comment",
+  "created_at": "2026-10-21T09:32:22Z",
+  "job_name": "API-surface-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:47:43Z"
+}

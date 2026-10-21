@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 39555441935,
+  "job_id": 119074020005,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-21T06:26:46Z",
+  "job_name": "Analyze-(javascript)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:22:31Z"
+}

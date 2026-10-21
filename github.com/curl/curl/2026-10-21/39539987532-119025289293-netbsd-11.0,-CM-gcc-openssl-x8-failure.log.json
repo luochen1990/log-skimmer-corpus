@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39539987532,
+  "job_id": 119025289293,
+  "conclusion": "failure",
+  "workflow_name": "non-native",
+  "created_at": "2026-10-21T03:41:51Z",
+  "job_name": "netbsd-11.0,-CM-gcc-openssl-x8",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:41:12Z"
+}

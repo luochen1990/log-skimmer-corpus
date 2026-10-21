@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 39379183795,
+  "job_id": 118484097532,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T06:13:48Z",
+  "job_name": "detect-breaking-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:25:27Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 39573387493,
+  "job_id": 119132849712,
+  "conclusion": "success",
+  "workflow_name": "👀 Visual Regression Diff Finish",
+  "created_at": "2026-10-21T08:58:52Z",
+  "job_name": "Check-if-workflow-run-is-trust",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:16:29Z"
+}

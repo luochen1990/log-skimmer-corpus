@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 39573526241,
+  "job_id": 119133321581,
+  "conclusion": "success",
+  "workflow_name": "Push on master",
+  "created_at": "2026-10-21T08:59:57Z",
+  "job_name": "Analyze-(javascript-typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:10:04Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39578645347,
+  "job_id": 119150434966,
+  "conclusion": "failure",
+  "workflow_name": "Rust lints",
+  "created_at": "2026-10-21T09:39:26Z",
+  "job_name": "cargo-clippy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:55:10Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 39577713171,
+  "job_id": 119147281185,
+  "conclusion": "success",
+  "workflow_name": "PHPStan",
+  "created_at": "2026-10-21T09:32:10Z",
+  "job_name": "PHPStan-(8.3,-true)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:47:45Z"
+}

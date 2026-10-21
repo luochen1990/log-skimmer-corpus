@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 39575364603,
+  "job_id": 119139436715,
+  "conclusion": "success",
+  "workflow_name": "Castiron custom code",
+  "created_at": "2026-10-21T09:14:07Z",
+  "job_name": "Castiron---baseline-consistenc",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:25:35Z"
+}

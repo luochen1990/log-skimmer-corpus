@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/etcd-io/etcd",
+  "run_id": 39519295274,
+  "job_id": 118958923910,
+  "conclusion": "success",
+  "workflow_name": "Build and trigger Antithesis exploration",
+  "created_at": "2026-10-21T00:06:45Z",
+  "job_name": "build-and-push-and-test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:09:24Z"
+}

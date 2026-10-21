@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 39567286177,
+  "job_id": 119112505414,
+  "conclusion": "success",
+  "workflow_name": "AspNetCore-Runtime Code Sync",
+  "created_at": "2026-10-21T08:10:30Z",
+  "job_name": "Compare-the-shared-code-in-the",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:43:48Z"
+}

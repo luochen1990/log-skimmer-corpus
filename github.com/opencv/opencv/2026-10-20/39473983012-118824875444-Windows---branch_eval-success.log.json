@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 39473983012,
+  "job_id": 118824875444,
+  "conclusion": "success",
+  "workflow_name": "PR:5.x",
+  "created_at": "2026-10-20T18:21:13Z",
+  "job_name": "Windows---branch_eval",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:39:36Z"
+}

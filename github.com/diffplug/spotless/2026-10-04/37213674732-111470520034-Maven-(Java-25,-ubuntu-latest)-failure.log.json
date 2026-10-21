@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 37213674732,
+  "job_id": 111470520034,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-04T15:37:05Z",
+  "job_name": "Maven-(Java-25,-ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:29:17Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39511526730,
+  "job_id": 118933454732,
+  "conclusion": "success",
+  "workflow_name": "Lint GitHub Actions workflows",
+  "created_at": "2026-10-20T22:55:23Z",
+  "job_name": "actionlint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:48:39Z"
+}

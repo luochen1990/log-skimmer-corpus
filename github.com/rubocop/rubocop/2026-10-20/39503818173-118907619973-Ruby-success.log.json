@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rubocop/rubocop",
+  "run_id": 39503818173,
+  "job_id": 118907619973,
+  "conclusion": "success",
+  "workflow_name": "Linting",
+  "created_at": "2026-10-20T21:52:18Z",
+  "job_name": "Ruby",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:47:21Z"
+}

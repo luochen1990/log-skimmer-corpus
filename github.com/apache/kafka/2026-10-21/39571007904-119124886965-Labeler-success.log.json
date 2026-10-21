@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39571007904,
+  "job_id": 119124886965,
+  "conclusion": "success",
+  "workflow_name": "Pull Request",
+  "created_at": "2026-10-21T08:40:06Z",
+  "job_name": "Labeler",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:29:01Z"
+}

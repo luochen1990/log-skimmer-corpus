@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 39577700516,
+  "job_id": 119147238360,
+  "conclusion": "success",
+  "workflow_name": "Run typing conformance",
+  "created_at": "2026-10-21T09:32:04Z",
+  "job_name": "Compute-diagnostic-diff",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:06:36Z"
+}

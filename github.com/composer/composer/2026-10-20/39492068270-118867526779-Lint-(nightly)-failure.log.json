@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 39492068270,
+  "job_id": 118867526779,
+  "conclusion": "failure",
+  "workflow_name": "PHP Lint",
+  "created_at": "2026-10-20T20:27:03Z",
+  "job_name": "Lint-(nightly)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:47:40Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39572019059,
+  "job_id": 119128287071,
+  "conclusion": "failure",
+  "workflow_name": "Pull Request Linter",
+  "created_at": "2026-10-21T08:48:07Z",
+  "job_name": "lint-pr",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:28:42Z"
+}

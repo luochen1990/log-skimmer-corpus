@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39566495309,
+  "job_id": 119109920183,
+  "conclusion": "failure",
+  "workflow_name": "Rust lints",
+  "created_at": "2026-10-21T08:04:08Z",
+  "job_name": "mordant",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:55:17Z"
+}

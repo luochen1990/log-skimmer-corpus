@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/home-manager",
+  "run_id": 39572097477,
+  "job_id": 119128558888,
+  "conclusion": "success",
+  "workflow_name": "Tag Module Maintainers",
+  "created_at": "2026-10-21T08:48:45Z",
+  "job_name": "tag-maintainers",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:56:20Z"
+}

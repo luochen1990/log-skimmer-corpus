@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 39362897537,
+  "job_id": 118432928539,
+  "conclusion": "failure",
+  "workflow_name": "Auto update test buckets",
+  "created_at": "2026-10-20T03:10:31Z",
+  "job_name": "update-test-buckets",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:30:25Z"
+}

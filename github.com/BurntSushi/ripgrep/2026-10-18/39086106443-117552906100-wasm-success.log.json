@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/BurntSushi/ripgrep",
+  "run_id": 39086106443,
+  "job_id": 117552906100,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-10-18T01:20:10Z",
+  "job_name": "wasm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:02:07Z"
+}

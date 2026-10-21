@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 39574269457,
+  "job_id": 119135768566,
+  "conclusion": "success",
+  "workflow_name": "pr-management",
+  "created_at": "2026-10-21T09:05:36Z",
+  "job_name": "add-contributor-label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:16:04Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/square/okhttp",
+  "run_id": 39575479949,
+  "job_id": 119139825945,
+  "conclusion": "success",
+  "workflow_name": "Validate Gradle Wrapper",
+  "created_at": "2026-10-21T09:15:01Z",
+  "job_name": "Validation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:33:11Z"
+}

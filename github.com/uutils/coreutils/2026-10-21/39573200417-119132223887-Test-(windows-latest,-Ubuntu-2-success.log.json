@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 39573200417,
+  "job_id": 119132223887,
+  "conclusion": "success",
+  "workflow_name": "WSL2",
+  "created_at": "2026-10-21T08:57:23Z",
+  "job_name": "Test-(windows-latest,-Ubuntu-2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:08:17Z"
+}

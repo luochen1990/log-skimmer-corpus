@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 39438287373,
+  "job_id": 118681057110,
+  "conclusion": "failure",
+  "workflow_name": "Release",
+  "created_at": "2026-10-20T14:20:14Z",
+  "job_name": "Changelog-PR-or-Release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:21:49Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39568060633,
+  "job_id": 119115124876,
+  "conclusion": "failure",
+  "workflow_name": "ci-dispatch pr=31630 head=c75d407157da6df7ac5d1dfdc373d2fe860e5f1f check_run_id=119115072737",
+  "created_at": "2026-10-21T08:16:45Z",
+  "job_name": "CT-validation-(linux-aarch64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:42:04Z"
+}

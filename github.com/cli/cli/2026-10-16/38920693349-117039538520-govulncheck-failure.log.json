@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 38920693349,
+  "job_id": 117039538520,
+  "conclusion": "failure",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-16T15:02:39Z",
+  "job_name": "govulncheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:08:56Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/evanw/esbuild",
+  "run_id": 31237303769,
+  "job_id": 93052093451,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-08-08T03:29:28Z",
+  "job_name": "esbuild-CI-(windows-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T10:06:59Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 39373792094,
+  "job_id": 118467269929,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T05:14:04Z",
+  "job_name": "Detect-Agents-SDK-regressions",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:25:29Z"
+}

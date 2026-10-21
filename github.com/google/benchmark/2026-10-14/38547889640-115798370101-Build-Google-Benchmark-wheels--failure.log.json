@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 38547889640,
+  "job_id": 115798370101,
+  "conclusion": "failure",
+  "workflow_name": "Build and upload Python wheels",
+  "created_at": "2026-10-14T10:12:05Z",
+  "job_name": "Build-Google-Benchmark-wheels-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:37:32Z"
+}

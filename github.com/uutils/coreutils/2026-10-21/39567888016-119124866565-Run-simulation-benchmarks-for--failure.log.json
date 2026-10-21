@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 39567888016,
+  "job_id": 119124866565,
+  "conclusion": "failure",
+  "workflow_name": "Benchmarks",
+  "created_at": "2026-10-21T08:15:20Z",
+  "job_name": "Run-simulation-benchmarks-for-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:07:58Z"
+}

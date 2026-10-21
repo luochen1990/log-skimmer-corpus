@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 39524255658,
+  "job_id": 118975104457,
+  "conclusion": "failure",
+  "workflow_name": "NightlyTests",
+  "created_at": "2026-10-21T00:55:41Z",
+  "job_name": "Build-DuckDB",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:36:32Z"
+}

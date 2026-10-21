@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 39572282740,
+  "job_id": 119129171945,
+  "conclusion": "success",
+  "workflow_name": "Configured Graph Update: go_modules in /. #1642095286",
+  "created_at": "2026-10-21T08:50:15Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T09:09:00Z"
+}
