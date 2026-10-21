@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 39541125334,
+  "job_id": 119028862756,
+  "conclusion": "failure",
+  "workflow_name": "Dev",
+  "created_at": "2026-10-21T03:54:26Z",
+  "job_name": "Node.js-22-on-Windows",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:36:35Z"
+}

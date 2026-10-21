@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 39544641960,
+  "job_id": 119039931557,
+  "conclusion": "success",
+  "workflow_name": "check-no-merge-label",
+  "created_at": "2026-10-21T04:32:55Z",
+  "job_name": "check-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:57:45Z"
+}

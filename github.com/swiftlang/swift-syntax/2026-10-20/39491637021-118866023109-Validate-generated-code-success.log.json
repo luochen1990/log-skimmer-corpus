@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-syntax",
+  "run_id": 39491637021,
+  "job_id": 118866023109,
+  "conclusion": "success",
+  "workflow_name": "Pull request",
+  "created_at": "2026-10-20T20:24:01Z",
+  "job_name": "Validate-generated-code",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:05:37Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-format",
+  "run_id": 39502871553,
+  "job_id": 118904465330,
+  "conclusion": "success",
+  "workflow_name": "github_actions in / for swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml, swiftlang/github-workflows/.github/workflows/swift_package_test.yml, swiftlang/github-workflows/.github/workflows/soundness.yml - Update #1640655337",
+  "created_at": "2026-10-20T21:45:04Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:04:38Z"
+}

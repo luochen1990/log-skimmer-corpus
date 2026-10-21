@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 39035337844,
+  "job_id": 117403891343,
+  "conclusion": "failure",
+  "workflow_name": "cr",
+  "created_at": "2026-10-17T13:08:29Z",
+  "job_name": "Publish:-pkg.pr.new",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:29:50Z"
+}

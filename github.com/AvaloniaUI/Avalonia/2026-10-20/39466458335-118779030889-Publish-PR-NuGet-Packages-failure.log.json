@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/AvaloniaUI/Avalonia",
+  "run_id": 39466458335,
+  "job_id": 118779030889,
+  "conclusion": "failure",
+  "workflow_name": "Publish PR NuGet Packages",
+  "created_at": "2026-10-20T17:29:02Z",
+  "job_name": "Publish-PR-NuGet-Packages",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:56:16Z"
+}

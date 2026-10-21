@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39540360042,
+  "job_id": 119026434127,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T03:45:52Z",
+  "job_name": "TSGo",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:32:48Z"
+}

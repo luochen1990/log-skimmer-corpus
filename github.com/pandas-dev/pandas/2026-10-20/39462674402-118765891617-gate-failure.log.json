@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 39462674402,
+  "job_id": 118765891617,
+  "conclusion": "failure",
+  "workflow_name": "PR Issue Assignment Gate",
+  "created_at": "2026-10-20T17:02:30Z",
+  "job_name": "gate",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:39:34Z"
+}

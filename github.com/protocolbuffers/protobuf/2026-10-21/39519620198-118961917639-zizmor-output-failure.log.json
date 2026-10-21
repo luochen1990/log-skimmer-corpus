@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 39519620198,
+  "job_id": 118961917639,
+  "conclusion": "failure",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-10-21T00:09:50Z",
+  "job_name": "zizmor-output",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:53:43Z"
+}

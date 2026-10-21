@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/kubernetes/kubernetes",
+  "run_id": 38924498609,
+  "job_id": 117052485748,
+  "conclusion": "success",
+  "workflow_name": "Graph Update: go_modules in /hack/tools/golangci-lint #1631705431",
+  "created_at": "2026-10-16T15:30:30Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:25:42Z"
+}

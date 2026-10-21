@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 39394205230,
+  "job_id": 118532773813,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T08:33:02Z",
+  "job_name": "Lint-3.14",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:40:37Z"
+}

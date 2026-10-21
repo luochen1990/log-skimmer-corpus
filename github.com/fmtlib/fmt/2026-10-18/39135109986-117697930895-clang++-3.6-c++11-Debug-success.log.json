@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 39135109986,
+  "job_id": 117697930895,
+  "conclusion": "success",
+  "workflow_name": "linux",
+  "created_at": "2026-10-18T14:14:38Z",
+  "job_name": "clang++-3.6-c++11-Debug",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:50:37Z"
+}

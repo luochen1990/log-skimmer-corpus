@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 39534363756,
+  "job_id": 119007452545,
+  "conclusion": "success",
+  "workflow_name": "size report",
+  "created_at": "2026-10-21T02:40:56Z",
+  "job_name": "size-report",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:35:01Z"
+}

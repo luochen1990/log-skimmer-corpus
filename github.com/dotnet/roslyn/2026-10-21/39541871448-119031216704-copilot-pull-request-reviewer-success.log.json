@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 39541871448,
+  "job_id": 119031216704,
+  "conclusion": "success",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-10-21T04:02:47Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:57:25Z"
+}

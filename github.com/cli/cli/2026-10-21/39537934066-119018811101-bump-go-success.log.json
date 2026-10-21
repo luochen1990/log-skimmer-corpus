@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 39537934066,
+  "job_id": 119018811101,
+  "conclusion": "success",
+  "workflow_name": "Bump Go",
+  "created_at": "2026-10-21T03:19:29Z",
+  "job_name": "bump-go",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:22:16Z"
+}

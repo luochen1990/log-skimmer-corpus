@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rhysd/actionlint",
+  "run_id": 38971464731,
+  "job_id": 117210587089,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-16T21:45:10Z",
+  "job_name": "Analyze-Go",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:27:26Z"
+}

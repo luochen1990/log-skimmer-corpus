@@ -1,0 +1,165 @@
+# log-skimmer 示范项目集 (SSOT) — 防腐语料抓取源清单
+# 来源: 跨栈知名开源项目 124 项 / 25 栈标签 (rust/go/ts/python/... 主流
+#   fmt/lint/typecheck/test 工具族); 2026-10-21 全量核验 GHA 在场 + 最新
+#   run 活性 (90 天窗口)。
+# tools 为预期标签 (sweep per-rule 命中报告给真值); slots/max 为抓取策略;
+#   既有 3 语料仓 (niri-wm/niri · anomalyco/opencode · nix-community/
+#   home-manager) 槽位 14F+5S 覆盖 defaults (语料连续性), 其余 121 项走
+#   defaults 8F+3S。
+# exempt: 未适配过渡通道 — 该项目工具暂无覆盖规则, 抓取时 sidecar 记
+#   gate_exempt=true, L0 门禁跳其 FN/FP 率/零块断言 (边界违例/语料在场/
+#   压缩率双测不豁免, 语义见 dev 仓 spec §4); 规则适配达标后移出该字段
+#   (豁免余量 = 适配进度度量)。
+defaults:
+  slots: {failure: 8, success: 3}
+  max_job_log_bytes: 5242880  # 单 job 日志超限跳过并注记 (证据完整性优先, 不截断)
+projects:
+  # ===== rust (13) =====
+  - {repo: BurntSushi/ripgrep, stack: rust, tools: [cargo-test, clippy], exempt: onboarding}
+  - {repo: alacritty/alacritty, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: dandavison/delta, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: hyperium/hyper, stack: rust, tools: [cargo-test, clippy, cargo-deny], exempt: onboarding}
+  - {repo: niri-wm/niri, stack: rust, tools: [cargo-test, clippy, meson], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: qdrant/qdrant, stack: rust, tools: [cargo-test, clippy], exempt: onboarding}
+  - {repo: rust-analyzer/rust-analyzer, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: serde-rs/serde, stack: rust, tools: [cargo-test, trybuild, rustfmt], exempt: onboarding}
+  - {repo: sharkdp/bat, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: sharkdp/fd, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: starship/starship, stack: rust, tools: [cargo-test, clippy], exempt: onboarding}
+  - {repo: tokio-rs/tokio, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  - {repo: uutils/coreutils, stack: rust, tools: [cargo-test, clippy, rustfmt], exempt: onboarding}
+  # ===== go (15) =====
+  - {repo: caddyserver/caddy, stack: go, tools: [go-test, gofmt], exempt: onboarding}
+  - {repo: cli/cli, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  - {repo: etcd-io/etcd, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  - {repo: gin-gonic/gin, stack: go, tools: [go-test], exempt: onboarding}
+  - {repo: gohugoio/hugo, stack: go, tools: [go-test, gofmt, staticcheck], exempt: onboarding}
+  - {repo: golangci/golangci-lint, stack: go, tools: [go-test, golangci-lint-self], exempt: onboarding}
+  - {repo: grafana/loki, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  - {repo: grpc/grpc-go, stack: go, tools: [go-test], exempt: onboarding}
+  - {repo: helm/helm, stack: go, tools: [go-test, golangci], exempt: onboarding}
+  - {repo: kubernetes/kubernetes, stack: go, tools: [go-test, golangci-lint, gofmt], exempt: onboarding}
+  - {repo: moby/moby, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  - {repo: mvdan/sh, stack: go, tools: [go-test, shfmt-self], exempt: onboarding}
+  - {repo: rhysd/actionlint, stack: go, tools: [go-test], exempt: onboarding}
+  - {repo: spf13/cobra, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  - {repo: spf13/viper, stack: go, tools: [go-test, golangci-lint], exempt: onboarding}
+  # ===== ts (13) =====
+  - {repo: anomalyco/opencode, stack: ts, tools: [vitest, eslint, tsc, github-actions], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: ant-design/ant-design, stack: ts, tools: [jest, eslint, stylelint, prettier, tsc], exempt: onboarding}
+  - {repo: honojs/hono, stack: ts, tools: [vitest, eslint, prettier, tsc], exempt: onboarding}
+  - {repo: microsoft/TypeScript, stack: ts, tools: [tsc-selftest, eslint, prettier], exempt: onboarding}
+  - {repo: microsoft/playwright, stack: ts, tools: [playwright-selftest, jest, tsc, eslint], exempt: onboarding}
+  - {repo: pnpm/pnpm, stack: ts, tools: [jest, eslint, prettier], exempt: onboarding}
+  - {repo: rollup/rollup, stack: ts, tools: [vitest, eslint, prettier], exempt: onboarding}
+  - {repo: sveltejs/svelte, stack: ts, tools: [vitest, playwright, eslint, prettier], exempt: onboarding}
+  - {repo: tailwindlabs/tailwindcss, stack: ts, tools: [jest, eslint, prettier], exempt: onboarding}
+  - {repo: vercel/next.js, stack: ts, tools: [jest, eslint, prettier, tsc], exempt: onboarding}
+  - {repo: vitejs/vite, stack: ts, tools: [vitest, eslint, prettier, tsc], exempt: onboarding}
+  - {repo: vuejs/core, stack: ts, tools: [vitest, eslint, prettier, tsc], exempt: onboarding}
+  - {repo: withastro/astro, stack: ts, tools: [vitest, playwright, eslint, prettier, tsc], exempt: onboarding}
+  # ===== js (4) =====
+  - {repo: DavidAnson/markdownlint, stack: js, tools: [mocha, eslint], exempt: onboarding}
+  - {repo: eslint/eslint, stack: js, tools: [jest, eslint-self], exempt: onboarding}
+  - {repo: prettier/prettier, stack: js, tools: [jest, eslint, prettier-self], exempt: onboarding}
+  - {repo: stylelint/stylelint, stack: js, tools: [jest, eslint, prettier], exempt: onboarding}
+  # ===== python (11) =====
+  - {repo: django/django, stack: python, tools: [pytest, flake8, pre-commit], exempt: onboarding}
+  - {repo: fastapi/fastapi, stack: python, tools: [pytest, mypy, ruff], exempt: onboarding}
+  - {repo: mitmproxy/mitmproxy, stack: python, tools: [pytest, mypy, ruff], exempt: onboarding}
+  - {repo: openai/openai-python, stack: python, tools: [pytest, ruff, mypy], exempt: onboarding}
+  - {repo: pallets/flask, stack: python, tools: [pytest, mypy, pre-commit-black-isort], exempt: onboarding}
+  - {repo: pandas-dev/pandas, stack: python, tools: [pytest, mypy, pre-commit], exempt: onboarding}
+  - {repo: psf/black, stack: python, tools: [pytest, black-self, mypy], exempt: onboarding}
+  - {repo: psf/requests, stack: python, tools: [pytest, mypy, flake8], exempt: onboarding}
+  - {repo: pydantic/pydantic, stack: python, tools: [pytest, mypy, ruff], exempt: onboarding}
+  - {repo: pytest-dev/pytest, stack: python, tools: [pytest-self], exempt: onboarding}
+  - {repo: scikit-learn/scikit-learn, stack: python, tools: [pytest, ruff, mypy], exempt: onboarding}
+  # ===== java (8) =====
+  - {repo: apache/kafka, stack: java, tools: [gradle, junit, spotbugs], exempt: onboarding}
+  - {repo: diffplug/spotless, stack: java, tools: [gradle, junit, spotless-self], exempt: onboarding}
+  - {repo: google/guava, stack: java, tools: [maven, junit], exempt: onboarding}
+  - {repo: gradle/gradle, stack: java, tools: [gradle-selftest], exempt: onboarding}
+  - {repo: mockito/mockito, stack: java, tools: [gradle, junit], exempt: onboarding}
+  - {repo: spring-projects/spring-boot, stack: java, tools: [gradle, junit, checkstyle], exempt: onboarding}
+  - {repo: spring-projects/spring-framework, stack: java, tools: [gradle, junit, style], exempt: onboarding}
+  - {repo: square/okhttp, stack: java, tools: [gradle, junit, animal-sniffer], exempt: onboarding}
+  # ===== kt (2) =====
+  - {repo: JetBrains/Exposed, stack: kt, tools: [gradle, junit, detekt], exempt: onboarding}
+  - {repo: detekt/detekt, stack: kt, tools: [gradle, detekt-self, junit], exempt: onboarding}
+  # ===== cpp (10) =====
+  - {repo: ClickHouse/ClickHouse, stack: cpp, tools: [cmake, fasttest], exempt: onboarding}
+  - {repo: bitcoin/bitcoin, stack: cpp, tools: [autotools, cmake, boost-test], exempt: onboarding}
+  - {repo: catchorg/Catch2, stack: cpp, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: duckdb/duckdb, stack: cpp, tools: [cmake, unittest], exempt: onboarding}
+  - {repo: fmtlib/fmt, stack: cpp, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: google/benchmark, stack: cpp, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: google/googletest, stack: cpp, tools: [cmake, ctest, autotools], exempt: onboarding}
+  - {repo: nlohmann/json, stack: cpp, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: opencv/opencv, stack: cpp, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: protocolbuffers/protobuf, stack: cpp, tools: [cmake, ctest, python-integration], exempt: onboarding}
+  # ===== c (4) =====
+  - {repo: curl/curl, stack: c, tools: [autotools, cmake, curl-testdone], exempt: onboarding}
+  - {repo: libuv/libuv, stack: c, tools: [cmake, ctest], exempt: onboarding}
+  - {repo: openssl/openssl, stack: c, tools: [perl-harness, make], exempt: onboarding}
+  - {repo: redis/redis, stack: c, tools: [make, tcl-tests], exempt: onboarding}
+  # ===== csharp (5) =====
+  - {repo: AvaloniaUI/Avalonia, stack: csharp, tools: [xunit, dotnet], exempt: onboarding}
+  - {repo: JamesNK/Newtonsoft.Json, stack: csharp, tools: [xunit, dotnet], exempt: onboarding}
+  - {repo: dotnet/aspnetcore, stack: csharp, tools: [dotnet-build, xunit], exempt: onboarding}
+  - {repo: dotnet/roslyn, stack: csharp, tools: [xunit, msbuild], exempt: onboarding}
+  - {repo: dotnet/runtime, stack: csharp, tools: [dotnet-build, xunit, dotnet-format], exempt: onboarding}
+  # ===== ruby (6) =====
+  - {repo: Homebrew/brew, stack: ruby, tools: [rubocop, dev-cmd-tests], exempt: onboarding}
+  - {repo: fastlane/fastlane, stack: ruby, tools: [rspec, rubocop], exempt: onboarding}
+  - {repo: jekyll/jekyll, stack: ruby, tools: [rspec, rubocop], exempt: onboarding}
+  - {repo: puma/puma, stack: ruby, tools: [rspec, rubocop], exempt: onboarding}
+  - {repo: rails/rails, stack: ruby, tools: [rails-testsuite, minitest, rubocop], exempt: onboarding}
+  - {repo: rubocop/rubocop, stack: ruby, tools: [rspec, rubocop-self], exempt: onboarding}
+  # ===== php (5) =====
+  - {repo: composer/composer, stack: php, tools: [phpunit], exempt: onboarding}
+  - {repo: laravel/framework, stack: php, tools: [phpunit, pint, phpstan], exempt: onboarding}
+  - {repo: phpstan/phpstan, stack: php, tools: [phpunit-self, phpstan-self], exempt: onboarding}
+  - {repo: sebastianbergmann/phpunit, stack: php, tools: [phpunit-self], exempt: onboarding}
+  - {repo: symfony/symfony, stack: php, tools: [phpunit, php-cs-fixer, phpstan], exempt: onboarding}
+  # ===== swift (4) =====
+  - {repo: Alamofire/Alamofire, stack: swift, tools: [xcodebuild, swiftpm], exempt: onboarding}
+  - {repo: swiftlang/swift-format, stack: swift, tools: [swift-test, swift-format-self], exempt: onboarding}
+  - {repo: swiftlang/swift-syntax, stack: swift, tools: [swift-test, swiftformat, swiftlint], exempt: onboarding}
+  - {repo: vapor/vapor, stack: swift, tools: [swift-test], exempt: onboarding}
+  # ===== zig (2) =====
+  - {repo: ziglang/zig, stack: zig, tools: [zig-build-test, zig-fmt], exempt: onboarding}
+  - {repo: zigtools/zls, stack: zig, tools: [zig-build-test, zig-fmt], exempt: onboarding}
+  # ===== zig-ts (1) =====
+  - {repo: oven-sh/bun, stack: zig-ts, tools: [zig, cargo, jest], exempt: onboarding}
+  # ===== nix (3) =====
+  - {repo: LnL7/nix-darwin, stack: nix, tools: [nix-flake-check], exempt: onboarding}
+  - {repo: nix-community/home-manager, stack: nix, tools: [nix-flake-check], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: nix-community/nix-direnv, stack: nix, tools: [nix-flake-check], exempt: onboarding}
+  # ===== haskell (6) =====
+  - {repo: commercialhaskell/stack, stack: haskell, tools: [stack-test, hlint], exempt: onboarding}
+  - {repo: hadolint/hadolint, stack: haskell, tools: [cabal-test], exempt: onboarding}
+  - {repo: haskell/cabal, stack: haskell, tools: [cabal-test, doctest], exempt: onboarding}
+  - {repo: haskell/haskell-language-server, stack: haskell, tools: [cabal, ormolu, hlint], exempt: onboarding}
+  - {repo: jgm/pandoc, stack: haskell, tools: [cabal-test, weeder, hlint], exempt: onboarding}
+  - {repo: koalaman/shellcheck, stack: haskell, tools: [cabal-test, shellcheck-self], exempt: onboarding}
+  # ===== elixir (2) =====
+  - {repo: phoenixframework/phoenix, stack: elixir, tools: [mix-test, credo, dialyzer], exempt: onboarding}
+  - {repo: rrrene/credo, stack: elixir, tools: [mix-test, credo-self], exempt: onboarding}
+  # ===== erlang (2) =====
+  - {repo: elixir-lang/elixir, stack: erlang, tools: [mix-test, make], exempt: onboarding}
+  - {repo: erlang/otp, stack: erlang, tools: [make, common-test, dialyzer], exempt: onboarding}
+  # ===== lua (2) =====
+  - {repo: luarocks/luarocks, stack: lua, tools: [busted], exempt: onboarding}
+  - {repo: nvim-telescope/telescope.nvim, stack: lua, tools: [busted, stylua, luacheck], exempt: onboarding}
+  # ===== dart (2) =====
+  - {repo: flutter/flutter, stack: dart, tools: [flutter-test, dart-analyze], exempt: onboarding}
+  - {repo: flutter/packages, stack: dart, tools: [flutter-test, dart-analyze], exempt: onboarding}
+  # ===== c-lua (1) =====
+  - {repo: neovim/neovim, stack: c-lua, tools: [busted, luacheck, stylua, clang], exempt: onboarding}
+  # ===== rust-ts (1) =====
+  - {repo: denoland/deno, stack: rust-ts, tools: [cargo-test, deno-test, napi], exempt: onboarding}
+  # ===== rust-python (1) =====
+  - {repo: astral-sh/ruff, stack: rust-python, tools: [cargo-test, pytest], exempt: onboarding}
+  # ===== go-js (1) =====
+  - {repo: evanw/esbuild, stack: go-js, tools: [go-test, jest], exempt: onboarding}

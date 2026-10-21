@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/AvaloniaUI/Avalonia",
+  "run_id": 39426841477,
+  "job_id": 118653312828,
+  "conclusion": "failure",
+  "workflow_name": "Build",
+  "created_at": "2026-10-20T13:00:59Z",
+  "job_name": "Publish-Nightly-NuGet-Packages",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:56:21Z"
+}

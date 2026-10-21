@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-framework",
+  "run_id": 39488893080,
+  "job_id": 118856426669,
+  "conclusion": "success",
+  "workflow_name": "Backport Bot",
+  "created_at": "2026-10-20T20:04:41Z",
+  "job_name": "backport-issue",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:45:46Z"
+}

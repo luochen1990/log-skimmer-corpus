@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39546984023,
+  "job_id": 119047268630,
+  "conclusion": "success",
+  "workflow_name": "autofix.ci",
+  "created_at": "2026-10-21T04:58:54Z",
+  "job_name": "Format",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:08:59Z"
+}

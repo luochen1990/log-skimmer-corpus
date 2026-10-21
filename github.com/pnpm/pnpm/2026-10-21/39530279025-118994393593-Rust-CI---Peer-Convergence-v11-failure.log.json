@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 39530279025,
+  "job_id": 118994393593,
+  "conclusion": "failure",
+  "workflow_name": "Rust CI",
+  "created_at": "2026-10-21T01:57:30Z",
+  "job_name": "Rust-CI---Peer-Convergence-v11",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:31:28Z"
+}

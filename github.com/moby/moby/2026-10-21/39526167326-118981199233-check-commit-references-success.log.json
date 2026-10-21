@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 39526167326,
+  "job_id": 118981199233,
+  "conclusion": "success",
+  "workflow_name": "validate-pr",
+  "created_at": "2026-10-21T01:14:40Z",
+  "job_name": "check-commit-references",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:26:34Z"
+}

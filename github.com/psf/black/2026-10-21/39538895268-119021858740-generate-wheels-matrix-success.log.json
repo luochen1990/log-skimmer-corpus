@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 39538895268,
+  "job_id": 119021858740,
+  "conclusion": "success",
+  "workflow_name": "build and publish",
+  "created_at": "2026-10-21T03:29:59Z",
+  "job_name": "generate-wheels-matrix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:39:59Z"
+}

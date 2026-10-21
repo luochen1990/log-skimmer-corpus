@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39511368376,
+  "job_id": 118932924694,
+  "conclusion": "failure",
+  "workflow_name": "Helm tagged release PR",
+  "created_at": "2026-10-20T22:53:59Z",
+  "job_name": "weekly-release-pr",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:24:02Z"
+}

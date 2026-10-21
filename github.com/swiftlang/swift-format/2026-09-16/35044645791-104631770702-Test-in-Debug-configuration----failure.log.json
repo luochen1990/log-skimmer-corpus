@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-format",
+  "run_id": 35044645791,
+  "job_id": 104631770702,
+  "conclusion": "failure",
+  "workflow_name": "Publish Release",
+  "created_at": "2026-09-16T01:34:50Z",
+  "job_name": "Test-in-Debug-configuration---",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:04:33Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39519909006,
+  "job_id": 118961691527,
+  "conclusion": "failure",
+  "workflow_name": "check",
+  "created_at": "2026-10-21T00:12:33Z",
+  "job_name": "check---testPackages-(pkg-quer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:23:54Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 37187650151,
+  "job_id": 111392918397,
+  "conclusion": "failure",
+  "workflow_name": "Compatibility: Phoenix",
+  "created_at": "2026-10-04T08:02:44Z",
+  "job_name": "[26.2-1.17.3]-new-Phoenix-app-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:15:14Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39533475464,
+  "job_id": 119004575509,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: Fix RackAwareStandbyPicker javadoc on how tag keys are picked    ",
+  "created_at": "2026-10-21T02:31:17Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:42:00Z"
+}

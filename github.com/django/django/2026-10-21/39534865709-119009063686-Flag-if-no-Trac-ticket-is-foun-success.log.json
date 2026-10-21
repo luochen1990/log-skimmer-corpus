@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 39534865709,
+  "job_id": 119009063686,
+  "conclusion": "success",
+  "workflow_name": "Labels",
+  "created_at": "2026-10-21T02:46:21Z",
+  "job_name": "Flag-if-no-Trac-ticket-is-foun",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:37:44Z"
+}

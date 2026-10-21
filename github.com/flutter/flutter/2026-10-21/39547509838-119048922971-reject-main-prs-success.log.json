@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/flutter",
+  "run_id": 39547509838,
+  "job_id": 119048922971,
+  "conclusion": "success",
+  "workflow_name": "No PRs on main",
+  "created_at": "2026-10-21T05:04:32Z",
+  "job_name": "reject-main-prs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:18:41Z"
+}

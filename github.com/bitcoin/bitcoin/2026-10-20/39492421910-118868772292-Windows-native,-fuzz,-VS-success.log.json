@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 39492421910,
+  "job_id": 118868772292,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T20:29:35Z",
+  "job_name": "Windows-native,-fuzz,-VS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:48:36Z"
+}

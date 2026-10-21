@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39543266213,
+  "job_id": 119035614607,
+  "conclusion": "success",
+  "workflow_name": "AppVeyor Status Report",
+  "created_at": "2026-10-21T04:17:58Z",
+  "job_name": "split",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:54:26Z"
+}

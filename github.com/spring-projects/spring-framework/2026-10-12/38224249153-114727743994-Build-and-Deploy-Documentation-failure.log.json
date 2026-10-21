@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-framework",
+  "run_id": 38224249153,
+  "job_id": 114727743994,
+  "conclusion": "failure",
+  "workflow_name": "Build and Deploy Documentation (7.0.x)",
+  "created_at": "2026-10-12T08:33:05Z",
+  "job_name": "Build-and-Deploy-Documentation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:45:39Z"
+}

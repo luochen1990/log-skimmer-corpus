@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 39420184294,
+  "job_id": 118625702128,
+  "conclusion": "failure",
+  "workflow_name": "Contributor CI Build",
+  "created_at": "2026-10-20T12:09:51Z",
+  "job_name": "Sanity-Check-on-Linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:43:30Z"
+}

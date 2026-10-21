@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 39512167217,
+  "job_id": 118935589530,
+  "conclusion": "success",
+  "workflow_name": "Smokeshow",
+  "created_at": "2026-10-20T23:01:07Z",
+  "job_name": "smokeshow",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:38:03Z"
+}

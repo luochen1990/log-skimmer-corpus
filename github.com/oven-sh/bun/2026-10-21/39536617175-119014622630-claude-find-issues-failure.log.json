@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39536617175,
+  "job_id": 119014622630,
+  "conclusion": "failure",
+  "workflow_name": "Claude Find Issues for PR",
+  "created_at": "2026-10-21T03:05:16Z",
+  "job_name": "claude-find-issues",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:08:50Z"
+}

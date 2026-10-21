@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 39544060424,
+  "job_id": 119038115032,
+  "conclusion": "success",
+  "workflow_name": "Clean closed branch caches",
+  "created_at": "2026-10-21T04:26:38Z",
+  "job_name": "cleanup",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:39:38Z"
+}

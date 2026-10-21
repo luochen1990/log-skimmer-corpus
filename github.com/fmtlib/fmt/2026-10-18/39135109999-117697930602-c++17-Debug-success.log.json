@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 39135109999,
+  "job_id": 117697930602,
+  "conclusion": "success",
+  "workflow_name": "macos",
+  "created_at": "2026-10-18T14:14:38Z",
+  "job_name": "c++17-Debug",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:50:34Z"
+}

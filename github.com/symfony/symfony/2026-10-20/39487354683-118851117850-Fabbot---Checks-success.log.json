@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 39487354683,
+  "job_id": 118851117850,
+  "conclusion": "success",
+  "workflow_name": "CS",
+  "created_at": "2026-10-20T19:53:52Z",
+  "job_name": "Fabbot---Checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:03:08Z"
+}

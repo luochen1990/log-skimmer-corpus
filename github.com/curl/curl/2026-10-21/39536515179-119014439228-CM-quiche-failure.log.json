@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39536515179,
+  "job_id": 119014439228,
+  "conclusion": "failure",
+  "workflow_name": "Linux HTTP/3",
+  "created_at": "2026-10-21T03:04:14Z",
+  "job_name": "CM-quiche",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:54:13Z"
+}

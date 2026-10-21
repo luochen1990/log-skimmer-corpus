@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39523002460,
+  "job_id": 118971054076,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21305: Bump Jackson version to 2.22.4",
+  "created_at": "2026-10-21T00:43:09Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:42:05Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 39233474973,
+  "job_id": 117996813996,
+  "conclusion": "failure",
+  "workflow_name": "benchmark",
+  "created_at": "2026-10-19T09:53:52Z",
+  "job_name": "benchmark---benchmark-vs-thres",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:05:48Z"
+}

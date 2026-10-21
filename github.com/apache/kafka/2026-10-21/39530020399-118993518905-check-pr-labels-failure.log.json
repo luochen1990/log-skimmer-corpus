@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39530020399,
+  "job_id": 118993518905,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21129: Avoid appending an empty batch in non-atomic batching",
+  "created_at": "2026-10-21T01:54:45Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:42:02Z"
+}

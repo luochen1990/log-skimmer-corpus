@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 37779252613,
+  "job_id": 113317872332,
+  "conclusion": "failure",
+  "workflow_name": "Linux Builds (Complex)",
+  "created_at": "2026-10-08T12:46:11Z",
+  "job_name": "clang-tidy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:48:42Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 39499348483,
+  "job_id": 118892572124,
+  "conclusion": "failure",
+  "workflow_name": "Test Redistribute",
+  "created_at": "2026-10-20T21:19:00Z",
+  "job_name": "test-redistribute",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:37:48Z"
+}

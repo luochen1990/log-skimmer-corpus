@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 39461997563,
+  "job_id": 118763567636,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /antora for js-yaml - Update #1640087085",
+  "created_at": "2026-10-20T16:57:48Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:44:56Z"
+}

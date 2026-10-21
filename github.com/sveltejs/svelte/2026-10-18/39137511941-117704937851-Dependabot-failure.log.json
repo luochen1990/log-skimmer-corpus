@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39137511941,
+  "job_id": 117704937851,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for postcss-selector-parser - Update #1634316508",
+  "created_at": "2026-10-18T14:46:41Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:32:35Z"
+}

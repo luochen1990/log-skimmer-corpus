@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39537440316,
+  "job_id": 119017238316,
+  "conclusion": "success",
+  "workflow_name": "Integration tests",
+  "created_at": "2026-10-21T03:14:05Z",
+  "job_name": "test-shard-snapshot-api-s3-min",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:17:31Z"
+}

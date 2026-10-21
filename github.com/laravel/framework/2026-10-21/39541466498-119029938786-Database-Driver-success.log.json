@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 39541466498,
+  "job_id": 119029938786,
+  "conclusion": "success",
+  "workflow_name": "queues",
+  "created_at": "2026-10-21T03:58:19Z",
+  "job_name": "Database-Driver",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:01:47Z"
+}

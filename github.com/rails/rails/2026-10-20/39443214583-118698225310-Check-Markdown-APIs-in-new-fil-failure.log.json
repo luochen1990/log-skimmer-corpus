@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rails/rails",
+  "run_id": 39443214583,
+  "job_id": 118698225310,
+  "conclusion": "failure",
+  "workflow_name": "Markdown API",
+  "created_at": "2026-10-20T14:52:30Z",
+  "job_name": "Check-Markdown-APIs-in-new-fil",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:00:12Z"
+}

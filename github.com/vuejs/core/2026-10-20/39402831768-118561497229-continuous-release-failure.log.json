@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 39402831768,
+  "job_id": 118561497229,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-20T09:43:59Z",
+  "job_name": "continuous-release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:34:53Z"
+}

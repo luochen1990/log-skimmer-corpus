@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 39536599142,
+  "job_id": 119014570091,
+  "conclusion": "success",
+  "workflow_name": "Codecov",
+  "created_at": "2026-10-21T03:05:06Z",
+  "job_name": "code-coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:56:04Z"
+}

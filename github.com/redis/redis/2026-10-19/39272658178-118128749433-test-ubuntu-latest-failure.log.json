@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 39272658178,
+  "job_id": 118128749433,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-19T14:51:01Z",
+  "job_name": "test-ubuntu-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:56:00Z"
+}

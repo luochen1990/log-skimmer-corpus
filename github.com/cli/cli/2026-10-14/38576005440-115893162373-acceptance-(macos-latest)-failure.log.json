@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 38576005440,
+  "job_id": 115893162373,
+  "conclusion": "failure",
+  "workflow_name": "Acceptance Tests",
+  "created_at": "2026-10-14T13:55:53Z",
+  "job_name": "acceptance-(macos-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:22:08Z"
+}

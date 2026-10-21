@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39543421113,
+  "job_id": 119036120088,
+  "conclusion": "success",
+  "workflow_name": "Next Maintainer Auto Close",
+  "created_at": "2026-10-21T04:19:42Z",
+  "job_name": "close-one-verified-issue",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:34:14Z"
+}

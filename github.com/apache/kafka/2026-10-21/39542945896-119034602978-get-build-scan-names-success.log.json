@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39542945896,
+  "job_id": 119034602978,
+  "conclusion": "success",
+  "workflow_name": "Build Scans for MINOR: Bump website to 4.3.2",
+  "created_at": "2026-10-21T04:14:31Z",
+  "job_name": "get-build-scan-names",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:42:10Z"
+}

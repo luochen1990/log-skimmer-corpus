@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39507413409,
+  "job_id": 118919704012,
+  "conclusion": "failure",
+  "workflow_name": "check",
+  "created_at": "2026-10-20T22:20:44Z",
+  "job_name": "check---lintFiles",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:24:13Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39441583973,
+  "job_id": 118692593152,
+  "conclusion": "failure",
+  "workflow_name": "ci-dispatch pr=33237 head=5901b157208ef943ce9f058573260c89d32acaa0 check_run_id=118692514058",
+  "created_at": "2026-10-20T14:41:49Z",
+  "job_name": "jitter",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:55:09Z"
+}

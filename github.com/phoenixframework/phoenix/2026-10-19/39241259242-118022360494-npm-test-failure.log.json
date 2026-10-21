@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 39241259242,
+  "job_id": 118022360494,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-19T10:58:24Z",
+  "job_name": "npm-test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:14:37Z"
+}

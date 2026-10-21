@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/puma/puma",
+  "run_id": 39542240808,
+  "job_id": 119032375550,
+  "conclusion": "success",
+  "workflow_name": "PR Label Manager",
+  "created_at": "2026-10-21T04:06:53Z",
+  "job_name": "manage-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:59:57Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39445799820,
+  "job_id": 118707243032,
+  "conclusion": "failure",
+  "workflow_name": "Formatter and linter",
+  "created_at": "2026-10-20T15:09:20Z",
+  "job_name": "ast-grep",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:17:16Z"
+}

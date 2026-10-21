@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 39541122250,
+  "job_id": 119028856536,
+  "conclusion": "success",
+  "workflow_name": "Code Quality: PR #20341",
+  "created_at": "2026-10-21T03:54:24Z",
+  "job_name": "Analyze-(javascript-typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:36:56Z"
+}

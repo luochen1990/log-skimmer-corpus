@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39530266279,
+  "job_id": 118994294511,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21234: FileRecords#readInto should honor slice boundaries",
+  "created_at": "2026-10-21T01:57:22Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:42:01Z"
+}

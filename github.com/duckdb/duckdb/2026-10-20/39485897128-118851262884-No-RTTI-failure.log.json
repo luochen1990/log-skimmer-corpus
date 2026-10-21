@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 39485897128,
+  "job_id": 118851262884,
+  "conclusion": "failure",
+  "workflow_name": "Main",
+  "created_at": "2026-10-20T19:43:37Z",
+  "job_name": "No-RTTI",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:49:28Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vitejs/vite",
+  "run_id": 39542779905,
+  "job_id": 119034065550,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T04:12:43Z",
+  "job_name": "Get-changed-files",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:34:37Z"
+}

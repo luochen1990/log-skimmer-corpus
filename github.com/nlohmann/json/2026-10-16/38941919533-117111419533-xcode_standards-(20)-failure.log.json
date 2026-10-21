@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 38941919533,
+  "job_id": 117111419533,
+  "conclusion": "failure",
+  "workflow_name": "macOS",
+  "created_at": "2026-10-16T17:43:51Z",
+  "job_name": "xcode_standards-(20)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:52:10Z"
+}

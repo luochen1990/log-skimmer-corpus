@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 39408649669,
+  "job_id": 118580686966,
+  "conclusion": "success",
+  "workflow_name": "Assets",
+  "created_at": "2026-10-20T10:32:22Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:14:58Z"
+}

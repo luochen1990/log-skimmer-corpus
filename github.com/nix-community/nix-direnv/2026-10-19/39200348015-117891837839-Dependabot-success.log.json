@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/nix-direnv",
+  "run_id": 39200348015,
+  "job_id": 117891837839,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1635555343",
+  "created_at": "2026-10-19T04:36:51Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:10:45Z"
+}

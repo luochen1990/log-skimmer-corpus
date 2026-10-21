@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39542479993,
+  "job_id": 119033130998,
+  "conclusion": "success",
+  "workflow_name": "ci-dispatch pr=33228 head=112c125f526c27036974bd9d04a4c372cca39bdb check_run_id=119033116083",
+  "created_at": "2026-10-21T04:09:30Z",
+  "job_name": "validate-dispatch-inputs---val",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:55:33Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 39306452241,
+  "job_id": 118244679306,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-19T18:54:23Z",
+  "job_name": "build-using-zig-build-(linux)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:19:32Z"
+}

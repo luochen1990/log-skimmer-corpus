@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 39523973894,
+  "job_id": 119012648177,
+  "conclusion": "failure",
+  "workflow_name": "lint and format",
+  "created_at": "2026-10-21T00:52:52Z",
+  "job_name": "lint",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:39:49Z"
+}

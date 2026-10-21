@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 39290677663,
+  "job_id": 118190463778,
+  "conclusion": "failure",
+  "workflow_name": "CI tests",
+  "created_at": "2026-10-19T17:02:18Z",
+  "job_name": "linux-(9.6,-latest,---ghc-opti",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T05:12:47Z"
+}

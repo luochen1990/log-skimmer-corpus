@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 39531781544,
+  "job_id": 118999109257,
+  "conclusion": "failure",
+  "workflow_name": "Cancel Unapproved Workflows",
+  "created_at": "2026-10-21T02:13:09Z",
+  "job_name": "Cancel-workflows-awaiting-appr",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-21T04:31:25Z"
+}
