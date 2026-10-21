@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-syntax",
+  "run_id": 38358654954,
+  "job_id": 115167366716,
+  "conclusion": "failure",
+  "workflow_name": "Pull request",
+  "created_at": "2026-10-13T06:46:47Z",
+  "job_name": "Soundness---Format-check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:04:27Z"
+}

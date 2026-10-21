@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 39671583143,
+  "job_id": 119470555990,
+  "conclusion": "failure",
+  "workflow_name": "OpenBSD",
+  "created_at": "2026-10-21T20:35:12Z",
+  "job_name": "Tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:18:36Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 39019812000,
+  "job_id": 117978423989,
+  "conclusion": "failure",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-17T09:05:36Z",
+  "job_name": "lint-(linux)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:18:56Z"
+}

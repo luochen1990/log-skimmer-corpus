@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 39662050916,
+  "job_id": 119437347750,
+  "conclusion": "success",
+  "workflow_name": "autofix.ci",
+  "created_at": "2026-10-21T19:29:14Z",
+  "job_name": "autofix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:32:49Z"
+}

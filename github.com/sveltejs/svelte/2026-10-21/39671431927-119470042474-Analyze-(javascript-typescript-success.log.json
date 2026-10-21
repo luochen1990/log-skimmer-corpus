@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39671431927,
+  "job_id": 119470042474,
+  "conclusion": "success",
+  "workflow_name": "PR #18947",
+  "created_at": "2026-10-21T20:34:09Z",
+  "job_name": "Analyze-(javascript-typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:30:30Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 39678762336,
+  "job_id": 119495419487,
+  "conclusion": "success",
+  "workflow_name": "databases",
+  "created_at": "2026-10-21T21:26:10Z",
+  "job_name": "MySQL-9.7",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:00:51Z"
+}

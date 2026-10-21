@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 39629272804,
+  "job_id": 119322728476,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-21T15:50:14Z",
+  "job_name": "test-providers-(vapor-fluent)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:05:19Z"
+}

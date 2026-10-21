@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 39680531852,
+  "job_id": 119501534005,
+  "conclusion": "success",
+  "workflow_name": "Labeler: Predict (Pulls)",
+  "created_at": "2026-10-21T21:39:18Z",
+  "job_name": "predict-pull-label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:56:49Z"
+}

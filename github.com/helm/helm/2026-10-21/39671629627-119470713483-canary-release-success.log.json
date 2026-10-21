@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 39671629627,
+  "job_id": 119470713483,
+  "conclusion": "success",
+  "workflow_name": "release",
+  "created_at": "2026-10-21T20:35:31Z",
+  "job_name": "canary-release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:22:28Z"
+}

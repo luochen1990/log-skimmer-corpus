@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/koalaman/shellcheck",
+  "run_id": 39569976543,
+  "job_id": 119121426662,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1642054812",
+  "created_at": "2026-10-21T08:31:57Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:13:34Z"
+}

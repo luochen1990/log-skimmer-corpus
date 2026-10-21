@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mockito/mockito",
+  "run_id": 39471172927,
+  "job_id": 118795319826,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1640182968",
+  "created_at": "2026-10-20T18:01:44Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:43:17Z"
+}

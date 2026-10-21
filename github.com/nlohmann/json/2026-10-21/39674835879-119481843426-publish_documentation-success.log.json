@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 39674835879,
+  "job_id": 119481843426,
+  "conclusion": "success",
+  "workflow_name": "Publish documentation",
+  "created_at": "2026-10-21T20:57:58Z",
+  "job_name": "publish_documentation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:50:45Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 39656409513,
+  "job_id": 119417744773,
+  "conclusion": "success",
+  "workflow_name": "Changelog",
+  "created_at": "2026-10-21T18:51:02Z",
+  "job_name": "Check-for-changelog-entry",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:16:56Z"
+}

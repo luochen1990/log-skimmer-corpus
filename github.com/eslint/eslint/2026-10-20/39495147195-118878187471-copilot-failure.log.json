@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/eslint/eslint",
+  "run_id": 39495147195,
+  "job_id": 118878187471,
+  "conclusion": "failure",
+  "workflow_name": "Addressing comment on PR #20523",
+  "created_at": "2026-10-20T20:48:39Z",
+  "job_name": "copilot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:33:59Z"
+}

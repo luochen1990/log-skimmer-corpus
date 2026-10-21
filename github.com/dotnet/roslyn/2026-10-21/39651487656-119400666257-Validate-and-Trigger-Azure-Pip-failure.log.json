@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 39651487656,
+  "job_id": 119400666257,
+  "conclusion": "failure",
+  "workflow_name": "PR Validation",
+  "created_at": "2026-10-21T18:18:13Z",
+  "job_name": "Validate-and-Trigger-Azure-Pip",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:56:34Z"
+}

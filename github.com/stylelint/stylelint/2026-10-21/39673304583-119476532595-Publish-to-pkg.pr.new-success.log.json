@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 39673304583,
+  "job_id": 119476532595,
+  "conclusion": "success",
+  "workflow_name": "Publish to pkg.pr.new",
+  "created_at": "2026-10-21T20:47:12Z",
+  "job_name": "Publish-to-pkg.pr.new",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:35:46Z"
+}

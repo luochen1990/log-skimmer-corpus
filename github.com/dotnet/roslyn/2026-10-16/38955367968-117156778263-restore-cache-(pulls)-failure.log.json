@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 38955367968,
+  "job_id": 117156778263,
+  "conclusion": "failure",
+  "workflow_name": "Labeler: Cache Retention",
+  "created_at": "2026-10-16T19:30:04Z",
+  "job_name": "restore-cache-(pulls)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:56:41Z"
+}

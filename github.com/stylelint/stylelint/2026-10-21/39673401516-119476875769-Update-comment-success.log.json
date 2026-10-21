@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 39673401516,
+  "job_id": 119476875769,
+  "conclusion": "success",
+  "workflow_name": "Update pkg.pr.new comment",
+  "created_at": "2026-10-21T20:47:52Z",
+  "job_name": "Update-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:35:43Z"
+}

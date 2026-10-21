@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gin-gonic/gin",
+  "run_id": 39476103094,
+  "job_id": 118812350293,
+  "conclusion": "failure",
+  "workflow_name": "Trivy Security Scan",
+  "created_at": "2026-10-20T18:35:39Z",
+  "job_name": "Trivy-Security-Scan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:20:10Z"
+}

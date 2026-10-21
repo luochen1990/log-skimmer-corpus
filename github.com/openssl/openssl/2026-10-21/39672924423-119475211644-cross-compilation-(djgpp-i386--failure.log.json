@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39672924423,
+  "job_id": 119475211644,
+  "conclusion": "failure",
+  "workflow_name": "Cross Compile",
+  "created_at": "2026-10-21T20:44:34Z",
+  "job_name": "cross-compilation-(djgpp-i386-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:54:30Z"
+}

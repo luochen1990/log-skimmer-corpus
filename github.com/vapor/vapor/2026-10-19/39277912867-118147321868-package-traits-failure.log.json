@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 39277912867,
+  "job_id": 118147321868,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-19T15:25:58Z",
+  "job_name": "package-traits",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:04:56Z"
+}

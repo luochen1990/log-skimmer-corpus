@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 39668362521,
+  "job_id": 119460659973,
+  "conclusion": "failure",
+  "workflow_name": "Unit tests",
+  "created_at": "2026-10-21T20:13:03Z",
+  "job_name": "Linux-pylatest_pip_openblas_pa",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:40:11Z"
+}

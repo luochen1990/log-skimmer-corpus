@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 39545153704,
+  "job_id": 119042183597,
+  "conclusion": "failure",
+  "workflow_name": "Check amalgamation",
+  "created_at": "2026-10-21T04:38:33Z",
+  "job_name": "check",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:50:39Z"
+}

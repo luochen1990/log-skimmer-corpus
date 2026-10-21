@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 39641134609,
+  "job_id": 119364638667,
+  "conclusion": "failure",
+  "workflow_name": "tests 2",
+  "created_at": "2026-10-21T17:08:38Z",
+  "job_name": "Windows-(firefox)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:28:27Z"
+}

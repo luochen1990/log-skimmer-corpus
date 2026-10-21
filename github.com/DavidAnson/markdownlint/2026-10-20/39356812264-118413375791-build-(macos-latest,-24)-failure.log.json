@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 39356812264,
+  "job_id": 118413375791,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T02:03:16Z",
+  "job_name": "build-(macos-latest,-24)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:33:33Z"
+}

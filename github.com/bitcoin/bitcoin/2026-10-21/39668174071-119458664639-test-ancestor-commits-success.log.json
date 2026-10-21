@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 39668174071,
+  "job_id": 119458664639,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T20:11:47Z",
+  "job_name": "test-ancestor-commits",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:47:15Z"
+}

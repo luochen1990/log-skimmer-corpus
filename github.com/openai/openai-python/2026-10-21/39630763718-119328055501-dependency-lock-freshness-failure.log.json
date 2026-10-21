@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 39630763718,
+  "job_id": 119328055501,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T16:00:01Z",
+  "job_name": "dependency-lock-freshness",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:37:14Z"
+}

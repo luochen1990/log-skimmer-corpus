@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 39677229727,
+  "job_id": 119490138040,
+  "conclusion": "success",
+  "workflow_name": "Preview Deploy",
+  "created_at": "2026-10-21T21:15:03Z",
+  "job_name": "Check-if-workflow-run-is-trust",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:27:09Z"
+}

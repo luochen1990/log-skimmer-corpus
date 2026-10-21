@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 39657437968,
+  "job_id": 119421337416,
+  "conclusion": "failure",
+  "workflow_name": "Triage New Issues",
+  "created_at": "2026-10-21T18:57:59Z",
+  "job_name": "Triage-issue",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:29:02Z"
+}

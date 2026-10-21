@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rhysd/actionlint",
+  "run_id": 33226407071,
+  "job_id": 99030919275,
+  "conclusion": "failure",
+  "workflow_name": "Generate",
+  "created_at": "2026-08-29T01:26:19Z",
+  "job_name": "go-generate",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:24:38Z"
+}

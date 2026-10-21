@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39554890908,
+  "job_id": 119072250929,
+  "conclusion": "failure",
+  "workflow_name": "Codespell",
+  "created_at": "2026-10-21T06:21:19Z",
+  "job_name": "Check-for-spelling-errors",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:15:27Z"
+}

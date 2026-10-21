@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/serde-rs/serde",
+  "run_id": 39355866187,
+  "job_id": 118410370433,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-20T01:52:54Z",
+  "job_name": "Rust-1.71.0",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:16:33Z"
+}

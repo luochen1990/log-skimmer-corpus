@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39591676801,
+  "job_id": 119193910214,
+  "conclusion": "failure",
+  "workflow_name": "Website Infra",
+  "created_at": "2026-10-21T11:24:07Z",
+  "job_name": "Test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:01:07Z"
+}
