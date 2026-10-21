@@ -1,12 +1,15 @@
-# corpus-refresh — 语料仓自刷 (纯槽位滚动; 源头自包含, 零外部仓依赖)
+# corpus-refresh — 语料仓自刷 (124 项示范集全量滚动, orphan 单提交模型)
 #
-# 职责: 三仓 (sst/opencode · niri-wm/niri · nix-community/home-manager) 槽位
-#   重拉 (14F+5S per repo, scripts/fetch-logs.sh 自带副本 — 演进随发布面同步,
-#   源文件在 log-skimmer dev 仓) + 单 commit 推送。语料是源头材料, 不算基线
-#   不构建引擎 (需求方裁决 2026-10-16 四仓拓扑: 基线退役, 压缩率防退化由消费方
-#   dev 仓 CI 双测对比承担)。
-# 防线: 任一仓 0 对在场 → fetch-logs 硬断言红 (拉取链路故障不得空仓收场)。
-# secret: GH_RO_API_TOKEN = fine-grained PAT (零权限勾选) (读三仓公开 actions; per-run github.token 跨仓 401)。
+# 职责: scripts/fetch-logs.sh --projects projects.yaml (清单 SSOT 在仓根)
+#   全量重抓 github.com/ 样本树 — 旧样本删除, 新样本 .log.gz + sidecar
+#   (gate_exempt 由清单 exempt 字段驱动)。单项目失败 fetch-logs 内置容错
+#   (注记跳过不炸整体), 全部项目 0 对才 exit 1 (空语料硬防线, 2026-10-16
+#   事故: 空仓被 commit); fetch 失败则不推 — 防半空语料覆盖远端。
+#   读树重建单 orphan commit force-push master: 仓体积恒定不积累历史
+#   (滚动淘汰与 README 同口径; 2026-10-21 规模化裁决: 3 仓 57 样本 →
+#   124 仓 ~1400 样本, 槽位 8F+3S / 既有 3 仓 14F+5S)。
+# secret: GH_RO_API_TOKEN = fine-grained PAT (零权限勾选, 读公开仓 actions;
+#   per-run github.token 跨仓 401 — 2026-10-16 事故实证, 不改回)。
 name: corpus-refresh
 on:
   schedule: [{cron: "0 20 * * 1"}]
@@ -16,24 +19,28 @@ concurrency: {group: corpus-refresh, cancel-in-progress: false}
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 180 # 124 仓抓取预估 45-115min, 留余量
     steps:
       - uses: actions/checkout@v4
-      - name: slots refresh (14F+5S per repo)
+      - name: full slots refresh (--projects 124 项)
         env:
           GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
           CORPUS_DIR: ${{ github.workspace }}
         run: |
           rm -rf github.com
-          bash scripts/fetch-logs.sh
-      - name: commit + push
+          bash scripts/fetch-logs.sh --projects projects.yaml
+      - name: rebuild as single orphan commit + force push
         run: |
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "语料无变化"
-          else
-            git commit -qm "corpus refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            echo "语料无变化, 跳过推送"
+            exit 0
           fi
+          # orphan 单提交: 读树重建根提交 (携带刚刷新的整树), 强推替换 master —
+          #   历史不积累; 消费方须 fetch + reset --hard 而非 pull (README 有约)
+          git checkout --orphan corpus-fresh
+          git commit -qm "corpus refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git branch -M master
+          git push --force origin master
