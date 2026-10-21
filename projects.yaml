@@ -119,7 +119,7 @@ projects:
   # ===== php (5) =====
   - {repo: composer/composer, stack: php, tools: [phpunit]}
   - {repo: laravel/framework, stack: php, tools: [phpunit, pint, phpstan]}
-  - {repo: phpstan/phpstan, stack: php, tools: [phpunit-self, phpstan-self], exempt: onboarding}
+  - {repo: phpstan/phpstan, stack: php, tools: [phpunit-self, phpstan-self]}
   - {repo: sebastianbergmann/phpunit, stack: php, tools: [phpunit-self]}
   - {repo: symfony/symfony, stack: php, tools: [phpunit, php-cs-fixer, phpstan]}
   # ===== swift (4) =====
@@ -151,7 +151,7 @@ projects:
   - {repo: erlang/otp, stack: erlang, tools: [make, common-test, dialyzer]}
   # ===== lua (2) =====
   - {repo: luarocks/luarocks, stack: lua, tools: [busted]}
-  - {repo: nvim-telescope/telescope.nvim, stack: lua, tools: [busted, stylua, luacheck], exempt: onboarding}
+  - {repo: nvim-telescope/telescope.nvim, stack: lua, tools: [busted, stylua, luacheck]}
   # ===== dart (2) =====
   - {repo: flutter/flutter, stack: dart, tools: [flutter-test, dart-analyze]}
   - {repo: flutter/packages, stack: dart, tools: [flutter-test, dart-analyze]}
