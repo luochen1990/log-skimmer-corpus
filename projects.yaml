@@ -165,7 +165,7 @@ projects:
   - {repo: evanw/esbuild, stack: go-js, tools: [go-test, jest]}
   # ===== security (4) — 类目播种 2026-10-22 (security 规则空白: 语料面结构性空洞,
   #   非规则缺口 — CI 跑 security 扫描器的仓不在集内, 失败形态无从出现; 裁决: B 薄切片) =====
-  - {repo: semgrep/semgrep, stack: security, tools: [semgrep, pytest], exempt: onboarding-security}
-  - {repo: aquasecurity/trivy, stack: security, tools: [trivy, go-test], exempt: onboarding-security}
-  - {repo: gitleaks/gitleaks, stack: security, tools: [gitleaks, go-test], exempt: onboarding-security}
-  - {repo: trufflesecurity/trufflehog, stack: security, tools: [trufflehog, go-test], exempt: onboarding-security}
+  - {repo: semgrep/semgrep, stack: security, tools: [semgrep, pytest]}
+  - {repo: aquasecurity/trivy, stack: security, tools: [trivy, go-test]}
+  - {repo: gitleaks/gitleaks, stack: security, tools: [gitleaks, go-test]}
+  - {repo: trufflesecurity/trufflehog, stack: security, tools: [trufflehog, go-test]}
