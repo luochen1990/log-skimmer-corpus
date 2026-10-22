@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/aquasecurity/trivy",
+  "run_id": 39685313873,
+  "job_id": 119517763572,
+  "conclusion": "success",
+  "workflow_name": "Triage Discussion",
+  "created_at": "2026-10-21T22:16:43Z",
+  "job_name": "label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:12:59Z"
+}

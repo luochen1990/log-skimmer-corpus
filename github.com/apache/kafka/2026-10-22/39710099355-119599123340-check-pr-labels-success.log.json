@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 39710099355,
+  "job_id": 119599123340,
+  "conclusion": "success",
+  "workflow_name": "Workflow Requested for MINOR: Document unstable MetadataVersion requirements",
+  "created_at": "2026-10-22T02:12:32Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:34:43Z"
+}

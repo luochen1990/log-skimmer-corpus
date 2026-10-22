@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 39688240970,
+  "job_id": 119527738863,
+  "conclusion": "failure",
+  "workflow_name": "Fuzzing",
+  "created_at": "2026-10-21T22:40:57Z",
+  "job_name": "Fuzz-(fuzz_wc)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:13:51Z"
+}

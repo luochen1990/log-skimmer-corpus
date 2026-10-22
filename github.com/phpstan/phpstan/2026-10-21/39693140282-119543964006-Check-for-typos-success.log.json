@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39693140282,
+  "job_id": 119543964006,
+  "conclusion": "success",
+  "workflow_name": "Spelling",
+  "created_at": "2026-10-21T23:23:50Z",
+  "job_name": "Check-for-typos",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:54:22Z"
+}

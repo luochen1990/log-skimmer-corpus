@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 39682853389,
+  "job_id": 119509440428,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /src/Illuminate/Foundation/resources/exceptions/renderer for vite - Update #1643660688",
+  "created_at": "2026-10-21T21:57:18Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:53:29Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 39712388788,
+  "job_id": 119606505136,
+  "conclusion": "failure",
+  "workflow_name": "Validate PAT Pool",
+  "created_at": "2026-10-22T02:37:17Z",
+  "job_name": "Validate-Copilot-PAT-Pool",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:50:13Z"
+}

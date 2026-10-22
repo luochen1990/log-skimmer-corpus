@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 39655068370,
+  "job_id": 119413122671,
+  "conclusion": "failure",
+  "workflow_name": "buildkit",
+  "created_at": "2026-10-21T18:42:02Z",
+  "job_name": "build-linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:18:30Z"
+}

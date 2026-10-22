@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/denoland/deno",
+  "run_id": 39672518143,
+  "job_id": 119473855362,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-21T20:41:45Z",
+  "job_name": "bench-release-linux-x86_64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:10:42Z"
+}

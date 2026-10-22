@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/golangci/golangci-lint",
+  "run_id": 39666678026,
+  "job_id": 119453438370,
+  "conclusion": "success",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-21T20:01:24Z",
+  "job_name": "go-mod",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:16:03Z"
+}

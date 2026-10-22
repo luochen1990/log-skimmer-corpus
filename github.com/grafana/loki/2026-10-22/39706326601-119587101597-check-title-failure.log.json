@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39706326601,
+  "job_id": 119587101597,
+  "conclusion": "failure",
+  "workflow_name": "enforce conventional commits",
+  "created_at": "2026-10-22T01:33:01Z",
+  "job_name": "check-title",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:16:11Z"
+}

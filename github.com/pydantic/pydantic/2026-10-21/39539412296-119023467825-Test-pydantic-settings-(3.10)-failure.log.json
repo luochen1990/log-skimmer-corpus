@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 39539412296,
+  "job_id": 119023467825,
+  "conclusion": "failure",
+  "workflow_name": "Pydantic Family Integration Tests",
+  "created_at": "2026-10-21T03:35:29Z",
+  "job_name": "Test-pydantic-settings-(3.10)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:33:16Z"
+}

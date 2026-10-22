@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 38444316409,
+  "job_id": 115458603007,
+  "conclusion": "failure",
+  "workflow_name": "CI-unix",
+  "created_at": "2026-10-13T18:08:22Z",
+  "job_name": "build-macos-(macos-14)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:47:43Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/aquasecurity/trivy",
+  "run_id": 39666868876,
+  "job_id": 119454114308,
+  "conclusion": "success",
+  "workflow_name": "Validate PR Title",
+  "created_at": "2026-10-21T20:02:42Z",
+  "job_name": "Validate-PR-title",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:13:00Z"
+}

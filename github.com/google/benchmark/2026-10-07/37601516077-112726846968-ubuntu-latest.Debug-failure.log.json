@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 37601516077,
+  "job_id": 112726846968,
+  "conclusion": "failure",
+  "workflow_name": "build-and-test-perfcounters",
+  "created_at": "2026-10-07T09:34:11Z",
+  "job_name": "ubuntu-latest.Debug",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:43:09Z"
+}

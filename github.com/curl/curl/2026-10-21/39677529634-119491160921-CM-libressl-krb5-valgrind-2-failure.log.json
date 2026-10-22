@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39677529634,
+  "job_id": 119491160921,
+  "conclusion": "failure",
+  "workflow_name": "Linux",
+  "created_at": "2026-10-21T21:17:10Z",
+  "job_name": "CM-libressl-krb5-valgrind-2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:47:04Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39715192878,
+  "job_id": 119615501605,
+  "conclusion": "success",
+  "workflow_name": "Poll React Sync",
+  "created_at": "2026-10-22T03:08:19Z",
+  "job_name": "poll",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:25:58Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39705313171,
+  "job_id": 119583861792,
+  "conclusion": "success",
+  "workflow_name": "Lock Issues",
+  "created_at": "2026-10-22T01:22:36Z",
+  "job_name": "lock",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:54:19Z"
+}

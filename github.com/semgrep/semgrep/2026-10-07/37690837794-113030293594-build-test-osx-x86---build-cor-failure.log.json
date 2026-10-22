@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 37690837794,
+  "job_id": 113030293594,
+  "conclusion": "failure",
+  "workflow_name": "tests",
+  "created_at": "2026-10-07T21:38:30Z",
+  "job_name": "build-test-osx-x86---build-cor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:12:28Z"
+}

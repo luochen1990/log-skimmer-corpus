@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 39679795858,
+  "job_id": 119498980124,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T21:33:47Z",
+  "job_name": "[meta]-record-frozen-commit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:40:44Z"
+}

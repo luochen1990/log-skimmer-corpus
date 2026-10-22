@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 39703732261,
+  "job_id": 119578728431,
+  "conclusion": "success",
+  "workflow_name": "Agentic Maintenance",
+  "created_at": "2026-10-22T01:06:23Z",
+  "job_name": "close-expired-discussions",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:14:42Z"
+}

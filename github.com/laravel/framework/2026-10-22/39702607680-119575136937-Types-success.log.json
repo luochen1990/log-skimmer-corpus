@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 39702607680,
+  "job_id": 119575136937,
+  "conclusion": "success",
+  "workflow_name": "static analysis",
+  "created_at": "2026-10-22T00:55:23Z",
+  "job_name": "Types",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:53:54Z"
+}

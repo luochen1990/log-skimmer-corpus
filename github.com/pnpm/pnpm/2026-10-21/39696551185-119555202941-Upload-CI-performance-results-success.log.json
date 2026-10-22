@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 39696551185,
+  "job_id": 119555202941,
+  "conclusion": "success",
+  "workflow_name": "CI Performance Bencher Upload",
+  "created_at": "2026-10-21T23:55:56Z",
+  "job_name": "Upload-CI-performance-results",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:23:23Z"
+}

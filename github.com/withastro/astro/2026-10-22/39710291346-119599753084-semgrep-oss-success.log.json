@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 39710291346,
+  "job_id": 119599753084,
+  "conclusion": "success",
+  "workflow_name": "Semgrep OSS scan",
+  "created_at": "2026-10-22T02:14:35Z",
+  "job_name": "semgrep-oss",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:27:11Z"
+}

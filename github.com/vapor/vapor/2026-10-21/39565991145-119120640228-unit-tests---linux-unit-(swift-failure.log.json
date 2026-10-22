@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 39565991145,
+  "job_id": 119120640228,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-21T08:00:08Z",
+  "job_name": "unit-tests---linux-unit-(swift",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:57:42Z"
+}

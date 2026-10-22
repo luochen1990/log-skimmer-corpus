@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39698097300,
+  "job_id": 119560336751,
+  "conclusion": "failure",
+  "workflow_name": "helm-ci",
+  "created_at": "2026-10-22T00:10:42Z",
+  "job_name": "Test-Helm-Chart",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:16:23Z"
+}

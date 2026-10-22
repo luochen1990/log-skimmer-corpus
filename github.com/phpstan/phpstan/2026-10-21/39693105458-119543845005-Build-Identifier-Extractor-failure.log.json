@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39693105458,
+  "job_id": 119543845005,
+  "conclusion": "failure",
+  "workflow_name": "Build Identifier Extractor",
+  "created_at": "2026-10-21T23:23:30Z",
+  "job_name": "Build-Identifier-Extractor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:54:03Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 39574126279,
+  "job_id": 119135299351,
+  "conclusion": "success",
+  "workflow_name": "macos",
+  "created_at": "2026-10-21T09:04:31Z",
+  "job_name": "c++11-Release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:42:39Z"
+}

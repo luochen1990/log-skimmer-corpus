@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 39290677681,
+  "job_id": 118190201102,
+  "conclusion": "failure",
+  "workflow_name": "commit-validation-pr",
+  "created_at": "2026-10-19T17:02:18Z",
+  "job_name": "check-commit-msg-length",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:04:23Z"
+}

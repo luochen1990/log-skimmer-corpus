@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vitejs/vite",
+  "run_id": 39713428496,
+  "job_id": 119609860063,
+  "conclusion": "success",
+  "workflow_name": "Bot",
+  "created_at": "2026-10-22T02:48:53Z",
+  "job_name": "AgentScan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:26:22Z"
+}

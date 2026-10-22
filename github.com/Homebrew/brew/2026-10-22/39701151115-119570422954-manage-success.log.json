@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 39701151115,
+  "job_id": 119570422954,
+  "conclusion": "success",
+  "workflow_name": "Check pull requests",
+  "created_at": "2026-10-22T00:41:03Z",
+  "job_name": "manage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:50:42Z"
+}

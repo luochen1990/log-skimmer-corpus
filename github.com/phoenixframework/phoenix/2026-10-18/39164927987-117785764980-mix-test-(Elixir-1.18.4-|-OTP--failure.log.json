@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 39164927987,
+  "job_id": 117785764980,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-18T20:47:40Z",
+  "job_name": "mix-test-(Elixir-1.18.4-|-OTP-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:06:07Z"
+}

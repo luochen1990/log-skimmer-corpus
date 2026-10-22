@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 39642919313,
+  "job_id": 119370855708,
+  "conclusion": "failure",
+  "workflow_name": "Check CODEOWNERS file",
+  "created_at": "2026-10-21T17:20:28Z",
+  "job_name": "code-owners-validation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:35:54Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 39694827744,
+  "job_id": 119549557338,
+  "conclusion": "failure",
+  "workflow_name": "tests 2",
+  "created_at": "2026-10-21T23:39:34Z",
+  "job_name": "Test-msedge-dev-on-playwright-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:22:52Z"
+}

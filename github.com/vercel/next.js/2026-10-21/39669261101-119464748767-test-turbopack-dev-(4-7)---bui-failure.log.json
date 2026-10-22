@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39669261101,
+  "job_id": 119464748767,
+  "conclusion": "failure",
+  "workflow_name": "build-and-test",
+  "created_at": "2026-10-21T20:19:12Z",
+  "job_name": "test-turbopack-dev-(4-7)---bui",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:25:51Z"
+}

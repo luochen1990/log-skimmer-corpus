@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 36658572661,
+  "job_id": 109708076799,
+  "conclusion": "failure",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-09-30T02:10:07Z",
+  "job_name": "Windows-Swift-6.4",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:55:31Z"
+}

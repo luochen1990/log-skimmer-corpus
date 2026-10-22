@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 39691432945,
+  "job_id": 119538294512,
+  "conclusion": "success",
+  "workflow_name": "Add to Project",
+  "created_at": "2026-10-21T23:08:30Z",
+  "job_name": "Add-to-project",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:29:43Z"
+}

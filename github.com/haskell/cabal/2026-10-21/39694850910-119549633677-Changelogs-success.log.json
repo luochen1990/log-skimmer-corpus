@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 39694850910,
+  "job_id": 119549633677,
+  "conclusion": "success",
+  "workflow_name": "Changelogs",
+  "created_at": "2026-10-21T23:39:47Z",
+  "job_name": "Changelogs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:03:39Z"
+}

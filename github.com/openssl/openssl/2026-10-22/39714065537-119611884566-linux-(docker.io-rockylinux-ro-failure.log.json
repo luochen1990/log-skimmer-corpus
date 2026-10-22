@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39714065537,
+  "job_id": 119611884566,
+  "conclusion": "failure",
+  "workflow_name": "OS Zoo CI",
+  "created_at": "2026-10-22T02:55:58Z",
+  "job_name": "linux-(docker.io-rockylinux-ro",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:48:00Z"
+}

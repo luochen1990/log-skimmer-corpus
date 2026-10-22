@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 39334992151,
+  "job_id": 118342266519,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-19T22:26:44Z",
+  "job_name": "test-tokio-for-wasm32-wasip2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:13:24Z"
+}

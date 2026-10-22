@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 39709494658,
+  "job_id": 119597636249,
+  "conclusion": "failure",
+  "workflow_name": "MergeQueueCI",
+  "created_at": "2026-10-22T02:06:05Z",
+  "job_name": "Build-(amd_binary)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:39:55Z"
+}

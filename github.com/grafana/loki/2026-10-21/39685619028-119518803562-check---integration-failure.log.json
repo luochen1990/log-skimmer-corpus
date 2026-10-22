@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 39685619028,
+  "job_id": 119518803562,
+  "conclusion": "failure",
+  "workflow_name": "check",
+  "created_at": "2026-10-21T22:19:15Z",
+  "job_name": "check---integration",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:16:35Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 39713772528,
+  "job_id": 119610963272,
+  "conclusion": "success",
+  "workflow_name": "Schedule",
+  "created_at": "2026-10-22T02:52:42Z",
+  "job_name": "Trigger-Full-Build-(main)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:29:19Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 37601516164,
+  "job_id": 112726847149,
+  "conclusion": "failure",
+  "workflow_name": "build-and-test-min-cmake",
+  "created_at": "2026-10-07T09:34:11Z",
+  "job_name": "ubuntu-latest.min-cmake",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:43:08Z"
+}

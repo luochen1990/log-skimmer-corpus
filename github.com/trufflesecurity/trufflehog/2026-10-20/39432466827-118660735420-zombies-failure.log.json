@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 39432466827,
+  "job_id": 118660735420,
+  "conclusion": "failure",
+  "workflow_name": "Smoke",
+  "created_at": "2026-10-20T13:40:38Z",
+  "job_name": "zombies",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:14:00Z"
+}

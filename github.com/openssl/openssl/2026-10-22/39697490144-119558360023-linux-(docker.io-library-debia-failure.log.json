@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 39697490144,
+  "job_id": 119558360023,
+  "conclusion": "failure",
+  "workflow_name": "ci-dispatch pr=33285 head=95e7f4fc306f9ad2f03f342efde9aba80e972efb check_run_id=119558310122",
+  "created_at": "2026-10-22T00:05:01Z",
+  "job_name": "linux-(docker.io-library-debia",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:48:05Z"
+}

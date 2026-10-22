@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39698867219,
+  "job_id": 119562875690,
+  "conclusion": "failure",
+  "workflow_name": "Update Font Data",
+  "created_at": "2026-10-22T00:18:05Z",
+  "job_name": "create-pull-request",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:25:21Z"
+}

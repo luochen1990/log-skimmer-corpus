@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 39574909280,
+  "job_id": 119137909038,
+  "conclusion": "failure",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-21T09:10:34Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:14:25Z"
+}

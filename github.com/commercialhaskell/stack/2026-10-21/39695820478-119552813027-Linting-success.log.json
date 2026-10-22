@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/commercialhaskell/stack",
+  "run_id": 39695820478,
+  "job_id": 119552813027,
+  "conclusion": "success",
+  "workflow_name": "Linting",
+  "created_at": "2026-10-21T23:48:57Z",
+  "job_name": "Linting",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:03:00Z"
+}

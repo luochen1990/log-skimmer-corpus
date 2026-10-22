@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 37601516519,
+  "job_id": 112726848949,
+  "conclusion": "failure",
+  "workflow_name": "test-bindings",
+  "created_at": "2026-10-07T09:34:12Z",
+  "job_name": "Test-Rust-bindings-on-ubuntu-l",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:43:07Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39693105447,
+  "job_id": 119544096219,
+  "conclusion": "failure",
+  "workflow_name": "Extension tests",
+  "created_at": "2026-10-21T23:23:30Z",
+  "job_name": "extension-tests---phpstan-bebe",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:54:06Z"
+}

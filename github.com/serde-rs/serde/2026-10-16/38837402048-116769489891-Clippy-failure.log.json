@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/serde-rs/serde",
+  "run_id": 38837402048,
+  "job_id": 116769489891,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-16T01:51:56Z",
+  "job_name": "Clippy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:11:26Z"
+}

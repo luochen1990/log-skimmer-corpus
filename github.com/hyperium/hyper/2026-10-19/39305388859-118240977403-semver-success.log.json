@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 39305388859,
+  "job_id": 118240977403,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-19T18:46:47Z",
+  "job_name": "semver",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:09:24Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 39634698431,
+  "job_id": 119341921247,
+  "conclusion": "success",
+  "workflow_name": "Scan for secrets",
+  "created_at": "2026-10-21T16:25:52Z",
+  "job_name": "test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:14:08Z"
+}

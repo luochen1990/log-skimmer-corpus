@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 39662050840,
+  "job_id": 119437347239,
+  "conclusion": "failure",
+  "workflow_name": "size data",
+  "created_at": "2026-10-21T19:29:14Z",
+  "job_name": "upload",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:26:30Z"
+}

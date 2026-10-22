@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39678065383,
+  "job_id": 119493016202,
+  "conclusion": "success",
+  "workflow_name": "Integration tests",
+  "created_at": "2026-10-21T21:21:06Z",
+  "job_name": "build-e2e-image",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:10:53Z"
+}

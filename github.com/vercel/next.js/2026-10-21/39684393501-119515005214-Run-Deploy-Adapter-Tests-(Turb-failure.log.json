@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 39684393501,
+  "job_id": 119515005214,
+  "conclusion": "failure",
+  "workflow_name": "test-e2e-deploy https://vercel-packages.vercel.app/next/commits/7b47ddd28e39d4f044b5a3cdd8bae6cc8a6bce18/next",
+  "created_at": "2026-10-21T22:09:24Z",
+  "job_name": "Run-Deploy-Adapter-Tests-(Turb",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:25:33Z"
+}

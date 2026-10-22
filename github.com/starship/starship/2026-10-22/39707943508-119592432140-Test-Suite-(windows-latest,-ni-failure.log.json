@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 39707943508,
+  "job_id": 119592432140,
+  "conclusion": "failure",
+  "workflow_name": "Main workflow",
+  "created_at": "2026-10-22T01:50:03Z",
+  "job_name": "Test-Suite-(windows-latest,-ni",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:12:47Z"
+}

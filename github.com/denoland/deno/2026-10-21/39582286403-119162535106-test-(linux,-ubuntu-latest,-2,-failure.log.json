@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/denoland/deno",
+  "run_id": 39582286403,
+  "job_id": 119162535106,
+  "conclusion": "failure",
+  "workflow_name": "node_compat_test",
+  "created_at": "2026-10-21T10:07:47Z",
+  "job_name": "test-(linux,-ubuntu-latest,-2,",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:10:54Z"
+}

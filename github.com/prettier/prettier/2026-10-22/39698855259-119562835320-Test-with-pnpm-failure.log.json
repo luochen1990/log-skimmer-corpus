@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 39698855259,
+  "job_id": 119562835320,
+  "conclusion": "failure",
+  "workflow_name": "Dev Package Test",
+  "created_at": "2026-10-22T00:17:58Z",
+  "job_name": "Test-with-pnpm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:28:16Z"
+}

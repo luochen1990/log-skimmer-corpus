@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 39693140346,
+  "job_id": 119543964866,
+  "conclusion": "failure",
+  "workflow_name": "Website Build",
+  "created_at": "2026-10-21T23:23:50Z",
+  "job_name": "TypeScript-check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:54:01Z"
+}

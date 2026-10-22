@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39674223842,
+  "job_id": 119481181689,
+  "conclusion": "failure",
+  "workflow_name": "dist",
+  "created_at": "2026-10-21T20:53:37Z",
+  "job_name": "AM-out-of-tree-(debug)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:47:07Z"
+}

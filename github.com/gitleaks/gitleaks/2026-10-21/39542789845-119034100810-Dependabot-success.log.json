@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gitleaks/gitleaks",
+  "run_id": 39542789845,
+  "job_id": 119034100810,
+  "conclusion": "success",
+  "workflow_name": "github_actions in / for docker/setup-qemu-action, docker/setup-buildx-action, docker/login-action, docker/build-push-action - Update #1641536640",
+  "created_at": "2026-10-21T04:12:50Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-22T04:13:23Z"
+}

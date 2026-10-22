@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 39678676165,
+  "job_id": 119495123069,
+  "conclusion": "failure",
+  "workflow_name": "Formatting",
+  "created_at": "2026-10-21T21:25:31Z",
+  "job_name": "fourmolu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:03:33Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 39718656965,
+  "job_id": 119626754180,
+  "conclusion": "success",
+  "workflow_name": "Deploy bun.com",
+  "created_at": "2026-10-22T03:46:08Z",
+  "job_name": "deploy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T04:00:50Z"
+}

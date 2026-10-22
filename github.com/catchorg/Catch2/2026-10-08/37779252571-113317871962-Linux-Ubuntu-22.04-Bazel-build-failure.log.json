@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 37779252571,
+  "job_id": 113317871962,
+  "conclusion": "failure",
+  "workflow_name": "Linux Builds (Bazel)",
+  "created_at": "2026-10-08T12:46:11Z",
+  "job_name": "Linux-Ubuntu-22.04-Bazel-build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-22T03:40:56Z"
+}
