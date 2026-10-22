@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/nix-direnv",
+  "run_id": 39593357784,
+  "job_id": 119199551347,
+  "conclusion": "success",
+  "workflow_name": "Auto Merge Dependency Updates",
+  "created_at": "2026-10-21T11:37:44Z",
+  "job_name": "auto-merge-dependency-updates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:10:07Z"
+}

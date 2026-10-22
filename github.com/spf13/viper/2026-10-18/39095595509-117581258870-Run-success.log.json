@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spf13/viper",
+  "run_id": 39095595509,
+  "job_id": 117581258870,
+  "conclusion": "success",
+  "workflow_name": "Octoslash",
+  "created_at": "2026-10-18T04:00:35Z",
+  "job_name": "Run",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:26:10Z"
+}

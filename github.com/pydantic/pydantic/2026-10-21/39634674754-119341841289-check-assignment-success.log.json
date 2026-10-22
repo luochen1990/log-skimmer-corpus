@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 39634674754,
+  "job_id": 119341841289,
+  "conclusion": "success",
+  "workflow_name": "Enforce issue assignment",
+  "created_at": "2026-10-21T16:25:42Z",
+  "job_name": "check-assignment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:39:25Z"
+}

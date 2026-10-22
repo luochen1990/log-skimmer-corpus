@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/requests",
+  "run_id": 39345723557,
+  "job_id": 118377704325,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-10-20T00:07:13Z",
+  "job_name": "action",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:39:01Z"
+}

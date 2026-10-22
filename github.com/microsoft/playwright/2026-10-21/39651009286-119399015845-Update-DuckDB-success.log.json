@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 39651009286,
+  "job_id": 119399015845,
+  "conclusion": "success",
+  "workflow_name": "Update test results DB",
+  "created_at": "2026-10-21T18:15:02Z",
+  "job_name": "Update-DuckDB",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:28:50Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/LnL7/nix-darwin",
+  "run_id": 39650273406,
+  "job_id": 119396473761,
+  "conclusion": "success",
+  "workflow_name": "Update website",
+  "created_at": "2026-10-21T18:10:09Z",
+  "job_name": "Build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:08:46Z"
+}

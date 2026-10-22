@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 39673305201,
+  "job_id": 119476535404,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T20:47:12Z",
+  "job_name": "Test-on-Node.js-26-and-ubuntu-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:35:45Z"
+}

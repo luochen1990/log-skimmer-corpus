@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 39658576557,
+  "job_id": 119425285976,
+  "conclusion": "success",
+  "workflow_name": "GitHub Actions Security Analysis with zizmor 🌈",
+  "created_at": "2026-10-21T19:05:37Z",
+  "job_name": "Run-zizmor-🌈",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:33:21Z"
+}

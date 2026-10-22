@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 39656409592,
+  "job_id": 119417746466,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-21T18:51:02Z",
+  "job_name": "License-checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:16:55Z"
+}

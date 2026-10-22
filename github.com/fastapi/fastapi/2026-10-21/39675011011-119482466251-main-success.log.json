@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 39675011011,
+  "job_id": 119482466251,
+  "conclusion": "success",
+  "workflow_name": "Conflict detector",
+  "created_at": "2026-10-21T20:59:15Z",
+  "job_name": "main",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:36:35Z"
+}

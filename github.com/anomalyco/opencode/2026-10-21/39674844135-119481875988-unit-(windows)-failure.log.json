@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 39674844135,
+  "job_id": 119481875988,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-21T20:58:02Z",
+  "job_name": "unit-(windows)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:26:23Z"
+}

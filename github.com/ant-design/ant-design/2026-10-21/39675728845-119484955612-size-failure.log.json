@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 39675728845,
+  "job_id": 119484955612,
+  "conclusion": "failure",
+  "workflow_name": "📦 Size Limit",
+  "created_at": "2026-10-21T21:04:16Z",
+  "job_name": "size",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:26:51Z"
+}

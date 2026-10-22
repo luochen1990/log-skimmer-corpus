@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 38059996121,
+  "job_id": 114238414518,
+  "conclusion": "failure",
+  "workflow_name": "Release Step 2 - Create GitHub Release",
+  "created_at": "2026-10-10T14:32:18Z",
+  "job_name": "create_github_release",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:57:42Z"
+}

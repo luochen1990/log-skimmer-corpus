@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spf13/cobra",
+  "run_id": 39656548227,
+  "job_id": 119418239002,
+  "conclusion": "success",
+  "workflow_name": "Test",
+  "created_at": "2026-10-21T18:51:59Z",
+  "job_name": "MINGW64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:25:18Z"
+}

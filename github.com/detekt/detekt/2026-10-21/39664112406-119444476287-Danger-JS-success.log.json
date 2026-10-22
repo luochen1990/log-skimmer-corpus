@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 39664112406,
+  "job_id": 119444476287,
+  "conclusion": "success",
+  "workflow_name": "Danger",
+  "created_at": "2026-10-21T19:43:26Z",
+  "job_name": "Danger-JS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:46:04Z"
+}

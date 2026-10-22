@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 39596202170,
+  "job_id": 119209011857,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-10-21T12:00:29Z",
+  "job_name": "Linux-Musl",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:38:07Z"
+}

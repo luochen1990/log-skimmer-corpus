@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 39662199601,
+  "job_id": 119437865555,
+  "conclusion": "success",
+  "workflow_name": "Issue Triaging",
+  "created_at": "2026-10-21T19:30:15Z",
+  "job_name": "close-suspected-spam---close-s",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:19:36Z"
+}

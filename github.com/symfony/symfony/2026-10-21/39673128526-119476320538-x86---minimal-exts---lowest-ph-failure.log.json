@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 39673128526,
+  "job_id": 119476320538,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-10-21T20:45:57Z",
+  "job_name": "x86---minimal-exts---lowest-ph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T22:02:10Z"
+}

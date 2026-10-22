@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 39674223821,
+  "job_id": 119479779911,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-10-21T20:53:37Z",
+  "job_name": "mingw,-CM-ucrt-x86_64-schannel",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:53:32Z"
+}

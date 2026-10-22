@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mvdan/sh",
+  "run_id": 36434533795,
+  "job_id": 108968913222,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-09-28T14:14:54Z",
+  "job_name": "test-(1.27.x,-windows-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-21T21:24:07Z"
+}
