@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/JamesNK/Newtonsoft.Json",
+  "run_id": 39068003526,
+  "job_id": 117499566246,
+  "conclusion": "success",
+  "workflow_name": "CodeQL Advanced",
+  "created_at": "2026-10-17T20:44:38Z",
+  "job_name": "Analyze-(csharp)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:48:37Z"
+}

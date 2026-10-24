@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 40081881191,
+  "job_id": 120836946811,
+  "conclusion": "success",
+  "workflow_name": "Continuous benchmark",
+  "created_at": "2026-10-24T09:25:18Z",
+  "job_name": "codspeed-(1-4)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:31:41Z"
+}

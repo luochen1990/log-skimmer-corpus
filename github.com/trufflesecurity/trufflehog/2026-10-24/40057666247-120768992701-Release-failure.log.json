@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 40057666247,
+  "job_id": 120768992701,
+  "conclusion": "failure",
+  "workflow_name": "Release",
+  "created_at": "2026-10-24T03:17:02Z",
+  "job_name": "Release",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:10:02Z"
+}

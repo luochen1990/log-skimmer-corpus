@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40076669910,
+  "job_id": 120821374895,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: Propagate ClusterInstance#createTopic errors and clean up callers",
+  "created_at": "2026-10-24T08:05:20Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:37:07Z"
+}

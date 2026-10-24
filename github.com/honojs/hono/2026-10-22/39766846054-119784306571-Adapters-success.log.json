@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 39766846054,
+  "job_id": 119784306571,
+  "conclusion": "success",
+  "workflow_name": "ci-adapters",
+  "created_at": "2026-10-22T10:56:31Z",
+  "job_name": "Adapters",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:27:10Z"
+}

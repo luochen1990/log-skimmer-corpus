@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40084709042,
+  "job_id": 120845151257,
+  "conclusion": "success",
+  "workflow_name": "Compiler Zoo CI",
+  "created_at": "2026-10-24T10:08:14Z",
+  "job_name": "gcc-(gcc-11)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:47:46Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 40081040408,
+  "job_id": 120834483109,
+  "conclusion": "success",
+  "workflow_name": "Docker",
+  "created_at": "2026-10-24T09:12:30Z",
+  "job_name": "generate-tags",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:49:44Z"
+}

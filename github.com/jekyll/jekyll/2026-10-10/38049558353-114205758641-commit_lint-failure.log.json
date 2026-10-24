@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jekyll/jekyll",
+  "run_id": 38049558353,
+  "job_id": 114205758641,
+  "conclusion": "failure",
+  "workflow_name": "Conventional Commit Check",
+  "created_at": "2026-10-10T11:45:48Z",
+  "job_name": "commit_lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:50:14Z"
+}

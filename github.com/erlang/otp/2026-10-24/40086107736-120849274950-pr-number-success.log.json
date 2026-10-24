@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 40086107736,
+  "job_id": 120849274950,
+  "conclusion": "success",
+  "workflow_name": "Update PR details",
+  "created_at": "2026-10-24T10:29:25Z",
+  "job_name": "pr-number",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:04:45Z"
+}

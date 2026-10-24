@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 40041018404,
+  "job_id": 120712702216,
+  "conclusion": "failure",
+  "workflow_name": "buildkit",
+  "created_at": "2026-10-23T23:40:52Z",
+  "job_name": "test-(dockerd-containerd,-solv",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:23:41Z"
+}

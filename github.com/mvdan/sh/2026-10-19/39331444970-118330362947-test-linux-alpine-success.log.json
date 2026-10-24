@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mvdan/sh",
+  "run_id": 39331444970,
+  "job_id": 118330362947,
+  "conclusion": "success",
+  "workflow_name": "Test",
+  "created_at": "2026-10-19T21:57:18Z",
+  "job_name": "test-linux-alpine",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:24:24Z"
+}

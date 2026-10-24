@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 39971047794,
+  "job_id": 120473491410,
+  "conclusion": "success",
+  "workflow_name": "supply-chain",
+  "created_at": "2026-10-23T14:36:17Z",
+  "job_name": "scorecard",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:43:26Z"
+}

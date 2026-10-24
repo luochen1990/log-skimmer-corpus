@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 40075752582,
+  "job_id": 120818597319,
+  "conclusion": "success",
+  "workflow_name": "Doc Build and Upload",
+  "created_at": "2026-10-24T07:51:01Z",
+  "job_name": "Doc-Build-and-Upload-(ubuntu-2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:35:11Z"
+}

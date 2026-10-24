@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 40082321380,
+  "job_id": 120838232051,
+  "conclusion": "success",
+  "workflow_name": "nightly",
+  "created_at": "2026-10-24T09:31:55Z",
+  "job_name": "Build-Semgrep-via-Brew-from-HE",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:08:47Z"
+}

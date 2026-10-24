@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jekyll/jekyll",
+  "run_id": 38449239152,
+  "job_id": 115475555253,
+  "conclusion": "failure",
+  "workflow_name": "Spell Check",
+  "created_at": "2026-10-13T18:44:45Z",
+  "job_name": "Spell-Check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:50:10Z"
+}

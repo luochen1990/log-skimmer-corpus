@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 40044507337,
+  "job_id": 120723005415,
+  "conclusion": "success",
+  "workflow_name": "Security audit",
+  "created_at": "2026-10-24T00:20:42Z",
+  "job_name": "audit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:14:08Z"
+}

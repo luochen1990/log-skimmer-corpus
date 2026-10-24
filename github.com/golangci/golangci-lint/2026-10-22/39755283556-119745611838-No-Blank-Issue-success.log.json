@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/golangci/golangci-lint",
+  "run_id": 39755283556,
+  "job_id": 119745611838,
+  "conclusion": "success",
+  "workflow_name": "No Blank Issues",
+  "created_at": "2026-10-22T09:25:18Z",
+  "job_name": "No-Blank-Issue",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:21:38Z"
+}

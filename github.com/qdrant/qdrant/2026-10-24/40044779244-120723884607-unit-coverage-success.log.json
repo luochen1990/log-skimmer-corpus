@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40044779244,
+  "job_id": 120723884607,
+  "conclusion": "success",
+  "workflow_name": "Coverage Report - dev",
+  "created_at": "2026-10-24T00:23:59Z",
+  "job_name": "unit-coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:15:27Z"
+}

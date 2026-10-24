@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 40086105965,
+  "job_id": 120849269150,
+  "conclusion": "success",
+  "workflow_name": "Check license header",
+  "created_at": "2026-10-24T10:29:23Z",
+  "job_name": "run-scan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:04:46Z"
+}

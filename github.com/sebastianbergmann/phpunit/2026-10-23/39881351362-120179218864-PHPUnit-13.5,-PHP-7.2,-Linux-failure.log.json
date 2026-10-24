@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 39881351362,
+  "job_id": 120179218864,
+  "conclusion": "failure",
+  "workflow_name": "Nightly",
+  "created_at": "2026-10-23T00:59:11Z",
+  "job_name": "PHPUnit-13.5,-PHP-7.2,-Linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:53:19Z"
+}

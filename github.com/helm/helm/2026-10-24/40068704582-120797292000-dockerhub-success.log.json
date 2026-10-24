@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 40068704582,
+  "job_id": 120797292000,
+  "conclusion": "success",
+  "workflow_name": "e2e-registries",
+  "created_at": "2026-10-24T06:03:48Z",
+  "job_name": "dockerhub",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:22:47Z"
+}

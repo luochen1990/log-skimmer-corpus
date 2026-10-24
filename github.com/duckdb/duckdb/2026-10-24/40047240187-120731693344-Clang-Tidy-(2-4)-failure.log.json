@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 40047240187,
+  "job_id": 120731693344,
+  "conclusion": "failure",
+  "workflow_name": "NightlyTests",
+  "created_at": "2026-10-24T00:54:00Z",
+  "job_name": "Clang-Tidy-(2-4)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:42:43Z"
+}

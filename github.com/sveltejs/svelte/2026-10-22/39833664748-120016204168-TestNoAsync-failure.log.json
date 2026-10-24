@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 39833664748,
+  "job_id": 120016204168,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-22T18:42:07Z",
+  "job_name": "TestNoAsync",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:29:17Z"
+}

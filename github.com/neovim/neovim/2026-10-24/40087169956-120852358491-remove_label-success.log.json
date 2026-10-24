@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 40087169956,
+  "job_id": 120852358491,
+  "conclusion": "success",
+  "workflow_name": "no_response",
+  "created_at": "2026-10-24T10:45:23Z",
+  "job_name": "remove_label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:07:11Z"
+}

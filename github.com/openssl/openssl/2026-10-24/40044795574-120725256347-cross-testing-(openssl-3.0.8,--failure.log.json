@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40044795574,
+  "job_id": 120725256347,
+  "conclusion": "failure",
+  "workflow_name": "Provider compatibility for PRs",
+  "created_at": "2026-10-24T00:24:12Z",
+  "job_name": "cross-testing-(openssl-3.0.8,-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:47:25Z"
+}

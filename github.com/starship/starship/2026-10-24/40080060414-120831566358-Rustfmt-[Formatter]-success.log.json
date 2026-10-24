@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 40080060414,
+  "job_id": 120831566358,
+  "conclusion": "success",
+  "workflow_name": "Main workflow",
+  "created_at": "2026-10-24T08:57:38Z",
+  "job_name": "Rustfmt-[Formatter]",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:17:40Z"
+}

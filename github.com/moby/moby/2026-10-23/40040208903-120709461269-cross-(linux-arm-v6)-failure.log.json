@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 40040208903,
+  "job_id": 120709461269,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-23T23:31:59Z",
+  "job_name": "cross-(linux-arm-v6)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:23:53Z"
+}

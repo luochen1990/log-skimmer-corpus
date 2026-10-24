@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 39830585772,
+  "job_id": 120005344891,
+  "conclusion": "failure",
+  "workflow_name": "tests",
+  "created_at": "2026-10-22T18:21:19Z",
+  "job_name": "PHP-8.3---PHPUnit-12.5.8---pre",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:52:23Z"
+}

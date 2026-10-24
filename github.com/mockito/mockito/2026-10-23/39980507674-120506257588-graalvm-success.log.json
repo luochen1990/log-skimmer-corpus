@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mockito/mockito",
+  "run_id": 39980507674,
+  "job_id": 120506257588,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T15:42:01Z",
+  "job_name": "graalvm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:39:12Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mvdan/sh",
+  "run_id": 36584139614,
+  "job_id": 109460488271,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-09-29T14:38:10Z",
+  "job_name": "Build-and-test-Docker-images",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:24:04Z"
+}

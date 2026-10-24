@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40071576187,
+  "job_id": 120805952567,
+  "conclusion": "success",
+  "workflow_name": "Long Integration Tests",
+  "created_at": "2026-10-24T06:47:13Z",
+  "job_name": "long-e2e-tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:15:24Z"
+}

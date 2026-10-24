@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40084383035,
+  "job_id": 120844193752,
+  "conclusion": "success",
+  "workflow_name": "NotifyTracking",
+  "created_at": "2026-10-24T10:03:18Z",
+  "job_name": "Trigger-the-tracking-refresh",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:19:33Z"
+}

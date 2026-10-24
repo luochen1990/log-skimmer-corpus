@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 40085005226,
+  "job_id": 120846026014,
+  "conclusion": "success",
+  "workflow_name": "Issue Remove Inactive",
+  "created_at": "2026-10-24T10:12:42Z",
+  "job_name": "issue-remove-inactive",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:26:45Z"
+}

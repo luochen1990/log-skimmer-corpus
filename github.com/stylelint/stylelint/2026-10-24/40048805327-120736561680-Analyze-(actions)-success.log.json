@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 40048805327,
+  "job_id": 120736561680,
+  "conclusion": "success",
+  "workflow_name": "Push on main",
+  "created_at": "2026-10-24T01:13:30Z",
+  "job_name": "Analyze-(actions)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:33:12Z"
+}

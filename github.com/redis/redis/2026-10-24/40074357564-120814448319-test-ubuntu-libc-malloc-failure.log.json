@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 40074357564,
+  "job_id": 120814448319,
+  "conclusion": "failure",
+  "workflow_name": "Daily",
+  "created_at": "2026-10-24T07:29:50Z",
+  "job_name": "test-ubuntu-libc-malloc",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:47:52Z"
+}

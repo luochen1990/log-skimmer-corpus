@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/home-manager",
+  "run_id": 40083332188,
+  "job_id": 120841169869,
+  "conclusion": "success",
+  "workflow_name": "Label PR",
+  "created_at": "2026-10-24T09:47:14Z",
+  "job_name": "labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:59:32Z"
+}

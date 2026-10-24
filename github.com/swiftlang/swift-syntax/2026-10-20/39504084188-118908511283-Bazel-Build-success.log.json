@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-syntax",
+  "run_id": 39504084188,
+  "job_id": 118908511283,
+  "conclusion": "success",
+  "workflow_name": "Pull request",
+  "created_at": "2026-10-20T21:54:24Z",
+  "job_name": "Bazel-Build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:55:57Z"
+}

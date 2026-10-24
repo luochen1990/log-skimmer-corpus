@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40065570951,
+  "job_id": 120791279490,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-24T05:15:54Z",
+  "job_name": "Build-(ubuntu-latest,-arm-unkn",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:19:30Z"
+}

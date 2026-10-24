@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 40058039205,
+  "job_id": 120765270199,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-24T03:22:31Z",
+  "job_name": "alpine-musl",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:15:05Z"
+}

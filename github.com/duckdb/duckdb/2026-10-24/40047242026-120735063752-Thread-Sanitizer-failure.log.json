@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 40047242026,
+  "job_id": 120735063752,
+  "conclusion": "failure",
+  "workflow_name": "Main (alpha50076)",
+  "created_at": "2026-10-24T00:54:02Z",
+  "job_name": "Thread-Sanitizer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:42:41Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 40068290756,
+  "job_id": 120796051632,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /., /scripts/tools/bundle-test, /website for body-parser, braces, fast-uri, fast-uri, fast-uri, fast-uri, fast-uri, fast-uri, fast-uri, fast-uri, katex, postcss-selector-parser, postcss-selector-parser, serialize-javascript, serialize-javascript, serialize-javascript, sprintf-js, tinypool, tinypool, undici, undici, undici, uuid - Update #1649590537",
+  "created_at": "2026-10-24T05:57:39Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:32:38Z"
+}

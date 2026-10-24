@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/LnL7/nix-darwin",
+  "run_id": 39526610092,
+  "job_id": 119397284518,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-10-21T01:19:10Z",
+  "job_name": "test-stable",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:58:54Z"
+}

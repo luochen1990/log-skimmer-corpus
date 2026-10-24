@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 39919970355,
+  "job_id": 120303283319,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T07:45:55Z",
+  "job_name": "Test-(E2E):-windows-2025-(node",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:31:32Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 39965296763,
+  "job_id": 120453464747,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T13:55:49Z",
+  "job_name": "build-32bit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:48:00Z"
+}

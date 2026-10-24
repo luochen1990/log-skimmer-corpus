@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 40085405718,
+  "job_id": 120847203866,
+  "conclusion": "success",
+  "workflow_name": "Labeler: Predict (Issues)",
+  "created_at": "2026-10-24T10:18:46Z",
+  "job_name": "predict-issue-label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:49:27Z"
+}

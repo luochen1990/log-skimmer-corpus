@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 40073777816,
+  "job_id": 120812664095,
+  "conclusion": "success",
+  "workflow_name": "Triage Scheduled Tasks",
+  "created_at": "2026-10-24T07:20:57Z",
+  "job_name": "no-response---noResponse",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:20:11Z"
+}

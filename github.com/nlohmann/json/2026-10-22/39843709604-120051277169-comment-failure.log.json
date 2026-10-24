@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 39843709604,
+  "job_id": 120051277169,
+  "conclusion": "failure",
+  "workflow_name": "Comment Check Amalgamation",
+  "created_at": "2026-10-22T19:51:17Z",
+  "job_name": "comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:44:51Z"
+}

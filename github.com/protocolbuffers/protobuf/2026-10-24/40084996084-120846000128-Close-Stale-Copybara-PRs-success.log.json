@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 40084996084,
+  "job_id": 120846000128,
+  "conclusion": "success",
+  "workflow_name": "Protobuf Janitor",
+  "created_at": "2026-10-24T10:12:34Z",
+  "job_name": "Close-Stale-Copybara-PRs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:46:34Z"
+}

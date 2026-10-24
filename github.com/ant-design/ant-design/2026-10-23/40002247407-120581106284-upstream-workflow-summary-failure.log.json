@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 40002247407,
+  "job_id": 120581106284,
+  "conclusion": "failure",
+  "workflow_name": "👀 Visual Regression Diff Finish",
+  "created_at": "2026-10-23T18:18:43Z",
+  "job_name": "upstream-workflow-summary",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:26:35Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-format",
+  "run_id": 35130696104,
+  "job_id": 104951081348,
+  "conclusion": "success",
+  "workflow_name": "Pull request",
+  "created_at": "2026-09-16T17:50:50Z",
+  "job_name": "Test---Windows-(6.1---windows-",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:55:14Z"
+}

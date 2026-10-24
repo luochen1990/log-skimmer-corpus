@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40046782297,
+  "job_id": 120730230940,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-20125: Improve the docs of dynamic-only configurations",
+  "created_at": "2026-10-24T00:48:21Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:37:12Z"
+}

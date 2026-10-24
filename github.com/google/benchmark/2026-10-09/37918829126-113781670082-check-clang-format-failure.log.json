@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 37918829126,
+  "job_id": 113781670082,
+  "conclusion": "failure",
+  "workflow_name": "clang-format-lint",
+  "created_at": "2026-10-09T10:38:25Z",
+  "job_name": "check-clang-format",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:43:53Z"
+}

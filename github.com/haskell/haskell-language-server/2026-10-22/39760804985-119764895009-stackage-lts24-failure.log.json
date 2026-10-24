@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 39760804985,
+  "job_id": 119764895009,
+  "conclusion": "failure",
+  "workflow_name": "Stack builds",
+  "created_at": "2026-10-22T10:08:12Z",
+  "job_name": "stackage-lts24",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:01:27Z"
+}

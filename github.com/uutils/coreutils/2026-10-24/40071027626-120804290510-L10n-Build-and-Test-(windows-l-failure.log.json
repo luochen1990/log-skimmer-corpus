@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40071027626,
+  "job_id": 120804290510,
+  "conclusion": "failure",
+  "workflow_name": "L10n (Localization)",
+  "created_at": "2026-10-24T06:38:56Z",
+  "job_name": "L10n-Build-and-Test-(windows-l",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:19:16Z"
+}

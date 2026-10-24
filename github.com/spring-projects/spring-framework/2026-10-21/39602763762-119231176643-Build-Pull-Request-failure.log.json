@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-framework",
+  "run_id": 39602763762,
+  "job_id": 119231176643,
+  "conclusion": "failure",
+  "workflow_name": "Build Pull Request",
+  "created_at": "2026-10-21T12:49:53Z",
+  "job_name": "Build-Pull-Request",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:39:49Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 40086105962,
+  "job_id": 120849269255,
+  "conclusion": "success",
+  "workflow_name": "Check github actions",
+  "created_at": "2026-10-24T10:29:23Z",
+  "job_name": "ratchet",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:04:47Z"
+}

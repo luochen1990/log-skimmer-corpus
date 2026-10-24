@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 39866686399,
+  "job_id": 120130526242,
+  "conclusion": "failure",
+  "workflow_name": "Validate",
+  "created_at": "2026-10-22T22:40:48Z",
+  "job_name": "Build-statically-linked-using-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:01:09Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 39790579017,
+  "job_id": 119868088837,
+  "conclusion": "failure",
+  "workflow_name": "Build Failure Analysis",
+  "created_at": "2026-10-22T13:51:23Z",
+  "job_name": "agent",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:49:03Z"
+}

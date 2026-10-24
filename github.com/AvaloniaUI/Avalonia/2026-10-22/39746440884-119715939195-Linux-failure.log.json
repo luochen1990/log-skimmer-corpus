@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/AvaloniaUI/Avalonia",
+  "run_id": 39746440884,
+  "job_id": 119715939195,
+  "conclusion": "failure",
+  "workflow_name": "Build",
+  "created_at": "2026-10-22T08:15:47Z",
+  "job_name": "Linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:48:19Z"
+}

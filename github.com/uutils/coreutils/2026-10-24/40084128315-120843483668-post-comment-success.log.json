@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40084128315,
+  "job_id": 120843483668,
+  "conclusion": "success",
+  "workflow_name": "SizeComment",
+  "created_at": "2026-10-24T09:59:43Z",
+  "job_name": "post-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:19:34Z"
+}

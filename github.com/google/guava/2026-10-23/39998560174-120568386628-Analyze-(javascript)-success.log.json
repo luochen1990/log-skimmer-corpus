@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 39998560174,
+  "job_id": 120568386628,
+  "conclusion": "success",
+  "workflow_name": "Push on master",
+  "created_at": "2026-10-23T17:51:50Z",
+  "job_name": "Analyze-(javascript)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:38:05Z"
+}

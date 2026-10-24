@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 40044105890,
+  "job_id": 120721716407,
+  "conclusion": "failure",
+  "workflow_name": "Lint And Build Nix Flake",
+  "created_at": "2026-10-24T00:15:55Z",
+  "job_name": "packages",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:21:58Z"
+}

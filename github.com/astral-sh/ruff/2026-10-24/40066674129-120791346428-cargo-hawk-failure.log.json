@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 40066674129,
+  "job_id": 120791346428,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-24T05:32:47Z",
+  "job_name": "cargo-hawk",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:07:43Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 39922709053,
+  "job_id": 120311623470,
+  "conclusion": "failure",
+  "workflow_name": "Docker",
+  "created_at": "2026-10-23T08:09:47Z",
+  "job_name": "docker-(arm64-Ubuntu-26.04)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:49:37Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 40047236826,
+  "job_id": 120731689674,
+  "conclusion": "failure",
+  "workflow_name": "NightlyTests",
+  "created_at": "2026-10-24T00:53:58Z",
+  "job_name": "Linux-Memory-Leaks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:42:46Z"
+}

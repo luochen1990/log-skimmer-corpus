@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 37057017663,
+  "job_id": 111004095903,
+  "conclusion": "failure",
+  "workflow_name": "Housekeeping: Regressions",
+  "created_at": "2026-10-02T19:53:15Z",
+  "job_name": "resulting-issues-are-still-the",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:03:51Z"
+}

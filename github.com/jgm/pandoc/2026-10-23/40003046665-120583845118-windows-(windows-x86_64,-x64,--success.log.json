@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 40003046665,
+  "job_id": 120583845118,
+  "conclusion": "success",
+  "workflow_name": "Release candidate",
+  "created_at": "2026-10-23T18:24:39Z",
+  "job_name": "windows-(windows-x86_64,-x64,-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:01:49Z"
+}

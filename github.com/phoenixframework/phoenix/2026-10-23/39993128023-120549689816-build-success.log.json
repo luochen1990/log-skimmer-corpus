@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 39993128023,
+  "job_id": 120549689816,
+  "conclusion": "success",
+  "workflow_name": "Docs",
+  "created_at": "2026-10-23T17:12:12Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:03:34Z"
+}

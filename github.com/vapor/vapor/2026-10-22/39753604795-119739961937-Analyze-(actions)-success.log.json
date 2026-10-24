@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 39753604795,
+  "job_id": 119739961937,
+  "conclusion": "success",
+  "workflow_name": "Push on main",
+  "created_at": "2026-10-22T09:12:21Z",
+  "job_name": "Analyze-(actions)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:56:22Z"
+}

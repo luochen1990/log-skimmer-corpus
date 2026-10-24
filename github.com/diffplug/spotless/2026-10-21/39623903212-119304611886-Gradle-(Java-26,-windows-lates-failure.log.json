@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 39623903212,
+  "job_id": 119304611886,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T15:14:56Z",
+  "job_name": "Gradle-(Java-26,-windows-lates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:37:23Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 40011331620,
+  "job_id": 120612495327,
+  "conclusion": "failure",
+  "workflow_name": "Unit tests",
+  "created_at": "2026-10-23T19:25:44Z",
+  "job_name": "Windows-x64-pymin_conda_forge_",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:36:51Z"
+}

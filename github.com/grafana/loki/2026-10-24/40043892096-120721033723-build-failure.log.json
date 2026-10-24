@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 40043892096,
+  "job_id": 120721033723,
+  "conclusion": "failure",
+  "workflow_name": "operator bundle",
+  "created_at": "2026-10-24T00:13:26Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:22:00Z"
+}

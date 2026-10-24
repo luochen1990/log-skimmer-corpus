@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hadolint/hadolint",
+  "run_id": 36832984443,
+  "job_id": 110273637827,
+  "conclusion": "failure",
+  "workflow_name": "Haskell Lint",
+  "created_at": "2026-10-01T07:53:34Z",
+  "job_name": "hlint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:00:39Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39769813989,
+  "job_id": 119801946982,
+  "conclusion": "failure",
+  "workflow_name": "Qdrant Edge Release Build",
+  "created_at": "2026-10-22T11:20:19Z",
+  "job_name": "Test-Python-wheels-[ubuntu-lat",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:15:20Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 40076537915,
+  "job_id": 120820968697,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-24T08:03:20Z",
+  "job_name": "macOS-native",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:42:16Z"
+}

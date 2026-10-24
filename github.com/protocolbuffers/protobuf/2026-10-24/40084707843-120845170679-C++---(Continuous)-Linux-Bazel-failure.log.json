@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 40084707843,
+  "job_id": 120845170679,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-24T10:08:13Z",
+  "job_name": "C++---(Continuous)-Linux-Bazel",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:45:59Z"
+}

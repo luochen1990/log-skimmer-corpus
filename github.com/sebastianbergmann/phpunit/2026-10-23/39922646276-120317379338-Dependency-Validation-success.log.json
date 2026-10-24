@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 39922646276,
+  "job_id": 120317379338,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T08:09:14Z",
+  "job_name": "Dependency-Validation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:53:41Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 39960495213,
+  "job_id": 120436976839,
+  "conclusion": "failure",
+  "workflow_name": "Integration tests",
+  "created_at": "2026-10-23T13:21:19Z",
+  "job_name": "test-consistency",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:15:13Z"
+}

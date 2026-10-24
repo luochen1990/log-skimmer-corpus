@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 39792970593,
+  "job_id": 119873900903,
+  "conclusion": "failure",
+  "workflow_name": "Ubuntu",
+  "created_at": "2026-10-22T14:07:18Z",
+  "job_name": "ci_cmake_options-(ci_test_noex",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:44:59Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 39572813078,
+  "job_id": 119130928172,
+  "conclusion": "failure",
+  "workflow_name": "uv in /. for certifi - Update #1642108423",
+  "created_at": "2026-10-21T08:54:21Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:36:13Z"
+}

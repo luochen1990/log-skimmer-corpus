@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 39772676084,
+  "job_id": 119803838027,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-22T11:43:01Z",
+  "job_name": "Run-tests-with-updated-syntaxe",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:16:42Z"
+}

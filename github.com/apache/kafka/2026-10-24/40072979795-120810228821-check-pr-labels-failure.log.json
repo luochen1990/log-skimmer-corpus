@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40072979795,
+  "job_id": 120810228821,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: docs: fix commandline typo",
+  "created_at": "2026-10-24T07:08:45Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:37:08Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 39766847108,
+  "job_id": 119784311431,
+  "conclusion": "success",
+  "workflow_name": "autofix.ci",
+  "created_at": "2026-10-22T10:56:32Z",
+  "job_name": "autofix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:27:09Z"
+}

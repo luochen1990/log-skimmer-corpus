@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40084709059,
+  "job_id": 120845151250,
+  "conclusion": "success",
+  "workflow_name": "Run-checker merge",
+  "created_at": "2026-10-24T10:08:14Z",
+  "job_name": "jitter",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:47:45Z"
+}

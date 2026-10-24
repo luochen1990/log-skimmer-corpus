@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 39993026985,
+  "job_id": 120554331189,
+  "conclusion": "failure",
+  "workflow_name": "Release candidate",
+  "created_at": "2026-10-23T17:11:27Z",
+  "job_name": "windows-sign---sign",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:01:41Z"
+}

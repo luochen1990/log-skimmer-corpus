@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 39811430631,
+  "job_id": 119938421034,
+  "conclusion": "failure",
+  "workflow_name": "PR:5.x",
+  "created_at": "2026-10-22T16:08:43Z",
+  "job_name": "Android---BuildAndTestSDK",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:45:41Z"
+}

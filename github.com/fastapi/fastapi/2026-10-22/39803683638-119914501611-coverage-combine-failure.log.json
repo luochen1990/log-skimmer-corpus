@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 39803683638,
+  "job_id": 119914501611,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-10-22T15:19:06Z",
+  "job_name": "coverage-combine",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:33:44Z"
+}

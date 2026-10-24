@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pallets/flask",
+  "run_id": 40043776171,
+  "job_id": 120720655489,
+  "conclusion": "success",
+  "workflow_name": "Lock inactive closed issues",
+  "created_at": "2026-10-24T00:12:03Z",
+  "job_name": "lock",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:34:40Z"
+}

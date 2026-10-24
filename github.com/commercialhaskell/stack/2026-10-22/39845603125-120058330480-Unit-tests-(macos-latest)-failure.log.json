@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/commercialhaskell/stack",
+  "run_id": 39845603125,
+  "job_id": 120058330480,
+  "conclusion": "failure",
+  "workflow_name": "Unit tests",
+  "created_at": "2026-10-22T20:04:11Z",
+  "job_name": "Unit-tests-(macos-latest)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:00:21Z"
+}

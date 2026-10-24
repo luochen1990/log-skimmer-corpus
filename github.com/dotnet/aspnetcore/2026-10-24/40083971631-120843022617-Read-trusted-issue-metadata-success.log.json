@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 40083971631,
+  "job_id": 120843022617,
+  "conclusion": "success",
+  "workflow_name": "Issue Triage Agent for dotnet/aspnetcore",
+  "created_at": "2026-10-24T09:57:07Z",
+  "job_name": "Read-trusted-issue-metadata",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:48:53Z"
+}

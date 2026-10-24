@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 37374715884,
+  "job_id": 111980292552,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-05T21:15:15Z",
+  "job_name": "WindowsTest-(2.1,-luajit,-vs,-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:04:52Z"
+}

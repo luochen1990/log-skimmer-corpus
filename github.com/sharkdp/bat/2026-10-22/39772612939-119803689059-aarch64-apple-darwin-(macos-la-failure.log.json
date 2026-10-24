@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 39772612939,
+  "job_id": 119803689059,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-22T11:42:31Z",
+  "job_name": "aarch64-apple-darwin-(macos-la",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:16:36Z"
+}

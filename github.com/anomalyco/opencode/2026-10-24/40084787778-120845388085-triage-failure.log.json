@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 40084787778,
+  "job_id": 120845388085,
+  "conclusion": "failure",
+  "workflow_name": "triage",
+  "created_at": "2026-10-24T10:09:28Z",
+  "job_name": "triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:26:07Z"
+}

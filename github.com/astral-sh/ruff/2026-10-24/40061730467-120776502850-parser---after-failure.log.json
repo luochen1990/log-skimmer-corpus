@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 40061730467,
+  "job_id": 120776502850,
+  "conclusion": "failure",
+  "workflow_name": "Measure independent Ruff workspace caches",
+  "created_at": "2026-10-24T04:17:04Z",
+  "job_name": "parser---after",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:07:48Z"
+}

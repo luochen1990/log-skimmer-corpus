@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 40086705858,
+  "job_id": 120851256162,
+  "conclusion": "success",
+  "workflow_name": "Quick jobs",
+  "created_at": "2026-10-24T10:38:21Z",
+  "job_name": "Check-Field-Syntax-Reference",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T11:01:12Z"
+}

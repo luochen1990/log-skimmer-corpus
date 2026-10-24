@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 40009380695,
+  "job_id": 120605499890,
+  "conclusion": "failure",
+  "workflow_name": "CI-unix",
+  "created_at": "2026-10-23T19:11:06Z",
+  "job_name": "build-cross-qemu-aarch64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:46:59Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 39853580434,
+  "job_id": 120090330661,
+  "conclusion": "failure",
+  "workflow_name": "Regenerate Release Notes",
+  "created_at": "2026-10-22T20:59:49Z",
+  "job_name": "Create-GitHub-Release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:39:27Z"
+}

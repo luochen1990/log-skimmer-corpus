@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40071027635,
+  "job_id": 120806767370,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-24T06:38:56Z",
+  "job_name": "Build-nightly-(windows-latest,",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:19:14Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/googletest",
+  "run_id": 39996322137,
+  "job_id": 120560661717,
+  "conclusion": "success",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-10-23T17:35:28Z",
+  "job_name": "check-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:44:21Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 39619811262,
+  "job_id": 119291024227,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-21T14:46:32Z",
+  "job_name": "test-all-crates-in-the-workspa",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-24T10:18:56Z"
+}
