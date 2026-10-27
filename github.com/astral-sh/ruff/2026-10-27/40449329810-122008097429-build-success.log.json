@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 40449329810,
+  "job_id": 122008097429,
+  "conclusion": "success",
+  "workflow_name": "[ty Playground] Release",
+  "created_at": "2026-10-27T04:21:58Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:39:29Z"
+}

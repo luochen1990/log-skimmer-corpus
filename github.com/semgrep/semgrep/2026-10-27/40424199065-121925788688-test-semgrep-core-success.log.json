@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 40424199065,
+  "job_id": 121925788688,
+  "conclusion": "success",
+  "workflow_name": "tests",
+  "created_at": "2026-10-27T00:06:12Z",
+  "job_name": "test-semgrep-core",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:40:23Z"
+}

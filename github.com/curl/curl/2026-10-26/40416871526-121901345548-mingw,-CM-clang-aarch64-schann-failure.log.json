@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 40416871526,
+  "job_id": 121901345548,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-10-26T23:02:03Z",
+  "job_name": "mingw,-CM-clang-aarch64-schann",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:14:09Z"
+}

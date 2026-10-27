@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 39959864638,
+  "job_id": 120434851472,
+  "conclusion": "failure",
+  "workflow_name": "Check mergeability",
+  "created_at": "2026-10-23T13:16:38Z",
+  "job_name": "check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:55:22Z"
+}

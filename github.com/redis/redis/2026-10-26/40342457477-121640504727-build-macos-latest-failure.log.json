@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 40342457477,
+  "job_id": 121640504727,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-26T14:44:32Z",
+  "job_name": "build-macos-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:15:39Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 40443304073,
+  "job_id": 121988496769,
+  "conclusion": "failure",
+  "workflow_name": "5.x",
+  "created_at": "2026-10-27T03:17:03Z",
+  "job_name": "CodeQL---Analyze",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:11:57Z"
+}

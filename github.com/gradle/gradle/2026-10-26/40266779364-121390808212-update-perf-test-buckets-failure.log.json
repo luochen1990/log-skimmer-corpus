@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 40266779364,
+  "job_id": 121390808212,
+  "conclusion": "failure",
+  "workflow_name": "Auto update performance test durations JSON",
+  "created_at": "2026-10-26T03:59:52Z",
+  "job_name": "update-perf-test-buckets",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:03:47Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 40271325267,
+  "job_id": 121404568802,
+  "conclusion": "success",
+  "workflow_name": "codeql",
+  "created_at": "2026-10-26T04:53:01Z",
+  "job_name": "analyze",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:10:01Z"
+}

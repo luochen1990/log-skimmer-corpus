@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40419334797,
+  "job_id": 121909540372,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-20684 [7/N]: Point clients internals at RebalanceListener",
+  "created_at": "2026-10-26T23:22:42Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:02:20Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 40392528657,
+  "job_id": 121816947381,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-26T20:05:28Z",
+  "job_name": "test---lint-and-test-dts",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:54:50Z"
+}

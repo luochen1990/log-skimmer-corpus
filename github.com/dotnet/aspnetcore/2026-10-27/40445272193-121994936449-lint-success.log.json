@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 40445272193,
+  "job_id": 121994936449,
+  "conclusion": "success",
+  "workflow_name": "Markdownlint",
+  "created_at": "2026-10-27T03:38:15Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:16:55Z"
+}

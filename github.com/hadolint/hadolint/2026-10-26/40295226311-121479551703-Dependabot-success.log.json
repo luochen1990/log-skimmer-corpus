@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hadolint/hadolint",
+  "run_id": 40295226311,
+  "job_id": 121479551703,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1654015585",
+  "created_at": "2026-10-26T08:51:46Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:31:21Z"
+}

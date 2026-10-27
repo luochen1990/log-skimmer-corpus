@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/zigtools/zls",
+  "run_id": 40263230257,
+  "job_id": 121379888813,
+  "conclusion": "failure",
+  "workflow_name": "Deploy release artifacts",
+  "created_at": "2026-10-26T03:16:09Z",
+  "job_name": "deploy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:28:15Z"
+}

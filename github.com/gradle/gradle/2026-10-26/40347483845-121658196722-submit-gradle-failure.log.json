@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 40347483845,
+  "job_id": 121658196722,
+  "conclusion": "failure",
+  "workflow_name": "Automatic Dependency Submission (Gradle)",
+  "created_at": "2026-10-26T15:15:12Z",
+  "job_name": "submit-gradle",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:03:42Z"
+}

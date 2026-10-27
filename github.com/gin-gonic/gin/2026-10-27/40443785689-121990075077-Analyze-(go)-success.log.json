@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gin-gonic/gin",
+  "run_id": 40443785689,
+  "job_id": 121990075077,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-27T03:22:15Z",
+  "job_name": "Analyze-(go)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:43:26Z"
+}

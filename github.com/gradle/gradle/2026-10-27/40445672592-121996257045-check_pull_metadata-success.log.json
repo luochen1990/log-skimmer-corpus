@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 40445672592,
+  "job_id": 121996257045,
+  "conclusion": "success",
+  "workflow_name": "Check pulls metadata",
+  "created_at": "2026-10-27T03:42:37Z",
+  "job_name": "check_pull_metadata",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:03:59Z"
+}

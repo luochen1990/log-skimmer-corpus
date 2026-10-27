@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 40311664669,
+  "job_id": 121534108582,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-26T10:59:34Z",
+  "job_name": "ubuntu-puc-lua-gcc-oldtest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:38:15Z"
+}

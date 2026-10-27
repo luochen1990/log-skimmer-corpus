@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 40277761375,
+  "job_id": 121428927104,
+  "conclusion": "failure",
+  "workflow_name": "Contributor CI Build",
+  "created_at": "2026-10-26T06:04:59Z",
+  "job_name": "base-services-groovy,-build-in",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:03:45Z"
+}

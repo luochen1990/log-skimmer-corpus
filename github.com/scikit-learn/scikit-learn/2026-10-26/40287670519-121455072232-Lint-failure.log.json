@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 40287670519,
+  "job_id": 121455072232,
+  "conclusion": "failure",
+  "workflow_name": "Unit tests",
+  "created_at": "2026-10-26T07:44:45Z",
+  "job_name": "Lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:02:02Z"
+}

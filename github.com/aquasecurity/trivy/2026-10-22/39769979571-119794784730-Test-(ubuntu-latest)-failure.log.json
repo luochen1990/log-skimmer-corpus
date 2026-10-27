@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/aquasecurity/trivy",
+  "run_id": 39769979571,
+  "job_id": 119794784730,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-10-22T11:21:38Z",
+  "job_name": "Test-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:40:36Z"
+}

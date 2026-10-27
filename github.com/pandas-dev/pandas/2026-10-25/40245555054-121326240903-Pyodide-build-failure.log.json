@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 40245555054,
+  "job_id": 121326240903,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-10-25T23:36:48Z",
+  "job_name": "Pyodide-build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:59:51Z"
+}

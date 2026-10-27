@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 40364723246,
+  "job_id": 121719198920,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-26T17:01:34Z",
+  "job_name": "ShellLint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:36:48Z"
+}

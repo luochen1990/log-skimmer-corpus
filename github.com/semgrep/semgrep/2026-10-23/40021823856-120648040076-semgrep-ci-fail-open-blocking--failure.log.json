@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 40021823856,
+  "job_id": 120648040076,
+  "conclusion": "failure",
+  "workflow_name": "test-e2e-semgrep-ci",
+  "created_at": "2026-10-23T20:46:39Z",
+  "job_name": "semgrep-ci-fail-open-blocking-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:40:06Z"
+}

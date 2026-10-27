@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 40418321288,
+  "job_id": 121906106969,
+  "conclusion": "failure",
+  "workflow_name": "Processing pull requests",
+  "created_at": "2026-10-26T23:13:59Z",
+  "job_name": "communicate-on-pull-request-me",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:18:17Z"
+}

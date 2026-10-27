@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40441273477,
+  "job_id": 121981944097,
+  "conclusion": "success",
+  "workflow_name": "Workflow Requested for KAFKA-20803: Index batched read state responses once",
+  "created_at": "2026-10-27T02:55:54Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:02:31Z"
+}

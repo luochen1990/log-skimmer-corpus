@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 40443667106,
+  "job_id": 121989682621,
+  "conclusion": "success",
+  "workflow_name": "GitHub Actions Security Analysis with zizmor 🌈",
+  "created_at": "2026-10-27T03:20:57Z",
+  "job_name": "zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:59:58Z"
+}

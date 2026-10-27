@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 40408073370,
+  "job_id": 121870893281,
+  "conclusion": "success",
+  "workflow_name": "Clear PR caches",
+  "created_at": "2026-10-26T21:53:12Z",
+  "job_name": "cleanup",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:32:14Z"
+}

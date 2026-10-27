@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 40406499855,
+  "job_id": 121865500442,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-26T21:41:43Z",
+  "job_name": "Gradle-Integration-Tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:03:34Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 40374876253,
+  "job_id": 121755083683,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-10-26T18:07:06Z",
+  "job_name": "python-dev-(windows-2025)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:59:36Z"
+}

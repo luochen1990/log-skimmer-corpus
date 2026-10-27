@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/elixir-lang/elixir",
+  "run_id": 40396758250,
+  "job_id": 121831722490,
+  "conclusion": "success",
+  "workflow_name": "License Compliance",
+  "created_at": "2026-10-26T20:33:51Z",
+  "job_name": "Check-License-Compliance",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:35:41Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 40374195607,
+  "job_id": 121752661865,
+  "conclusion": "failure",
+  "workflow_name": "Main workflow",
+  "created_at": "2026-10-26T18:02:34Z",
+  "job_name": "Compile",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:39:05Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 40397501518,
+  "job_id": 121834810466,
+  "conclusion": "failure",
+  "workflow_name": "Validate",
+  "created_at": "2026-10-26T20:38:52Z",
+  "job_name": "Validate-windows-latest-ghc-9.",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:31:30Z"
+}

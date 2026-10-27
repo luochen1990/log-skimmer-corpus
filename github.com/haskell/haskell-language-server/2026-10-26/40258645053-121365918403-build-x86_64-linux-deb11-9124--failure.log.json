@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 40258645053,
+  "job_id": 121365918403,
+  "conclusion": "failure",
+  "workflow_name": "Build and release",
+  "created_at": "2026-10-26T02:20:51Z",
+  "job_name": "build-x86_64-linux-deb11-9124-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:31:59Z"
+}

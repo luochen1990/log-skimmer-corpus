@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 40433271742,
+  "job_id": 121955831085,
+  "conclusion": "success",
+  "workflow_name": "Loom",
+  "created_at": "2026-10-27T01:33:29Z",
+  "job_name": "loom-current-thread-scheduler",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:41:24Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 40444983435,
+  "job_id": 121993990112,
+  "conclusion": "success",
+  "workflow_name": "PR review automation (privileged)",
+  "created_at": "2026-10-27T03:35:09Z",
+  "job_name": "act",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:51:58Z"
+}

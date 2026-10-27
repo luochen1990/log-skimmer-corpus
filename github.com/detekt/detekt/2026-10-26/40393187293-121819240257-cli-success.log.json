@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 40393187293,
+  "job_id": 121819240257,
+  "conclusion": "success",
+  "workflow_name": "Execute detekt",
+  "created_at": "2026-10-26T20:09:54Z",
+  "job_name": "cli",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:07:12Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 40408791740,
+  "job_id": 121873378653,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-26T21:58:37Z",
+  "job_name": "Windows-|-Java-17",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:05:05Z"
+}

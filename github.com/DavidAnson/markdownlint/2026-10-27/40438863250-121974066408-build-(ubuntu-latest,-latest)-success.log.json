@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 40438863250,
+  "job_id": 121974066408,
+  "conclusion": "success",
+  "workflow_name": "TestRepos",
+  "created_at": "2026-10-27T02:30:52Z",
+  "job_name": "build-(ubuntu-latest,-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:56:00Z"
+}

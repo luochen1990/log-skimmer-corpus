@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 40396192660,
+  "job_id": 121829764910,
+  "conclusion": "failure",
+  "workflow_name": "Check Website Links",
+  "created_at": "2026-10-26T20:30:06Z",
+  "job_name": "Check-for-broken-links",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:21:47Z"
+}

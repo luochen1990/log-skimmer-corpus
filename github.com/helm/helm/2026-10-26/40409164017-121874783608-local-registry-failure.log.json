@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 40409164017,
+  "job_id": 121874783608,
+  "conclusion": "failure",
+  "workflow_name": "e2e",
+  "created_at": "2026-10-26T22:01:25Z",
+  "job_name": "local-registry",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:45:33Z"
+}

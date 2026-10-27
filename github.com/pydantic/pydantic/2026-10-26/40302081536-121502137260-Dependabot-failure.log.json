@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 40302081536,
+  "job_id": 121502137260,
+  "conclusion": "failure",
+  "workflow_name": "uv in /pydantic-core for virtualenv - Update #1654234392",
+  "created_at": "2026-10-26T09:45:56Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:01:09Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/requests",
+  "run_id": 36454548018,
+  "job_id": 109037429054,
+  "conclusion": "failure",
+  "workflow_name": "Lint code",
+  "created_at": "2026-09-28T16:55:51Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:00:33Z"
+}

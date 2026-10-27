@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 40443264201,
+  "job_id": 121988367219,
+  "conclusion": "success",
+  "workflow_name": "lint-jsonnet",
+  "created_at": "2026-10-27T03:16:37Z",
+  "job_name": "Check-mixin-jsonnet-files",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:44:59Z"
+}

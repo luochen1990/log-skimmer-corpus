@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 40177749402,
+  "job_id": 121122051380,
+  "conclusion": "failure",
+  "workflow_name": "Flags",
+  "created_at": "2026-10-25T08:43:24Z",
+  "job_name": "flags-(9.10,-ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:32:04Z"
+}

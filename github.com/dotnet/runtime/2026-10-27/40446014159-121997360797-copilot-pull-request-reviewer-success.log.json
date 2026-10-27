@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 40446014159,
+  "job_id": 121997360797,
+  "conclusion": "success",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-10-27T03:46:16Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:17:39Z"
+}

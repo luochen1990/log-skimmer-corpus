@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-syntax",
+  "run_id": 40366619264,
+  "job_id": 121725979593,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1655685292",
+  "created_at": "2026-10-26T17:13:41Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:25:13Z"
+}

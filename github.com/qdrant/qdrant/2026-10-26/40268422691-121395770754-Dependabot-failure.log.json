@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40268422691,
+  "job_id": 121395770754,
+  "conclusion": "failure",
+  "workflow_name": "uv in /tests for filelock - Update #1653000035",
+  "created_at": "2026-10-26T04:18:50Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:36:12Z"
+}

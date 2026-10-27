@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 40318022762,
+  "job_id": 121555437122,
+  "conclusion": "success",
+  "workflow_name": "PR testing instructions",
+  "created_at": "2026-10-26T11:50:17Z",
+  "job_name": "Add-testing-instructions-comme",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:52:41Z"
+}

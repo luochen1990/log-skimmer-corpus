@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 40332035704,
+  "job_id": 121603660010,
+  "conclusion": "failure",
+  "workflow_name": "uv in /. for filelock - Update #1655015857",
+  "created_at": "2026-10-26T13:36:17Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:01:01Z"
+}

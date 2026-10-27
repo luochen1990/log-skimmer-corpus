@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 40201526233,
+  "job_id": 121193564583,
+  "conclusion": "failure",
+  "workflow_name": "pre-commit",
+  "created_at": "2026-10-25T14:17:20Z",
+  "job_name": "pre-commit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:32:02Z"
+}

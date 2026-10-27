@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 40204295220,
+  "job_id": 121201810098,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-25T14:52:44Z",
+  "job_name": "check-feature-combinations",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:35:52Z"
+}

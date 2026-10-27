@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 40413116248,
+  "job_id": 121888569979,
+  "conclusion": "failure",
+  "workflow_name": "build-test",
+  "created_at": "2026-10-26T22:31:41Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:45:26Z"
+}

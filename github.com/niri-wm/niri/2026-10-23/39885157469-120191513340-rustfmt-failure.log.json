@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 39885157469,
+  "job_id": 120191513340,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T01:38:39Z",
+  "job_name": "rustfmt",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:35:25Z"
+}

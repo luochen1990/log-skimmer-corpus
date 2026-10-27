@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 40443862271,
+  "job_id": 121990329236,
+  "conclusion": "success",
+  "workflow_name": "🤖 Visual Regression Diff Approval",
+  "created_at": "2026-10-27T03:23:06Z",
+  "job_name": "Check-Virtual-Regression-Appro",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:50:04Z"
+}

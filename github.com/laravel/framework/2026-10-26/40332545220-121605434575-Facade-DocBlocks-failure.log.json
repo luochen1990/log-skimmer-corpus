@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 40332545220,
+  "job_id": 121605434575,
+  "conclusion": "failure",
+  "workflow_name": "facades",
+  "created_at": "2026-10-26T13:39:46Z",
+  "job_name": "Facade-DocBlocks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:20:59Z"
+}

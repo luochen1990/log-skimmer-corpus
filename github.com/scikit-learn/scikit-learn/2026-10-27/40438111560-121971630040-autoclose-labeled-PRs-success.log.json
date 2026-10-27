@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 40438111560,
+  "job_id": 121971630040,
+  "conclusion": "success",
+  "workflow_name": "autoclose schedule",
+  "created_at": "2026-10-27T02:23:11Z",
+  "job_name": "autoclose-labeled-PRs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:02:11Z"
+}

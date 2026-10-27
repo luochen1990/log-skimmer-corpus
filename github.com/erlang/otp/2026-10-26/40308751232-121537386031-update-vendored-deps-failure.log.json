@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 40308751232,
+  "job_id": 121537386031,
+  "conclusion": "failure",
+  "workflow_name": "Update vendored dependencies",
+  "created_at": "2026-10-26T10:36:38Z",
+  "job_name": "update-vendored-deps",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:36:00Z"
+}

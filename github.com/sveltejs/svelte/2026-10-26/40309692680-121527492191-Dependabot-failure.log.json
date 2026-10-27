@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sveltejs/svelte",
+  "run_id": 40309692680,
+  "job_id": 121527492191,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for @vitest/mocker - Update #1654457131",
+  "created_at": "2026-10-26T10:44:03Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:52:53Z"
+}

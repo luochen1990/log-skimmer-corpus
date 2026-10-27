@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/JetBrains/Exposed",
+  "run_id": 40423134310,
+  "job_id": 121922189993,
+  "conclusion": "success",
+  "workflow_name": "Validate Gradle Wrapper",
+  "created_at": "2026-10-26T23:56:35Z",
+  "job_name": "Validation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:06:50Z"
+}

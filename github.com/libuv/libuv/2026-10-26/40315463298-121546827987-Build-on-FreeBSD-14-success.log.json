@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 40315463298,
+  "job_id": 121546827987,
+  "conclusion": "success",
+  "workflow_name": "CI-freebsd",
+  "created_at": "2026-10-26T11:29:34Z",
+  "job_name": "Build-on-FreeBSD-14",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:15:08Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 40403659354,
+  "job_id": 121855749576,
+  "conclusion": "success",
+  "workflow_name": "Dependency Review",
+  "created_at": "2026-10-26T21:21:26Z",
+  "job_name": "dependency-review",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:11:52Z"
+}

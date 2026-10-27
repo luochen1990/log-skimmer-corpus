@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 40318705096,
+  "job_id": 121557767771,
+  "conclusion": "failure",
+  "workflow_name": "redis_docs_sync",
+  "created_at": "2026-10-26T11:55:55Z",
+  "job_name": "redis_docs_sync",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:15:49Z"
+}

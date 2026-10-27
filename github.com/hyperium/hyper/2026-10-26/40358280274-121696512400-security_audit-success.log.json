@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 40358280274,
+  "job_id": 121696512400,
+  "conclusion": "success",
+  "workflow_name": "cargo-audit",
+  "created_at": "2026-10-26T16:21:09Z",
+  "job_name": "security_audit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:34:56Z"
+}

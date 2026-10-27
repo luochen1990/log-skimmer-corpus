@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 40378663283,
+  "job_id": 121768583968,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-26T18:32:38Z",
+  "job_name": "test-parallel",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:25:43Z"
+}

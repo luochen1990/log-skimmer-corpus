@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grpc/grpc-go",
+  "run_id": 40434303843,
+  "job_id": 121959192734,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-10-27T01:44:03Z",
+  "job_name": "lock",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:45:18Z"
+}

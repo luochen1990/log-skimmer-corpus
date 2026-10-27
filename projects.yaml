@@ -1,0 +1,171 @@
+# log-skimmer 示范项目集 (SSOT) — 防腐语料抓取源清单
+# 来源: 跨栈知名开源项目 124 项 / 25 栈标签 (rust/go/ts/python/... 主流
+#   fmt/lint/typecheck/test 工具族); 2026-10-21 全量核验 GHA 在场 + 最新
+#   run 活性 (90 天窗口)。
+# tools 为预期标签 (sweep per-rule 命中报告给真值); slots/max 为抓取策略;
+#   既有 3 语料仓 (niri-wm/niri · anomalyco/opencode · nix-community/
+#   home-manager) 槽位 14F+5S 覆盖 defaults (语料连续性), 其余 121 项走
+#   defaults 8F+3S。
+# exempt: 未适配过渡通道 — 该项目工具暂无覆盖规则, 抓取时 sidecar 记
+#   gate_exempt=true, L0 门禁跳其 FN/FP 率/零块断言 (边界违例/语料在场/
+#   压缩率双测不豁免, 语义见 dev 仓 spec §4); 规则适配达标后移出该字段
+#   (豁免余量 = 适配进度度量)。
+defaults:
+  slots: {failure: 8, success: 3}
+  max_job_log_bytes: 5242880  # 单 job 日志超限跳过并注记 (证据完整性优先, 不截断)
+projects:
+  # ===== rust (13) =====
+  - {repo: BurntSushi/ripgrep, stack: rust, tools: [cargo-test, clippy]}
+  - {repo: alacritty/alacritty, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: dandavison/delta, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: hyperium/hyper, stack: rust, tools: [cargo-test, clippy, cargo-deny]}
+  - {repo: niri-wm/niri, stack: rust, tools: [cargo-test, clippy, meson], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: qdrant/qdrant, stack: rust, tools: [cargo-test, clippy]}
+  - {repo: rust-analyzer/rust-analyzer, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: serde-rs/serde, stack: rust, tools: [cargo-test, trybuild, rustfmt]}
+  - {repo: sharkdp/bat, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: sharkdp/fd, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: starship/starship, stack: rust, tools: [cargo-test, clippy]}
+  - {repo: tokio-rs/tokio, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  - {repo: uutils/coreutils, stack: rust, tools: [cargo-test, clippy, rustfmt]}
+  # ===== go (15) =====
+  - {repo: caddyserver/caddy, stack: go, tools: [go-test, gofmt]}
+  - {repo: cli/cli, stack: go, tools: [go-test, golangci-lint]}
+  - {repo: etcd-io/etcd, stack: go, tools: [go-test, golangci-lint]}
+  - {repo: gin-gonic/gin, stack: go, tools: [go-test]}
+  - {repo: gohugoio/hugo, stack: go, tools: [go-test, gofmt, staticcheck]}
+  - {repo: golangci/golangci-lint, stack: go, tools: [go-test, golangci-lint-self]}
+  - {repo: grafana/loki, stack: go, tools: [go-test, golangci-lint]}
+  - {repo: grpc/grpc-go, stack: go, tools: [go-test]}
+  - {repo: helm/helm, stack: go, tools: [go-test, golangci]}
+  - {repo: kubernetes/kubernetes, stack: go, tools: [go-test, golangci-lint, gofmt]}
+  - {repo: moby/moby, stack: go, tools: [go-test, golangci-lint]}
+  - {repo: mvdan/sh, stack: go, tools: [go-test, shfmt-self]}
+  - {repo: rhysd/actionlint, stack: go, tools: [go-test]}
+  - {repo: spf13/cobra, stack: go, tools: [go-test, golangci-lint]}
+  - {repo: spf13/viper, stack: go, tools: [go-test, golangci-lint]}
+  # ===== ts (13) =====
+  - {repo: anomalyco/opencode, stack: ts, tools: [vitest, eslint, tsc, github-actions], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: ant-design/ant-design, stack: ts, tools: [jest, eslint, stylelint, prettier, tsc]}
+  - {repo: honojs/hono, stack: ts, tools: [vitest, eslint, prettier, tsc]}
+  - {repo: microsoft/TypeScript, stack: ts, tools: [tsc-selftest, eslint, prettier]}
+  - {repo: microsoft/playwright, stack: ts, tools: [playwright-selftest, jest, tsc, eslint]}
+  - {repo: pnpm/pnpm, stack: ts, tools: [jest, eslint, prettier]}
+  - {repo: rollup/rollup, stack: ts, tools: [vitest, eslint, prettier]}
+  - {repo: sveltejs/svelte, stack: ts, tools: [vitest, playwright, eslint, prettier]}
+  - {repo: tailwindlabs/tailwindcss, stack: ts, tools: [jest, eslint, prettier]}
+  - {repo: vercel/next.js, stack: ts, tools: [jest, eslint, prettier, tsc]}
+  - {repo: vitejs/vite, stack: ts, tools: [vitest, eslint, prettier, tsc]}
+  - {repo: vuejs/core, stack: ts, tools: [vitest, eslint, prettier, tsc]}
+  - {repo: withastro/astro, stack: ts, tools: [vitest, playwright, eslint, prettier, tsc]}
+  # ===== js (4) =====
+  - {repo: DavidAnson/markdownlint, stack: js, tools: [mocha, eslint]}
+  - {repo: eslint/eslint, stack: js, tools: [jest, eslint-self]}
+  - {repo: prettier/prettier, stack: js, tools: [jest, eslint, prettier-self]}
+  - {repo: stylelint/stylelint, stack: js, tools: [jest, eslint, prettier]}
+  # ===== python (11) =====
+  - {repo: django/django, stack: python, tools: [pytest, flake8, pre-commit]}
+  - {repo: fastapi/fastapi, stack: python, tools: [pytest, mypy, ruff]}
+  - {repo: mitmproxy/mitmproxy, stack: python, tools: [pytest, mypy, ruff]}
+  - {repo: openai/openai-python, stack: python, tools: [pytest, ruff, mypy]}
+  - {repo: pallets/flask, stack: python, tools: [pytest, mypy, pre-commit-black-isort]}
+  - {repo: pandas-dev/pandas, stack: python, tools: [pytest, mypy, pre-commit]}
+  - {repo: psf/black, stack: python, tools: [pytest, black-self, mypy]}
+  - {repo: psf/requests, stack: python, tools: [pytest, mypy, flake8]}
+  - {repo: pydantic/pydantic, stack: python, tools: [pytest, mypy, ruff]}
+  - {repo: pytest-dev/pytest, stack: python, tools: [pytest-self]}
+  - {repo: scikit-learn/scikit-learn, stack: python, tools: [pytest, ruff, mypy]}
+  # ===== java (8) =====
+  - {repo: apache/kafka, stack: java, tools: [gradle, junit, spotbugs]}
+  - {repo: diffplug/spotless, stack: java, tools: [gradle, junit, spotless-self]}
+  - {repo: google/guava, stack: java, tools: [maven, junit]}
+  - {repo: gradle/gradle, stack: java, tools: [gradle-selftest]}
+  - {repo: mockito/mockito, stack: java, tools: [gradle, junit]}
+  - {repo: spring-projects/spring-boot, stack: java, tools: [gradle, junit, checkstyle]}
+  - {repo: spring-projects/spring-framework, stack: java, tools: [gradle, junit, style]}
+  - {repo: square/okhttp, stack: java, tools: [gradle, junit, animal-sniffer]}
+  # ===== kt (2) =====
+  - {repo: JetBrains/Exposed, stack: kt, tools: [gradle, junit, detekt]}
+  - {repo: detekt/detekt, stack: kt, tools: [gradle, detekt-self, junit]}
+  # ===== cpp (10) =====
+  - {repo: ClickHouse/ClickHouse, stack: cpp, tools: [cmake, fasttest]}
+  - {repo: bitcoin/bitcoin, stack: cpp, tools: [autotools, cmake, boost-test]}
+  - {repo: catchorg/Catch2, stack: cpp, tools: [cmake, ctest]}
+  - {repo: duckdb/duckdb, stack: cpp, tools: [cmake, unittest]}
+  - {repo: fmtlib/fmt, stack: cpp, tools: [cmake, ctest]}
+  - {repo: google/benchmark, stack: cpp, tools: [cmake, ctest]}
+  - {repo: google/googletest, stack: cpp, tools: [cmake, ctest, autotools]}
+  - {repo: nlohmann/json, stack: cpp, tools: [cmake, ctest]}
+  - {repo: opencv/opencv, stack: cpp, tools: [cmake, ctest]}
+  - {repo: protocolbuffers/protobuf, stack: cpp, tools: [cmake, ctest, python-integration]}
+  # ===== c (4) =====
+  - {repo: curl/curl, stack: c, tools: [autotools, cmake, curl-testdone]}
+  - {repo: libuv/libuv, stack: c, tools: [cmake, ctest]}
+  - {repo: openssl/openssl, stack: c, tools: [perl-harness, make]}
+  - {repo: redis/redis, stack: c, tools: [make, tcl-tests]}
+  # ===== csharp (5) =====
+  - {repo: AvaloniaUI/Avalonia, stack: csharp, tools: [xunit, dotnet]}
+  - {repo: JamesNK/Newtonsoft.Json, stack: csharp, tools: [xunit, dotnet]}
+  - {repo: dotnet/aspnetcore, stack: csharp, tools: [dotnet-build, xunit]}
+  - {repo: dotnet/roslyn, stack: csharp, tools: [xunit, msbuild]}
+  - {repo: dotnet/runtime, stack: csharp, tools: [dotnet-build, xunit, dotnet-format]}
+  # ===== ruby (6) =====
+  - {repo: Homebrew/brew, stack: ruby, tools: [rubocop, dev-cmd-tests]}
+  - {repo: fastlane/fastlane, stack: ruby, tools: [rspec, rubocop]}
+  - {repo: jekyll/jekyll, stack: ruby, tools: [rspec, rubocop]}
+  - {repo: puma/puma, stack: ruby, tools: [rspec, rubocop]}
+  - {repo: rails/rails, stack: ruby, tools: [rails-testsuite, minitest, rubocop]}
+  - {repo: rubocop/rubocop, stack: ruby, tools: [rspec, rubocop-self]}
+  # ===== php (5) =====
+  - {repo: composer/composer, stack: php, tools: [phpunit]}
+  - {repo: laravel/framework, stack: php, tools: [phpunit, pint, phpstan]}
+  - {repo: phpstan/phpstan, stack: php, tools: [phpunit-self, phpstan-self]}
+  - {repo: sebastianbergmann/phpunit, stack: php, tools: [phpunit-self]}
+  - {repo: symfony/symfony, stack: php, tools: [phpunit, php-cs-fixer, phpstan]}
+  # ===== swift (4) =====
+  - {repo: Alamofire/Alamofire, stack: swift, tools: [xcodebuild, swiftpm]}
+  - {repo: swiftlang/swift-format, stack: swift, tools: [swift-test, swift-format-self]}
+  - {repo: swiftlang/swift-syntax, stack: swift, tools: [swift-test, swiftformat, swiftlint]}
+  - {repo: vapor/vapor, stack: swift, tools: [swift-test]}
+  # ===== zig (2) =====
+  - {repo: ziglang/zig, stack: zig, tools: [zig-build-test, zig-fmt]}
+  - {repo: zigtools/zls, stack: zig, tools: [zig-build-test, zig-fmt]}
+  # ===== zig-ts (1) =====
+  - {repo: oven-sh/bun, stack: zig-ts, tools: [zig, cargo, jest]}
+  # ===== nix (3) =====
+  - {repo: LnL7/nix-darwin, stack: nix, tools: [nix-flake-check]}
+  - {repo: nix-community/home-manager, stack: nix, tools: [nix-flake-check], slots: {failure: 14, success: 5}}  # 既有语料槽位保持
+  - {repo: nix-community/nix-direnv, stack: nix, tools: [nix-flake-check]}
+  # ===== haskell (6) =====
+  - {repo: commercialhaskell/stack, stack: haskell, tools: [stack-test, hlint]}
+  - {repo: hadolint/hadolint, stack: haskell, tools: [cabal-test]}
+  - {repo: haskell/cabal, stack: haskell, tools: [cabal-test, doctest]}
+  - {repo: haskell/haskell-language-server, stack: haskell, tools: [cabal, ormolu, hlint]}
+  - {repo: jgm/pandoc, stack: haskell, tools: [cabal-test, weeder, hlint]}
+  - {repo: koalaman/shellcheck, stack: haskell, tools: [cabal-test, shellcheck-self]}
+  # ===== elixir (2) =====
+  - {repo: phoenixframework/phoenix, stack: elixir, tools: [mix-test, credo, dialyzer]}
+  - {repo: rrrene/credo, stack: elixir, tools: [mix-test, credo-self]}
+  # ===== erlang (2) =====
+  - {repo: elixir-lang/elixir, stack: erlang, tools: [mix-test, make]}
+  - {repo: erlang/otp, stack: erlang, tools: [make, common-test, dialyzer]}
+  # ===== lua (2) =====
+  - {repo: luarocks/luarocks, stack: lua, tools: [busted]}
+  - {repo: nvim-telescope/telescope.nvim, stack: lua, tools: [busted, stylua, luacheck]}
+  # ===== dart (2) =====
+  - {repo: flutter/flutter, stack: dart, tools: [flutter-test, dart-analyze]}
+  - {repo: flutter/packages, stack: dart, tools: [flutter-test, dart-analyze]}
+  # ===== c-lua (1) =====
+  - {repo: neovim/neovim, stack: c-lua, tools: [busted, luacheck, stylua, clang]}
+  # ===== rust-ts (1) =====
+  - {repo: denoland/deno, stack: rust-ts, tools: [cargo-test, deno-test, napi]}
+  # ===== rust-python (1) =====
+  - {repo: astral-sh/ruff, stack: rust-python, tools: [cargo-test, pytest]}
+  # ===== go-js (1) =====
+  - {repo: evanw/esbuild, stack: go-js, tools: [go-test, jest]}
+  # ===== security (4) — 类目播种 2026-10-22 (security 规则空白: 语料面结构性空洞,
+  #   非规则缺口 — CI 跑 security 扫描器的仓不在集内, 失败形态无从出现; 裁决: B 薄切片) =====
+  - {repo: semgrep/semgrep, stack: security, tools: [semgrep, pytest]}
+  - {repo: aquasecurity/trivy, stack: security, tools: [trivy, go-test]}
+  - {repo: gitleaks/gitleaks, stack: security, tools: [gitleaks, go-test]}
+  - {repo: trufflesecurity/trufflehog, stack: security, tools: [trufflehog, go-test]}

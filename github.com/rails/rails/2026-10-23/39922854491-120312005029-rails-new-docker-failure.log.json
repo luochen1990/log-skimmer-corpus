@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rails/rails",
+  "run_id": 39922854491,
+  "job_id": 120312005029,
+  "conclusion": "failure",
+  "workflow_name": "rails-new-docker",
+  "created_at": "2026-10-23T08:10:59Z",
+  "job_name": "rails-new-docker",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:19:46Z"
+}

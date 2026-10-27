@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 40447133964,
+  "job_id": 122000974360,
+  "conclusion": "success",
+  "workflow_name": "Labeler: Predict (Pulls)",
+  "created_at": "2026-10-27T03:58:29Z",
+  "job_name": "poll-pull-requests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:17:36Z"
+}

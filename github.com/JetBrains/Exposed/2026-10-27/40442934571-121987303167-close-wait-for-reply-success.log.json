@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/JetBrains/Exposed",
+  "run_id": 40442934571,
+  "job_id": 121987303167,
+  "conclusion": "success",
+  "workflow_name": "Close wait-for-reply issues",
+  "created_at": "2026-10-27T03:13:11Z",
+  "job_name": "close-wait-for-reply",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T04:06:49Z"
+}

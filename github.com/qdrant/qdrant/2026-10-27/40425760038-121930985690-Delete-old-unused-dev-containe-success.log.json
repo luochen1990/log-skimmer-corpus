@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40425760038,
+  "job_id": 121930985690,
+  "conclusion": "success",
+  "workflow_name": "Delete old container images",
+  "created_at": "2026-10-27T00:20:25Z",
+  "job_name": "Delete-old-unused-dev-containe",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-27T03:36:30Z"
+}
