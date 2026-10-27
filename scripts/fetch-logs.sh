@@ -17,6 +17,8 @@
 #   python3 无 PyYAML、jq 无 YAML 支持, 均非开箱可用。
 # 槽位来源过滤: BOT_WF_PATTERNS (下方可编辑清单, 子串匹配且大小写不敏感的
 #   workflow name) 命中的 run — pages 部署/dependabot/stale 等 bot 噪声 — 不作槽位来源。
+#   'processing pull requests' (fastlane PR 通知管线, 2026-10-27): 其 job 失败形态为
+#   进程静默死亡 (整日志零失败证据), 规则集恒 FN — 通信类 bot 失败非诊断证据源。
 # 大 job 上限: 单 job 明文日志 > max_job_log_bytes → 跳过该 job 并 stderr 注记,
 #   不截断 (证据完整性优先; 下载后计量 — API 不暴露日志体积)。
 # 韧性: 单项目失败 (404/无 run/rate limit) 注记跳过不中断整体; 全部项目 0 对
@@ -35,7 +37,7 @@ MAX_JOB_LOG_BYTES=${MAX_JOB_LOG_BYTES:-5242880}           # 单 job 明文日志
 MAX_CANDIDATES=40                                         # 每仓候选 run 上限 (留冗余吸收 404/超限跳过)
 REPOS=(anomalyco/opencode niri-wm/niri nix-community/home-manager) # 无 --projects 默认清单
 # bot/噪声 workflow 名清单 (子串匹配, 大小写不敏感) — 命中者不作槽位来源; 增删只改这里
-BOT_WF_PATTERNS=('pages build and deployment' 'dependabot' 'stale' 'renovate')
+BOT_WF_PATTERNS=('pages build and deployment' 'dependabot' 'stale' 'renovate' 'processing pull requests')
 # → jq test() 用的 alternation 正则; 清单被清空时用永不匹配正则兜底 (空正则匹配一切 = 全过滤灾难)
 BOT_WF_RE=$(IFS='|'; printf '%s' "${BOT_WF_PATTERNS[*]}")
 [[ -n $BOT_WF_RE ]] || BOT_WF_RE='[^\s\S]'
