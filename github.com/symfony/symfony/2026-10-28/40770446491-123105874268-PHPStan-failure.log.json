@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 40770446491,
+  "job_id": 123105874268,
+  "conclusion": "failure",
+  "workflow_name": "Static Analysis",
+  "created_at": "2026-10-28T21:15:36Z",
+  "job_name": "PHPStan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:51:15Z"
+}

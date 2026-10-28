@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40734703517,
+  "job_id": 122979994536,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-20925: Use request header v3 for the share group state RPCs",
+  "created_at": "2026-10-28T17:20:05Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:15Z"
+}

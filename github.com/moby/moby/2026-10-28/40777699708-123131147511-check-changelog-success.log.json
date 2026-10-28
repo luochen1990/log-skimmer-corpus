@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 40777699708,
+  "job_id": 123131147511,
+  "conclusion": "success",
+  "workflow_name": "validate-pr",
+  "created_at": "2026-10-28T22:09:02Z",
+  "job_name": "check-changelog",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:19:48Z"
+}

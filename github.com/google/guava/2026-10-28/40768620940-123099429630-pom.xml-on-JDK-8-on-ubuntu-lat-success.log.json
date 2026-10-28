@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 40768620940,
+  "job_id": 123099429630,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T21:02:57Z",
+  "job_name": "pom.xml-on-JDK-8-on-ubuntu-lat",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:34:10Z"
+}

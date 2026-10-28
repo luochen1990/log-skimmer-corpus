@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/puma/puma",
+  "run_id": 40408401488,
+  "job_id": 121872090084,
+  "conclusion": "failure",
+  "workflow_name": "ragel",
+  "created_at": "2026-10-26T21:55:38Z",
+  "job_name": "ragel-ubuntu-22.04-head",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:47:58Z"
+}

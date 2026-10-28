@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/koalaman/shellcheck",
+  "run_id": 35164917442,
+  "job_id": 105031566291,
+  "conclusion": "failure",
+  "workflow_name": "Build ShellCheck",
+  "created_at": "2026-09-17T00:03:08Z",
+  "job_name": "Deploy-binaries",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:59:50Z"
+}

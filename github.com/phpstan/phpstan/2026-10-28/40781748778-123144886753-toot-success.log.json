@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 40781748778,
+  "job_id": 123144886753,
+  "conclusion": "success",
+  "workflow_name": "Toot release",
+  "created_at": "2026-10-28T22:40:20Z",
+  "job_name": "toot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:50:29Z"
+}

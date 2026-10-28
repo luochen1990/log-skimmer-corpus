@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 40607799692,
+  "job_id": 122551551400,
+  "conclusion": "failure",
+  "workflow_name": "Update docker base image",
+  "created_at": "2026-10-28T00:17:23Z",
+  "job_name": "Update-base-Erlang-OTP-build-i",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:02:35Z"
+}

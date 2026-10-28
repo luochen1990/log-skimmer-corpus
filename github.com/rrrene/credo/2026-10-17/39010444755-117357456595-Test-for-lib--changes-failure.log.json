@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 39010444755,
+  "job_id": 117357456595,
+  "conclusion": "failure",
+  "workflow_name": "Housekeeping: Reproducing Test-Case Detector (experimental)",
+  "created_at": "2026-10-17T06:34:59Z",
+  "job_name": "Test-for-lib--changes",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:01:39Z"
+}

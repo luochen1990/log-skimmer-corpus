@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 40775872885,
+  "job_id": 123124894143,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-28T21:55:15Z",
+  "job_name": "analyze",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:23:33Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 40620856689,
+  "job_id": 122594245066,
+  "conclusion": "failure",
+  "workflow_name": "Validate PAT Pool",
+  "created_at": "2026-10-28T02:25:36Z",
+  "job_name": "Validate-Copilot-PAT-Pool",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:45:59Z"
+}

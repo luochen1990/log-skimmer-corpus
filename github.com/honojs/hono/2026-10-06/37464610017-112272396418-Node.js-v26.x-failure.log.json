@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 37464610017,
+  "job_id": 112272396418,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-06T12:37:36Z",
+  "job_name": "Node.js-v26.x",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:22:57Z"
+}

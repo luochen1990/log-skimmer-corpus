@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 40736813975,
+  "job_id": 122988578240,
+  "conclusion": "failure",
+  "workflow_name": "Process daemon release",
+  "created_at": "2026-10-28T17:33:17Z",
+  "job_name": "build-windows-(windows-11-arm,",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:22:21Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grpc/grpc-go",
+  "run_id": 40550861275,
+  "job_id": 122353897865,
+  "conclusion": "failure",
+  "workflow_name": "Testing",
+  "created_at": "2026-10-27T17:28:04Z",
+  "job_name": "tests-(i386,-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:18:20Z"
+}

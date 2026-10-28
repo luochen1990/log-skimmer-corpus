@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 40686214540,
+  "job_id": 122809113988,
+  "conclusion": "failure",
+  "workflow_name": "Format + Docs Workflow",
+  "created_at": "2026-10-28T12:14:39Z",
+  "job_name": "Dprint-[Docs-Formatter]",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:13:03Z"
+}

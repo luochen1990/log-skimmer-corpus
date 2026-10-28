@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 40496677011,
+  "job_id": 122163778925,
+  "conclusion": "failure",
+  "workflow_name": "Daily",
+  "created_at": "2026-10-27T11:30:37Z",
+  "job_name": "test-centos-jemalloc",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:45:11Z"
+}

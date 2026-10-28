@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 40407401320,
+  "job_id": 121868612768,
+  "conclusion": "failure",
+  "workflow_name": "Nightly",
+  "created_at": "2026-10-26T21:48:16Z",
+  "job_name": "macos",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:59:37Z"
+}

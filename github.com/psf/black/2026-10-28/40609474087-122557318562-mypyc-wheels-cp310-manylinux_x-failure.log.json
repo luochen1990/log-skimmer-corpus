@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 40609474087,
+  "job_id": 122557318562,
+  "conclusion": "failure",
+  "workflow_name": "build and publish",
+  "created_at": "2026-10-28T00:33:07Z",
+  "job_name": "mypyc-wheels-cp310-manylinux_x",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:31:08Z"
+}

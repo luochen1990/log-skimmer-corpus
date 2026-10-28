@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 40776765685,
+  "job_id": 123127978722,
+  "conclusion": "failure",
+  "workflow_name": "maven in /.teamcity - Update #1661581558",
+  "created_at": "2026-10-28T22:02:05Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:34:15Z"
+}

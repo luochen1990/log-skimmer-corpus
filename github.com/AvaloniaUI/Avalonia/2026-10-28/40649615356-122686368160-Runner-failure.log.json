@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/AvaloniaUI/Avalonia",
+  "run_id": 40649615356,
+  "job_id": 122686368160,
+  "conclusion": "failure",
+  "workflow_name": "Avalonia CLA Bot",
+  "created_at": "2026-10-28T07:22:08Z",
+  "job_name": "Runner",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:45:30Z"
+}

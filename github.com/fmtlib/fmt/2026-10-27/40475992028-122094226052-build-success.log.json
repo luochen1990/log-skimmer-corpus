@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 40475992028,
+  "job_id": 122094226052,
+  "conclusion": "success",
+  "workflow_name": "doc",
+  "created_at": "2026-10-27T08:47:35Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:40:47Z"
+}

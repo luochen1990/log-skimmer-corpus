@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/flutter",
+  "run_id": 40782855962,
+  "job_id": 123148633882,
+  "conclusion": "success",
+  "workflow_name": "Material and Cupertino Code Freeze",
+  "created_at": "2026-10-28T22:49:19Z",
+  "job_name": "Check-Code-Freeze",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:04:04Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 40778714650,
+  "job_id": 123134606626,
+  "conclusion": "success",
+  "workflow_name": "Forward review activity to pr-tracker",
+  "created_at": "2026-10-28T22:16:43Z",
+  "job_name": "forward",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:40:17Z"
+}

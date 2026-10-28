@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 40781589757,
+  "job_id": 123144348316,
+  "conclusion": "success",
+  "workflow_name": "Create release",
+  "created_at": "2026-10-28T22:39:03Z",
+  "job_name": "Deploy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:50:31Z"
+}

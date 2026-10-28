@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/flutter",
+  "run_id": 40776965822,
+  "job_id": 123130776867,
+  "conclusion": "failure",
+  "workflow_name": "Mac Verify Binaries",
+  "created_at": "2026-10-28T22:03:33Z",
+  "job_name": "Mac_arm64_verify_binaries",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:03:56Z"
+}

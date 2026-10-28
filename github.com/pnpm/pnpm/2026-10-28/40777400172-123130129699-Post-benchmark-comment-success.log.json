@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 40777400172,
+  "job_id": 123130129699,
+  "conclusion": "success",
+  "workflow_name": "Pacquet Integrated-Benchmark Comment",
+  "created_at": "2026-10-28T22:06:45Z",
+  "job_name": "Post-benchmark-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:24:10Z"
+}

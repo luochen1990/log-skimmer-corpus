@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 40738179899,
+  "job_id": 122992294922,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1661123762",
+  "created_at": "2026-10-28T17:41:58Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:12:51Z"
+}

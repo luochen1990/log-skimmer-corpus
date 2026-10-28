@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 39631178202,
+  "job_id": 119329440485,
+  "conclusion": "failure",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-21T16:02:44Z",
+  "job_name": "Analyze-(java)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:27Z"
+}

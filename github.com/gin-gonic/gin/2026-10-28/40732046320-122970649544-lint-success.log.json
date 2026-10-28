@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gin-gonic/gin",
+  "run_id": 40732046320,
+  "job_id": 122970649544,
+  "conclusion": "success",
+  "workflow_name": "Run Tests",
+  "created_at": "2026-10-28T17:03:41Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:16:56Z"
+}

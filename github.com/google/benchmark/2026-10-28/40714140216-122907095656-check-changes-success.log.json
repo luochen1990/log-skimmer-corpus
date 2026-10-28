@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 40714140216,
+  "job_id": 122907095656,
+  "conclusion": "success",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-10-28T15:15:42Z",
+  "job_name": "check-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:41:13Z"
+}

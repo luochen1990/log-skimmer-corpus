@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 40778037420,
+  "job_id": 123132303366,
+  "conclusion": "success",
+  "workflow_name": "check-nix",
+  "created_at": "2026-10-28T22:11:34Z",
+  "job_name": "nix-eval",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:22:24Z"
+}

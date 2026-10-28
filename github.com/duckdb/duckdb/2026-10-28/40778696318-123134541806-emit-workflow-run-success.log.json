@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 40778696318,
+  "job_id": 123134541806,
+  "conclusion": "success",
+  "workflow_name": "Review relay",
+  "created_at": "2026-10-28T22:16:34Z",
+  "job_name": "emit-workflow-run",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:40:18Z"
+}

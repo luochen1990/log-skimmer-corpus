@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 40641182150,
+  "job_id": 122659536998,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T05:59:50Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:29:54Z"
+}

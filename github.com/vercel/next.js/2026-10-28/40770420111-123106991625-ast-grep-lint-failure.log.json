@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 40770420111,
+  "job_id": 123106991625,
+  "conclusion": "failure",
+  "workflow_name": "build-and-test",
+  "created_at": "2026-10-28T21:15:25Z",
+  "job_name": "ast-grep-lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:25:51Z"
+}

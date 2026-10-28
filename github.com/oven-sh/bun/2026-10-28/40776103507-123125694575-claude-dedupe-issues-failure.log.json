@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 40776103507,
+  "job_id": 123125694575,
+  "conclusion": "failure",
+  "workflow_name": "Claude Issue Dedupe",
+  "created_at": "2026-10-28T21:57:02Z",
+  "job_name": "claude-dedupe-issues",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:56:20Z"
+}

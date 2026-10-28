@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/zigtools/zls",
+  "run_id": 40781471095,
+  "job_id": 123143943501,
+  "conclusion": "success",
+  "workflow_name": "Code Coverage",
+  "created_at": "2026-10-28T22:38:06Z",
+  "job_name": "coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:56:13Z"
+}

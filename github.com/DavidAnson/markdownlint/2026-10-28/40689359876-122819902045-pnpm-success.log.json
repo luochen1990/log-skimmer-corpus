@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 40689359876,
+  "job_id": 122819902045,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T12:37:37Z",
+  "job_name": "pnpm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:27:40Z"
+}

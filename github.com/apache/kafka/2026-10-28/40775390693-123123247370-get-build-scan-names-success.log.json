@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40775390693,
+  "job_id": 123123247370,
+  "conclusion": "success",
+  "workflow_name": "Build Scans for KAFKA-20999: [2/N] Add rack-aware standby task assignment to sticky assignor",
+  "created_at": "2026-10-28T21:51:37Z",
+  "job_name": "get-build-scan-names",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:20Z"
+}

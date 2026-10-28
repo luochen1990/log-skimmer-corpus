@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/evanw/esbuild",
+  "run_id": 31211184326,
+  "job_id": 92974126134,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-08-07T19:22:31Z",
+  "job_name": "esbuild-CI-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:06:16Z"
+}

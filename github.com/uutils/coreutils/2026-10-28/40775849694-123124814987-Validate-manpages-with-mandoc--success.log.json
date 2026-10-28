@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40775849694,
+  "job_id": 123124814987,
+  "conclusion": "success",
+  "workflow_name": "Manpage Validation",
+  "created_at": "2026-10-28T21:55:05Z",
+  "job_name": "Validate-manpages-with-mandoc-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:15:37Z"
+}

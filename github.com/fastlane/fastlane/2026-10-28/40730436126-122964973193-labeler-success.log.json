@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 40730436126,
+  "job_id": 122964973193,
+  "conclusion": "success",
+  "workflow_name": "Pull Request Labeler",
+  "created_at": "2026-10-28T16:53:45Z",
+  "job_name": "labeler",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:47:31Z"
+}

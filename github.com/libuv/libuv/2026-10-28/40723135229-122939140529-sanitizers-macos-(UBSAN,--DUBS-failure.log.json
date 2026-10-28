@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 40723135229,
+  "job_id": 122939140529,
+  "conclusion": "failure",
+  "workflow_name": "Sanitizer checks",
+  "created_at": "2026-10-28T16:09:15Z",
+  "job_name": "sanitizers-macos-(UBSAN,--DUBS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:44:10Z"
+}

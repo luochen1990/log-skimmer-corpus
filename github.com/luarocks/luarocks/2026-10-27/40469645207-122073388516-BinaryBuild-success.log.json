@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 40469645207,
+  "job_id": 122073388516,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-27T07:51:22Z",
+  "job_name": "BinaryBuild",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:03:28Z"
+}

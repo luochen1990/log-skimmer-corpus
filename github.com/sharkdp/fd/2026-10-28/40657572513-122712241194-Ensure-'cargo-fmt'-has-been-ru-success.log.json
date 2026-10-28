@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 40657572513,
+  "job_id": 122712241194,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-28T08:32:53Z",
+  "job_name": "Ensure-'cargo-fmt'-has-been-ru",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:12:56Z"
+}

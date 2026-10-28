@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40737568635,
+  "job_id": 122990136918,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21224: Add mirror-level configs",
+  "created_at": "2026-10-28T17:38:01Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:13Z"
+}

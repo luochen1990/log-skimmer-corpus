@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40773545360,
+  "job_id": 123116796187,
+  "conclusion": "failure",
+  "workflow_name": "Run-checker CI",
+  "created_at": "2026-10-28T21:37:56Z",
+  "job_name": "run-checker-(no-ecx)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:44:31Z"
+}

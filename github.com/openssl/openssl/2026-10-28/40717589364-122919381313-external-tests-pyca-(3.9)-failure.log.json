@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40717589364,
+  "job_id": 122919381313,
+  "conclusion": "failure",
+  "workflow_name": "GitHub CI",
+  "created_at": "2026-10-28T15:35:59Z",
+  "job_name": "external-tests-pyca-(3.9)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:44:43Z"
+}

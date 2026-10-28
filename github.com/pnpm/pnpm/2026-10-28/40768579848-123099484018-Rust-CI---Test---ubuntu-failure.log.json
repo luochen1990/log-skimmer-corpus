@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 40768579848,
+  "job_id": 123099484018,
+  "conclusion": "failure",
+  "workflow_name": "Rust CI",
+  "created_at": "2026-10-28T21:02:40Z",
+  "job_name": "Rust-CI---Test---ubuntu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:24:05Z"
+}

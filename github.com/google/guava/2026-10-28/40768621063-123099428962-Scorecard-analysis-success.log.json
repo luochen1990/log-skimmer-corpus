@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 40768621063,
+  "job_id": 123099428962,
+  "conclusion": "success",
+  "workflow_name": "Scorecard supply-chain security",
+  "created_at": "2026-10-28T21:02:57Z",
+  "job_name": "Scorecard-analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:34:08Z"
+}

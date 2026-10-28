@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 40709775108,
+  "job_id": 122891567094,
+  "conclusion": "failure",
+  "workflow_name": "Merge main into next",
+  "created_at": "2026-10-28T14:49:37Z",
+  "job_name": "Merge-main-into-next",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:27:08Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 40779953311,
+  "job_id": 123138802403,
+  "conclusion": "success",
+  "workflow_name": "curl-for-win",
+  "created_at": "2026-10-28T22:26:13Z",
+  "job_name": "Windows-gcc-zlib-classic-(x64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:44:00Z"
+}

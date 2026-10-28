@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Homebrew/brew",
+  "run_id": 40119337743,
+  "job_id": 120947250676,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-24T18:08:34Z",
+  "job_name": "tests-(Linux,-2-2)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:47:03Z"
+}

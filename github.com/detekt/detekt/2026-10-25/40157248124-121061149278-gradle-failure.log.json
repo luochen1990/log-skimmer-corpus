@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 40157248124,
+  "job_id": 121061149278,
+  "conclusion": "failure",
+  "workflow_name": "Execute detekt",
+  "created_at": "2026-10-25T03:10:45Z",
+  "job_name": "gradle",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:37:16Z"
+}

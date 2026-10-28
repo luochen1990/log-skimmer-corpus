@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 40717399981,
+  "job_id": 122919664428,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-28T15:34:52Z",
+  "job_name": "package",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:32:40Z"
+}

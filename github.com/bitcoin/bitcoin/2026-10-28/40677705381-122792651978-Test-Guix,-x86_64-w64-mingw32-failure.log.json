@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 40677705381,
+  "job_id": 122792651978,
+  "conclusion": "failure",
+  "workflow_name": "Guix",
+  "created_at": "2026-10-28T11:09:06Z",
+  "job_name": "Test-Guix,-x86_64-w64-mingw32",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:38:30Z"
+}

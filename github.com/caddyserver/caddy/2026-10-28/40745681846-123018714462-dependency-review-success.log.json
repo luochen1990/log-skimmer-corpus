@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 40745681846,
+  "job_id": 123018714462,
+  "conclusion": "success",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-28T18:29:59Z",
+  "job_name": "dependency-review",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:15:59Z"
+}

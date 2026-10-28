@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 40759666279,
+  "job_id": 123067855231,
+  "conclusion": "success",
+  "workflow_name": "pip in /tools - Update #1661371834",
+  "created_at": "2026-10-28T20:02:21Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:41:12Z"
+}

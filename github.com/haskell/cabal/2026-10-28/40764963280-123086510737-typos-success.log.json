@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 40764963280,
+  "job_id": 123086510737,
+  "conclusion": "success",
+  "workflow_name": "Typos",
+  "created_at": "2026-10-28T20:37:39Z",
+  "job_name": "typos",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:59:02Z"
+}

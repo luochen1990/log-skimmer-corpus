@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gitleaks/gitleaks",
+  "run_id": 40631217735,
+  "job_id": 122627785895,
+  "conclusion": "success",
+  "workflow_name": "Test",
+  "created_at": "2026-10-28T04:14:39Z",
+  "job_name": "test-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:07:31Z"
+}

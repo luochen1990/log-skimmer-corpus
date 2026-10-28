@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vitejs/vite",
+  "run_id": 40741714466,
+  "job_id": 123004754033,
+  "conclusion": "success",
+  "workflow_name": "Semantic Pull Request",
+  "created_at": "2026-10-28T18:04:38Z",
+  "job_name": "Semantic-Pull-Request",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:26:32Z"
+}

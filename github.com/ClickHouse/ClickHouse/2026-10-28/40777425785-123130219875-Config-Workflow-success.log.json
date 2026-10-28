@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 40777425785,
+  "job_id": 123130219875,
+  "conclusion": "success",
+  "workflow_name": "PRVersionInfo",
+  "created_at": "2026-10-28T22:06:57Z",
+  "job_name": "Config-Workflow",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:38:19Z"
+}

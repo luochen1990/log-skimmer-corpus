@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/koalaman/shellcheck",
+  "run_id": 31371189118,
+  "job_id": 93400427599,
+  "conclusion": "failure",
+  "workflow_name": "Build ShellCheck",
+  "created_at": "2026-08-10T08:41:29Z",
+  "job_name": "Run-tests-(GHC-8.0)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:59:54Z"
+}

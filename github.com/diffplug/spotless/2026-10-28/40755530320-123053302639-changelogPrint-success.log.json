@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 40755530320,
+  "job_id": 123053302639,
+  "conclusion": "success",
+  "workflow_name": "changelogPrint",
+  "created_at": "2026-10-28T19:34:35Z",
+  "job_name": "changelogPrint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:40Z"
+}

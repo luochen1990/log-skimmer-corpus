@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rails/rails",
+  "run_id": 40773008915,
+  "job_id": 123114896292,
+  "conclusion": "success",
+  "workflow_name": "Devcontainer smoke test",
+  "created_at": "2026-10-28T21:34:04Z",
+  "job_name": "Devcontainer-smoke-test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:48:47Z"
+}

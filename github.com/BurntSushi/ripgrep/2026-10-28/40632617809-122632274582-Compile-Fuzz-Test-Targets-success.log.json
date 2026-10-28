@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/BurntSushi/ripgrep",
+  "run_id": 40632617809,
+  "job_id": 122632274582,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-10-28T04:29:35Z",
+  "job_name": "Compile-Fuzz-Test-Targets",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:08:46Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 40777173193,
+  "job_id": 123129476678,
+  "conclusion": "success",
+  "workflow_name": "Docs-Windows",
+  "created_at": "2026-10-28T22:05:04Z",
+  "job_name": "docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:29:05Z"
+}

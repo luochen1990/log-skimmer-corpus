@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 40772657440,
+  "job_id": 123113664714,
+  "conclusion": "failure",
+  "workflow_name": "Publish Any Commit",
+  "created_at": "2026-10-28T21:31:31Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:22:36Z"
+}

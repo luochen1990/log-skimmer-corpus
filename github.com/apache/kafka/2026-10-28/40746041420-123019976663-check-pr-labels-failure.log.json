@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40746041420,
+  "job_id": 123019976663,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-20866: Remove incremental-only append result state",
+  "created_at": "2026-10-28T18:32:15Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T22:33:10Z"
+}

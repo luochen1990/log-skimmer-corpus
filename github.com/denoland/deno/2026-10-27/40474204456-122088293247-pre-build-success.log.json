@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/denoland/deno",
+  "run_id": 40474204456,
+  "job_id": 122088293247,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-10-27T08:32:22Z",
+  "job_name": "pre-build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-28T23:05:20Z"
+}
