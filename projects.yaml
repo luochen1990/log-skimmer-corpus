@@ -169,3 +169,45 @@ projects:
   - {repo: aquasecurity/trivy, stack: security, tools: [trivy, go-test]}
   - {repo: gitleaks/gitleaks, stack: security, tools: [gitleaks, go-test]}
   - {repo: trufflesecurity/trufflehog, stack: security, tools: [trufflehog, go-test]}
+  # ===== tool-gap 播种 (24) — I2 工具分层取样 2026-10-29 =====
+  #   动机: 全语料工具×仓矩阵普查 (1357 样本单遍签名扫描+人工核验) — 种子
+  #   工具中 terraform/helm/buck2 零代表, poetry/podman/yarn/bazel/maven
+  #   真实代表仓 0-2 (附带在场不计), nix 3 仓同属 NixOS 配置管理族 (生态位
+  #   垄断, D 系工程仓形态缺位); 按规则工具词表分层补仓, 证据 (workflow 路径
+  #   + 近 30 run 成败混合) 见 PR 描述。全部 24 仓以 exempt 准入 (T-P2b-2 过渡
+  #   通道): 准入时覆盖未验证 (槽位采样无 workflow 亲和性, 实际失败形态可能与
+  #   tools 意图错位), 门禁零风险; 各域规则适配 + 实测覆盖达标后逐仓晋级移出
+  #   (晋级 = gated → FN 断言生效 + 参与 diagnostic_gaps 发现回路)。
+  # nix 生态多样化 (工程仓形态, 补既有 3 配置管理仓):
+  - {repo: DeterminateSystems/nix-installer, stack: nix, tools: [nix-flake-check, cargo-test, clippy], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: DeterminateSystems/magic-nix-cache, stack: nix, tools: [nix-flake-check, cargo-test, clippy], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: cachix/devenv, stack: nix, tools: [nix-flake-check, devenv-selftest], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  # bazel (0 主用仓; protobuf/benchmark 仅附带):
+  - {repo: google/re2, stack: cpp, tools: [bazel, cmake, ctest], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: google/xls, stack: cpp, tools: [bazel], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: chipsalliance/verible, stack: cpp, tools: [bazel], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  # buck2 (零代表; OSS 生态极小, 合格仓尽收):
+  - {repo: meta/buck2, stack: rust, tools: [buck2, cargo-test], exempt: 'buck2 无覆盖规则'}
+  - {repo: dtolnay/cxx, stack: rust, tools: [buck2, cargo-test], exempt: 'buck2 无覆盖规则'}
+  # terraform (零代表; 新栈标签 terraform):
+  - {repo: hashicorp/terraform, stack: terraform, tools: [terraform, go-test], exempt: 'terraform 无覆盖规则'}
+  - {repo: opentofu/opentofu, stack: terraform, tools: [terraform, go-test], exempt: 'terraform 无覆盖规则'}
+  - {repo: terraform-aws-modules/terraform-aws-vpc, stack: terraform, tools: [terraform, pre-commit], exempt: 'terraform 无覆盖规则'}
+  # helm (零代表; helm/helm 在语料但作为 go 项目):
+  - {repo: grafana/helm-charts, stack: helm, tools: [helm, ct-lint-test], exempt: 'helm 无覆盖规则'}
+  - {repo: prometheus-community/helm-charts, stack: helm, tools: [helm, ct-lint-test], exempt: 'helm 无覆盖规则'}
+  - {repo: bitnami/charts, stack: helm, tools: [helm, docker-build], exempt: 'helm 无覆盖规则'}
+  # yarn (真实代表仅 esbuild-e2e + prettier):
+  - {repo: yarnpkg/berry, stack: ts, tools: [yarn, jest, tsc], exempt: 'yarn 无覆盖规则'}
+  - {repo: facebook/react, stack: js, tools: [yarn, jest], exempt: 'yarn 无覆盖规则'}
+  # poetry (仅 phpstan 附带 1 仓):
+  - {repo: python-poetry/poetry, stack: python, tools: [poetry, pytest], exempt: 'poetry 无覆盖规则'}
+  - {repo: doccano/doccano, stack: python, tools: [poetry, pytest], exempt: 'poetry 无覆盖规则'}
+  # podman (仅 rails 附带 1 仓):
+  - {repo: containers/podman, stack: go, tools: [podman, go-test, make], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: coreos/rpm-ostree, stack: c, tools: [podman, make], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: bbernhard/signal-cli-rest-api, stack: python, tools: [podman, pytest], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  # maven (guava 单仓垄断):
+  - {repo: google/error-prone, stack: java, tools: [maven, junit], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: google/auto, stack: java, tools: [maven, junit], exempt: '覆盖未验证 — 验证达标后晋级移出'}
+  - {repo: redisson/redisson, stack: java, tools: [maven, junit], exempt: '覆盖未验证 — 验证达标后晋级移出'}
