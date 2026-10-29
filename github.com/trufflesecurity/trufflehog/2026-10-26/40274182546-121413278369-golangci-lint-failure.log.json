@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 40274182546,
+  "job_id": 121413278369,
+  "conclusion": "failure",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-26T05:26:00Z",
+  "job_name": "golangci-lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:08:05Z"
+}

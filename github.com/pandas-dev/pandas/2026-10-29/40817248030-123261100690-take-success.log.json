@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 40817248030,
+  "job_id": 123261100690,
+  "conclusion": "success",
+  "workflow_name": "Comment Commands",
+  "created_at": "2026-10-29T04:21:01Z",
+  "job_name": "take",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:32:50Z"
+}

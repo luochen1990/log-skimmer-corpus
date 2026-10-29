@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 40515511851,
+  "job_id": 122228328223,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-27T13:49:43Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:40:05Z"
+}

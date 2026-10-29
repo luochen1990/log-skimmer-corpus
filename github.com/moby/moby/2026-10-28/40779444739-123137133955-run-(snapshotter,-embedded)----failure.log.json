@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 40779444739,
+  "job_id": 123137133955,
+  "conclusion": "failure",
+  "workflow_name": "windows-2025",
+  "created_at": "2026-10-28T22:22:17Z",
+  "job_name": "run-(snapshotter,-embedded)---",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:21:59Z"
+}

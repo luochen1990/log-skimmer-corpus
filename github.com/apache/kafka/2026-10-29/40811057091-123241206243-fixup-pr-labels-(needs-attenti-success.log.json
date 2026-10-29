@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 40811057091,
+  "job_id": 123241206243,
+  "conclusion": "success",
+  "workflow_name": "Fixup PR Labels",
+  "created_at": "2026-10-29T03:14:58Z",
+  "job_name": "fixup-pr-labels-(needs-attenti",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:35:01Z"
+}

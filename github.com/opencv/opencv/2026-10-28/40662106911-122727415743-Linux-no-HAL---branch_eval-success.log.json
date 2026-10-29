@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 40662106911,
+  "job_id": 122727415743,
+  "conclusion": "success",
+  "workflow_name": "PR:5.x",
+  "created_at": "2026-10-28T09:09:56Z",
+  "job_name": "Linux-no-HAL---branch_eval",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:44:10Z"
+}

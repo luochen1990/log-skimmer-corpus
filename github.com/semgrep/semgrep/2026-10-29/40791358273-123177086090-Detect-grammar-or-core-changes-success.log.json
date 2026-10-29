@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 40791358273,
+  "job_id": 123177086090,
+  "conclusion": "success",
+  "workflow_name": "Test Grammars in ocaml-tree-sitter-semgrep",
+  "created_at": "2026-10-29T00:02:06Z",
+  "job_name": "Detect-grammar-or-core-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:06:49Z"
+}

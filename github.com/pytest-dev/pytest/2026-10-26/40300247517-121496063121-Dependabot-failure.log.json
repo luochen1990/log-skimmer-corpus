@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 40300247517,
+  "job_id": 121496063121,
+  "conclusion": "failure",
+  "workflow_name": "pip in /testing/plugins_integration for Twisted - Update #1654168151",
+  "created_at": "2026-10-26T09:31:41Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:34:13Z"
+}

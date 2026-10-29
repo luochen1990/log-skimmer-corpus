@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 40108434568,
+  "job_id": 120921153673,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-24T15:45:33Z",
+  "job_name": "Test-io_uring-on-Linux-4.19.32",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:16:54Z"
+}

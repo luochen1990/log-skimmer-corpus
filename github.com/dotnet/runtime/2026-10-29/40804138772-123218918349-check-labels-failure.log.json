@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 40804138772,
+  "job_id": 123218918349,
+  "conclusion": "failure",
+  "workflow_name": "check-service-labels",
+  "created_at": "2026-10-29T02:04:04Z",
+  "job_name": "check-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:47:59Z"
+}

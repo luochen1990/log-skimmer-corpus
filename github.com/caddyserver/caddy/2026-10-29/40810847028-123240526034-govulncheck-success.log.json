@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 40810847028,
+  "job_id": 123240526034,
+  "conclusion": "success",
+  "workflow_name": "Lint",
+  "created_at": "2026-10-29T03:12:45Z",
+  "job_name": "govulncheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:18:51Z"
+}

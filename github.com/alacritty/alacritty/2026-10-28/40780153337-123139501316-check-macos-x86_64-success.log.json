@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/alacritty/alacritty",
+  "run_id": 40780153337,
+  "job_id": 123139501316,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T22:27:50Z",
+  "job_name": "check-macos-x86_64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:12:14Z"
+}

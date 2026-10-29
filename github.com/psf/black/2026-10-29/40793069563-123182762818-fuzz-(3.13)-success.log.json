@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 40793069563,
+  "job_id": 123182762818,
+  "conclusion": "success",
+  "workflow_name": "fuzz",
+  "created_at": "2026-10-29T00:17:22Z",
+  "job_name": "fuzz-(3.13)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:33:09Z"
+}

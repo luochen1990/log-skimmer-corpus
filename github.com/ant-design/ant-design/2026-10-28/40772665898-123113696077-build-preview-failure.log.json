@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 40772665898,
+  "job_id": 123113696077,
+  "conclusion": "failure",
+  "workflow_name": "Preview Build",
+  "created_at": "2026-10-28T21:31:34Z",
+  "job_name": "build-preview",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:24:37Z"
+}

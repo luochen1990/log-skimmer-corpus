@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 40814136254,
+  "job_id": 123251135004,
+  "conclusion": "success",
+  "workflow_name": "Labeler: Area paths (deterministic)",
+  "created_at": "2026-10-29T03:47:48Z",
+  "job_name": "label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:47:39Z"
+}

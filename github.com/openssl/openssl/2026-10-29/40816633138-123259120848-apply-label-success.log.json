@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40816633138,
+  "job_id": 123259120848,
+  "conclusion": "success",
+  "workflow_name": "FIPS and ABI Changed Label",
+  "created_at": "2026-10-29T04:14:30Z",
+  "job_name": "apply-label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:46:29Z"
+}

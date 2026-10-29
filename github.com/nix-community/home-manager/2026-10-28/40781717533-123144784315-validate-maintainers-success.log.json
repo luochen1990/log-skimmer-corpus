@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/home-manager",
+  "run_id": 40781717533,
+  "job_id": 123144784315,
+  "conclusion": "success",
+  "workflow_name": "Validate maintainers.nix",
+  "created_at": "2026-10-28T22:40:06Z",
+  "job_name": "validate-maintainers",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:58:19Z"
+}

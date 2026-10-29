@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 40813811424,
+  "job_id": 123250085815,
+  "conclusion": "success",
+  "workflow_name": "Scorecard supply-chain security",
+  "created_at": "2026-10-29T03:44:14Z",
+  "job_name": "Scorecard-analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:45:21Z"
+}

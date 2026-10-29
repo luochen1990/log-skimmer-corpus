@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 40811193227,
+  "job_id": 123241638987,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-29T03:16:19Z",
+  "job_name": "biome-lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:29:23Z"
+}

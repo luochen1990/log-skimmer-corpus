@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 40731622001,
+  "job_id": 122969155176,
+  "conclusion": "failure",
+  "workflow_name": "Check Changelog",
+  "created_at": "2026-10-28T17:01:06Z",
+  "job_name": "A-reviewer-will-let-you-know-i",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:34:31Z"
+}

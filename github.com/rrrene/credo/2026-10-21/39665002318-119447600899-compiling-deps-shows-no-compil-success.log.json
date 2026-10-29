@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 39665002318,
+  "job_id": 119447600899,
+  "conclusion": "success",
+  "workflow_name": "Housekeeping",
+  "created_at": "2026-10-21T19:49:41Z",
+  "job_name": "compiling-deps-shows-no-compil",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:02:37Z"
+}

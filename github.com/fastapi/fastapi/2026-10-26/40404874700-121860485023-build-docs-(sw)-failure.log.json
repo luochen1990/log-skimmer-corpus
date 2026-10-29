@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 40404874700,
+  "job_id": 121860485023,
+  "conclusion": "failure",
+  "workflow_name": "Build Docs",
+  "created_at": "2026-10-26T21:30:05Z",
+  "job_name": "build-docs-(sw)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:31:14Z"
+}

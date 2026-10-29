@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 40816642318,
+  "job_id": 123259152576,
+  "conclusion": "success",
+  "workflow_name": "upload-preview-tarballs",
+  "created_at": "2026-10-29T04:14:36Z",
+  "job_name": "Upload-preview-tarballs-to-Blo",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:28:23Z"
+}

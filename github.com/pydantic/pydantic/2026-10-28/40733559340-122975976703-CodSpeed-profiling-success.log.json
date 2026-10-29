@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 40733559340,
+  "job_id": 122975976703,
+  "conclusion": "success",
+  "workflow_name": "codspeed",
+  "created_at": "2026-10-28T17:12:59Z",
+  "job_name": "CodSpeed-profiling",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:34:02Z"
+}

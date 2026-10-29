@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 40788340067,
+  "job_id": 123183144501,
+  "conclusion": "failure",
+  "workflow_name": "PR",
+  "created_at": "2026-10-28T23:34:48Z",
+  "job_name": "Stateless-tests-(arm_binary,-p",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:39:32Z"
+}

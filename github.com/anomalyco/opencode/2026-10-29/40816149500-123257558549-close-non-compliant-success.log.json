@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 40816149500,
+  "job_id": 123257558549,
+  "conclusion": "success",
+  "workflow_name": "triage-compliance-close",
+  "created_at": "2026-10-29T04:09:25Z",
+  "job_name": "close-non-compliant",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:24:26Z"
+}

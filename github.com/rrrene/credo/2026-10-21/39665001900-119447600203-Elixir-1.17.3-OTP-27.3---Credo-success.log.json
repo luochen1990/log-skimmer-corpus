@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rrrene/credo",
+  "run_id": 39665001900,
+  "job_id": 119447600203,
+  "conclusion": "success",
+  "workflow_name": "Compatibility: Elixir",
+  "created_at": "2026-10-21T19:49:41Z",
+  "job_name": "Elixir-1.17.3-OTP-27.3---Credo",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:02:41Z"
+}

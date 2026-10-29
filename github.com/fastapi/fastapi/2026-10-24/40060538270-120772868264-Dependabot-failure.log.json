@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 40060538270,
+  "job_id": 120772868264,
+  "conclusion": "failure",
+  "workflow_name": "uv in /. for pillow - Update #1649453626",
+  "created_at": "2026-10-24T03:59:30Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:31:17Z"
+}

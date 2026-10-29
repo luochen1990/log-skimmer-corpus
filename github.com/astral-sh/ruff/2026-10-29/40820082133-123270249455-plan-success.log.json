@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 40820082133,
+  "job_id": 123270249455,
+  "conclusion": "success",
+  "workflow_name": "Release",
+  "created_at": "2026-10-29T04:51:31Z",
+  "job_name": "plan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:06:06Z"
+}

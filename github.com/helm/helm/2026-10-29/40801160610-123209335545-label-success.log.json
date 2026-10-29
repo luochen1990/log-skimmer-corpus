@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 40801160610,
+  "job_id": 123209335545,
+  "conclusion": "success",
+  "workflow_name": "Label PRs",
+  "created_at": "2026-10-29T01:33:45Z",
+  "job_name": "label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:21:10Z"
+}

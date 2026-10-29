@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 40777866265,
+  "job_id": 123131883695,
+  "conclusion": "failure",
+  "workflow_name": "Linux HTTP/3",
+  "created_at": "2026-10-28T22:10:17Z",
+  "job_name": "CM-gnutls",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:45:31Z"
+}

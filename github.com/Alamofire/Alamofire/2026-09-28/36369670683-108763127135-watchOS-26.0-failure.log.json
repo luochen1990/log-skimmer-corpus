@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 36369670683,
+  "job_id": 108763127135,
+  "conclusion": "failure",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-09-28T02:24:05Z",
+  "job_name": "watchOS-26.0",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:52:46Z"
+}

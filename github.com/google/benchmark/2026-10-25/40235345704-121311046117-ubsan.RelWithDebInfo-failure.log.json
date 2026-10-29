@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 40235345704,
+  "job_id": 121311046117,
+  "conclusion": "failure",
+  "workflow_name": "sanitizer",
+  "created_at": "2026-10-25T21:24:29Z",
+  "job_name": "ubsan.RelWithDebInfo",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:42:16Z"
+}

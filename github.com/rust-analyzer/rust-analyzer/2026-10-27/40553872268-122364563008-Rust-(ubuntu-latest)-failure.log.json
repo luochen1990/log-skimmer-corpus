@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rust-analyzer/rust-analyzer",
+  "run_id": 40553872268,
+  "job_id": 122364563008,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-27T17:47:21Z",
+  "job_name": "Rust-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:14:01Z"
+}

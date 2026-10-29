@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40748944543,
+  "job_id": 123030352029,
+  "conclusion": "success",
+  "workflow_name": "Qdrant Edge Tests",
+  "created_at": "2026-10-28T18:51:09Z",
+  "job_name": "Test-Qdrant-Edge-(ubuntu-lates",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:13:50Z"
+}

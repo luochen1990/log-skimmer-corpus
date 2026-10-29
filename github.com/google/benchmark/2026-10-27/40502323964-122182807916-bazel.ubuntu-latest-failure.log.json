@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 40502323964,
+  "job_id": 122182807916,
+  "conclusion": "failure",
+  "workflow_name": "bazel",
+  "created_at": "2026-10-27T12:15:21Z",
+  "job_name": "bazel.ubuntu-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:42:09Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 40816031381,
+  "job_id": 123257175171,
+  "conclusion": "failure",
+  "workflow_name": "Coding style and spelling validation",
+  "created_at": "2026-10-29T04:08:12Z",
+  "job_name": "check-style",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:46:17Z"
+}

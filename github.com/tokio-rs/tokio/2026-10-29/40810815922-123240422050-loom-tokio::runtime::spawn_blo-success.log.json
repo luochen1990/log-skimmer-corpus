@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 40810815922,
+  "job_id": 123240422050,
+  "conclusion": "success",
+  "workflow_name": "Loom",
+  "created_at": "2026-10-29T03:12:24Z",
+  "job_name": "loom-tokio::runtime::spawn_blo",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:18:18Z"
+}

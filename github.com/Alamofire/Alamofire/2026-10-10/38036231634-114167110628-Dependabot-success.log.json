@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 38036231634,
+  "job_id": 114167110628,
+  "conclusion": "success",
+  "workflow_name": "bundler in /. for sqlite3 - Update #1620422368",
+  "created_at": "2026-10-10T07:57:53Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:53:05Z"
+}

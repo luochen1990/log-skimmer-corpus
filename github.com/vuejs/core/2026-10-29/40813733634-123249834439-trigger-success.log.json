@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vuejs/core",
+  "run_id": 40813733634,
+  "job_id": 123249834439,
+  "conclusion": "success",
+  "workflow_name": "ecosystem-ci trigger",
+  "created_at": "2026-10-29T03:43:21Z",
+  "job_name": "trigger",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:28:59Z"
+}

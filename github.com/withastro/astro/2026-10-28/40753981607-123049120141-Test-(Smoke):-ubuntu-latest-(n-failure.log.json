@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 40753981607,
+  "job_id": 123049120141,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T19:24:12Z",
+  "job_name": "Test-(Smoke):-ubuntu-latest-(n",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:29:16Z"
+}

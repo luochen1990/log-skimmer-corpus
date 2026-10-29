@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 40811021791,
+  "job_id": 123241090654,
+  "conclusion": "success",
+  "workflow_name": "Spellcheck",
+  "created_at": "2026-10-29T03:14:34Z",
+  "job_name": "Spellcheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:46:54Z"
+}

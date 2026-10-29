@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 40812383940,
+  "job_id": 123246048015,
+  "conclusion": "failure",
+  "workflow_name": "Process daemon release",
+  "created_at": "2026-10-29T03:29:04Z",
+  "job_name": "build-(ubuntu-22.04,-x86_64-un",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:23:56Z"
+}

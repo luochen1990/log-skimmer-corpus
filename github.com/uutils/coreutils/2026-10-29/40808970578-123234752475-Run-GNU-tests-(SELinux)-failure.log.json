@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 40808970578,
+  "job_id": 123234752475,
+  "conclusion": "failure",
+  "workflow_name": "GnuTests",
+  "created_at": "2026-10-29T02:53:06Z",
+  "job_name": "Run-GNU-tests-(SELinux)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:18:26Z"
+}

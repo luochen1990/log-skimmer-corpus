@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/zigtools/zls",
+  "run_id": 40235448007,
+  "job_id": 122548558474,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-25T21:25:46Z",
+  "job_name": "build-(macos-latest)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:57:13Z"
+}

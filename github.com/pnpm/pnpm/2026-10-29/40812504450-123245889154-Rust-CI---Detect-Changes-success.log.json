@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 40812504450,
+  "job_id": 123245889154,
+  "conclusion": "success",
+  "workflow_name": "Rust CI",
+  "created_at": "2026-10-29T03:30:18Z",
+  "job_name": "Rust-CI---Detect-Changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:26:11Z"
+}

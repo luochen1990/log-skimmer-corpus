@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 40723135336,
+  "job_id": 122939140000,
+  "conclusion": "failure",
+  "workflow_name": "CI-solaris",
+  "created_at": "2026-10-28T16:09:15Z",
+  "job_name": "Build-and-test-on-Solaris",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:45:58Z"
+}

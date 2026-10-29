@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 40791689744,
+  "job_id": 123178203918,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-29T00:05:06Z",
+  "job_name": "C-(Linux)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:45:50Z"
+}

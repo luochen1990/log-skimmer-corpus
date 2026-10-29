@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 40661370697,
+  "job_id": 122862594109,
+  "conclusion": "failure",
+  "workflow_name": "Rust tests",
+  "created_at": "2026-10-28T09:04:08Z",
+  "job_name": "rust-tests-(ubuntu-latest,-2)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:13:41Z"
+}

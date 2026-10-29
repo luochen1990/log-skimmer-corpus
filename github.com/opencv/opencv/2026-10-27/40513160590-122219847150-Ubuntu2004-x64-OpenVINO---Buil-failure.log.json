@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 40513160590,
+  "job_id": 122219847150,
+  "conclusion": "failure",
+  "workflow_name": "PR:5.x",
+  "created_at": "2026-10-27T13:34:13Z",
+  "job_name": "Ubuntu2004-x64-OpenVINO---Buil",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T04:43:52Z"
+}

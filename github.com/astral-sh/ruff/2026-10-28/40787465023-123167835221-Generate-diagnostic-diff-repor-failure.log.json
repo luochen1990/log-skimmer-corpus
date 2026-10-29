@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 40787465023,
+  "job_id": 123167835221,
+  "conclusion": "failure",
+  "workflow_name": "ty ecosystem-analyzer",
+  "created_at": "2026-10-28T23:27:12Z",
+  "job_name": "Generate-diagnostic-diff-repor",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-29T05:05:59Z"
+}
