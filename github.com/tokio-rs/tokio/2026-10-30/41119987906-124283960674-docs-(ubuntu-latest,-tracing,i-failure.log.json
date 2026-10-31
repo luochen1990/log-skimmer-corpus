@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 41119987906,
+  "job_id": 124283960674,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T20:01:35Z",
+  "job_name": "docs-(ubuntu-latest,-tracing,i",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:42:51Z"
+}

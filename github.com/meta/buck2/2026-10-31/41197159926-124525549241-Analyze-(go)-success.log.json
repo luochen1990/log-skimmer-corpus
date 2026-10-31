@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/meta/buck2",
+  "run_id": 41197159926,
+  "job_id": 124525549241,
+  "conclusion": "success",
+  "workflow_name": "Push on main",
+  "created_at": "2026-10-31T11:30:52Z",
+  "job_name": "Analyze-(go)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:37Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rubocop/rubocop",
+  "run_id": 41037462327,
+  "job_id": 124001748052,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T09:59:54Z",
+  "job_name": "Spec---ubuntu-3.4",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:13:03Z"
+}

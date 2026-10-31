@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 41176279868,
+  "job_id": 124464393557,
+  "conclusion": "failure",
+  "workflow_name": "autofix.ci",
+  "created_at": "2026-10-31T06:21:44Z",
+  "job_name": "Run-automated-fix---Run-automa",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:55:04Z"
+}

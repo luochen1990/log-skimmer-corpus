@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/golangci/golangci-lint",
+  "run_id": 40579898148,
+  "job_id": 122456156606,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-10-27T20:38:48Z",
+  "job_name": "Analyze-(go)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:45:01Z"
+}

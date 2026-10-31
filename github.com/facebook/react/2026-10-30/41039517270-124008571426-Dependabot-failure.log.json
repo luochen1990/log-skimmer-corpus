@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 41039517270,
+  "job_id": 124008571426,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for decode-uri-component - Update #1665441849",
+  "created_at": "2026-10-30T10:16:21Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:18Z"
+}

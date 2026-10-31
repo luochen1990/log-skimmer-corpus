@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 41177574517,
+  "job_id": 124468240852,
+  "conclusion": "failure",
+  "workflow_name": "diff-shades",
+  "created_at": "2026-10-31T06:40:32Z",
+  "job_name": "analysis---base---assert-no-ch",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:57:42Z"
+}

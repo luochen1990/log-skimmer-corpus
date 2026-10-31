@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 41184388141,
+  "job_id": 124488182203,
+  "conclusion": "failure",
+  "workflow_name": "label-pr",
+  "created_at": "2026-10-31T08:23:08Z",
+  "job_name": "no-ai-advertisements",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:27:23Z"
+}

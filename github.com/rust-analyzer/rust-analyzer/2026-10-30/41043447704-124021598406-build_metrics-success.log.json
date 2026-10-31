@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rust-analyzer/rust-analyzer",
+  "run_id": 41043447704,
+  "job_id": 124021598406,
+  "conclusion": "success",
+  "workflow_name": "metrics",
+  "created_at": "2026-10-30T10:48:29Z",
+  "job_name": "build_metrics",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:41:02Z"
+}

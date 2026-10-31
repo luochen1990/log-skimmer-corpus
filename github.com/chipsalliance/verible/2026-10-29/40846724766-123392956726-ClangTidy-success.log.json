@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 40846724766,
+  "job_id": 123392956726,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-10-29T09:04:04Z",
+  "job_name": "ClangTidy",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:14Z"
+}

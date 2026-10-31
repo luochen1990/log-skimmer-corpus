@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 40868632032,
+  "job_id": 123429679732,
+  "conclusion": "failure",
+  "workflow_name": "SecretSpec macOS storage probe",
+  "created_at": "2026-10-29T11:51:39Z",
+  "job_name": "probe-(macos-26)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:31:43Z"
+}

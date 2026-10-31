@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 40942673693,
+  "job_id": 123689842922,
+  "conclusion": "failure",
+  "workflow_name": "Build PR artefacts",
+  "created_at": "2026-10-29T19:43:42Z",
+  "job_name": "Build-current-artefacts",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:51:51Z"
+}

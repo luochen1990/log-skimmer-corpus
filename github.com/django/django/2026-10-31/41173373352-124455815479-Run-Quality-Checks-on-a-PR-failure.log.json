@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 41173373352,
+  "job_id": 124455815479,
+  "conclusion": "failure",
+  "workflow_name": "PR Quality Checks",
+  "created_at": "2026-10-31T05:37:58Z",
+  "job_name": "Run-Quality-Checks-on-a-PR",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:55:45Z"
+}

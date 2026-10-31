@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 41186110319,
+  "job_id": 124493251810,
+  "conclusion": "failure",
+  "workflow_name": "Cancel BuildKite on PR close",
+  "created_at": "2026-10-31T08:48:45Z",
+  "job_name": "cancel",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:19:49Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/error-prone",
+  "run_id": 39747534319,
+  "job_id": 119719643678,
+  "conclusion": "failure",
+  "workflow_name": "Release Error Prone",
+  "created_at": "2026-10-22T08:24:48Z",
+  "job_name": "build-maven-jars",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:38:42Z"
+}

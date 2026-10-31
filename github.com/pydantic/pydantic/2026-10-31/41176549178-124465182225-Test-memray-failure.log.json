@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 41176549178,
+  "job_id": 124465182225,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-31T06:25:34Z",
+  "job_name": "Test-memray",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:58:20Z"
+}

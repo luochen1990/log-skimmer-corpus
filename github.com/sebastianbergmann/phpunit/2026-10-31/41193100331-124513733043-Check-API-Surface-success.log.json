@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 41193100331,
+  "job_id": 124513733043,
+  "conclusion": "success",
+  "workflow_name": "API Surface Comment",
+  "created_at": "2026-10-31T10:31:34Z",
+  "job_name": "Check-API-Surface",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:14:52Z"
+}

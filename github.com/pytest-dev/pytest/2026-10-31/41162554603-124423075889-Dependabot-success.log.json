@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 41162554603,
+  "job_id": 124423075889,
+  "conclusion": "success",
+  "workflow_name": "pip in /testing/plugins_integration - Update #1667086488",
+  "created_at": "2026-10-31T03:01:43Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:59:09Z"
+}

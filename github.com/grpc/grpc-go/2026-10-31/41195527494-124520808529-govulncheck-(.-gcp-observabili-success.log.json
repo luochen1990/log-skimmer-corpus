@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grpc/grpc-go",
+  "run_id": 41195527494,
+  "job_id": 124520808529,
+  "conclusion": "success",
+  "workflow_name": "govulncheck",
+  "created_at": "2026-10-31T11:07:18Z",
+  "job_name": "govulncheck-(.-gcp-observabili",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:45:55Z"
+}

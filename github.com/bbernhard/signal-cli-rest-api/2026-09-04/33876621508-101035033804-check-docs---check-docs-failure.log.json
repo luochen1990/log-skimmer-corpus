@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bbernhard/signal-cli-rest-api",
+  "run_id": 33876621508,
+  "job_id": 101035033804,
+  "conclusion": "failure",
+  "workflow_name": "Release Dev Version",
+  "created_at": "2026-09-04T13:10:45Z",
+  "job_name": "check-docs---check-docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:38:24Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 41161155733,
+  "job_id": 124418873560,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-10-31T02:41:51Z",
+  "job_name": "build-(plugins)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:58:56Z"
+}

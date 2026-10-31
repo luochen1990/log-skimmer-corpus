@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/python-poetry/poetry",
+  "run_id": 41094579394,
+  "job_id": 124196903903,
+  "conclusion": "success",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-30T16:57:47Z",
+  "job_name": "Detect-changed-files",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:53Z"
+}

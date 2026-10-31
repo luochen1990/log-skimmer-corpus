@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/terraform-aws-modules/terraform-aws-vpc",
+  "run_id": 41180965834,
+  "job_id": 124478105122,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-10-31T07:31:51Z",
+  "job_name": "lock",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:07Z"
+}

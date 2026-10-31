@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 41180567295,
+  "job_id": 124477083317,
+  "conclusion": "failure",
+  "workflow_name": "Integration tests",
+  "created_at": "2026-10-31T07:25:47Z",
+  "job_name": "integration-tests---Integratio",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:14:12Z"
+}

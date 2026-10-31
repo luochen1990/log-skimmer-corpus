@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 41181000304,
+  "job_id": 124478323865,
+  "conclusion": "failure",
+  "workflow_name": "Other tests",
+  "created_at": "2026-10-31T07:32:21Z",
+  "job_name": "other-tests---Other-Tests-(ubu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:14:06Z"
+}

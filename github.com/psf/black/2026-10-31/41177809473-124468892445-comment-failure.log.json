@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 41177809473,
+  "job_id": 124468892445,
+  "conclusion": "failure",
+  "workflow_name": "diff-shades comment",
+  "created_at": "2026-10-31T06:44:14Z",
+  "job_name": "comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:57:34Z"
+}

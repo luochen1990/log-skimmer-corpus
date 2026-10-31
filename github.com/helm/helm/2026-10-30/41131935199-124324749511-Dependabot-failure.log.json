@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 41131935199,
+  "job_id": 124324749511,
+  "conclusion": "failure",
+  "workflow_name": "github_actions in /. - Update #1666587333",
+  "created_at": "2026-10-30T21:33:32Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:46:00Z"
+}

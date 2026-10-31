@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 41027046748,
+  "job_id": 123967664544,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T08:31:44Z",
+  "job_name": "Static-Analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:14:44Z"
+}

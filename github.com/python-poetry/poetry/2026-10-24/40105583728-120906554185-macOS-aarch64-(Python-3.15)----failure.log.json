@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/python-poetry/poetry",
+  "run_id": 40105583728,
+  "job_id": 120906554185,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-24T15:08:06Z",
+  "job_name": "macOS-aarch64-(Python-3.15)---",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:41Z"
+}

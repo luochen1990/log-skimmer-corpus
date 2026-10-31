@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/terraform-aws-modules/terraform-aws-vpc",
+  "run_id": 34897660323,
+  "job_id": 104155694321,
+  "conclusion": "failure",
+  "workflow_name": "Validate PR title",
+  "created_at": "2026-09-14T21:14:27Z",
+  "job_name": "Validate-PR-title",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:34:51Z"
+}

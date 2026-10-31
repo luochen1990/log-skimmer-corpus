@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 41077847419,
+  "job_id": 124138715453,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T15:07:57Z",
+  "job_name": "go-test-wasm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:50:34Z"
+}

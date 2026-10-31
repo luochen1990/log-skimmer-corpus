@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 41188258335,
+  "job_id": 124499770862,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-31T09:19:58Z",
+  "job_name": "Unit-Tests-(windows-latest,-8.",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:14:36Z"
+}

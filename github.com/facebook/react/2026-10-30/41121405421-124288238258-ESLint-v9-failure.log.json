@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 41121405421,
+  "job_id": 124288238258,
+  "conclusion": "failure",
+  "workflow_name": "(Runtime) ESLint Plugin E2E",
+  "created_at": "2026-10-30T20:12:46Z",
+  "job_name": "ESLint-v9",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:15Z"
+}

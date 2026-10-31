@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 41191276812,
+  "job_id": 124508420485,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-31T10:04:56Z",
+  "job_name": "Java---Linux-OpenJDK-8",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:07:43Z"
+}

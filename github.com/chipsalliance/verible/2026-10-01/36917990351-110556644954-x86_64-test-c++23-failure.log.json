@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 36917990351,
+  "job_id": 110556644954,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-10-01T19:56:46Z",
+  "job_name": "x86_64-test-c++23",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:32:55Z"
+}

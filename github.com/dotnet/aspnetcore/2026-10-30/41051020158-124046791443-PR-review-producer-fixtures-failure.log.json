@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 41051020158,
+  "job_id": 124046791443,
+  "conclusion": "failure",
+  "workflow_name": "Workflow tests",
+  "created_at": "2026-10-30T11:50:57Z",
+  "job_name": "PR-review-producer-fixtures",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:10:17Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hashicorp/terraform",
+  "run_id": 41111620358,
+  "job_id": 124254835684,
+  "conclusion": "success",
+  "workflow_name": "Issue Comment Created Triage",
+  "created_at": "2026-10-30T19:00:31Z",
+  "job_name": "issue_comment_triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:34:19Z"
+}

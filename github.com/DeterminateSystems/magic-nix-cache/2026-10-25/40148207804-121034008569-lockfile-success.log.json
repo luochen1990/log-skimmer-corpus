@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DeterminateSystems/magic-nix-cache",
+  "run_id": 40148207804,
+  "job_id": 121034008569,
+  "conclusion": "success",
+  "workflow_name": "update-flake-lock",
+  "created_at": "2026-10-25T00:49:44Z",
+  "job_name": "lockfile",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:31:20Z"
+}

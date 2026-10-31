@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 41200104300,
+  "job_id": 124534054421,
+  "conclusion": "success",
+  "workflow_name": "E2E NM Babel Install",
+  "created_at": "2026-10-31T12:13:00Z",
+  "job_name": "Validating-Babel-install-via-n",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:08Z"
+}

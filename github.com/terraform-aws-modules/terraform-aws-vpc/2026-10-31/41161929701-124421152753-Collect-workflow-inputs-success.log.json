@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/terraform-aws-modules/terraform-aws-vpc",
+  "run_id": 41161929701,
+  "job_id": 124421152753,
+  "conclusion": "success",
+  "workflow_name": "Pre-Commit",
+  "created_at": "2026-10-31T02:52:48Z",
+  "job_name": "Collect-workflow-inputs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:09Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 41176448963,
+  "job_id": 124464887775,
+  "conclusion": "success",
+  "workflow_name": "windows",
+  "created_at": "2026-10-31T06:24:07Z",
+  "job_name": "mingw-(ucrt64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:05:32Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-format",
+  "run_id": 40530005723,
+  "job_id": 122279897474,
+  "conclusion": "failure",
+  "workflow_name": "Pull request",
+  "created_at": "2026-10-27T15:20:33Z",
+  "job_name": "Test---Linux-(6.1---jammy---x8",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:16:05Z"
+}

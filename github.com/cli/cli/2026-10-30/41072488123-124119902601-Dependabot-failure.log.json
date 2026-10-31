@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 41072488123,
+  "job_id": 124119902601,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /.github/skills/cli-exercise/scripts for zod - Update #1665873236",
+  "created_at": "2026-10-30T14:32:43Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:43:43Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 35684454703,
+  "job_id": 106608312888,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-09-22T03:47:36Z",
+  "job_name": "MacOsBuild",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:05Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 37690412980,
+  "job_id": 113028834878,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-07T21:34:50Z",
+  "job_name": "Verify-CXX-generation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:38:08Z"
+}

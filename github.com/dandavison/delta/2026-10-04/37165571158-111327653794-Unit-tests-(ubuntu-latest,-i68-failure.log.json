@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 37165571158,
+  "job_id": 111327653794,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-04T00:38:38Z",
+  "job_name": "Unit-tests-(ubuntu-latest,-i68",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:39:08Z"
+}

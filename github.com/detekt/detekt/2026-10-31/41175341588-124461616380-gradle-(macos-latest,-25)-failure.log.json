@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 41175341588,
+  "job_id": 124461616380,
+  "conclusion": "failure",
+  "workflow_name": "Pre Merge Checks",
+  "created_at": "2026-10-31T06:08:10Z",
+  "job_name": "gradle-(macos-latest,-25)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:03:00Z"
+}

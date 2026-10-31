@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bbernhard/signal-cli-rest-api",
+  "run_id": 32780501119,
+  "job_id": 97601495102,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-08-24T21:37:38Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:38:25Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 40928808572,
+  "job_id": 123641435499,
+  "conclusion": "failure",
+  "workflow_name": "Backport PR to branch",
+  "created_at": "2026-10-29T18:13:46Z",
+  "job_name": "backport---run_backport",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:10:35Z"
+}

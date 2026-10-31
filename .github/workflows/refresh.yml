@@ -1,0 +1,50 @@
+# corpus-refresh — 语料仓自刷 (124 项示范集全量滚动, orphan 单提交模型)
+#
+# 职责: scripts/fetch-logs.sh --projects projects.yaml (清单 SSOT 在仓根)
+#   全量重抓 github.com/ 样本树 — 旧样本删除, 新样本 .log.gz + sidecar
+#   (gate_exempt 由清单 exempt 字段驱动)。单项目失败 fetch-logs 内置容错
+#   (注记跳过不炸整体), 全部项目 0 对才 exit 1 (空语料硬防线, 2026-10-16
+#   事故: 空仓被 commit); fetch 失败则不推 — 防半空语料覆盖远端。
+#   读树重建单 orphan commit force-push master: 仓体积恒定不积累历史
+#   (滚动淘汰与 README 同口径; 2026-10-21 规模化裁决: 3 仓 57 样本 →
+#   124 仓 ~1400 样本, 槽位 8F+3S / 既有 3 仓 14F+5S; 同日提频裁决: weekly →
+#   6h — 快滚动加速分析数据积累; 注意 orphan 模型只留最新快照, 跨时序积累
+#   的是 sweep 侧 reports/history.jsonl 指标历史, 非样本本身)。
+# secret: GH_RO_API_TOKEN = fine-grained PAT (零权限勾选, 读公开仓 actions;
+#   per-run github.token 跨仓 401 — 2026-10-16 事故实证, 不改回)。
+name: corpus-refresh
+on:
+  # 每天 4 次 (00/06/12/18 UTC): 单轮 45-115min, 6h 间隔留足余量;
+  # rules 仓 sweep 错峰 +3.5h 跟拍 (03:30/09:30/15:30/21:30)。
+  schedule: [{cron: "0 0,6,12,18 * * *"}]
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency: {group: corpus-refresh, cancel-in-progress: false}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180 # 124 仓抓取预估 45-115min, 留余量
+    steps:
+      - uses: actions/checkout@v4
+      - name: full slots refresh (--projects 124 项)
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GH_RO_API_TOKEN }}
+          CORPUS_DIR: ${{ github.workspace }}
+        run: |
+          rm -rf github.com
+          bash scripts/fetch-logs.sh --projects projects.yaml
+      - name: rebuild as single orphan commit + force push
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "语料无变化, 跳过推送"
+            exit 0
+          fi
+          # orphan 单提交: 读树重建根提交 (携带刚刷新的整树), 强推替换 master —
+          #   历史不积累; 消费方须 fetch + reset --hard 而非 pull (README 有约)
+          git checkout --orphan corpus-fresh
+          git commit -qm "corpus refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git branch -M master
+          git push --force origin master

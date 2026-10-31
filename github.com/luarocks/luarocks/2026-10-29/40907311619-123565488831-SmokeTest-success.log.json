@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 40907311619,
+  "job_id": 123565488831,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-10-29T16:00:46Z",
+  "job_name": "SmokeTest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:26:11Z"
+}

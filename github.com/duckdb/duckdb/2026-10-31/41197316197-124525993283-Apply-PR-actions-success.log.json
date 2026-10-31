@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 41197316197,
+  "job_id": 124525993283,
+  "conclusion": "success",
+  "workflow_name": "OnPR",
+  "created_at": "2026-10-31T11:33:04Z",
+  "job_name": "Apply-PR-actions",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:05:03Z"
+}

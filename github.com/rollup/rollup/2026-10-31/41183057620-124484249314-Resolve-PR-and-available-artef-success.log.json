@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 41183057620,
+  "job_id": 124484249314,
+  "conclusion": "success",
+  "workflow_name": "Publish PR artefacts",
+  "created_at": "2026-10-31T08:03:55Z",
+  "job_name": "Resolve-PR-and-available-artef",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:51:58Z"
+}

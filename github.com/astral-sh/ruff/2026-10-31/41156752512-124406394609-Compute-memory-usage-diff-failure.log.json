@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 41156752512,
+  "job_id": 124406394609,
+  "conclusion": "failure",
+  "workflow_name": "Run memory report",
+  "created_at": "2026-10-31T01:44:00Z",
+  "job_name": "Compute-memory-usage-diff",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:28:06Z"
+}

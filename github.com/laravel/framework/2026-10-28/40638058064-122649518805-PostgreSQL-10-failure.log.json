@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 40638058064,
+  "job_id": 122649518805,
+  "conclusion": "failure",
+  "workflow_name": "databases",
+  "created_at": "2026-10-28T05:26:58Z",
+  "job_name": "PostgreSQL-10",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:13:49Z"
+}

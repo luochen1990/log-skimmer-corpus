@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 41199378545,
+  "job_id": 124531957381,
+  "conclusion": "failure",
+  "workflow_name": "E2E Storybook",
+  "created_at": "2026-10-31T12:03:03Z",
+  "job_name": "Validating-Storybook-(React-wi",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:02Z"
+}

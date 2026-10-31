@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/eslint/eslint",
+  "run_id": 41170257640,
+  "job_id": 124446486184,
+  "conclusion": "success",
+  "workflow_name": "Types Integration CI",
+  "created_at": "2026-10-31T04:51:42Z",
+  "job_name": "Types-(@eslint-css)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:55:01Z"
+}

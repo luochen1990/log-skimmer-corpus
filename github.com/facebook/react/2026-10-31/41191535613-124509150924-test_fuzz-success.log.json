@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 41191535613,
+  "job_id": 124509150924,
+  "conclusion": "success",
+  "workflow_name": "(Runtime) Fuzz tests",
+  "created_at": "2026-10-31T10:08:39Z",
+  "job_name": "test_fuzz",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:30Z"
+}

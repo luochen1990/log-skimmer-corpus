@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-framework",
+  "run_id": 41191551090,
+  "job_id": 124509194981,
+  "conclusion": "success",
+  "workflow_name": "Update Antora UI Spring",
+  "created_at": "2026-10-31T10:08:53Z",
+  "job_name": "Update-on-docs-build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:02:08Z"
+}

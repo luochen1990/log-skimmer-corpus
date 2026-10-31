@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 41194688319,
+  "job_id": 124518380886,
+  "conclusion": "success",
+  "workflow_name": "uv in /. for Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, Pillow, PyJWT, PyJWT, aiohttp, aiohttp, aiohttp, aiohttp, aiohttp, aiohttp, aiohttp, aiohttp, certifi, multidict, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pillow, pyasn1, pyasn1, pyasn1 - Update #1667741396",
+  "created_at": "2026-10-31T10:55:11Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:56:47Z"
+}

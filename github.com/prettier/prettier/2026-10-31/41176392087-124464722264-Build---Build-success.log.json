@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 41176392087,
+  "job_id": 124464722264,
+  "conclusion": "success",
+  "workflow_name": "Prod",
+  "created_at": "2026-10-31T06:23:18Z",
+  "job_name": "Build---Build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:55:20Z"
+}

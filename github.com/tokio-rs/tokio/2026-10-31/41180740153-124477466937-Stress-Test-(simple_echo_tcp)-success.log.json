@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 41180740153,
+  "job_id": 124477466937,
+  "conclusion": "success",
+  "workflow_name": "Stress Test",
+  "created_at": "2026-10-31T07:28:35Z",
+  "job_name": "Stress-Test-(simple_echo_tcp)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:43:05Z"
+}

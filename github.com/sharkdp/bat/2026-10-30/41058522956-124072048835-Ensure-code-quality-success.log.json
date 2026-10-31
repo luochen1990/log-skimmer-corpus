@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 41058522956,
+  "job_id": 124072048835,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-10-30T12:51:25Z",
+  "job_name": "Ensure-code-quality",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:41:48Z"
+}

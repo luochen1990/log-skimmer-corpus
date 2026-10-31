@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 41197442710,
+  "job_id": 124526358180,
+  "conclusion": "success",
+  "workflow_name": "Handle opened or edited pull requests",
+  "created_at": "2026-10-31T11:34:51Z",
+  "job_name": "Check-linked-issue-and-welcome",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:59:22Z"
+}

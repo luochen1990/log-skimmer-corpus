@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/auto",
+  "run_id": 40991575328,
+  "job_id": 123854971857,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T02:25:15Z",
+  "job_name": "JDK-17",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:39:10Z"
+}

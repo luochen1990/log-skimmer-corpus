@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/elixir-lang/elixir",
+  "run_id": 40710972363,
+  "job_id": 122895825266,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-28T14:56:51Z",
+  "job_name": "Windows-Server-2022,-OTP-27.3",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:25:04Z"
+}

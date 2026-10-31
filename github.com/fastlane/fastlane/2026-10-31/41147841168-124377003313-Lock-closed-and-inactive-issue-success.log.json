@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 41147841168,
+  "job_id": 124377003313,
+  "conclusion": "success",
+  "workflow_name": "Lock issues and pull requests",
+  "created_at": "2026-10-31T00:01:28Z",
+  "job_name": "Lock-closed-and-inactive-issue",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:11:46Z"
+}

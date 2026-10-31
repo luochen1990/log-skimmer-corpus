@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 41196121125,
+  "job_id": 124522571501,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-31T11:15:48Z",
+  "job_name": "build---Compile-and-Check-(Mer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:59:27Z"
+}

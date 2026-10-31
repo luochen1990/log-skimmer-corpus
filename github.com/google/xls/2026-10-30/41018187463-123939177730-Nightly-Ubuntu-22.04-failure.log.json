@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/xls",
+  "run_id": 41018187463,
+  "job_id": 123939177730,
+  "conclusion": "failure",
+  "workflow_name": "Nightly Ubuntu 22.04",
+  "created_at": "2026-10-30T07:07:52Z",
+  "job_name": "Nightly-Ubuntu-22.04",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:32:26Z"
+}

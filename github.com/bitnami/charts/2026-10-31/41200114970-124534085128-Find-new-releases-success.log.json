@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitnami/charts",
+  "run_id": 41200114970,
+  "job_id": 124534085128,
+  "conclusion": "success",
+  "workflow_name": "[Index] Sync index.yaml with OCI releases",
+  "created_at": "2026-10-31T12:13:09Z",
+  "job_name": "Find-new-releases",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:56Z"
+}

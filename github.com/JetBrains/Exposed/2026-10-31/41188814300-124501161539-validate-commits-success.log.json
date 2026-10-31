@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/JetBrains/Exposed",
+  "run_id": 41188814300,
+  "job_id": 124501161539,
+  "conclusion": "success",
+  "workflow_name": "Commit Message Validation",
+  "created_at": "2026-10-31T09:28:12Z",
+  "job_name": "validate-commits",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:02:52Z"
+}

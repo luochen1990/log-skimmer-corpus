@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 41176487335,
+  "job_id": 124465005749,
+  "conclusion": "success",
+  "workflow_name": "Scheduled",
+  "created_at": "2026-10-31T06:24:41Z",
+  "job_name": "Analyze-(javascript-typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:44:41Z"
+}

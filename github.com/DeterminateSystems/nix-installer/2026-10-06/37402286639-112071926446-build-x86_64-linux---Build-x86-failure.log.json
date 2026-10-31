@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DeterminateSystems/nix-installer",
+  "run_id": 37402286639,
+  "job_id": 112071926446,
+  "conclusion": "failure",
+  "workflow_name": "Release Branch",
+  "created_at": "2026-10-06T02:03:45Z",
+  "job_name": "build-x86_64-linux---Build-x86",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:30:45Z"
+}

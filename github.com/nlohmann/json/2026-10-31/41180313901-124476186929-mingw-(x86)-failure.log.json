@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 41180313901,
+  "job_id": 124476186929,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-10-31T07:21:54Z",
+  "job_name": "mingw-(x86)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:06:30Z"
+}

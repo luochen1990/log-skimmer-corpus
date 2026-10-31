@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 41185867470,
+  "job_id": 124492554265,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: Suppress removal warning in AdminClientTimeoutIntegrationTest",
+  "created_at": "2026-10-31T08:45:09Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:59:29Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 40959100996,
+  "job_id": 123910513312,
+  "conclusion": "failure",
+  "workflow_name": "PR:4.x",
+  "created_at": "2026-10-29T21:35:40Z",
+  "job_name": "Linux---Ubuntu-(22.04,-4.x)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:07:08Z"
+}

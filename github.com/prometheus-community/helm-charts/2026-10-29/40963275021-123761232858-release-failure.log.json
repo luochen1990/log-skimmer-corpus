@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prometheus-community/helm-charts",
+  "run_id": 40963275021,
+  "job_id": 123761232858,
+  "conclusion": "failure",
+  "workflow_name": "Release Charts",
+  "created_at": "2026-10-29T22:06:37Z",
+  "job_name": "release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:36Z"
+}

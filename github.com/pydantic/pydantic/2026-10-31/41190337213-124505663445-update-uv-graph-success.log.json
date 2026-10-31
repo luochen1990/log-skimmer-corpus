@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 41190337213,
+  "job_id": 124505663445,
+  "conclusion": "success",
+  "workflow_name": "Graph Update: uv in /. #1667650057",
+  "created_at": "2026-10-31T09:50:48Z",
+  "job_name": "update-uv-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:58:37Z"
+}

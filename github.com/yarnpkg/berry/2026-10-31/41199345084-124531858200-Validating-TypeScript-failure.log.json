@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 41199345084,
+  "job_id": 124531858200,
+  "conclusion": "failure",
+  "workflow_name": "E2E TypeScript",
+  "created_at": "2026-10-31T12:02:34Z",
+  "job_name": "Validating-TypeScript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:03Z"
+}

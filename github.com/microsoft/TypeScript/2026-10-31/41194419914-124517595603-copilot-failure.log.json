@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 41194419914,
+  "job_id": 124517595603,
+  "conclusion": "failure",
+  "workflow_name": "Addressing comment on PR #64108",
+  "created_at": "2026-10-31T10:51:07Z",
+  "job_name": "copilot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:50:15Z"
+}

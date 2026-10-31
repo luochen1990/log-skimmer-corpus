@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/auto",
+  "run_id": 39883139501,
+  "job_id": 120186169392,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-23T01:17:19Z",
+  "job_name": "Publish-snapshot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:39:04Z"
+}

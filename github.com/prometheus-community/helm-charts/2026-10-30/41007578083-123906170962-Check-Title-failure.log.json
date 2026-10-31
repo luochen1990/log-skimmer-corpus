@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prometheus-community/helm-charts",
+  "run_id": 41007578083,
+  "job_id": 123906170962,
+  "conclusion": "failure",
+  "workflow_name": "Pull Request",
+  "created_at": "2026-10-30T05:17:11Z",
+  "job_name": "Check-Title",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:34Z"
+}

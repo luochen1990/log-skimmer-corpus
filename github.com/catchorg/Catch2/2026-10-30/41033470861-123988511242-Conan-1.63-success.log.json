@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 41033470861,
+  "job_id": 123988511242,
+  "conclusion": "success",
+  "workflow_name": "Package Manager Builds",
+  "created_at": "2026-10-30T09:26:41Z",
+  "job_name": "Conan-1.63",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:04:34Z"
+}

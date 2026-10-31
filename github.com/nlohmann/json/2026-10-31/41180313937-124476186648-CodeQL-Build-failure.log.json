@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 41180313937,
+  "job_id": 124476186648,
+  "conclusion": "failure",
+  "workflow_name": "Code scanning - action",
+  "created_at": "2026-10-31T07:21:54Z",
+  "job_name": "CodeQL-Build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:06:22Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 41162904529,
+  "job_id": 124424150864,
+  "conclusion": "success",
+  "workflow_name": "PR Template Verification",
+  "created_at": "2026-10-31T03:06:27Z",
+  "job_name": "verify-template---verify-templ",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:39:34Z"
+}

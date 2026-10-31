@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 39681488478,
+  "job_id": 119505412485,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-10-21T21:46:37Z",
+  "job_name": "CheckFormatAndBuildClean",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:17Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 41172142721,
+  "job_id": 124452208767,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-31T05:19:40Z",
+  "job_name": "Bazel---Bazel-Tests-windows-20",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:08:05Z"
+}

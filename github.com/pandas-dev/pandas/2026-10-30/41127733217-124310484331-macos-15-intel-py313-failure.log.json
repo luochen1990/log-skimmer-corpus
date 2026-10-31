@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 41127733217,
+  "job_id": 124310484331,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-10-30T21:00:57Z",
+  "job_name": "macos-15-intel-py313",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:57:18Z"
+}

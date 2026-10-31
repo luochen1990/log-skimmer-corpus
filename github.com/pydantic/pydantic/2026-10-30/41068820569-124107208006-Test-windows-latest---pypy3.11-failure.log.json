@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 41068820569,
+  "job_id": 124107208006,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T14:05:47Z",
+  "job_name": "Test-windows-latest---pypy3.11",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:58:32Z"
+}

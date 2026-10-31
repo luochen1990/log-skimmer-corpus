@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 41157737805,
+  "job_id": 124408160706,
+  "conclusion": "success",
+  "workflow_name": "validate-milestone",
+  "created_at": "2026-10-31T01:57:11Z",
+  "job_name": "validate-milestone",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:47:19Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dtolnay/cxx",
+  "run_id": 34976940087,
+  "job_id": 104406941492,
+  "conclusion": "failure",
+  "workflow_name": "Buck2",
+  "created_at": "2026-09-15T13:44:15Z",
+  "job_name": "Buck2-on-macOS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:52Z"
+}

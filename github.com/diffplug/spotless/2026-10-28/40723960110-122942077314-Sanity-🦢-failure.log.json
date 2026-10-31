@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 40723960110,
+  "job_id": 122942077314,
+  "conclusion": "failure",
+  "workflow_name": "Scheduled Cleanup 🧹",
+  "created_at": "2026-10-28T16:14:14Z",
+  "job_name": "Sanity-🦢",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:59:46Z"
+}

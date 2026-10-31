@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 41197215380,
+  "job_id": 124525703586,
+  "conclusion": "failure",
+  "workflow_name": "Audit",
+  "created_at": "2026-10-31T11:31:38Z",
+  "job_name": "Audit-dependencies",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:51:14Z"
+}

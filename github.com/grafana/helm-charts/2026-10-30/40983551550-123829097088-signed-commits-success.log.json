@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/helm-charts",
+  "run_id": 40983551550,
+  "job_id": 123829097088,
+  "conclusion": "success",
+  "workflow_name": "Display info box when PR contains unsigned commits",
+  "created_at": "2026-10-30T01:03:47Z",
+  "job_name": "signed-commits",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:26Z"
+}

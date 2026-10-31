@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spf13/cobra",
+  "run_id": 40096861217,
+  "job_id": 120880833473,
+  "conclusion": "success",
+  "workflow_name": "Pull Request Labeler",
+  "created_at": "2026-10-24T13:08:35Z",
+  "job_name": "triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:48:17Z"
+}

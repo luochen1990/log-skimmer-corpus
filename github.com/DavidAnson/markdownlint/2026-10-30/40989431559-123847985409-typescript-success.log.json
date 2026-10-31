@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 40989431559,
+  "job_id": 123847985409,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T02:03:23Z",
+  "job_name": "typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:54:39Z"
+}

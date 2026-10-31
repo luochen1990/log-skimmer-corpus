@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 41133778040,
+  "job_id": 124331054522,
+  "conclusion": "failure",
+  "workflow_name": "MCP",
+  "created_at": "2026-10-30T21:48:55Z",
+  "job_name": "ubuntu-latest---chrome",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:50:54Z"
+}

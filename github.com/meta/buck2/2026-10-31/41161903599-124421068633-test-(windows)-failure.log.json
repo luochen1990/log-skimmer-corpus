@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/meta/buck2",
+  "run_id": 41161903599,
+  "job_id": 124421068633,
+  "conclusion": "failure",
+  "workflow_name": "Build and test",
+  "created_at": "2026-10-31T02:52:24Z",
+  "job_name": "test-(windows)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:33:22Z"
+}

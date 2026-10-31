@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 41200241598,
+  "job_id": 124534451780,
+  "conclusion": "success",
+  "workflow_name": "E2E NM Berry Install",
+  "created_at": "2026-10-31T12:14:56Z",
+  "job_name": "Validating-berry-install-via-n",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:07Z"
+}

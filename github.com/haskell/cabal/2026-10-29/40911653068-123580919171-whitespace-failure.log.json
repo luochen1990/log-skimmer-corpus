@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 40911653068,
+  "job_id": 123580919171,
+  "conclusion": "failure",
+  "workflow_name": "Whitespace",
+  "created_at": "2026-10-29T16:26:51Z",
+  "job_name": "whitespace",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:21:59Z"
+}

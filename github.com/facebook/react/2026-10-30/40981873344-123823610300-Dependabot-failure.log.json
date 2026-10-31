@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 40981873344,
+  "job_id": 123823610300,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /packages/react-devtools for electron - Update #1664432086",
+  "created_at": "2026-10-30T00:47:18Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:19Z"
+}

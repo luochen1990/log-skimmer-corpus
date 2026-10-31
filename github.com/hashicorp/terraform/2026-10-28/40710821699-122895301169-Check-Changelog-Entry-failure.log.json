@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hashicorp/terraform",
+  "run_id": 40710821699,
+  "job_id": 122895301169,
+  "conclusion": "failure",
+  "workflow_name": "Enforce Changelog",
+  "created_at": "2026-10-28T14:55:56Z",
+  "job_name": "Check-Changelog-Entry",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:34:08Z"
+}

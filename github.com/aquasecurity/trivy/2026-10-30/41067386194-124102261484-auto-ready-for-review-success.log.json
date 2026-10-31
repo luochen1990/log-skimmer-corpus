@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/aquasecurity/trivy",
+  "run_id": 41067386194,
+  "job_id": 124102261484,
+  "conclusion": "success",
+  "workflow_name": "Auto Ready for Review",
+  "created_at": "2026-10-30T13:56:03Z",
+  "job_name": "auto-ready-for-review",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:29:40Z"
+}

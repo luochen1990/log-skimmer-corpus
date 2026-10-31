@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 41188584112,
+  "job_id": 124500467322,
+  "conclusion": "success",
+  "workflow_name": "Snyk Monitor Scanning",
+  "created_at": "2026-10-31T09:24:39Z",
+  "job_name": "snyk-scan-ci---snyk_scans",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:45:40Z"
+}

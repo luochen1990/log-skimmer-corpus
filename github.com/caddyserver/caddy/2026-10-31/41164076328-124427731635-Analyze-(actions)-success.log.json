@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 41164076328,
+  "job_id": 124427731635,
+  "conclusion": "success",
+  "workflow_name": "Scheduled",
+  "created_at": "2026-10-31T03:22:11Z",
+  "job_name": "Analyze-(actions)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:43:37Z"
+}

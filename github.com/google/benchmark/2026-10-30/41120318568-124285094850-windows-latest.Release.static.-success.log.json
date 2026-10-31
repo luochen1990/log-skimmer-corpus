@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 41120318568,
+  "job_id": 124285094850,
+  "conclusion": "success",
+  "workflow_name": "build-and-test",
+  "created_at": "2026-10-30T20:04:03Z",
+  "job_name": "windows-latest.Release.static.",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:05:59Z"
+}

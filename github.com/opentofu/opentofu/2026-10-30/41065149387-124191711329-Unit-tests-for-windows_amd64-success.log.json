@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 41065149387,
+  "job_id": 124191711329,
+  "conclusion": "success",
+  "workflow_name": "Quick Checks",
+  "created_at": "2026-10-30T13:40:14Z",
+  "job_name": "Unit-tests-for-windows_amd64",
+  "attempt": 3,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:34:44Z"
+}

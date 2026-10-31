@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 41186668281,
+  "job_id": 124494876809,
+  "conclusion": "failure",
+  "workflow_name": "Windows GitHub CI",
+  "created_at": "2026-10-31T08:57:18Z",
+  "job_name": "msys2-mingw64-(CLANG64,-clang,",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:09:12Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/python-poetry/poetry",
+  "run_id": 40629323107,
+  "job_id": 122621728050,
+  "conclusion": "failure",
+  "workflow_name": "pip in /tests/masonry/builders/fixtures/excluded_subpackage, /tests/utils/fixtures for certifi, setuptools, setuptools, urllib3, urllib3 - Update #1659572761",
+  "created_at": "2026-10-28T03:54:34Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:36:34Z"
+}

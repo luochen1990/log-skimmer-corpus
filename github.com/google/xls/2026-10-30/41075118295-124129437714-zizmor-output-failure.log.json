@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/xls",
+  "run_id": 41075118295,
+  "job_id": 124129437714,
+  "conclusion": "failure",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-10-30T14:49:53Z",
+  "job_name": "zizmor-output",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:32:25Z"
+}

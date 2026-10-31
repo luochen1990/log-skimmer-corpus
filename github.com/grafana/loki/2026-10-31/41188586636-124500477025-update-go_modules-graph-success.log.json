@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 41188586636,
+  "job_id": 124500477025,
+  "conclusion": "success",
+  "workflow_name": "Graph Update: go_modules in /. #1667613919",
+  "created_at": "2026-10-31T09:24:41Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:45:39Z"
+}

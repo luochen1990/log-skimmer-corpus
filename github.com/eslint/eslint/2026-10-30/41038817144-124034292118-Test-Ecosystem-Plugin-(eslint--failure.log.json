@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/eslint/eslint",
+  "run_id": 41038817144,
+  "job_id": 124034292118,
+  "conclusion": "failure",
+  "workflow_name": "Test Ecosystem Plugins",
+  "created_at": "2026-10-30T10:10:41Z",
+  "job_name": "Test-Ecosystem-Plugin-(eslint-",
+  "attempt": 5,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:54:48Z"
+}

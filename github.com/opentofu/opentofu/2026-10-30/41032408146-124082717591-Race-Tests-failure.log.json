@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 41032408146,
+  "job_id": 124082717591,
+  "conclusion": "failure",
+  "workflow_name": "Quick Checks",
+  "created_at": "2026-10-30T09:18:00Z",
+  "job_name": "Race-Tests",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:34:25Z"
+}

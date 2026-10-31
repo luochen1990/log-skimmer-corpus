@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redisson/redisson",
+  "run_id": 38696552880,
+  "job_id": 116309803309,
+  "conclusion": "failure",
+  "workflow_name": "Java CI",
+  "created_at": "2026-10-15T07:06:25Z",
+  "job_name": "build",
+  "attempt": 4,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:39:21Z"
+}

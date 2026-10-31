@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/helm-charts",
+  "run_id": 40983551693,
+  "job_id": 123829097396,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-10-30T01:03:47Z",
+  "job_name": "call-lint---Lint-Code-Base",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-10-31T12:35:18Z"
+}

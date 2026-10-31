@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 41195453616,
+  "job_id": 124520591544,
+  "conclusion": "success",
+  "workflow_name": "Tests",
+  "created_at": "2026-10-31T11:06:14Z",
+  "job_name": "Apply-Safe-for-Tests-Label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:08:09Z"
+}

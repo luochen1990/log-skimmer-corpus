@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 41185974739,
+  "job_id": 124492860230,
+  "conclusion": "failure",
+  "workflow_name": "Retry Infrastructure Failures",
+  "created_at": "2026-10-31T08:46:42Z",
+  "job_name": "fix-stuck-auto-merge",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:03:23Z"
+}

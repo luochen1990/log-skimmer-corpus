@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 41196709109,
+  "job_id": 124524224473,
+  "conclusion": "failure",
+  "workflow_name": "Pacquet Code Coverage",
+  "created_at": "2026-10-31T11:24:11Z",
+  "job_name": "Code-Coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T11:51:16Z"
+}

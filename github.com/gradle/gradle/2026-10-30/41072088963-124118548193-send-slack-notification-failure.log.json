@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 41072088963,
+  "job_id": 124118548193,
+  "conclusion": "failure",
+  "workflow_name": "Notify the IDE Experience team about new RCs for manual testing",
+  "created_at": "2026-10-30T14:30:16Z",
+  "job_name": "send-slack-notification",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:00:27Z"
+}

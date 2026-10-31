@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 41033376147,
+  "job_id": 123990894845,
+  "conclusion": "failure",
+  "workflow_name": "Build Pull Request",
+  "created_at": "2026-10-30T09:25:55Z",
+  "job_name": "Build-Pull-Request",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:01:36Z"
+}

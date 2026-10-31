@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 41151746823,
+  "job_id": 124389848117,
+  "conclusion": "failure",
+  "workflow_name": "CI Outer-Loop Failure Scanner",
+  "created_at": "2026-10-31T00:43:58Z",
+  "job_name": "agent",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-10-31T12:10:51Z"
+}
