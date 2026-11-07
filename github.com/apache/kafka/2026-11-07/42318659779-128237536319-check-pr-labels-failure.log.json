@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 42318659779,
+  "job_id": 128237536319,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-15370: Support Participation in 2PC (KIP-939) (K/N)",
+  "created_at": "2026-11-07T00:30:41Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:49:34Z"
+}

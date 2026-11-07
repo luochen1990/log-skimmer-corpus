@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prettier/prettier",
+  "run_id": 42178055396,
+  "job_id": 127761298868,
+  "conclusion": "failure",
+  "workflow_name": "Prod",
+  "created_at": "2026-11-06T07:00:45Z",
+  "job_name": "Node.js-16-on-Linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:43:27Z"
+}

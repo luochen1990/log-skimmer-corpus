@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rust-analyzer/rust-analyzer",
+  "run_id": 42202197605,
+  "job_id": 127840424325,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-06T10:22:39Z",
+  "job_name": "proc-macro-srv-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:26:18Z"
+}

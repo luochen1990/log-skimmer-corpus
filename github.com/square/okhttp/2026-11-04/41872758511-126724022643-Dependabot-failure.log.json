@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/square/okhttp",
+  "run_id": 41872758511,
+  "job_id": 126724022643,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /kotlin-js-store for qs - Update #1681086151",
+  "created_at": "2026-11-04T16:57:45Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:52:45Z"
+}

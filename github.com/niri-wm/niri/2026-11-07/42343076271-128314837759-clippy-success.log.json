@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 42343076271,
+  "job_id": 128314837759,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-07T05:31:21Z",
+  "job_name": "clippy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:25:38Z"
+}

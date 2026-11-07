@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DeterminateSystems/magic-nix-cache",
+  "run_id": 41714525806,
+  "job_id": 126190941555,
+  "conclusion": "success",
+  "workflow_name": "Run checks and integration test",
+  "created_at": "2026-11-03T20:39:07Z",
+  "job_name": "Nix-and-Rust-checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:28:10Z"
+}

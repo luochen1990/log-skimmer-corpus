@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 41786232366,
+  "job_id": 126428892396,
+  "conclusion": "failure",
+  "workflow_name": "changelog",
+  "created_at": "2026-11-04T06:32:46Z",
+  "job_name": "check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:46:52Z"
+}

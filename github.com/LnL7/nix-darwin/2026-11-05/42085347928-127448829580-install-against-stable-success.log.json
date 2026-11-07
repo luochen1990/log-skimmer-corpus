@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/LnL7/nix-darwin",
+  "run_id": 42085347928,
+  "job_id": 127448829580,
+  "conclusion": "success",
+  "workflow_name": "Test",
+  "created_at": "2026-11-05T18:33:19Z",
+  "job_name": "install-against-stable",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:14:35Z"
+}

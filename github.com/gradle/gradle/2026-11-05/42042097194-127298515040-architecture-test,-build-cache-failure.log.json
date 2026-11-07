@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 42042097194,
+  "job_id": 127298515040,
+  "conclusion": "failure",
+  "workflow_name": "Contributor CI Build",
+  "created_at": "2026-11-05T14:08:19Z",
+  "job_name": "architecture-test,-build-cache",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:50:47Z"
+}

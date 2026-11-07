@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/packages",
+  "run_id": 41324935417,
+  "job_id": 124902785489,
+  "conclusion": "failure",
+  "workflow_name": "release",
+  "created_at": "2026-11-01T16:10:21Z",
+  "job_name": "release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:22:57Z"
+}

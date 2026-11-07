@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spf13/viper",
+  "run_id": 42047824705,
+  "job_id": 127315516286,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-05T14:43:51Z",
+  "job_name": "Lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:35:49Z"
+}

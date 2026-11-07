@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 42364220430,
+  "job_id": 128378796776,
+  "conclusion": "failure",
+  "workflow_name": "Redox",
+  "created_at": "2026-11-07T10:30:18Z",
+  "job_name": "cargo-check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:29:04Z"
+}

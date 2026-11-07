@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 42169769498,
+  "job_id": 128181039214,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-06T05:40:07Z",
+  "job_name": "test-(concurrent-test-programs",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:37:32Z"
+}

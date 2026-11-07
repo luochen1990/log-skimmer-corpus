@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 42220572381,
+  "job_id": 127901289861,
+  "conclusion": "failure",
+  "workflow_name": "Continuous Integration",
+  "created_at": "2026-11-06T12:49:08Z",
+  "job_name": "CI-(8.6,-lowest-ignore,-ubuntu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:06:14Z"
+}

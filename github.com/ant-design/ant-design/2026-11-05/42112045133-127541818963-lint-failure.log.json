@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 42112045133,
+  "job_id": 127541818963,
+  "conclusion": "failure",
+  "workflow_name": "✅ test",
+  "created_at": "2026-11-05T21:22:25Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:36:34Z"
+}

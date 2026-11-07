@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 42033515490,
+  "job_id": 127265636441,
+  "conclusion": "failure",
+  "workflow_name": "HLint check",
+  "created_at": "2026-11-05T13:11:08Z",
+  "job_name": "Hlint-check-run",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:17:18Z"
+}

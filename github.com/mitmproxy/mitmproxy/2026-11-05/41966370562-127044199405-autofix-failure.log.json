@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mitmproxy/mitmproxy",
+  "run_id": 41966370562,
+  "job_id": 127044199405,
+  "conclusion": "failure",
+  "workflow_name": "autofix.ci",
+  "created_at": "2026-11-05T04:12:36Z",
+  "job_name": "autofix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:44:55Z"
+}

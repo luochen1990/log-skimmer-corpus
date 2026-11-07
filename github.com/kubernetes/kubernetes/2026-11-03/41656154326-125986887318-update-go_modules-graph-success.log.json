@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/kubernetes/kubernetes",
+  "run_id": 41656154326,
+  "job_id": 125986887318,
+  "conclusion": "success",
+  "workflow_name": "Graph Update: go_modules in /., /hack/tools/instrumentation, /staging/src/k8s.io/apiextensions-apiserver, /staging/src/k8s.io/apiserver, /staging/src/k8s.io/cloud-provider, /staging/src/k8s.io/component-base, /staging/src/k8s.io/controller-manager, /staging/src/k8s.io/dynamic-resource-allocation, /staging/src/k8s.io/endpointslice, /staging/src/k8s.io/kube-aggregator, /staging/src/k8s.io/pod-security-admission, /staging/src/k8s.io/sample-apiserver #1677891720",
+  "created_at": "2026-11-03T14:41:19Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:33:26Z"
+}

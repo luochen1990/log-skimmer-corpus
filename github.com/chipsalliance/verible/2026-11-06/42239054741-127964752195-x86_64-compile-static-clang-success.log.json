@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 42239054741,
+  "job_id": 127964752195,
+  "conclusion": "success",
+  "workflow_name": "ci",
+  "created_at": "2026-11-06T15:00:47Z",
+  "job_name": "x86_64-compile-static-clang",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:30:32Z"
+}

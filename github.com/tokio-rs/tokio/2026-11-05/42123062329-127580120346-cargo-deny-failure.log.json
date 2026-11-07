@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 42123062329,
+  "job_id": 127580120346,
+  "conclusion": "failure",
+  "workflow_name": "Pull Request Security Audit",
+  "created_at": "2026-11-05T22:37:30Z",
+  "job_name": "cargo-deny",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:28:42Z"
+}

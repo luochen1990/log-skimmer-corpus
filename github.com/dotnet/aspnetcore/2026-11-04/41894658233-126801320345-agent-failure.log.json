@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 41894658233,
+  "job_id": 126801320345,
+  "conclusion": "failure",
+  "workflow_name": "ASP.NET Core Pull Request Review",
+  "created_at": "2026-11-04T19:12:14Z",
+  "job_name": "agent",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:02:28Z"
+}

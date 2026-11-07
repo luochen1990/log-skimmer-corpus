@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 42373511436,
+  "job_id": 128406303969,
+  "conclusion": "success",
+  "workflow_name": "Build and Deploy Website",
+  "created_at": "2026-11-07T12:40:17Z",
+  "job_name": "build-detekt-docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:53:40Z"
+}

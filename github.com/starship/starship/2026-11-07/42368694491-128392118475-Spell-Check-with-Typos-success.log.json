@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 42368694491,
+  "job_id": 128392118475,
+  "conclusion": "success",
+  "workflow_name": "Spell Check",
+  "created_at": "2026-11-07T11:33:42Z",
+  "job_name": "Spell-Check-with-Typos",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:28:29Z"
+}

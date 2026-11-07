@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 42173260332,
+  "job_id": 127746515823,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-06T06:15:13Z",
+  "job_name": "Lint-and-Audit",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:38:54Z"
+}

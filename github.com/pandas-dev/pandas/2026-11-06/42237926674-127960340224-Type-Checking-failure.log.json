@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 42237926674,
+  "job_id": 127960340224,
+  "conclusion": "failure",
+  "workflow_name": "Code Checks",
+  "created_at": "2026-11-06T14:53:14Z",
+  "job_name": "Type-Checking",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:46:26Z"
+}

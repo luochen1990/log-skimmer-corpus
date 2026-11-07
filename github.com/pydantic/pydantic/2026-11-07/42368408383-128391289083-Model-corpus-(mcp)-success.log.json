@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 42368408383,
+  "job_id": 128391289083,
+  "conclusion": "success",
+  "workflow_name": "codspeed",
+  "created_at": "2026-11-07T11:29:51Z",
+  "job_name": "Model-corpus-(mcp)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:48:06Z"
+}

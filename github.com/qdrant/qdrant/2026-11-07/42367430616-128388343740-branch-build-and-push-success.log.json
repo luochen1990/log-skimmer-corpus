@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 42367430616,
+  "job_id": 128388343740,
+  "conclusion": "success",
+  "workflow_name": "Build and push a branch image to ghcr",
+  "created_at": "2026-11-07T11:15:47Z",
+  "job_name": "branch-build-and-push",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:26:08Z"
+}

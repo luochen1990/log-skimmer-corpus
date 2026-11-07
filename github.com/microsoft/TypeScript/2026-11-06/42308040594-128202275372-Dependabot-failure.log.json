@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 42308040594,
+  "job_id": 128202275372,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for minimatch - Update #1686157698",
+  "created_at": "2026-11-06T22:53:32Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:37:14Z"
+}

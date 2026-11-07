@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 42364387247,
+  "job_id": 128379277011,
+  "conclusion": "success",
+  "workflow_name": "Module Test",
+  "created_at": "2026-11-07T10:32:32Z",
+  "job_name": "Module-tests-(Ruby-3.3-on-ubun",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:04:08Z"
+}

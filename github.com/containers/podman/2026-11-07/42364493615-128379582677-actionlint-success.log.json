@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 42364493615,
+  "job_id": 128379582677,
+  "conclusion": "success",
+  "workflow_name": "actionlint",
+  "created_at": "2026-11-07T10:33:59Z",
+  "job_name": "actionlint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:36:38Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grpc/grpc-go",
+  "run_id": 42317257562,
+  "job_id": 128232811140,
+  "conclusion": "success",
+  "workflow_name": "Testing",
+  "created_at": "2026-11-07T00:16:54Z",
+  "job_name": "vet-proto",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:32:23Z"
+}

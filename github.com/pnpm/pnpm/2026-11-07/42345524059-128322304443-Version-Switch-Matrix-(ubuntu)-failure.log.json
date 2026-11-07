@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pnpm/pnpm",
+  "run_id": 42345524059,
+  "job_id": 128322304443,
+  "conclusion": "failure",
+  "workflow_name": "Version Switch Matrix",
+  "created_at": "2026-11-07T06:06:27Z",
+  "job_name": "Version-Switch-Matrix-(ubuntu)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:38:29Z"
+}

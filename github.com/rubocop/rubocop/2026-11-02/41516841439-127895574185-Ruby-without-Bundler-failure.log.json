@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rubocop/rubocop",
+  "run_id": 41516841439,
+  "job_id": 127895574185,
+  "conclusion": "failure",
+  "workflow_name": "Linting",
+  "created_at": "2026-11-02T20:10:59Z",
+  "job_name": "Ruby-without-Bundler",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:05:44Z"
+}

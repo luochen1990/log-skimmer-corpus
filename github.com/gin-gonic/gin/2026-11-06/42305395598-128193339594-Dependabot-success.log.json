@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gin-gonic/gin",
+  "run_id": 42305395598,
+  "job_id": 128193339594,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1686128484",
+  "created_at": "2026-11-06T22:31:48Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:30:45Z"
+}

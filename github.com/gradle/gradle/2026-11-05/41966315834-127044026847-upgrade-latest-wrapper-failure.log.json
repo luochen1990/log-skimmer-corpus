@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 41966315834,
+  "job_id": 127044026847,
+  "conclusion": "failure",
+  "workflow_name": "Upgrade to latest wrapper",
+  "created_at": "2026-11-05T04:12:06Z",
+  "job_name": "upgrade-latest-wrapper",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:50:48Z"
+}

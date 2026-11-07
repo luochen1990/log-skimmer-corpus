@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 42364602020,
+  "job_id": 128379897675,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-11-07T10:35:28Z",
+  "job_name": "Analyze-(go)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:32:43Z"
+}

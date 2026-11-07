@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 41530154585,
+  "job_id": 125567942255,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-11-02T21:38:14Z",
+  "job_name": "test-(1.27.x,-windows-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:30:52Z"
+}

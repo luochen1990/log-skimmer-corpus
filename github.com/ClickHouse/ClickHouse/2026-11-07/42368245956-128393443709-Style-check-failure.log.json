@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 42368245956,
+  "job_id": 128393443709,
+  "conclusion": "failure",
+  "workflow_name": "PR",
+  "created_at": "2026-11-07T11:27:21Z",
+  "job_name": "Style-check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:53:53Z"
+}

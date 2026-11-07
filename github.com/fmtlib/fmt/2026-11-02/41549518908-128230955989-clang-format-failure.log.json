@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 41549518908,
+  "job_id": 128230955989,
+  "conclusion": "failure",
+  "workflow_name": "lint",
+  "created_at": "2026-11-02T23:59:19Z",
+  "job_name": "clang-format",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:56:29Z"
+}

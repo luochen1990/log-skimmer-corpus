@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hadolint/hadolint",
+  "run_id": 41630210338,
+  "job_id": 125897539463,
+  "conclusion": "failure",
+  "workflow_name": "Haskell Tests",
+  "created_at": "2026-11-03T11:46:23Z",
+  "job_name": "hadolint-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:16:23Z"
+}

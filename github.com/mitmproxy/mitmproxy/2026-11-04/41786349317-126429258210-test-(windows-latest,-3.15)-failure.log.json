@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mitmproxy/mitmproxy",
+  "run_id": 41786349317,
+  "job_id": 126429258210,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-04T06:33:48Z",
+  "job_name": "test-(windows-latest,-3.15)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:45:05Z"
+}

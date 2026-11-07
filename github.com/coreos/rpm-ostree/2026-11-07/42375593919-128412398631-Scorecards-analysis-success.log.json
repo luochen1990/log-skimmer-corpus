@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 42375593919,
+  "job_id": 128412398631,
+  "conclusion": "success",
+  "workflow_name": "Supplychain scorecard",
+  "created_at": "2026-11-07T13:08:36Z",
+  "job_name": "Scorecards-analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:37:07Z"
+}

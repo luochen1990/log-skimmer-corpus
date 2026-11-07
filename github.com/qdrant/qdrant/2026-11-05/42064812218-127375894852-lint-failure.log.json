@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 42064812218,
+  "job_id": 127375894852,
+  "conclusion": "failure",
+  "workflow_name": "Formatter and linter",
+  "created_at": "2026-11-05T16:28:32Z",
+  "job_name": "lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:26:05Z"
+}

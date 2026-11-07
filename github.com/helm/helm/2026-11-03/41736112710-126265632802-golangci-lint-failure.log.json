@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 41736112710,
+  "job_id": 126265632802,
+  "conclusion": "failure",
+  "workflow_name": "golangci-lint",
+  "created_at": "2026-11-03T23:04:04Z",
+  "job_name": "golangci-lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:32:39Z"
+}

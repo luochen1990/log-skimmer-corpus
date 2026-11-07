@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 42142663182,
+  "job_id": 127646528295,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-06T01:16:02Z",
+  "job_name": "govulncheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:33:48Z"
+}

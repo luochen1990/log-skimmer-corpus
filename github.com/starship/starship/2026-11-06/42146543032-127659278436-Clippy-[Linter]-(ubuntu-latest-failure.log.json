@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 42146543032,
+  "job_id": 127659278436,
+  "conclusion": "failure",
+  "workflow_name": "Main workflow",
+  "created_at": "2026-11-06T01:51:10Z",
+  "job_name": "Clippy-[Linter]-(ubuntu-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:28:25Z"
+}

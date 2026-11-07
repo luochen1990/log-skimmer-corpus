@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 42201353292,
+  "job_id": 127837127309,
+  "conclusion": "failure",
+  "workflow_name": "Preview release",
+  "created_at": "2026-11-06T10:16:06Z",
+  "job_name": "Build-&-publish-preview",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:42:11Z"
+}

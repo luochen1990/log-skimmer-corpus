@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 42315028424,
+  "job_id": 128225417284,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: add cluster-mirroring label for pull requests",
+  "created_at": "2026-11-06T23:55:40Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:49:36Z"
+}

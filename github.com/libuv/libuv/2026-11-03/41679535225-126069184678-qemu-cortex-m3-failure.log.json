@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 41679535225,
+  "job_id": 126069184678,
+  "conclusion": "failure",
+  "workflow_name": "CI-freertos",
+  "created_at": "2026-11-03T16:58:08Z",
+  "job_name": "qemu-cortex-m3",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:00:35Z"
+}

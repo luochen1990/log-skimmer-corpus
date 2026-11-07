@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 42324252655,
+  "job_id": 128255757077,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for MINOR: Add missing @Override annotations in clients",
+  "created_at": "2026-11-07T01:28:31Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:49:32Z"
+}

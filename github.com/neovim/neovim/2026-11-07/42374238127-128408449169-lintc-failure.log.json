@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 42374238127,
+  "job_id": 128408449169,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-07T12:50:21Z",
+  "job_name": "lintc",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:23:12Z"
+}

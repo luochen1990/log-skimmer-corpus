@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mockito/mockito",
+  "run_id": 41857731465,
+  "job_id": 126670769630,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-04T15:26:16Z",
+  "job_name": "android-(33)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:51:09Z"
+}

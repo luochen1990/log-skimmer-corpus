@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 42370361161,
+  "job_id": 128397041253,
+  "conclusion": "success",
+  "workflow_name": "Deploy Docs",
+  "created_at": "2026-11-07T11:57:40Z",
+  "job_name": "deploy-docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:44:46Z"
+}

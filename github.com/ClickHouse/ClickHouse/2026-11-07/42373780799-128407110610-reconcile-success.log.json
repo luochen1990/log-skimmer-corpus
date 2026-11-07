@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 42373780799,
+  "job_id": 128407110610,
+  "conclusion": "success",
+  "workflow_name": "Rerun On Review Threads",
+  "created_at": "2026-11-07T12:44:03Z",
+  "job_name": "reconcile",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:54:13Z"
+}

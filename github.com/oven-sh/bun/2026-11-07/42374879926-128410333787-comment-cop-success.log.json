@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 42374879926,
+  "job_id": 128410333787,
+  "conclusion": "success",
+  "workflow_name": "Comment Cop",
+  "created_at": "2026-11-07T12:59:31Z",
+  "job_name": "comment-cop",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:14:12Z"
+}

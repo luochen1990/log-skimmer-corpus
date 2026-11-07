@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/elixir-lang/elixir",
+  "run_id": 41727015362,
+  "job_id": 126234349401,
+  "conclusion": "failure",
+  "workflow_name": "CodeQL Advanced",
+  "created_at": "2026-11-03T22:01:15Z",
+  "job_name": "Analyze-(actions)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:20:24Z"
+}

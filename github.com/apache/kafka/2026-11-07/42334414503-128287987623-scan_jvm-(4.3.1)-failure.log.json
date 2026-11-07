@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 42334414503,
+  "job_id": 128287987623,
+  "conclusion": "failure",
+  "workflow_name": "Docker Image CVE Scanner",
+  "created_at": "2026-11-07T03:31:48Z",
+  "job_name": "scan_jvm-(4.3.1)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:49:30Z"
+}

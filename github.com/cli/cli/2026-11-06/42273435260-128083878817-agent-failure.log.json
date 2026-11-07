@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 42273435260,
+  "job_id": 128083878817,
+  "conclusion": "failure",
+  "workflow_name": "Issue Triage (skills-driven)",
+  "created_at": "2026-11-06T18:44:35Z",
+  "job_name": "agent",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:29:47Z"
+}

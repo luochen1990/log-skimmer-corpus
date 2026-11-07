@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tailwindlabs/tailwindcss",
+  "run_id": 42239720501,
+  "job_id": 127966490691,
+  "conclusion": "success",
+  "workflow_name": "Release",
+  "created_at": "2026-11-06T15:05:07Z",
+  "job_name": "Build-x86_64-unknown-freebsd-(",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:40:17Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 42286964785,
+  "job_id": 128135058246,
+  "conclusion": "failure",
+  "workflow_name": "Prepare Major Release PR",
+  "created_at": "2026-11-06T20:16:40Z",
+  "job_name": "loki-docker-driver-(linux-amd6",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:31:43Z"
+}

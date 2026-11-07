@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 42246390338,
+  "job_id": 127989601167,
+  "conclusion": "failure",
+  "workflow_name": "Run System Tests",
+  "created_at": "2026-11-06T15:47:57Z",
+  "job_name": "Java-17",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:51:50Z"
+}

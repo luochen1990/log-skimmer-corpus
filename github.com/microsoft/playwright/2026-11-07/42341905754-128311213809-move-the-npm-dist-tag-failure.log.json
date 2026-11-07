@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 42341905754,
+  "job_id": 128311213809,
+  "conclusion": "failure",
+  "workflow_name": "promote release - npm dist-tags",
+  "created_at": "2026-11-07T05:14:53Z",
+  "job_name": "move-the-npm-dist-tag",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:37:51Z"
+}

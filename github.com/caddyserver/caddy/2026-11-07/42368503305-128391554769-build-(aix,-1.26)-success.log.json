@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 42368503305,
+  "job_id": 128391554769,
+  "conclusion": "success",
+  "workflow_name": "Cross-Build",
+  "created_at": "2026-11-07T11:31:02Z",
+  "job_name": "build-(aix,-1.26)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:29:36Z"
+}

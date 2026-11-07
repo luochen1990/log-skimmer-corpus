@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rust-analyzer/rust-analyzer",
+  "run_id": 42343819134,
+  "job_id": 128317109751,
+  "conclusion": "success",
+  "workflow_name": "Crabwatch",
+  "created_at": "2026-11-07T05:41:51Z",
+  "job_name": "Run-zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:26:39Z"
+}

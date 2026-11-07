@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 42345981328,
+  "job_id": 128323868327,
+  "conclusion": "failure",
+  "workflow_name": "Main",
+  "created_at": "2026-11-07T06:12:41Z",
+  "job_name": "Linux-Release-(musl,-arm64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:56:07Z"
+}

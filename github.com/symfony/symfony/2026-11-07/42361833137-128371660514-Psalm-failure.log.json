@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 42361833137,
+  "job_id": 128371660514,
+  "conclusion": "failure",
+  "workflow_name": "Static Analysis",
+  "created_at": "2026-11-07T09:56:44Z",
+  "job_name": "Psalm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:08:16Z"
+}

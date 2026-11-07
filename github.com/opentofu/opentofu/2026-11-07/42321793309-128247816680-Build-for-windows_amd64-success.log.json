@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 42321793309,
+  "job_id": 128247816680,
+  "conclusion": "success",
+  "workflow_name": "Nightly Build",
+  "created_at": "2026-11-07T01:02:21Z",
+  "job_name": "Build-for-windows_amd64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:32:22Z"
+}

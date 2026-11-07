@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 42362223658,
+  "job_id": 128372809246,
+  "conclusion": "failure",
+  "workflow_name": "Rerun On Review Threads",
+  "created_at": "2026-11-07T10:02:19Z",
+  "job_name": "poll",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:54:07Z"
+}

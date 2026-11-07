@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vitejs/vite",
+  "run_id": 42322012194,
+  "job_id": 128248527565,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-07T01:04:37Z",
+  "job_name": "Lint:-node-24,-ubuntu-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:41:27Z"
+}

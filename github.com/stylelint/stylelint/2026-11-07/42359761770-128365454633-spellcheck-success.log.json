@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 42359761770,
+  "job_id": 128365454633,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-07T09:26:44Z",
+  "job_name": "spellcheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:44:05Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 42363415939,
+  "job_id": 128376325260,
+  "conclusion": "success",
+  "workflow_name": "Post coverage comment",
+  "created_at": "2026-11-07T10:18:50Z",
+  "job_name": "Push-coverage-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:48:07Z"
+}

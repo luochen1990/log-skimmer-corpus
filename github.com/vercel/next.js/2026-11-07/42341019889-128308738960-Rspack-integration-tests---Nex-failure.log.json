@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 42341019889,
+  "job_id": 128308738960,
+  "conclusion": "failure",
+  "workflow_name": "Rspack Next.js production integration tests",
+  "created_at": "2026-11-07T05:02:41Z",
+  "job_name": "Rspack-integration-tests---Nex",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:40:35Z"
+}

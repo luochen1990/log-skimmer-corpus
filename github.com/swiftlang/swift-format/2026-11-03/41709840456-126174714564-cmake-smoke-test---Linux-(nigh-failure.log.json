@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-format",
+  "run_id": 41709840456,
+  "job_id": 126174714564,
+  "conclusion": "failure",
+  "workflow_name": "Pull request",
+  "created_at": "2026-11-03T20:08:48Z",
+  "job_name": "cmake-smoke-test---Linux-(nigh",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:09:40Z"
+}

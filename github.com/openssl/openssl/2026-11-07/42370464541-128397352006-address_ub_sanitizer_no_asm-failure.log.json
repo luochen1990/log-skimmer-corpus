@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 42370464541,
+  "job_id": 128397352006,
+  "conclusion": "failure",
+  "workflow_name": "GitHub CI",
+  "created_at": "2026-11-07T11:59:12Z",
+  "job_name": "address_ub_sanitizer_no_asm",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:00:58Z"
+}

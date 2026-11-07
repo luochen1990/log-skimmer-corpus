@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 42359334593,
+  "job_id": 128364153765,
+  "conclusion": "success",
+  "workflow_name": "Semgrep",
+  "created_at": "2026-11-07T09:20:41Z",
+  "job_name": "Scan",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:58:16Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 42368611432,
+  "job_id": 128391878160,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-07T11:32:33Z",
+  "job_name": "Ensure-'cargo-clippy'-has-no-w",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:27:59Z"
+}

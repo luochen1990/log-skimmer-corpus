@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/eslint/eslint",
+  "run_id": 41821059807,
+  "job_id": 126544006822,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-04T11:27:48Z",
+  "job_name": "Test-(windows-latest,-lts-*)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:43:02Z"
+}

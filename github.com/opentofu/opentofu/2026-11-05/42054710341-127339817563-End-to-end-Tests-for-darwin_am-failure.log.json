@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 42054710341,
+  "job_id": 127339817563,
+  "conclusion": "failure",
+  "workflow_name": "build",
+  "created_at": "2026-11-05T15:24:47Z",
+  "job_name": "End-to-end-Tests-for-darwin_am",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:32:15Z"
+}

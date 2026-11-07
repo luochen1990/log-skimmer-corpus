@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/etcd-io/etcd",
+  "run_id": 42353305099,
+  "job_id": 128345871800,
+  "conclusion": "success",
+  "workflow_name": "Approve GitHub Workflows",
+  "created_at": "2026-11-07T07:55:57Z",
+  "job_name": "Approve-ok-to-test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:30:23Z"
+}

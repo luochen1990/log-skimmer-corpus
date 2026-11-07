@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prometheus-community/helm-charts",
+  "run_id": 42163504851,
+  "job_id": 127714586366,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-06T04:36:26Z",
+  "job_name": "Integration-Tests-(ci-log-file",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:33:26Z"
+}

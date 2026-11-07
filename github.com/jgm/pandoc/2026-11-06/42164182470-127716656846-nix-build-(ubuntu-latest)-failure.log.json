@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jgm/pandoc",
+  "run_id": 42164182470,
+  "job_id": 127716656846,
+  "conclusion": "failure",
+  "workflow_name": "Nix",
+  "created_at": "2026-11-06T04:43:30Z",
+  "job_name": "nix-build-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T13:17:41Z"
+}

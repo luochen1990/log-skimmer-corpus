@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 42342542872,
+  "job_id": 128313183277,
+  "conclusion": "success",
+  "workflow_name": "labeler",
+  "created_at": "2026-11-07T05:23:39Z",
+  "job_name": "ai-assisted",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:33:56Z"
+}

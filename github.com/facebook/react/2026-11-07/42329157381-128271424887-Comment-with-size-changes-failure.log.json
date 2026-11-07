@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 42329157381,
+  "job_id": 128271424887,
+  "conclusion": "failure",
+  "workflow_name": "(Runtime) Sizebot Comment",
+  "created_at": "2026-11-07T02:25:13Z",
+  "job_name": "Comment-with-size-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:34:21Z"
+}

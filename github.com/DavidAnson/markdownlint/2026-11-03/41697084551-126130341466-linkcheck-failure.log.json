@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DavidAnson/markdownlint",
+  "run_id": 41697084551,
+  "job_id": 126130341466,
+  "conclusion": "failure",
+  "workflow_name": "Checkers",
+  "created_at": "2026-11-03T18:47:03Z",
+  "job_name": "linkcheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-07T12:42:29Z"
+}

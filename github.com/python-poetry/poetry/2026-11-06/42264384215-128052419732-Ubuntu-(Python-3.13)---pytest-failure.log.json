@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/python-poetry/poetry",
+  "run_id": 42264384215,
+  "job_id": 128052419732,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-06T17:44:28Z",
+  "job_name": "Ubuntu-(Python-3.13)---pytest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-07T13:35:02Z"
+}
