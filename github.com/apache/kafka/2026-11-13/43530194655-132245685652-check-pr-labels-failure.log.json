@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 43530194655,
+  "job_id": 132245685652,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21388: Add upgrade instructions for 4.4",
+  "created_at": "2026-11-13T23:51:37Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:11:29Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 43550105271,
+  "job_id": 132310379284,
+  "conclusion": "failure",
+  "workflow_name": "pip in /tests/python-native-libs-poetry/subdir for Pillow - Update #1703623836",
+  "created_at": "2026-11-14T03:09:09Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:48:30Z"
+}

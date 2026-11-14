@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 42344765316,
+  "job_id": 128319996634,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-07T05:55:45Z",
+  "job_name": "TestMatrix-(luajit-2.1,-ubuntu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:42:28Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 43549266709,
+  "job_id": 132307709291,
+  "conclusion": "failure",
+  "workflow_name": "dist",
+  "created_at": "2026-11-14T02:59:55Z",
+  "job_name": "CM-integration-windows-2022",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:22:11Z"
+}

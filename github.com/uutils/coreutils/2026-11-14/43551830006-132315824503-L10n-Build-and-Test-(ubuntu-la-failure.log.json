@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 43551830006,
+  "job_id": 132315824503,
+  "conclusion": "failure",
+  "workflow_name": "L10n (Localization)",
+  "created_at": "2026-11-14T03:28:42Z",
+  "job_name": "L10n-Build-and-Test-(ubuntu-la",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:52:50Z"
+}

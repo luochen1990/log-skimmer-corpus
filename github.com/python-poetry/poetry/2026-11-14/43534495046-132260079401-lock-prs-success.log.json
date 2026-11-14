@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/python-poetry/poetry",
+  "run_id": 43534495046,
+  "job_id": 132260079401,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-11-14T00:29:11Z",
+  "job_name": "lock-prs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:55:10Z"
+}

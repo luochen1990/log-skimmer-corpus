@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 43037586856,
+  "job_id": 130580441835,
+  "conclusion": "failure",
+  "workflow_name": "Sanitizer checks",
+  "created_at": "2026-11-11T14:20:51Z",
+  "job_name": "sanitizers-linux-(TSAN,--DTSAN",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:22:49Z"
+}

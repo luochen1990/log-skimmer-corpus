@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 43166553442,
+  "job_id": 131015143586,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-12T06:12:54Z",
+  "job_name": "Coding-Guidelines",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:29:51Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 43478193347,
+  "job_id": 132067526254,
+  "conclusion": "failure",
+  "workflow_name": "uv in /. for soupsieve - Update #1702477625",
+  "created_at": "2026-11-13T17:59:31Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:09:56Z"
+}

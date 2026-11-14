@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DeterminateSystems/magic-nix-cache",
+  "run_id": 42629939343,
+  "job_id": 129203317903,
+  "conclusion": "success",
+  "workflow_name": "Publish every Git push to main to FlakeHub",
+  "created_at": "2026-11-09T13:56:47Z",
+  "job_name": "flakehub-publish",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:48:23Z"
+}

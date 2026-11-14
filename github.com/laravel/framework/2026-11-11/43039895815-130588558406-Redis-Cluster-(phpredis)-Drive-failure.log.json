@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 43039895815,
+  "job_id": 130588558406,
+  "conclusion": "failure",
+  "workflow_name": "Redis and Redis Cluster",
+  "created_at": "2026-11-11T14:35:12Z",
+  "job_name": "Redis-Cluster-(phpredis)-Drive",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:28:48Z"
+}

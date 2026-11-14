@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 43538789371,
+  "job_id": 132274846837,
+  "conclusion": "failure",
+  "workflow_name": "build-and-test",
+  "created_at": "2026-11-14T01:08:57Z",
+  "job_name": "test-cargo-unit---build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:03:34Z"
+}

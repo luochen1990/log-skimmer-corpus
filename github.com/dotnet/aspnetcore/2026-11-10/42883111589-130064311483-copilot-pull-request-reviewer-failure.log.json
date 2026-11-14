@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 42883111589,
+  "job_id": 130064311483,
+  "conclusion": "failure",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-11-10T19:13:32Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:24:37Z"
+}

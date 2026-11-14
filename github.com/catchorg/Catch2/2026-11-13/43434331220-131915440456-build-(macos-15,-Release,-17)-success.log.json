@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 43434331220,
+  "job_id": 131915440456,
+  "conclusion": "success",
+  "workflow_name": "Mac Builds",
+  "created_at": "2026-11-13T13:31:08Z",
+  "job_name": "build-(macos-15,-Release,-17)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:17:11Z"
+}

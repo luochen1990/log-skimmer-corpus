@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 43039679573,
+  "job_id": 130587808227,
+  "conclusion": "failure",
+  "workflow_name": "Redis and Redis Cluster",
+  "created_at": "2026-11-11T14:33:53Z",
+  "job_name": "Redis-Cluster-(predis)-Driver",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:28:51Z"
+}

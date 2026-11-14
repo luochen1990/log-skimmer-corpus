@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 43537226901,
+  "job_id": 132275813842,
+  "conclusion": "failure",
+  "workflow_name": "External Server Tests",
+  "created_at": "2026-11-14T00:54:16Z",
+  "job_name": "test-external-cluster",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:23:27Z"
+}

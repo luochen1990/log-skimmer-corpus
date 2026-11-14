@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 43556476233,
+  "job_id": 132330346011,
+  "conclusion": "success",
+  "workflow_name": "GnuComment",
+  "created_at": "2026-11-14T04:24:11Z",
+  "job_name": "post-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:52:58Z"
+}

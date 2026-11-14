@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 43536565671,
+  "job_id": 132266909850,
+  "conclusion": "failure",
+  "workflow_name": "Code Coverage",
+  "created_at": "2026-11-14T00:48:09Z",
+  "job_name": "publish-code-coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:15:13Z"
+}

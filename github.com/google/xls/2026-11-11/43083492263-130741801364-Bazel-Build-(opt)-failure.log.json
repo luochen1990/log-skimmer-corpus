@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/xls",
+  "run_id": 43083492263,
+  "job_id": 130741801364,
+  "conclusion": "failure",
+  "workflow_name": "Continuous Integration",
+  "created_at": "2026-11-11T19:02:51Z",
+  "job_name": "Bazel-Build-(opt)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:49:27Z"
+}

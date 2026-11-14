@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/googletest",
+  "run_id": 43557900425,
+  "job_id": 132334807554,
+  "conclusion": "success",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-14T04:41:32Z",
+  "job_name": "Windows-MSVC-2022-Bazel---(c++",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:19:41Z"
+}

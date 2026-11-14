@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hashicorp/terraform",
+  "run_id": 43528855102,
+  "job_id": 132241250360,
+  "conclusion": "failure",
+  "workflow_name": "Quick Checks",
+  "created_at": "2026-11-13T23:40:29Z",
+  "job_name": "Unit-Tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:51:28Z"
+}

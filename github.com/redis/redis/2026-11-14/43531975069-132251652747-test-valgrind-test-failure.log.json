@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 43531975069,
+  "job_id": 132251652747,
+  "conclusion": "failure",
+  "workflow_name": "Daily",
+  "created_at": "2026-11-14T00:07:08Z",
+  "job_name": "test-valgrind-test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:23:29Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 43494680011,
+  "job_id": 132124567396,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T19:42:13Z",
+  "job_name": "package-feed-proxy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:00:06Z"
+}

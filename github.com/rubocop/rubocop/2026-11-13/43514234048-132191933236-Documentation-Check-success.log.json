@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rubocop/rubocop",
+  "run_id": 43514234048,
+  "job_id": 132191933236,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T21:50:31Z",
+  "job_name": "Documentation-Check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:28:11Z"
+}

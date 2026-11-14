@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/runtime",
+  "run_id": 43527442536,
+  "job_id": 132236604153,
+  "conclusion": "failure",
+  "workflow_name": "Format jit codebase",
+  "created_at": "2026-11-13T23:29:07Z",
+  "job_name": "Format-jit-codebase-windows",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:25:10Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 43388502927,
+  "job_id": 131762654013,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T07:49:24Z",
+  "job_name": "clippy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:52:35Z"
+}

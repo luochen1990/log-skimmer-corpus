@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 43550752784,
+  "job_id": 132312398788,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-14T03:16:20Z",
+  "job_name": "core---Test-on-GraalPy-graalpy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:09:55Z"
+}

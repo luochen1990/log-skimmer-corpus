@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 43522392263,
+  "job_id": 132308226279,
+  "conclusion": "success",
+  "workflow_name": "clang-tidy",
+  "created_at": "2026-11-13T22:49:29Z",
+  "job_name": "run-clang-tidy",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:19:05Z"
+}

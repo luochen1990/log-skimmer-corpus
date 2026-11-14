@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 43526088378,
+  "job_id": 132232083558,
+  "conclusion": "success",
+  "workflow_name": "Build Docker image",
+  "created_at": "2026-11-13T23:18:13Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:54:46Z"
+}

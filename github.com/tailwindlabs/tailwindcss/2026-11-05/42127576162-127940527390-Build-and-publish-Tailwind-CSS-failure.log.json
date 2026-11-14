@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tailwindlabs/tailwindcss",
+  "run_id": 42127576162,
+  "job_id": 127940527390,
+  "conclusion": "failure",
+  "workflow_name": "Release",
+  "created_at": "2026-11-05T23:10:39Z",
+  "job_name": "Build-and-publish-Tailwind-CSS",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:02:47Z"
+}

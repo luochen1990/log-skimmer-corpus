@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 43012846777,
+  "job_id": 130496501129,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /. for minimatch - Update #1695736044",
+  "created_at": "2026-11-11T11:32:58Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:06:19Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/nix-direnv",
+  "run_id": 43000868822,
+  "job_id": 130456362811,
+  "conclusion": "success",
+  "workflow_name": "Test",
+  "created_at": "2026-11-11T10:06:59Z",
+  "job_name": "tests-(ubuntu-latest,-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:36:58Z"
+}

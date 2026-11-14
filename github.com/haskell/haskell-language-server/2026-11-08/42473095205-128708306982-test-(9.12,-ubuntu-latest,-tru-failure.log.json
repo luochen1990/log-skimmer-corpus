@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 42473095205,
+  "job_id": 128708306982,
+  "conclusion": "failure",
+  "workflow_name": "Testing",
+  "created_at": "2026-11-08T10:50:11Z",
+  "job_name": "test-(9.12,-ubuntu-latest,-tru",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:38:28Z"
+}

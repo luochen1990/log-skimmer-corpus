@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 43395250435,
+  "job_id": 131784487882,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-11-13T08:41:55Z",
+  "job_name": "ci_module_cpp20",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:20:00Z"
+}

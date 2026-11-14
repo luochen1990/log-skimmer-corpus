@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pydantic/pydantic",
+  "run_id": 43550637264,
+  "job_id": 132312049925,
+  "conclusion": "success",
+  "workflow_name": "uv in /. for dnspython - Update #1703636786",
+  "created_at": "2026-11-14T03:15:05Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:10:13Z"
+}

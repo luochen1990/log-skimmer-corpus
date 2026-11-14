@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 43347586659,
+  "job_id": 131630571390,
+  "conclusion": "failure",
+  "workflow_name": "Build and Deploy Documentation (main)",
+  "created_at": "2026-11-13T01:48:18Z",
+  "job_name": "Build-and-Deploy-Documentation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:13:38Z"
+}

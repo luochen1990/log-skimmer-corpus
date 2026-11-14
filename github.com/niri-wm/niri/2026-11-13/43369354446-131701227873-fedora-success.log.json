@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 43369354446,
+  "job_id": 131701227873,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T05:02:22Z",
+  "job_name": "fedora",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:49:13Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 43505750149,
+  "job_id": 132162854201,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T20:53:54Z",
+  "job_name": "fmt",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:52:07Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 43508608315,
+  "job_id": 132172652698,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-11-13T21:12:31Z",
+  "job_name": "Analyze-Python",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:08:04Z"
+}

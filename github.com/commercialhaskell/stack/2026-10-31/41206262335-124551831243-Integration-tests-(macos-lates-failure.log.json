@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/commercialhaskell/stack",
+  "run_id": 41206262335,
+  "job_id": 124551831243,
+  "conclusion": "failure",
+  "workflow_name": "Integration tests",
+  "created_at": "2026-10-31T13:35:28Z",
+  "job_name": "Integration-tests-(macos-lates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:37:09Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tokio-rs/tokio",
+  "run_id": 43545012879,
+  "job_id": 132294177423,
+  "conclusion": "success",
+  "workflow_name": "Security Audit",
+  "created_at": "2026-11-14T02:12:45Z",
+  "job_name": "cargo-deny",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:52:38Z"
+}

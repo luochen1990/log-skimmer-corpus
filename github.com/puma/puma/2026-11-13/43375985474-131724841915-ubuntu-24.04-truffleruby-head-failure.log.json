@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/puma/puma",
+  "run_id": 43375985474,
+  "job_id": 131724841915,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-13T06:02:57Z",
+  "job_name": "ubuntu-24.04-truffleruby-head",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:27:08Z"
+}

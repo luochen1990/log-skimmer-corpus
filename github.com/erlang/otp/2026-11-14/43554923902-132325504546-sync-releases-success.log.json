@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 43554923902,
+  "job_id": 132325504546,
+  "conclusion": "success",
+  "workflow_name": "Sync all github releases with erlang.org",
+  "created_at": "2026-11-14T04:05:56Z",
+  "job_name": "sync-releases",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:42:08Z"
+}

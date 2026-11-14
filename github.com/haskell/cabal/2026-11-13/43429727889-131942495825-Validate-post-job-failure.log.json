@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 43429727889,
+  "job_id": 131942495825,
+  "conclusion": "failure",
+  "workflow_name": "Validate",
+  "created_at": "2026-11-13T12:59:05Z",
+  "job_name": "Validate-post-job",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:37:54Z"
+}

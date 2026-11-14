@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 43554470461,
+  "job_id": 132324076681,
+  "conclusion": "failure",
+  "workflow_name": "E2E Vite",
+  "created_at": "2026-11-14T04:00:36Z",
+  "job_name": "Validating-Vite",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:53:39Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 42685183091,
+  "job_id": 129390214498,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-09T19:37:49Z",
+  "job_name": "build-(windows-py311)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:10:41Z"
+}

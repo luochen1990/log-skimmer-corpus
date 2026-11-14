@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nvim-telescope/telescope.nvim",
+  "run_id": 43214358245,
+  "job_id": 131169689448,
+  "conclusion": "failure",
+  "workflow_name": "Check docs",
+  "created_at": "2026-11-12T12:02:47Z",
+  "job_name": "Check-docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:42:48Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 43486713957,
+  "job_id": 132096988414,
+  "conclusion": "failure",
+  "workflow_name": "Benchmark",
+  "created_at": "2026-11-13T18:51:53Z",
+  "job_name": "Benchmark-(end_to_end)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:48:13Z"
+}

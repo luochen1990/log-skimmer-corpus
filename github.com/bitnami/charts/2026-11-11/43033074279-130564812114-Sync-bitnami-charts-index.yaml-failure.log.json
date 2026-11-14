@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitnami/charts",
+  "run_id": 43033074279,
+  "job_id": 130564812114,
+  "conclusion": "failure",
+  "workflow_name": "[Index] Sync bitnami/charts index.yaml to S3",
+  "created_at": "2026-11-11T13:52:24Z",
+  "job_name": "Sync-bitnami-charts-index.yaml",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:53:21Z"
+}

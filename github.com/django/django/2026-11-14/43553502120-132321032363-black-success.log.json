@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 43553502120,
+  "job_id": 132321032363,
+  "conclusion": "success",
+  "workflow_name": "Linters",
+  "created_at": "2026-11-14T03:48:27Z",
+  "job_name": "black",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:06:51Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dtolnay/cxx",
+  "run_id": 42551535623,
+  "job_id": 128948014151,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-09T02:32:46Z",
+  "job_name": "Pedantic",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:50:57Z"
+}

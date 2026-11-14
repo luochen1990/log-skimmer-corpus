@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 43557031056,
+  "job_id": 132332236958,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-14T04:30:58Z",
+  "job_name": "32-bit-ARM",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:16:43Z"
+}

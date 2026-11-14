@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 43553760995,
+  "job_id": 132321851176,
+  "conclusion": "failure",
+  "workflow_name": "Rolling OS Zoo CI",
+  "created_at": "2026-11-14T03:51:38Z",
+  "job_name": "linux-(docker.io-library-ubunt",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:23:01Z"
+}

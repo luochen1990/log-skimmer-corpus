@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/helm-charts",
+  "run_id": 43538508080,
+  "job_id": 132273253554,
+  "conclusion": "failure",
+  "workflow_name": "Validate Pull Request",
+  "created_at": "2026-11-14T01:06:11Z",
+  "job_name": "validate",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:52:36Z"
+}

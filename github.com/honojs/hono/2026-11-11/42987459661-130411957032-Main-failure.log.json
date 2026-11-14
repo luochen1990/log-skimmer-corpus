@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 42987459661,
+  "job_id": 130411957032,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-11T08:29:37Z",
+  "job_name": "Main",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:59:39Z"
+}

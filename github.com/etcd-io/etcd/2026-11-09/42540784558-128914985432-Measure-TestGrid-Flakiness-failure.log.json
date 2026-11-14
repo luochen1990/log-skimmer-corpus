@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/etcd-io/etcd",
+  "run_id": 42540784558,
+  "job_id": 128914985432,
+  "conclusion": "failure",
+  "workflow_name": "Measure TestGrid Flakiness",
+  "created_at": "2026-11-09T00:32:59Z",
+  "job_name": "Measure-TestGrid-Flakiness",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:54:03Z"
+}

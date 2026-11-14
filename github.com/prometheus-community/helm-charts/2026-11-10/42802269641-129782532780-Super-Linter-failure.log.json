@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prometheus-community/helm-charts",
+  "run_id": 42802269641,
+  "job_id": 129782532780,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-10T10:48:41Z",
+  "job_name": "Super-Linter",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:53:06Z"
+}

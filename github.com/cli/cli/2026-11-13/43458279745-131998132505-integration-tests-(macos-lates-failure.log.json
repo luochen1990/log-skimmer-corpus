@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 43458279745,
+  "job_id": 131998132505,
+  "conclusion": "failure",
+  "workflow_name": "Unit and Integration Tests",
+  "created_at": "2026-11-13T16:00:25Z",
+  "job_name": "integration-tests-(macos-lates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:53:33Z"
+}

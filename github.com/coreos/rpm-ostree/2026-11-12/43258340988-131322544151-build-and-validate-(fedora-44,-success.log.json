@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 43258340988,
+  "job_id": 131322544151,
+  "conclusion": "success",
+  "workflow_name": "Container Build",
+  "created_at": "2026-11-12T16:24:36Z",
+  "job_name": "build-and-validate-(fedora-44,",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:56:59Z"
+}

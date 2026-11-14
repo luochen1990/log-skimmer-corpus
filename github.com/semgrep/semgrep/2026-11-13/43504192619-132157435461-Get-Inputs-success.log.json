@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 43504192619,
+  "job_id": 132157435461,
+  "conclusion": "success",
+  "workflow_name": "test-e2e-semgrep-ci",
+  "created_at": "2026-11-13T20:43:35Z",
+  "job_name": "Get-Inputs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:45:57Z"
+}

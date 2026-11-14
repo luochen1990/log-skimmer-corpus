@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 43303619921,
+  "job_id": 131481133804,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-12T20:46:27Z",
+  "job_name": "arm-unknown-linux-gnueabihf-(u",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:50:53Z"
+}

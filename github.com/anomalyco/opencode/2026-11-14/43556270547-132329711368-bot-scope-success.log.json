@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 43556270547,
+  "job_id": 132329711368,
+  "conclusion": "success",
+  "workflow_name": "check-bot-scope",
+  "created_at": "2026-11-14T04:21:48Z",
+  "job_name": "bot-scope",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:59:17Z"
+}

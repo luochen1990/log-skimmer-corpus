@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 43480063521,
+  "job_id": 132073923839,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-11-13T18:10:44Z",
+  "job_name": "Pyarrow-Nightly",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:09:03Z"
+}

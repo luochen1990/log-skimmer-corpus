@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 43558328069,
+  "job_id": 132336139894,
+  "conclusion": "success",
+  "workflow_name": "Workflow Requested for MINOR: Fix config names that do not exist in docs",
+  "created_at": "2026-11-14T04:46:53Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:11:37Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 42741646664,
+  "job_id": 129583881579,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-10T02:16:48Z",
+  "job_name": "Clippy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:47:46Z"
+}

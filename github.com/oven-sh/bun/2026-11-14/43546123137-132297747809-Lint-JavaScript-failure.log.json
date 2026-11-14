@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/oven-sh/bun",
+  "run_id": 43546123137,
+  "job_id": 132297747809,
+  "conclusion": "failure",
+  "workflow_name": "Lint",
+  "created_at": "2026-11-14T02:24:26Z",
+  "job_name": "Lint-JavaScript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:35:15Z"
+}

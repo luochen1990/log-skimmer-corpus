@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/home-manager",
+  "run_id": 42681674544,
+  "job_id": 129377556337,
+  "conclusion": "failure",
+  "workflow_name": ".github/workflows/conflicts.yml",
+  "created_at": "2026-11-09T19:15:56Z",
+  "job_name": "triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:35:54Z"
+}

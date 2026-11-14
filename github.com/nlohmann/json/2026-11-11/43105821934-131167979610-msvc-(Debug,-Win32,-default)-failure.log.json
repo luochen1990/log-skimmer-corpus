@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 43105821934,
+  "job_id": 131167979610,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-11-11T21:45:15Z",
+  "job_name": "msvc-(Debug,-Win32,-default)",
+  "attempt": 3,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:20:20Z"
+}

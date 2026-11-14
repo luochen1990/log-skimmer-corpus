@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 43076720367,
+  "job_id": 130718348569,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-11T18:19:48Z",
+  "job_name": "mix-docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:40:44Z"
+}

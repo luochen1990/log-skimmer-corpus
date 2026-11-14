@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 43485559386,
+  "job_id": 132092938488,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T18:44:34Z",
+  "job_name": "Code-coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:48:07Z"
+}

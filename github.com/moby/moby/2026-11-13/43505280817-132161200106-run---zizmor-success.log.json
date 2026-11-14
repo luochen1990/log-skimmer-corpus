@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/moby/moby",
+  "run_id": 43505280817,
+  "job_id": 132161200106,
+  "conclusion": "success",
+  "workflow_name": "zizmor",
+  "created_at": "2026-11-13T20:50:47Z",
+  "job_name": "run---zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:57:05Z"
+}

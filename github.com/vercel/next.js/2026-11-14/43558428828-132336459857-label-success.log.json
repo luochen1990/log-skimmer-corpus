@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 43558428828,
+  "job_id": 132336459857,
+  "conclusion": "success",
+  "workflow_name": "Pull Request Auto-Labeler",
+  "created_at": "2026-11-14T04:48:10Z",
+  "job_name": "label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:03:58Z"
+}

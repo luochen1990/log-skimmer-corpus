@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rust-analyzer/rust-analyzer",
+  "run_id": 43079869287,
+  "job_id": 130729292004,
+  "conclusion": "failure",
+  "workflow_name": "Coverage",
+  "created_at": "2026-11-11T18:39:37Z",
+  "job_name": "coverage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:49:59Z"
+}

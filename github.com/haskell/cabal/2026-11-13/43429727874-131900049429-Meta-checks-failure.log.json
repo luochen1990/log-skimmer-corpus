@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 43429727874,
+  "job_id": 131900049429,
+  "conclusion": "failure",
+  "workflow_name": "Quick jobs",
+  "created_at": "2026-11-13T12:59:05Z",
+  "job_name": "Meta-checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:37:56Z"
+}

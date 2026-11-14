@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spf13/viper",
+  "run_id": 42047824407,
+  "job_id": 127315513791,
+  "conclusion": "failure",
+  "workflow_name": "PR Checks",
+  "created_at": "2026-11-05T14:43:51Z",
+  "job_name": "Release-note-label",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:58:15Z"
+}

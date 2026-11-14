@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/withastro/astro",
+  "run_id": 43322934234,
+  "job_id": 131548128295,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-12T22:46:08Z",
+  "job_name": "Lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:04:54Z"
+}

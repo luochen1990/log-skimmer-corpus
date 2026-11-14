@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 43475797443,
+  "job_id": 132065815420,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-13T17:44:41Z",
+  "job_name": "windows-machine-hyperv",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:55:50Z"
+}

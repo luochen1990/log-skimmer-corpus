@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ClickHouse/ClickHouse",
+  "run_id": 43557320831,
+  "job_id": 132334410566,
+  "conclusion": "failure",
+  "workflow_name": "PR",
+  "created_at": "2026-11-14T04:34:26Z",
+  "job_name": "Build-(arm_tidy,-1-4)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:15:35Z"
+}

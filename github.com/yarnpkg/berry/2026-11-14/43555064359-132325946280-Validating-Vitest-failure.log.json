@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 43555064359,
+  "job_id": 132325946280,
+  "conclusion": "failure",
+  "workflow_name": "E2E Vitest",
+  "created_at": "2026-11-14T04:07:38Z",
+  "job_name": "Validating-Vitest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:53:35Z"
+}

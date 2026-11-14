@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/doccano/doccano",
+  "run_id": 43357215509,
+  "job_id": 131662003429,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-11-13T03:10:58Z",
+  "job_name": "Analyze-(python)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:55:34Z"
+}

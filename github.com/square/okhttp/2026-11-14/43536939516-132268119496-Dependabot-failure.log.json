@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/square/okhttp",
+  "run_id": 43536939516,
+  "job_id": 132268119496,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /kotlin-js-store for brace-expansion - Update #1703352809",
+  "created_at": "2026-11-14T00:51:36Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:14:25Z"
+}

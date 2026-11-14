@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/caddyserver/caddy",
+  "run_id": 43526008294,
+  "job_id": 132231814571,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-13T23:17:34Z",
+  "job_name": "test-(windows,-1.27)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:53:03Z"
+}

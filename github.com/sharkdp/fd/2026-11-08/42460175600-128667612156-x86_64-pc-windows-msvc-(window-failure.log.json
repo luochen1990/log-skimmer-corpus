@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 42460175600,
+  "job_id": 128667612156,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-08T07:46:52Z",
+  "job_name": "x86_64-pc-windows-msvc-(window",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:51:11Z"
+}

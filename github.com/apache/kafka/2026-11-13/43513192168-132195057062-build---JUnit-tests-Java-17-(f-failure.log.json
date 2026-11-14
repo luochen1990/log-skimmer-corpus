@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 43513192168,
+  "job_id": 132195057062,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T21:43:17Z",
+  "job_name": "build---JUnit-tests-Java-17-(f",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:11:33Z"
+}

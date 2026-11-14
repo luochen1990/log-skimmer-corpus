@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/helm/helm",
+  "run_id": 42703778187,
+  "job_id": 129455087483,
+  "conclusion": "failure",
+  "workflow_name": "govulncheck",
+  "created_at": "2026-11-09T21:34:30Z",
+  "job_name": "govulncheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:56:03Z"
+}

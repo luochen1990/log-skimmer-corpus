@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 43520125291,
+  "job_id": 132211995993,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21102: Clear the inverted target assignment in ModernGroup.clearTargetAssignment (4.3)",
+  "created_at": "2026-11-13T22:32:38Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:11:30Z"
+}

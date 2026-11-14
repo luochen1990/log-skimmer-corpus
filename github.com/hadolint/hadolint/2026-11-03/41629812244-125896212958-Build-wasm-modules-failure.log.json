@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hadolint/hadolint",
+  "run_id": 41629812244,
+  "job_id": 125896212958,
+  "conclusion": "failure",
+  "workflow_name": "Build WASM artifacts",
+  "created_at": "2026-11-03T11:43:25Z",
+  "job_name": "Build-wasm-modules",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:37:25Z"
+}

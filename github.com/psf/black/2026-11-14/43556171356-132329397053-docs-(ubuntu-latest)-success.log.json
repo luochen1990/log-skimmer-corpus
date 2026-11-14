@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/psf/black",
+  "run_id": 43556171356,
+  "job_id": 132329397053,
+  "conclusion": "success",
+  "workflow_name": "docs",
+  "created_at": "2026-11-14T04:20:38Z",
+  "job_name": "docs-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:09:28Z"
+}

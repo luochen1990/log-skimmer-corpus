@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 43561459608,
+  "job_id": 132345852244,
+  "conclusion": "success",
+  "workflow_name": "Issue Labeler",
+  "created_at": "2026-11-14T05:25:27Z",
+  "job_name": "triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:56:24Z"
+}

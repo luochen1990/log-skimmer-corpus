@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 43492559542,
+  "job_id": 132117252480,
+  "conclusion": "failure",
+  "workflow_name": "govulncheck",
+  "created_at": "2026-11-13T19:28:39Z",
+  "job_name": "govulncheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T04:55:22Z"
+}

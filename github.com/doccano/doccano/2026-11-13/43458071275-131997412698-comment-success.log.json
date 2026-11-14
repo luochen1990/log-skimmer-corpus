@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/doccano/doccano",
+  "run_id": 43458071275,
+  "job_id": 131997412698,
+  "conclusion": "success",
+  "workflow_name": ".github/workflows/issue-comment.yml",
+  "created_at": "2026-11-13T15:59:11Z",
+  "job_name": "comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:55:33Z"
+}

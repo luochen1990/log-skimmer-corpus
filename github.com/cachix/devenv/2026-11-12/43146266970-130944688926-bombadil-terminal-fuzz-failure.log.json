@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 43146266970,
+  "job_id": 130944688926,
+  "conclusion": "failure",
+  "workflow_name": "TUI fuzz",
+  "created_at": "2026-11-12T03:09:24Z",
+  "job_name": "bombadil-terminal-fuzz",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:48:51Z"
+}

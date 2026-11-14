@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 43384112368,
+  "job_id": 131748459791,
+  "conclusion": "failure",
+  "workflow_name": "(Runtime) Build and Test",
+  "created_at": "2026-11-13T07:12:50Z",
+  "job_name": "Fizz-Flight-on-Node-20-(experi",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:54:09Z"
+}

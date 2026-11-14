@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bitcoin/bitcoin",
+  "run_id": 43453044407,
+  "job_id": 131979961282,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-13T15:29:02Z",
+  "job_name": "iwyu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:16:24Z"
+}

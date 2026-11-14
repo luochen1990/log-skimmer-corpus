@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 43559563293,
+  "job_id": 132339976753,
+  "conclusion": "success",
+  "workflow_name": "Forward issue events to community-issue-tracker",
+  "created_at": "2026-11-14T05:02:29Z",
+  "job_name": "forward",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:18:01Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 43267352007,
+  "job_id": 131354475545,
+  "conclusion": "failure",
+  "workflow_name": "Quick Checks",
+  "created_at": "2026-11-12T17:14:45Z",
+  "job_name": "Code-Consistency-Checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:51:49Z"
+}

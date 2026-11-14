@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/xls",
+  "run_id": 43307834636,
+  "job_id": 131495706138,
+  "conclusion": "failure",
+  "workflow_name": "Continuous Docs Deployment",
+  "created_at": "2026-11-12T21:11:52Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-14T05:49:25Z"
+}

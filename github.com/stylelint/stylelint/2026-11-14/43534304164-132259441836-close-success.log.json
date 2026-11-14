@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 43534304164,
+  "job_id": 132259441836,
+  "conclusion": "success",
+  "workflow_name": "Close unknown effort PRs",
+  "created_at": "2026-11-14T00:27:25Z",
+  "job_name": "close",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:06:35Z"
+}

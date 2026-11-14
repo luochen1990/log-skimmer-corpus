@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 43508618842,
+  "job_id": 132172698114,
+  "conclusion": "success",
+  "workflow_name": "Configured Graph Update: uv in /. #1702894374",
+  "created_at": "2026-11-13T21:12:35Z",
+  "job_name": "update-uv-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-14T05:08:03Z"
+}
