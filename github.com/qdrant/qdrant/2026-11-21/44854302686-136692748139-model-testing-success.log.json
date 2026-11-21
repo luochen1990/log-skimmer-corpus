@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/qdrant/qdrant",
+  "run_id": 44854302686,
+  "job_id": 136692748139,
+  "conclusion": "success",
+  "workflow_name": "Nightly Model Testing",
+  "created_at": "2026-11-21T02:09:32Z",
+  "job_name": "model-testing",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:10:27Z"
+}

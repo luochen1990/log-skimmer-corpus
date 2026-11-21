@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rubocop/rubocop",
+  "run_id": 43980665420,
+  "job_id": 133696019086,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-16T23:35:57Z",
+  "job_name": "Prism",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:41:04Z"
+}

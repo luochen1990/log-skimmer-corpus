@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/eslint/eslint",
+  "run_id": 43650336376,
+  "job_id": 132617147603,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-14T22:52:22Z",
+  "job_name": "Verify-Files",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:23:04Z"
+}

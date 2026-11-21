@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/JetBrains/Exposed",
+  "run_id": 44739321856,
+  "job_id": 136298648516,
+  "conclusion": "success",
+  "workflow_name": "gradle in /. - Update #1718880879",
+  "created_at": "2026-11-20T12:51:45Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:30:17Z"
+}

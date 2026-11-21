@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 44806968005,
+  "job_id": 136533575886,
+  "conclusion": "failure",
+  "workflow_name": "(Runtime) Build and Test",
+  "created_at": "2026-11-20T19:57:43Z",
+  "job_name": "Flow-check-dom-fb",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:00:51Z"
+}

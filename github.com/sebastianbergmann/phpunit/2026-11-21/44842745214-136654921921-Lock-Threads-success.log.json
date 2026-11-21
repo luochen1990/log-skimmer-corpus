@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 44842745214,
+  "job_id": 136654921921,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-11-21T00:16:47Z",
+  "job_name": "Lock-Threads",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:42:50Z"
+}

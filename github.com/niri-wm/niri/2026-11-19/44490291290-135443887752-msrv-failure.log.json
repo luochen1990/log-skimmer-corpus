@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 44490291290,
+  "job_id": 135443887752,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-19T08:45:17Z",
+  "job_name": "msrv",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:09:42Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 44425362166,
+  "job_id": 135571654703,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-18T23:59:48Z",
+  "job_name": "sys-local-root-fedora-current-",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:02:43Z"
+}

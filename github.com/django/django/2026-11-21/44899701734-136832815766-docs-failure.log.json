@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 44899701734,
+  "job_id": 136832815766,
+  "conclusion": "failure",
+  "workflow_name": "Docs",
+  "created_at": "2026-11-21T11:33:48Z",
+  "job_name": "docs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:24:01Z"
+}

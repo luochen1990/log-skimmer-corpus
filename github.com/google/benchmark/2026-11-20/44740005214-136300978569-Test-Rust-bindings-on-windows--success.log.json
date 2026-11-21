@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/benchmark",
+  "run_id": 44740005214,
+  "job_id": 136300978569,
+  "conclusion": "success",
+  "workflow_name": "test-bindings",
+  "created_at": "2026-11-20T12:56:43Z",
+  "job_name": "Test-Rust-bindings-on-windows-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:33:06Z"
+}

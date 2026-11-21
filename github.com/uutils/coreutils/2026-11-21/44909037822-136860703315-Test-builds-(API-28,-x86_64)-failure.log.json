@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 44909037822,
+  "job_id": 136860703315,
+  "conclusion": "failure",
+  "workflow_name": "Android",
+  "created_at": "2026-11-21T13:28:38Z",
+  "job_name": "Test-builds-(API-28,-x86_64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:12:42Z"
+}

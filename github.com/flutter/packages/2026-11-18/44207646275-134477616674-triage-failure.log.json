@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/packages",
+  "run_id": 44207646275,
+  "job_id": 134477616674,
+  "conclusion": "failure",
+  "workflow_name": "Pull Request Labeler",
+  "created_at": "2026-11-18T00:25:08Z",
+  "job_name": "triage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:51:53Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/jekyll/jekyll",
+  "run_id": 44731841188,
+  "job_id": 136273319596,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-11-20T11:57:54Z",
+  "job_name": "Analyze-(javascript)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:40:13Z"
+}

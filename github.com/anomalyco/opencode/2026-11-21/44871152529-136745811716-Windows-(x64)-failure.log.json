@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 44871152529,
+  "job_id": 136745811716,
+  "conclusion": "failure",
+  "workflow_name": "Process daemon",
+  "created_at": "2026-11-21T05:30:03Z",
+  "job_name": "Windows-(x64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:17:41Z"
+}

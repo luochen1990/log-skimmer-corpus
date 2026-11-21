@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 44479143458,
+  "job_id": 135407225418,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-19T07:22:45Z",
+  "job_name": "build-(ubuntu-pypy3-xdist)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:26:36Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 44914247513,
+  "job_id": 136876351790,
+  "conclusion": "success",
+  "workflow_name": "Cherry Pick to Release Branch",
+  "created_at": "2026-11-21T14:30:11Z",
+  "job_name": "cherry-pick-on-merge",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:02:53Z"
+}

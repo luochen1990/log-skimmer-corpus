@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/kubernetes/kubernetes",
+  "run_id": 44359564152,
+  "job_id": 134996867773,
+  "conclusion": "success",
+  "workflow_name": "Graph Update: go_modules in /staging/src/k8s.io/component-helpers #1714797062",
+  "created_at": "2026-11-18T17:31:09Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:15:53Z"
+}

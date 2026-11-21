@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pytest-dev/pytest",
+  "run_id": 43658061995,
+  "job_id": 132640961258,
+  "conclusion": "failure",
+  "workflow_name": "Doc Check Links",
+  "created_at": "2026-11-15T00:25:06Z",
+  "job_name": "doc-check-links",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:26:46Z"
+}

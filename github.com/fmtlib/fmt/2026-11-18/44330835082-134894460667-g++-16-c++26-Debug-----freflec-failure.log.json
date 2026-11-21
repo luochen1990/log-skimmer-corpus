@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 44330835082,
+  "job_id": 134894460667,
+  "conclusion": "failure",
+  "workflow_name": "linux",
+  "created_at": "2026-11-18T15:01:42Z",
+  "job_name": "g++-16-c++26-Debug-----freflec",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:32:24Z"
+}

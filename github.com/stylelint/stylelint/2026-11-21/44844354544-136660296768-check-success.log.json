@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/stylelint/stylelint",
+  "run_id": 44844354544,
+  "job_id": 136660296768,
+  "conclusion": "success",
+  "workflow_name": "Comment on old issues",
+  "created_at": "2026-11-21T00:31:11Z",
+  "job_name": "check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:23:53Z"
+}

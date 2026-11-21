@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 44811765846,
+  "job_id": 136549866341,
+  "conclusion": "success",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-11-20T20:29:06Z",
+  "job_name": "check-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:28:12Z"
+}

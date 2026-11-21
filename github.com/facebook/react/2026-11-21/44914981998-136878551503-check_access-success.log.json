@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 44914981998,
+  "job_id": 136878551503,
+  "conclusion": "success",
+  "workflow_name": "(Runtime) Discord Notify",
+  "created_at": "2026-11-21T14:38:34Z",
+  "job_name": "check_access",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:01:05Z"
+}

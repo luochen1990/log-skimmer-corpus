@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 44909505502,
+  "job_id": 136862099361,
+  "conclusion": "failure",
+  "workflow_name": "FreeBSD",
+  "created_at": "2026-11-21T13:34:08Z",
+  "job_name": "Style-and-Lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:12:41Z"
+}

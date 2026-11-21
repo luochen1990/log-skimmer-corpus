@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 44886307433,
+  "job_id": 136792300233,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-21T08:44:49Z",
+  "job_name": "test-sanitizer-address",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:37:37Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 44907048937,
+  "job_id": 136854763003,
+  "conclusion": "success",
+  "workflow_name": "Scorecard supply-chain security",
+  "created_at": "2026-11-21T13:04:49Z",
+  "job_name": "Scorecard-analysis",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:50:49Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/guava",
+  "run_id": 44811766964,
+  "job_id": 136549871838,
+  "conclusion": "success",
+  "workflow_name": "Google GitHub Admin: Actions Workflow Security Scan",
+  "created_at": "2026-11-20T20:29:06Z",
+  "job_name": "scan-pr",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:28:10Z"
+}

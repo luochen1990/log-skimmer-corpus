@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 44785034664,
+  "job_id": 136457581835,
+  "conclusion": "failure",
+  "workflow_name": "👁️ Visual Regression Persist Finish",
+  "created_at": "2026-11-20T17:37:16Z",
+  "job_name": "persist-image-snapshots",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:18:01Z"
+}

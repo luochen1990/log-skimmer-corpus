@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 43868940890,
+  "job_id": 133304675283,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /.github/skills/cli-exercise/scripts for hono - Update #1708704208",
+  "created_at": "2026-11-16T12:41:59Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:13:19Z"
+}

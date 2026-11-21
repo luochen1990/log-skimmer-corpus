@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/haskell-language-server",
+  "run_id": 44841055442,
+  "job_id": 136649222832,
+  "conclusion": "success",
+  "workflow_name": "Cabal audit",
+  "created_at": "2026-11-21T00:02:11Z",
+  "job_name": "pre_job",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:48:05Z"
+}

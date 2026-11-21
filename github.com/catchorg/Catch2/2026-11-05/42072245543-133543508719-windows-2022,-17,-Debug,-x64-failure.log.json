@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 42072245543,
+  "job_id": 133543508719,
+  "conclusion": "failure",
+  "workflow_name": "Windows Builds (Basic)",
+  "created_at": "2026-11-05T17:12:03Z",
+  "job_name": "windows-2022,-17,-Debug,-x64",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:31:32Z"
+}

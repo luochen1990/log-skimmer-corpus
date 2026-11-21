@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/puma/puma",
+  "run_id": 44430885062,
+  "job_id": 135247648075,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-19T00:40:25Z",
+  "job_name": "macos-26-4.0",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:40:27Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 44833527935,
+  "job_id": 136624134219,
+  "conclusion": "failure",
+  "workflow_name": "Publish images",
+  "created_at": "2026-11-20T23:00:46Z",
+  "job_name": "check---testPackages-(8)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:14:34Z"
+}

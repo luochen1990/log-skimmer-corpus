@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/evanw/esbuild",
+  "run_id": 44873992844,
+  "job_id": 136754526740,
+  "conclusion": "success",
+  "workflow_name": "End-to-end install tests",
+  "created_at": "2026-11-21T06:06:48Z",
+  "job_name": "validate",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:53:52Z"
+}

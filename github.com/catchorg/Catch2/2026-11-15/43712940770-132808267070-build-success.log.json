@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 43712940770,
+  "job_id": 132808267070,
+  "conclusion": "success",
+  "workflow_name": "Check header guards",
+  "created_at": "2026-11-15T12:15:49Z",
+  "job_name": "build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:31:44Z"
+}

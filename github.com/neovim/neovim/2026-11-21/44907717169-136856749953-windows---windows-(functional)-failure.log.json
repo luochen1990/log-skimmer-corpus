@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 44907717169,
+  "job_id": 136856749953,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-21T13:12:41Z",
+  "job_name": "windows---windows-(functional)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:52:05Z"
+}

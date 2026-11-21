@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 44882905727,
+  "job_id": 136782197920,
+  "conclusion": "failure",
+  "workflow_name": "(Runtime) Build and Test",
+  "created_at": "2026-11-21T08:01:26Z",
+  "job_name": "Cache-Runtime-Playwright-Chrom",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:00:33Z"
+}

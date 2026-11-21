@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 44904648005,
+  "job_id": 136847510798,
+  "conclusion": "success",
+  "workflow_name": "Docker image nightly",
+  "created_at": "2026-11-21T12:35:12Z",
+  "job_name": "Build-(php8.6,-linux-amd64)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:42:18Z"
+}

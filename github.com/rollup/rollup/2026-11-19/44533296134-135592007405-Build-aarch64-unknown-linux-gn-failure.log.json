@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 44533296134,
+  "job_id": 135592007405,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-19T13:25:26Z",
+  "job_name": "Build-aarch64-unknown-linux-gn",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:19:59Z"
+}

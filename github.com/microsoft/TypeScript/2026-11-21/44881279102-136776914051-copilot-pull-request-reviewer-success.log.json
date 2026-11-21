@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/TypeScript",
+  "run_id": 44881279102,
+  "job_id": 136776914051,
+  "conclusion": "success",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-11-21T07:39:52Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:18:54Z"
+}

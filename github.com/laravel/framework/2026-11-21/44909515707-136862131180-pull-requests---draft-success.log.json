@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 44909515707,
+  "job_id": 136862131180,
+  "conclusion": "success",
+  "workflow_name": "pull requests",
+  "created_at": "2026-11-21T13:34:15Z",
+  "job_name": "pull-requests---draft",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:41:43Z"
+}

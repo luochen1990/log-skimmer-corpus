@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 44892567751,
+  "job_id": 136811384574,
+  "conclusion": "failure",
+  "workflow_name": "ci-dispatch pr=33312 head=d957c811c9e6b072cd10d0d4c56615fa7c36bcf4 check_run_id=136811345713",
+  "created_at": "2026-11-21T10:04:29Z",
+  "job_name": "linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:37:17Z"
+}

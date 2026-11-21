@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 44782036012,
+  "job_id": 136447756112,
+  "conclusion": "failure",
+  "workflow_name": "Website Build",
+  "created_at": "2026-11-20T17:18:35Z",
+  "job_name": "Visual-Regression-Tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:41:55Z"
+}

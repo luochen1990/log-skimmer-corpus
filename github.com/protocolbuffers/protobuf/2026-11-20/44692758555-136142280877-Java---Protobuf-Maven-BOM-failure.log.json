@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/protocolbuffers/protobuf",
+  "run_id": 44692758555,
+  "job_id": 136142280877,
+  "conclusion": "failure",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-20T07:08:24Z",
+  "job_name": "Java---Protobuf-Maven-BOM",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:36:09Z"
+}

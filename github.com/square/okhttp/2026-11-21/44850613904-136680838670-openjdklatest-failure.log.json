@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/square/okhttp",
+  "run_id": 44850613904,
+  "job_id": 136680838670,
+  "conclusion": "failure",
+  "workflow_name": "build",
+  "created_at": "2026-11-21T01:30:53Z",
+  "job_name": "openjdklatest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:29:46Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/chipsalliance/verible",
+  "run_id": 44371001646,
+  "job_id": 135037432917,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-18T18:33:26Z",
+  "job_name": "WindowsBuild",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T14:57:19Z"
+}

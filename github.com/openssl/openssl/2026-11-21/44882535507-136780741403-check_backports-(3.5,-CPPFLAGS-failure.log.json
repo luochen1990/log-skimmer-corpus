@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openssl/openssl",
+  "run_id": 44882535507,
+  "job_id": 136780741403,
+  "conclusion": "failure",
+  "workflow_name": "Backports CI",
+  "created_at": "2026-11-21T07:56:31Z",
+  "job_name": "check_backports-(3.5,-CPPFLAGS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:37:26Z"
+}

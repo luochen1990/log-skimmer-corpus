@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 43591505862,
+  "job_id": 132437018346,
+  "conclusion": "failure",
+  "workflow_name": "CI-unix",
+  "created_at": "2026-11-14T11:45:09Z",
+  "job_name": "build-linux",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:37:02Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/niri-wm/niri",
+  "run_id": 44886411537,
+  "job_id": 136792544491,
+  "conclusion": "success",
+  "workflow_name": "cargo in / for accesskit, clap_complete, libc, log, ordered-float, proptest, clap, insta, serde_json, schemars - Update #1720230949",
+  "created_at": "2026-11-21T08:46:05Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:10:04Z"
+}

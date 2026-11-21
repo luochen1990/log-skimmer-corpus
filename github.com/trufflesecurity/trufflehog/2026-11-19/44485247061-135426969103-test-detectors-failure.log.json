@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 44485247061,
+  "job_id": 135426969103,
+  "conclusion": "failure",
+  "workflow_name": "Detectors Aggregation",
+  "created_at": "2026-11-19T08:09:32Z",
+  "job_name": "test-detectors",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:55:14Z"
+}

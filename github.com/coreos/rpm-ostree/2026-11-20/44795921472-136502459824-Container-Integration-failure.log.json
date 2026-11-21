@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 44795921472,
+  "job_id": 136502459824,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-20T18:46:25Z",
+  "job_name": "Container-Integration",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:03:02Z"
+}

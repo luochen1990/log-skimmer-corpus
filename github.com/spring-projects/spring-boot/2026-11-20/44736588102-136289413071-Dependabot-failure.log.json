@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 44736588102,
+  "job_id": 136289413071,
+  "conclusion": "failure",
+  "workflow_name": "npm_and_yarn in /antora for isomorphic-git - Update #1718852411",
+  "created_at": "2026-11-20T12:32:10Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:29:11Z"
+}

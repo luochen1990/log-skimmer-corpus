@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 44846065567,
+  "job_id": 136665941760,
+  "conclusion": "failure",
+  "workflow_name": "Publish Test Results",
+  "created_at": "2026-11-21T00:46:46Z",
+  "job_name": "merge-reports",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:19:13Z"
+}

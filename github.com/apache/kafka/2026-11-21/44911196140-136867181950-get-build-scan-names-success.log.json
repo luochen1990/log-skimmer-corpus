@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 44911196140,
+  "job_id": 136867181950,
+  "conclusion": "success",
+  "workflow_name": "Build Scans for KAFKA-21609: Bypass the record cache for read-committed IQv2 key queries",
+  "created_at": "2026-11-21T13:54:37Z",
+  "job_name": "get-build-scan-names",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:27:30Z"
+}

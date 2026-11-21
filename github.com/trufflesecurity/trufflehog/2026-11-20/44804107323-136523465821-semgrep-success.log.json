@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 44804107323,
+  "job_id": 136523465821,
+  "conclusion": "success",
+  "workflow_name": "Lint",
+  "created_at": "2026-11-20T19:39:00Z",
+  "job_name": "semgrep",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:55:22Z"
+}

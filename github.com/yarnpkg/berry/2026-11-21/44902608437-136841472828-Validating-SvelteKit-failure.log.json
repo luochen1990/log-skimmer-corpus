@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 44902608437,
+  "job_id": 136841472828,
+  "conclusion": "failure",
+  "workflow_name": "E2E SvelteKit",
+  "created_at": "2026-11-21T12:10:50Z",
+  "job_name": "Validating-SvelteKit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:00:18Z"
+}

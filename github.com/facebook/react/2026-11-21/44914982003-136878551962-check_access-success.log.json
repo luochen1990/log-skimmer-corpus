@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 44914982003,
+  "job_id": 136878551962,
+  "conclusion": "success",
+  "workflow_name": "(Shared) Label Core Team PRs",
+  "created_at": "2026-11-21T14:38:34Z",
+  "job_name": "check_access",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:01:04Z"
+}

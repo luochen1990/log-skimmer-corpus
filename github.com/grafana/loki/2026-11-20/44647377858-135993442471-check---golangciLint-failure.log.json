@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 44647377858,
+  "job_id": 135993442471,
+  "conclusion": "failure",
+  "workflow_name": "check",
+  "created_at": "2026-11-20T00:37:46Z",
+  "job_name": "check---golangciLint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:14:42Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 44902767414,
+  "job_id": 136841957197,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21583: Return INVALID_COMMIT_OFFSET_SIZE from OffsetCommit and TxnOffsetCommit when the offsets exceed the maximum batch size",
+  "created_at": "2026-11-21T12:12:49Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:27:24Z"
+}

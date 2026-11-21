@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 44718051515,
+  "job_id": 136232750893,
+  "conclusion": "failure",
+  "workflow_name": "create release",
+  "created_at": "2026-11-20T10:18:06Z",
+  "job_name": "createReleaseBranch",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:14:37Z"
+}

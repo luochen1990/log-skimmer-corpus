@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 43917270540,
+  "job_id": 133479608378,
+  "conclusion": "failure",
+  "workflow_name": "Ubuntu",
+  "created_at": "2026-11-16T17:20:06Z",
+  "job_name": "ci_cmake_options-(ci_test_diag",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:34:03Z"
+}

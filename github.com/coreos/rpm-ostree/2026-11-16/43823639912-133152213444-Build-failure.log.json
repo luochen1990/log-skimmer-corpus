@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 43823639912,
+  "job_id": 133152213444,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-16T07:24:32Z",
+  "job_name": "Build",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:03:10Z"
+}

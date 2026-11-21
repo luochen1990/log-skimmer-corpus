@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/commercialhaskell/stack",
+  "run_id": 43707143417,
+  "job_id": 132790555889,
+  "conclusion": "failure",
+  "workflow_name": "Unit tests",
+  "created_at": "2026-11-15T11:04:38Z",
+  "job_name": "Pedantic",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:47:11Z"
+}

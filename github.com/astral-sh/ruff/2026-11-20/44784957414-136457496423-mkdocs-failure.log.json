@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 44784957414,
+  "job_id": 136457496423,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-20T17:36:47Z",
+  "job_name": "mkdocs",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:53:27Z"
+}

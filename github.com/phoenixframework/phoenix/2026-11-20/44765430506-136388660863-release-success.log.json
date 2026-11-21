@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 44765430506,
+  "job_id": 136388660863,
+  "conclusion": "success",
+  "workflow_name": "Creates a GitHub Release",
+  "created_at": "2026-11-20T15:39:16Z",
+  "job_name": "release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:49:51Z"
+}

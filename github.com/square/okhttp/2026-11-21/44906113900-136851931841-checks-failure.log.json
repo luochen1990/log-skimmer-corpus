@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/square/okhttp",
+  "run_id": 44906113900,
+  "job_id": 136851931841,
+  "conclusion": "failure",
+  "workflow_name": "build",
+  "created_at": "2026-11-21T12:53:18Z",
+  "job_name": "checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:29:39Z"
+}

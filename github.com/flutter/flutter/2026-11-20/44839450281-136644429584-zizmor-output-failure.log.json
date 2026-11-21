@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/flutter/flutter",
+  "run_id": 44839450281,
+  "job_id": 136644429584,
+  "conclusion": "failure",
+  "workflow_name": "GitHub Actions Scan",
+  "created_at": "2026-11-20T23:48:24Z",
+  "job_name": "zizmor-output",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:51:41Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 44827215397,
+  "job_id": 136602738878,
+  "conclusion": "success",
+  "workflow_name": "Issue Manager",
+  "created_at": "2026-11-20T22:13:54Z",
+  "job_name": "issue-manager",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:24:19Z"
+}

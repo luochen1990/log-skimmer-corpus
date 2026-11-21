@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 44475308591,
+  "job_id": 135394310482,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1715960209",
+  "created_at": "2026-11-19T06:52:05Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:45:13Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nix-community/home-manager",
+  "run_id": 43964318568,
+  "job_id": 133639613255,
+  "conclusion": "failure",
+  "workflow_name": "GitHub Pages",
+  "created_at": "2026-11-16T21:51:41Z",
+  "job_name": "publish-(ubuntu-latest)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:46:10Z"
+}

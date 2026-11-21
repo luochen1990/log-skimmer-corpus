@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/denoland/deno",
+  "run_id": 44099901166,
+  "job_id": 134096797279,
+  "conclusion": "failure",
+  "workflow_name": "cargo in /. for rand - Update #1712159094",
+  "created_at": "2026-11-17T14:08:42Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:52:32Z"
+}

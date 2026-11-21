@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 43773813762,
+  "job_id": 133068401638,
+  "conclusion": "success",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-11-15T23:15:24Z",
+  "job_name": "Analyze-with-CodeQL",
+  "attempt": 4,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:43:44Z"
+}

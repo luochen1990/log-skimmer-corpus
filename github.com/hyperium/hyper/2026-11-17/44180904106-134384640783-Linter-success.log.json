@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 44180904106,
+  "job_id": 134384640783,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-17T21:32:41Z",
+  "job_name": "Linter",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:09:29Z"
+}

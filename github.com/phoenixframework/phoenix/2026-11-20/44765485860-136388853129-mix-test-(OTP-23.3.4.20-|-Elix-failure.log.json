@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phoenixframework/phoenix",
+  "run_id": 44765485860,
+  "job_id": 136388853129,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-20T15:39:36Z",
+  "job_name": "mix-test-(OTP-23.3.4.20-|-Elix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:49:40Z"
+}

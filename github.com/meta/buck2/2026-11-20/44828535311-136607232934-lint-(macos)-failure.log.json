@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/meta/buck2",
+  "run_id": 44828535311,
+  "job_id": 136607232934,
+  "conclusion": "failure",
+  "workflow_name": "Build and test",
+  "created_at": "2026-11-20T22:23:19Z",
+  "job_name": "lint-(macos)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T14:57:58Z"
+}

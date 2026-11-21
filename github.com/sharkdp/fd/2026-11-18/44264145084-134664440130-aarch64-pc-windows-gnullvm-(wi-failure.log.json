@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 44264145084,
+  "job_id": 134664440130,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-18T08:06:24Z",
+  "job_name": "aarch64-pc-windows-gnullvm-(wi",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:11:29Z"
+}

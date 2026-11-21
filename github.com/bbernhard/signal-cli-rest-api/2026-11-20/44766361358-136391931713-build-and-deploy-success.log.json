@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/bbernhard/signal-cli-rest-api",
+  "run_id": 44766361358,
+  "job_id": 136391931713,
+  "conclusion": "success",
+  "workflow_name": "Deploy API Docs to GitHub Pages",
+  "created_at": "2026-11-20T15:44:52Z",
+  "job_name": "build-and-deploy",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:03:30Z"
+}

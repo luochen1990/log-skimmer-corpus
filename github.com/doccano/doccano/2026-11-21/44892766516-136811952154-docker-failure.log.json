@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/doccano/doccano",
+  "run_id": 44892766516,
+  "job_id": 136811952154,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-21T10:06:55Z",
+  "job_name": "docker",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:01:47Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 44624894411,
+  "job_id": 135915969330,
+  "conclusion": "success",
+  "workflow_name": "test",
+  "created_at": "2026-11-19T22:03:32Z",
+  "job_name": "unit-tests---lint",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:45:12Z"
+}

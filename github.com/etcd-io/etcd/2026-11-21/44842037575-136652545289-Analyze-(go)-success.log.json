@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/etcd-io/etcd",
+  "run_id": 44842037575,
+  "job_id": 136652545289,
+  "conclusion": "success",
+  "workflow_name": "CodeQL",
+  "created_at": "2026-11-21T00:10:37Z",
+  "job_name": "Analyze-(go)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:13:43Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 44718052760,
+  "job_id": 136226383855,
+  "conclusion": "failure",
+  "workflow_name": "Backport for chore(release-4.0.0): Release 4.0.0-rc.4 (#26358)",
+  "created_at": "2026-11-20T10:18:06Z",
+  "job_name": "main",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:14:36Z"
+}

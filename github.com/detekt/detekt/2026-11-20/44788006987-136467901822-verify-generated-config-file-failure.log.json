@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 44788006987,
+  "job_id": 136467901822,
+  "conclusion": "failure",
+  "workflow_name": "Pre Merge Checks",
+  "created_at": "2026-11-20T17:56:14Z",
+  "job_name": "verify-generated-config-file",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:30:22Z"
+}

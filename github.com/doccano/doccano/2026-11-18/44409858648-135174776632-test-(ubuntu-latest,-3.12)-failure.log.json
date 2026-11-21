@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/doccano/doccano",
+  "run_id": 44409858648,
+  "job_id": 135174776632,
+  "conclusion": "failure",
+  "workflow_name": "Test installation and doccano commands",
+  "created_at": "2026-11-18T22:15:48Z",
+  "job_name": "test-(ubuntu-latest,-3.12)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-21T15:01:53Z"
+}

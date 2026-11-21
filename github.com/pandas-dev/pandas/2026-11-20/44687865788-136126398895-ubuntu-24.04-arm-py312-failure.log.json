@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/pandas-dev/pandas",
+  "run_id": 44687865788,
+  "job_id": 136126398895,
+  "conclusion": "failure",
+  "workflow_name": "Unit Tests",
+  "created_at": "2026-11-20T06:26:57Z",
+  "job_name": "ubuntu-24.04-arm-py312",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:25:25Z"
+}

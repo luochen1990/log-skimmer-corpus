@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 44119370444,
+  "job_id": 134166184905,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-17T15:52:53Z",
+  "job_name": "Coverage-and-Additional-Tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:20:12Z"
+}

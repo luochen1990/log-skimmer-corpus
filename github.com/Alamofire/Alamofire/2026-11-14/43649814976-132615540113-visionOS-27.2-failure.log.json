@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 43649814976,
+  "job_id": 132615540113,
+  "conclusion": "failure",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-11-14T22:46:14Z",
+  "job_name": "visionOS-27.2",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:43:36Z"
+}

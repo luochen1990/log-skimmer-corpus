@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 43637958908,
+  "job_id": 132578848793,
+  "conclusion": "failure",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-11-14T20:31:42Z",
+  "job_name": "tvOS-27.0",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-21T14:43:39Z"
+}
