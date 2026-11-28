@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/openai/openai-python",
+  "run_id": 46062121331,
+  "job_id": 140718637947,
+  "conclusion": "success",
+  "workflow_name": "npm_and_yarn in /. - Update #1735319514",
+  "created_at": "2026-11-27T20:13:17Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:20:59Z"
+}

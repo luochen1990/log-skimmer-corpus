@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/erlang/otp",
+  "run_id": 46161131474,
+  "job_id": 141028472268,
+  "conclusion": "success",
+  "workflow_name": "Throttle Users from Opening Issues Using AI",
+  "created_at": "2026-11-28T15:40:49Z",
+  "job_name": "limit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:53:56Z"
+}

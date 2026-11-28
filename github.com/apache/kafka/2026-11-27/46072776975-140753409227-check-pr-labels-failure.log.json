@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 46072776975,
+  "job_id": 140753409227,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-20925: Use request header v3 in SaslAuthenticate",
+  "created_at": "2026-11-27T21:49:37Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:24:24Z"
+}

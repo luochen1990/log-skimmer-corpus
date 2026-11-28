@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mockito/mockito",
+  "run_id": 45197977746,
+  "job_id": 137773445358,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-23T14:47:28Z",
+  "job_name": "java-(21,-mock-maker-inline,-m",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:26:06Z"
+}

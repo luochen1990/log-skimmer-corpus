@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vapor/vapor",
+  "run_id": 45250797025,
+  "job_id": 137959566122,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-23T19:37:03Z",
+  "job_name": "unit-tests---api-breakage",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:46:23Z"
+}

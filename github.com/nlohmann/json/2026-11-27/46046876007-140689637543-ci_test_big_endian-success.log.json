@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 46046876007,
+  "job_id": 140689637543,
+  "conclusion": "success",
+  "workflow_name": "Big-endian",
+  "created_at": "2026-11-27T18:05:58Z",
+  "job_name": "ci_test_big_endian",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:33:26Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/prometheus-community/helm-charts",
+  "run_id": 45526997262,
+  "job_id": 138914856957,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-25T01:36:35Z",
+  "job_name": "Auto-approve-PRs-from-Renovate",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:07:46Z"
+}

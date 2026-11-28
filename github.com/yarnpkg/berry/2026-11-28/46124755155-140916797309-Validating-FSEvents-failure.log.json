@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/yarnpkg/berry",
+  "run_id": 46124755155,
+  "job_id": 140916797309,
+  "conclusion": "failure",
+  "workflow_name": "E2E FSEvents",
+  "created_at": "2026-11-28T08:12:58Z",
+  "job_name": "Validating-FSEvents",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:08:27Z"
+}

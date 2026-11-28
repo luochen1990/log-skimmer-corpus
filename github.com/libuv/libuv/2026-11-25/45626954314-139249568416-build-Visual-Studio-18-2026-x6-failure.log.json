@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 45626954314,
+  "job_id": 139249568416,
+  "conclusion": "failure",
+  "workflow_name": "CI-win",
+  "created_at": "2026-11-25T13:46:11Z",
+  "job_name": "build-Visual-Studio-18-2026-x6",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:36:06Z"
+}

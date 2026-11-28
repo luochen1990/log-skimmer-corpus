@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 46141467415,
+  "job_id": 140968126785,
+  "conclusion": "failure",
+  "workflow_name": "Android",
+  "created_at": "2026-11-28T11:46:41Z",
+  "job_name": "Checksum-and-wc-tests-(API-37.",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:05:01Z"
+}

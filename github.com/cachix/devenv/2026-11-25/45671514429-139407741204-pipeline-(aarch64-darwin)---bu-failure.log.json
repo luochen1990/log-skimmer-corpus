@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 45671514429,
+  "job_id": 139407741204,
+  "conclusion": "failure",
+  "workflow_name": "PR Test",
+  "created_at": "2026-11-25T18:05:22Z",
+  "job_name": "pipeline-(aarch64-darwin)---bu",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:02:24Z"
+}

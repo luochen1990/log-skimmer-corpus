@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/rollup/rollup",
+  "run_id": 45558603281,
+  "job_id": 140542019708,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-25T06:10:07Z",
+  "job_name": "Build-riscv64gc-unknown-linux-",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:14:47Z"
+}

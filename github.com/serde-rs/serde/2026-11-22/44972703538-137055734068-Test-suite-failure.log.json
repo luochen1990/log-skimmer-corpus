@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/serde-rs/serde",
+  "run_id": 44972703538,
+  "job_id": 137055734068,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-22T01:42:24Z",
+  "job_name": "Test-suite",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:02:39Z"
+}

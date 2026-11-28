@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/meta/buck2",
+  "run_id": 46161759485,
+  "job_id": 141030411333,
+  "conclusion": "success",
+  "workflow_name": "e2e tests",
+  "created_at": "2026-11-28T15:48:01Z",
+  "job_name": "linux-e2e-tests",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:04:44Z"
+}

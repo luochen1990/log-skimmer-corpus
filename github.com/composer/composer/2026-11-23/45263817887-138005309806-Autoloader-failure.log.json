@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 45263817887,
+  "job_id": 138005309806,
+  "conclusion": "failure",
+  "workflow_name": "Autoloader",
+  "created_at": "2026-11-23T20:52:22Z",
+  "job_name": "Autoloader",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:41:42Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 46159264448,
+  "job_id": 141022691937,
+  "conclusion": "success",
+  "workflow_name": "split",
+  "created_at": "2026-11-28T15:19:34Z",
+  "job_name": "Split-master",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:42:17Z"
+}

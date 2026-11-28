@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 46154009109,
+  "job_id": 141006551185,
+  "conclusion": "failure",
+  "workflow_name": "Check commit prefix",
+  "created_at": "2026-11-28T14:18:50Z",
+  "job_name": "check-commit-suffix",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:19:40Z"
+}

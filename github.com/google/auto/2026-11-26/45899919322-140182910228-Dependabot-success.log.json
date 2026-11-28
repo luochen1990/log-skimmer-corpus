@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/auto",
+  "run_id": 45899919322,
+  "job_id": 140182910228,
+  "conclusion": "success",
+  "workflow_name": "maven in /service - Update #1733428645",
+  "created_at": "2026-11-26T21:42:02Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:14:03Z"
+}

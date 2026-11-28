@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 46088049632,
+  "job_id": 140802187173,
+  "conclusion": "failure",
+  "workflow_name": "tests BiDi",
+  "created_at": "2026-11-28T00:28:20Z",
+  "job_name": "BiDi-(bidi-chromium,-false)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:13:18Z"
+}

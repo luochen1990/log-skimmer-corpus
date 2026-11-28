@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/LnL7/nix-darwin",
+  "run_id": 44693403369,
+  "job_id": 136144352933,
+  "conclusion": "failure",
+  "workflow_name": "Test",
+  "created_at": "2026-11-20T07:13:42Z",
+  "job_name": "install-flake",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:47:49Z"
+}

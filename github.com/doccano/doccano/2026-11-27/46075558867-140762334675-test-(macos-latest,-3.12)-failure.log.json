@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/doccano/doccano",
+  "run_id": 46075558867,
+  "job_id": 140762334675,
+  "conclusion": "failure",
+  "workflow_name": "Test installation and doccano commands",
+  "created_at": "2026-11-27T22:15:54Z",
+  "job_name": "test-(macos-latest,-3.12)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:10:55Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 46147706741,
+  "job_id": 140987280772,
+  "conclusion": "success",
+  "workflow_name": "Update Latest Version",
+  "created_at": "2026-11-28T13:03:36Z",
+  "job_name": "update-version",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:02:36Z"
+}

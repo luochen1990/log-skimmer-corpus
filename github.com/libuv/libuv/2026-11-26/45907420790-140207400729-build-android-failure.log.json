@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 45907420790,
+  "job_id": 140207400729,
+  "conclusion": "failure",
+  "workflow_name": "CI-unix",
+  "created_at": "2026-11-26T22:51:44Z",
+  "job_name": "build-android",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:35:59Z"
+}

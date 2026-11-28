@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/apache/kafka",
+  "run_id": 46111438484,
+  "job_id": 140875636759,
+  "conclusion": "failure",
+  "workflow_name": "Workflow Requested for KAFKA-21184: Fix race between share session removal on disconnect and reconnect",
+  "created_at": "2026-11-28T05:17:37Z",
+  "job_name": "check-pr-labels",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:24:20Z"
+}

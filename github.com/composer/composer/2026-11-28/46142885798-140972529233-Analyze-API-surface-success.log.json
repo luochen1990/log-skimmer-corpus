@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 46142885798,
+  "job_id": 140972529233,
+  "conclusion": "success",
+  "workflow_name": "API Surface Check",
+  "created_at": "2026-11-28T12:04:52Z",
+  "job_name": "Analyze-API-surface",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:41:48Z"
+}

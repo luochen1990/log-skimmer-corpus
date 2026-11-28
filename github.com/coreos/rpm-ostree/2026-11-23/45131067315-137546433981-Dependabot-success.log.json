@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 45131067315,
+  "job_id": 137546433981,
+  "conclusion": "success",
+  "workflow_name": "cargo in / for anyhow, bitflags, camino, rustix, chrono, clap, cxx, either, env_logger, futures, indoc, libc, openssl, regex, serde, serde_derive, serde_json, tokio, cxx-build, pkg-config - Update #1723340677",
+  "created_at": "2026-11-23T07:26:08Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:12:45Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/detekt/detekt",
+  "run_id": 46090751409,
+  "job_id": 140810837906,
+  "conclusion": "success",
+  "workflow_name": "Verify Website Generators Parity",
+  "created_at": "2026-11-28T00:58:57Z",
+  "job_name": "verify-generators-parity",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:28:23Z"
+}

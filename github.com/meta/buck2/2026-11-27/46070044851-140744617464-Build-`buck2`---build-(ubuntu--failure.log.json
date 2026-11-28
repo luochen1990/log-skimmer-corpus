@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/meta/buck2",
+  "run_id": 46070044851,
+  "job_id": 140744617464,
+  "conclusion": "failure",
+  "workflow_name": "Build, upload, and tag `buck2`",
+  "created_at": "2026-11-27T21:23:58Z",
+  "job_name": "Build-`buck2`---build-(ubuntu-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:04:21Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/loki",
+  "run_id": 46024496062,
+  "job_id": 140592261647,
+  "conclusion": "failure",
+  "workflow_name": "Test Build Loki Binaries",
+  "created_at": "2026-11-27T15:23:34Z",
+  "job_name": "Test-Build-logcli-(linux-amd64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:07:49Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 46153883650,
+  "job_id": 141006169421,
+  "conclusion": "success",
+  "workflow_name": "PyPI",
+  "created_at": "2026-11-28T14:17:20Z",
+  "job_name": "linux-(x86_64,-auto,-true)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:00:17Z"
+}

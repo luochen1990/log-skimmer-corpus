@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/libuv/libuv",
+  "run_id": 46130658261,
+  "job_id": 140934846826,
+  "conclusion": "success",
+  "workflow_name": "CI-win",
+  "created_at": "2026-11-28T09:28:48Z",
+  "job_name": "build-mingw-x86_64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:36:15Z"
+}

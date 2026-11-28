@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/anomalyco/opencode",
+  "run_id": 46105303737,
+  "job_id": 140856600503,
+  "conclusion": "failure",
+  "workflow_name": "check",
+  "created_at": "2026-11-28T03:57:56Z",
+  "job_name": "typecheck",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:11:27Z"
+}

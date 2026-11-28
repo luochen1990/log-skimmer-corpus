@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gradle/gradle",
+  "run_id": 46147434093,
+  "job_id": 140986473311,
+  "conclusion": "success",
+  "workflow_name": "Feedback",
+  "created_at": "2026-11-28T13:00:31Z",
+  "job_name": "feedback",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:25:54Z"
+}

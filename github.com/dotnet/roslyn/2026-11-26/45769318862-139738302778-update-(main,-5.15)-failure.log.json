@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/roslyn",
+  "run_id": 45769318862,
+  "job_id": 139738302778,
+  "conclusion": "failure",
+  "workflow_name": "Update FBA sources",
+  "created_at": "2026-11-26T06:36:06Z",
+  "job_name": "update-(main,-5.15)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:38:18Z"
+}

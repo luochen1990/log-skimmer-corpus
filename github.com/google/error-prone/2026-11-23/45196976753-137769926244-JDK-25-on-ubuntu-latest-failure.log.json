@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/error-prone",
+  "run_id": 45196976753,
+  "job_id": 137769926244,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-23T14:41:53Z",
+  "job_name": "JDK-25-on-ubuntu-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:13:20Z"
+}

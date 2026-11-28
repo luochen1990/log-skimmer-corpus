@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/AvaloniaUI/Avalonia",
+  "run_id": 46120966245,
+  "job_id": 140905155878,
+  "conclusion": "success",
+  "workflow_name": "Contribution Bot",
+  "created_at": "2026-11-28T07:23:10Z",
+  "job_name": "Contribution-Bot---Contributio",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:37:32Z"
+}

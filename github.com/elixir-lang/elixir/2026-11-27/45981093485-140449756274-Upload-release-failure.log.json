@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/elixir-lang/elixir",
+  "run_id": 45981093485,
+  "job_id": 140449756274,
+  "conclusion": "failure",
+  "workflow_name": "Releases",
+  "created_at": "2026-11-27T10:19:16Z",
+  "job_name": "Upload-release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:53:12Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 46128981362,
+  "job_id": 140929769660,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-28T09:07:33Z",
+  "job_name": "ubuntu-tsan-clang-functionalte",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:56:01Z"
+}

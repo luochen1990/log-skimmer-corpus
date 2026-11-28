@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/semgrep/semgrep",
+  "run_id": 46139058228,
+  "job_id": 140960734117,
+  "conclusion": "success",
+  "workflow_name": "PR-checklist",
+  "created_at": "2026-11-28T11:15:58Z",
+  "job_name": "add-checklist-comment",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:58:19Z"
+}

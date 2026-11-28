@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 46158414221,
+  "job_id": 141020554240,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-28T15:10:03Z",
+  "job_name": "Validate-Documentation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:39:51Z"
+}

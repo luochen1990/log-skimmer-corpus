@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/DeterminateSystems/nix-installer",
+  "run_id": 44964673215,
+  "job_id": 137030885224,
+  "conclusion": "success",
+  "workflow_name": "Flake.lock: update Nix dependencies",
+  "created_at": "2026-11-22T00:02:29Z",
+  "job_name": "nix-flake-update",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:00:12Z"
+}

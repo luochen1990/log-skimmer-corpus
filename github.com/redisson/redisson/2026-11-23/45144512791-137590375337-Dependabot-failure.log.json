@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redisson/redisson",
+  "run_id": 45144512791,
+  "job_id": 137590375337,
+  "conclusion": "failure",
+  "workflow_name": "maven in / for org.springframework.boot:spring-boot-dependencies - Update #1723632908",
+  "created_at": "2026-11-23T09:09:33Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:14:09Z"
+}

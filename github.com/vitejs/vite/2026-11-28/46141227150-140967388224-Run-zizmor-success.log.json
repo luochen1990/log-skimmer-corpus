@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vitejs/vite",
+  "run_id": 46141227150,
+  "job_id": 140967388224,
+  "conclusion": "success",
+  "workflow_name": "Zizmor",
+  "created_at": "2026-11-28T11:43:34Z",
+  "job_name": "Run-zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:16:53Z"
+}

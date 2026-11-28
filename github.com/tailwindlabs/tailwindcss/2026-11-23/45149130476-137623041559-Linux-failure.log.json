@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tailwindlabs/tailwindcss",
+  "run_id": 45149130476,
+  "job_id": 137623041559,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-23T09:40:11Z",
+  "job_name": "Linux",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:15:27Z"
+}

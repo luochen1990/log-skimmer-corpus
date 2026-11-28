@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/django/django",
+  "run_id": 46154080105,
+  "job_id": 141006789295,
+  "conclusion": "success",
+  "workflow_name": "Tests",
+  "created_at": "2026-11-28T14:19:39Z",
+  "job_name": "Windows,-SQLite,-Python-3.15",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:19:51Z"
+}

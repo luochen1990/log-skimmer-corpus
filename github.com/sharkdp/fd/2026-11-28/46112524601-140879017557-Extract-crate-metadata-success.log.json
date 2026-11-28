@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/fd",
+  "run_id": 46112524601,
+  "job_id": 140879017557,
+  "conclusion": "success",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-28T05:31:52Z",
+  "job_name": "Extract-crate-metadata",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:03:54Z"
+}

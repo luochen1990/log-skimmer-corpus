@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 45818303609,
+  "job_id": 139903652540,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-26T12:17:40Z",
+  "job_name": "Validate-Fastlane.swift-genera",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:39:38Z"
+}

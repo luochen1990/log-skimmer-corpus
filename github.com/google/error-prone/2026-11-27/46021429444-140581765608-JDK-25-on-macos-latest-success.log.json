@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/google/error-prone",
+  "run_id": 46021429444,
+  "job_id": 140581765608,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-27T15:03:22Z",
+  "job_name": "JDK-25-on-macos-latest",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:13:36Z"
+}

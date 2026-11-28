@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/Alamofire/Alamofire",
+  "run_id": 46005407231,
+  "job_id": 140527203724,
+  "conclusion": "failure",
+  "workflow_name": "Alamofire CI",
+  "created_at": "2026-11-27T13:14:34Z",
+  "job_name": "macOS-26,-SPM-6.4.0-Test",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:44:03Z"
+}

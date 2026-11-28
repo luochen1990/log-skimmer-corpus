@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/symfony/symfony",
+  "run_id": 46159750810,
+  "job_id": 141024214470,
+  "conclusion": "success",
+  "workflow_name": "Integration",
+  "created_at": "2026-11-28T15:25:02Z",
+  "job_name": "Integration-(8.2)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:43:54Z"
+}

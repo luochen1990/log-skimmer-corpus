@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opencv/opencv",
+  "run_id": 45036338899,
+  "job_id": 137266166382,
+  "conclusion": "success",
+  "workflow_name": "PR:5.x",
+  "created_at": "2026-11-22T15:05:17Z",
+  "job_name": "macOS-ARM64---BuildContrib",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:34:24Z"
+}

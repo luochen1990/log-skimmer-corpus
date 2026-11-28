@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grafana/helm-charts",
+  "run_id": 45937656885,
+  "job_id": 140304472187,
+  "conclusion": "success",
+  "workflow_name": "zizmor GitHub Actions static analysis",
+  "created_at": "2026-11-27T04:03:11Z",
+  "job_name": "Check-whether-there-are-things",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:07:32Z"
+}

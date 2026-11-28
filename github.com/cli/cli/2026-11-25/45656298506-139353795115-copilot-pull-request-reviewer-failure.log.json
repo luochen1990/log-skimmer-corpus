@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cli/cli",
+  "run_id": 45656298506,
+  "job_id": 139353795115,
+  "conclusion": "failure",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-11-25T16:39:41Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:05:47Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dotnet/aspnetcore",
+  "run_id": 46146819889,
+  "job_id": 140984797760,
+  "conclusion": "failure",
+  "workflow_name": "ASP.NET Core Scoped PR Attention Pulse",
+  "created_at": "2026-11-28T12:52:41Z",
+  "job_name": "agent",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:37:53Z"
+}

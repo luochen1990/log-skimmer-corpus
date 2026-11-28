@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 45649897105,
+  "job_id": 139331752653,
+  "conclusion": "failure",
+  "workflow_name": "Push on master",
+  "created_at": "2026-11-25T15:56:54Z",
+  "job_name": "Analyze-(actions)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:06:49Z"
+}

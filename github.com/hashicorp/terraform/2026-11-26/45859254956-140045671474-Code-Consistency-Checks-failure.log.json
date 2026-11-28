@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hashicorp/terraform",
+  "run_id": 45859254956,
+  "job_id": 140045671474,
+  "conclusion": "failure",
+  "workflow_name": "Quick Checks",
+  "created_at": "2026-11-26T16:29:33Z",
+  "job_name": "Code-Consistency-Checks",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:05:22Z"
+}

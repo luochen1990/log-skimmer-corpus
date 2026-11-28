@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/dandavison/delta",
+  "run_id": 44442768724,
+  "job_id": 135287442181,
+  "conclusion": "failure",
+  "workflow_name": "Publish to WinGet",
+  "created_at": "2026-11-19T02:13:53Z",
+  "job_name": "Publish-to-WinGet",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:00:13Z"
+}

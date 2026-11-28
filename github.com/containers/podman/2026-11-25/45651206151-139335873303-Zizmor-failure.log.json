@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 45651206151,
+  "job_id": 139335873303,
+  "conclusion": "failure",
+  "workflow_name": "zizmor: GitHub Actions Security Analysis",
+  "created_at": "2026-11-25T16:07:35Z",
+  "job_name": "Zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:11:55Z"
+}

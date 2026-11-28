@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/scikit-learn/scikit-learn",
+  "run_id": 46110182718,
+  "job_id": 140871740826,
+  "conclusion": "success",
+  "workflow_name": "CircleCI artifacts redirector",
+  "created_at": "2026-11-28T05:01:22Z",
+  "job_name": "Run-CircleCI-artifacts-redirec",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:24:11Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sharkdp/bat",
+  "run_id": 46120803830,
+  "job_id": 140907205229,
+  "conclusion": "failure",
+  "workflow_name": "CICD",
+  "created_at": "2026-11-28T07:21:07Z",
+  "job_name": "Publish-to-Winget",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:03:08Z"
+}

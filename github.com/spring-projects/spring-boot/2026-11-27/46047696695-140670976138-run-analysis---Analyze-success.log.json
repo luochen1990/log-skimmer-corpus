@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/spring-projects/spring-boot",
+  "run_id": 46047696695,
+  "job_id": 140670976138,
+  "conclusion": "success",
+  "workflow_name": "Run CodeQL Analysis",
+  "created_at": "2026-11-27T18:12:28Z",
+  "job_name": "run-analysis---Analyze",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:26:54Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/luarocks/luarocks",
+  "run_id": 45723496505,
+  "job_id": 139587399223,
+  "conclusion": "success",
+  "workflow_name": "github_actions in /. - Update #1731360949",
+  "created_at": "2026-11-25T23:43:13Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:54:30Z"
+}

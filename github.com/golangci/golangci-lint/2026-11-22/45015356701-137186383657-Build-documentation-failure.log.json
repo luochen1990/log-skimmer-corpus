@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/golangci/golangci-lint",
+  "run_id": 45015356701,
+  "job_id": 137186383657,
+  "conclusion": "failure",
+  "workflow_name": "Check Documentation",
+  "created_at": "2026-11-22T11:02:44Z",
+  "job_name": "Build-documentation",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:07:10Z"
+}

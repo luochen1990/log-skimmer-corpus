@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/redis/redis",
+  "run_id": 46150248243,
+  "job_id": 140995101217,
+  "conclusion": "success",
+  "workflow_name": "External Server Tests",
+  "created_at": "2026-11-28T13:34:01Z",
+  "job_name": "test-external-standalone",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:37:09Z"
+}

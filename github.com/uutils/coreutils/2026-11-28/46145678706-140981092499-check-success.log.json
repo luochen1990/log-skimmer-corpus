@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/uutils/coreutils",
+  "run_id": 46145678706,
+  "job_id": 140981092499,
+  "conclusion": "success",
+  "workflow_name": "Check TOML files",
+  "created_at": "2026-11-28T12:38:34Z",
+  "job_name": "check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:05:14Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/phpstan/phpstan",
+  "run_id": 46147765459,
+  "job_id": 140987464536,
+  "conclusion": "success",
+  "workflow_name": "Lint GitHub Actions workflows",
+  "created_at": "2026-11-28T13:04:20Z",
+  "job_name": "Zizmor",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:42:56Z"
+}

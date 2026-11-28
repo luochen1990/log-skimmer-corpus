@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hyperium/hyper",
+  "run_id": 45238670303,
+  "job_id": 137917173382,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-23T18:27:55Z",
+  "job_name": "Check-MSRV",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:00:29Z"
+}

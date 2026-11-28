@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 45580604408,
+  "job_id": 139089452978,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-25T08:55:43Z",
+  "job_name": "Validate-source-code-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:12:10Z"
+}

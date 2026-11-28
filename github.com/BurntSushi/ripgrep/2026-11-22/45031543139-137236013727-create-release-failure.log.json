@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/BurntSushi/ripgrep",
+  "run_id": 45031543139,
+  "job_id": 137236013727,
+  "conclusion": "failure",
+  "workflow_name": "release",
+  "created_at": "2026-11-22T14:12:22Z",
+  "job_name": "create-release",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T14:59:16Z"
+}

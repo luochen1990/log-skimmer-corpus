@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/catchorg/Catch2",
+  "run_id": 45010692816,
+  "job_id": 137172141735,
+  "conclusion": "failure",
+  "workflow_name": "Linux Builds (Complex)",
+  "created_at": "2026-11-22T10:05:19Z",
+  "job_name": "Extras-+-Examples,-g++-11,-C++",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:30:04Z"
+}

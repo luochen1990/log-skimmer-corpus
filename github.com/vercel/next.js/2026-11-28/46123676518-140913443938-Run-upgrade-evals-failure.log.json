@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/vercel/next.js",
+  "run_id": 46123676518,
+  "job_id": 140913443938,
+  "conclusion": "failure",
+  "workflow_name": "next-upgrade-evals",
+  "created_at": "2026-11-28T07:59:17Z",
+  "job_name": "Run-upgrade-evals",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:15:53Z"
+}

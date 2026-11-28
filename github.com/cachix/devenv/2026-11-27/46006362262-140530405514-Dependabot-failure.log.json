@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/cachix/devenv",
+  "run_id": 46006362262,
+  "job_id": 140530405514,
+  "conclusion": "failure",
+  "workflow_name": "cargo in /. for rustls - Update #1734759563",
+  "created_at": "2026-11-27T13:21:08Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:01:02Z"
+}

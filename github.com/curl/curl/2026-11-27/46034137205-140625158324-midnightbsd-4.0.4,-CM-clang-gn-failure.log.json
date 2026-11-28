@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/curl/curl",
+  "run_id": 46034137205,
+  "job_id": 140625158324,
+  "conclusion": "failure",
+  "workflow_name": "non-native",
+  "created_at": "2026-11-27T16:30:08Z",
+  "job_name": "midnightbsd-4.0.4,-CM-clang-gn",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:35:25Z"
+}

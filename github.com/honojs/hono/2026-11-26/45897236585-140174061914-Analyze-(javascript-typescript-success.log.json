@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/honojs/hono",
+  "run_id": 45897236585,
+  "job_id": 140174061914,
+  "conclusion": "success",
+  "workflow_name": "Push on main",
+  "created_at": "2026-11-26T21:18:39Z",
+  "job_name": "Analyze-(javascript-typescript",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:12:19Z"
+}

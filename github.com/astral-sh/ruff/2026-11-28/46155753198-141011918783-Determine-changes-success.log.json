@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 46155753198,
+  "job_id": 141011918783,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-28T14:39:07Z",
+  "job_name": "Determine-changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:57:30Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/composer/composer",
+  "run_id": 45265779852,
+  "job_id": 138012180497,
+  "conclusion": "failure",
+  "workflow_name": "GitHub Actions Security Analysis with zizmor 🌈",
+  "created_at": "2026-11-23T21:03:53Z",
+  "job_name": "Run-zizmor-🌈",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:41:41Z"
+}

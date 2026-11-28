@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastlane/fastlane",
+  "run_id": 45999483180,
+  "job_id": 140507157921,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-27T12:32:22Z",
+  "job_name": "ubuntu-24.04,-Xcode-,-Ruby-3.3",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:39:34Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/grpc/grpc-go",
+  "run_id": 46011958978,
+  "job_id": 140549460460,
+  "conclusion": "failure",
+  "workflow_name": "PR Validation",
+  "created_at": "2026-11-27T14:00:11Z",
+  "job_name": "Validate-PR",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:08:02Z"
+}

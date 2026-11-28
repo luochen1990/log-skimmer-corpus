@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/hashicorp/terraform",
+  "run_id": 46095096780,
+  "job_id": 140824526588,
+  "conclusion": "success",
+  "workflow_name": "Lock Threads",
+  "created_at": "2026-11-28T01:50:15Z",
+  "job_name": "lock",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:05:37Z"
+}

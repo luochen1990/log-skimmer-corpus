@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fmtlib/fmt",
+  "run_id": 45602311265,
+  "job_id": 140451387436,
+  "conclusion": "failure",
+  "workflow_name": "fuzz",
+  "created_at": "2026-11-25T11:12:47Z",
+  "job_name": "fuzz",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:30:50Z"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/containers/podman",
+  "run_id": 45842416971,
+  "job_id": 139993083875,
+  "conclusion": "failure",
+  "workflow_name": "ci",
+  "created_at": "2026-11-26T14:46:46Z",
+  "job_name": "macos-machine-applehv",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:11:42Z"
+}

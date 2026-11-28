@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/sebastianbergmann/phpunit",
+  "run_id": 45789117228,
+  "job_id": 139804712402,
+  "conclusion": "failure",
+  "workflow_name": "CI",
+  "created_at": "2026-11-26T09:07:53Z",
+  "job_name": "End-to-End-Tests-(ubuntu-lates",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:43:06Z"
+}

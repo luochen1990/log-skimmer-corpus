@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/astral-sh/ruff",
+  "run_id": 46155752757,
+  "job_id": 141011917603,
+  "conclusion": "success",
+  "workflow_name": "Sync ruff-security",
+  "created_at": "2026-11-28T14:39:07Z",
+  "job_name": "Sync-ruff-security",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:57:32Z"
+}

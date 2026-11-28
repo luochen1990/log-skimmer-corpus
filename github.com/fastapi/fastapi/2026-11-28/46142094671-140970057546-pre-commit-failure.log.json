@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/fastapi/fastapi",
+  "run_id": 46142094671,
+  "job_id": 140970057546,
+  "conclusion": "failure",
+  "workflow_name": "pre-commit",
+  "created_at": "2026-11-28T11:54:52Z",
+  "job_name": "pre-commit",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:20:03Z"
+}

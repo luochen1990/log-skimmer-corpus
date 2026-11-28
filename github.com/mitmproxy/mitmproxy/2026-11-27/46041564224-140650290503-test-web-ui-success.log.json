@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/mitmproxy/mitmproxy",
+  "run_id": 46041564224,
+  "job_id": 140650290503,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-27T17:24:17Z",
+  "job_name": "test-web-ui",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:20:35Z"
+}

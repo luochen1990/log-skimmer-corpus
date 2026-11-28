@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 44121565906,
+  "job_id": 134174024326,
+  "conclusion": "failure",
+  "workflow_name": "Ubuntu",
+  "created_at": "2026-11-17T16:04:30Z",
+  "job_name": "ci_test_standards_gcc-(26)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:33:20Z"
+}

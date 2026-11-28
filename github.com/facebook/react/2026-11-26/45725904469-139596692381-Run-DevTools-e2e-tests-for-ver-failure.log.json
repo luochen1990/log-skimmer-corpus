@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/facebook/react",
+  "run_id": 45725904469,
+  "job_id": 139596692381,
+  "conclusion": "failure",
+  "workflow_name": "(DevTools) Regression Tests",
+  "created_at": "2026-11-26T00:03:11Z",
+  "job_name": "Run-DevTools-e2e-tests-for-ver",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:08:45Z"
+}

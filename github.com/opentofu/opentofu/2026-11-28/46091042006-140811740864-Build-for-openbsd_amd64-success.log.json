@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/opentofu/opentofu",
+  "run_id": 46091042006,
+  "job_id": 140811740864,
+  "conclusion": "success",
+  "workflow_name": "Nightly Build",
+  "created_at": "2026-11-28T01:02:13Z",
+  "job_name": "Build-for-openbsd_amd64",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:06:05Z"
+}

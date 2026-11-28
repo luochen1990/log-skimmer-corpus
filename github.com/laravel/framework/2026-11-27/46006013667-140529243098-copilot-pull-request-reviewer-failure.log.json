@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/laravel/framework",
+  "run_id": 46006013667,
+  "job_id": 140529243098,
+  "conclusion": "failure",
+  "workflow_name": "Running Copilot Code Review",
+  "created_at": "2026-11-27T13:18:44Z",
+  "job_name": "copilot-pull-request-reviewer",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:42:00Z"
+}

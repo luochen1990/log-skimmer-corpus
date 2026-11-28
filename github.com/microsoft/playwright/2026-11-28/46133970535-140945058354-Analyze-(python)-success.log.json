@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 46133970535,
+  "job_id": 140945058354,
+  "conclusion": "success",
+  "workflow_name": "Scheduled",
+  "created_at": "2026-11-28T10:11:20Z",
+  "job_name": "Analyze-(python)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:13:42Z"
+}

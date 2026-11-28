@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/trufflesecurity/trufflehog",
+  "run_id": 45526030187,
+  "job_id": 138909471113,
+  "conclusion": "success",
+  "workflow_name": "Lint",
+  "created_at": "2026-11-25T01:28:42Z",
+  "job_name": "man-page-staleness",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:59:55Z"
+}

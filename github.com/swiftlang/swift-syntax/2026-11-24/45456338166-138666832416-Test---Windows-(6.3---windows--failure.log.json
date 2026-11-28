@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/swiftlang/swift-syntax",
+  "run_id": 45456338166,
+  "job_id": 138666832416,
+  "conclusion": "failure",
+  "workflow_name": "Pull request",
+  "created_at": "2026-11-24T18:08:57Z",
+  "job_name": "Test---Windows-(6.3---windows-",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:45:28Z"
+}

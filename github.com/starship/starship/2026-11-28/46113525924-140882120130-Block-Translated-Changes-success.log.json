@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/starship/starship",
+  "run_id": 46113525924,
+  "job_id": 140882120130,
+  "conclusion": "success",
+  "workflow_name": "Format + Docs Workflow",
+  "created_at": "2026-11-28T05:45:22Z",
+  "job_name": "Block-Translated-Changes",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:04:20Z"
+}

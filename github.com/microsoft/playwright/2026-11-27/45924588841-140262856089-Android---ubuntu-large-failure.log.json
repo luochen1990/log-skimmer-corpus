@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/microsoft/playwright",
+  "run_id": 45924588841,
+  "job_id": 140262856089,
+  "conclusion": "failure",
+  "workflow_name": "tests 2",
+  "created_at": "2026-11-27T01:47:35Z",
+  "job_name": "Android---ubuntu-large",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:13:37Z"
+}

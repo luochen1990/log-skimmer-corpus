@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/haskell/cabal",
+  "run_id": 45916120140,
+  "job_id": 140236992475,
+  "conclusion": "failure",
+  "workflow_name": "Build and release",
+  "created_at": "2026-11-27T00:20:14Z",
+  "job_name": "release-workflow---Test-FreeBS",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:50:17Z"
+}

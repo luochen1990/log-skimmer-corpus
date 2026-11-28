@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/diffplug/spotless",
+  "run_id": 45984015533,
+  "job_id": 140454881123,
+  "conclusion": "success",
+  "workflow_name": "CI",
+  "created_at": "2026-11-27T10:40:04Z",
+  "job_name": "Sanity-Check",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:24:59Z"
+}

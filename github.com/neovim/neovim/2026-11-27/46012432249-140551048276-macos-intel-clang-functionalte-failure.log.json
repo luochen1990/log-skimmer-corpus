@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/neovim/neovim",
+  "run_id": 46012432249,
+  "job_id": 140551048276,
+  "conclusion": "failure",
+  "workflow_name": "test",
+  "created_at": "2026-11-27T14:03:17Z",
+  "job_name": "macos-intel-clang-functionalte",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:56:06Z"
+}

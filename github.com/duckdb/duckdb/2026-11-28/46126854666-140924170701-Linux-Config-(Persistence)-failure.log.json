@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/duckdb/duckdb",
+  "run_id": 46126854666,
+  "job_id": 140924170701,
+  "conclusion": "failure",
+  "workflow_name": "Main",
+  "created_at": "2026-11-28T08:39:44Z",
+  "job_name": "Linux-Config-(Persistence)",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:30:36Z"
+}

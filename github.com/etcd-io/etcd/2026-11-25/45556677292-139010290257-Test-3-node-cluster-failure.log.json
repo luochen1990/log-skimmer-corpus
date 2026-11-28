@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/etcd-io/etcd",
+  "run_id": 45556677292,
+  "job_id": 139010290257,
+  "conclusion": "failure",
+  "workflow_name": "Verify Antithesis Docker Compose Pipeline",
+  "created_at": "2026-11-25T05:53:27Z",
+  "job_name": "Test-3-node-cluster",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:06:09Z"
+}

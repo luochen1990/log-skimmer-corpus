@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/nlohmann/json",
+  "run_id": 45670171481,
+  "job_id": 139405700788,
+  "conclusion": "failure",
+  "workflow_name": "Windows",
+  "created_at": "2026-11-25T17:57:36Z",
+  "job_name": "clang-(14.0.6)",
+  "attempt": 2,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:32:46Z"
+}

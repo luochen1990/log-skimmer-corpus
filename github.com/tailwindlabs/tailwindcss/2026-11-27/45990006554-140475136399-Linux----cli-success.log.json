@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/tailwindlabs/tailwindcss",
+  "run_id": 45990006554,
+  "job_id": 140475136399,
+  "conclusion": "success",
+  "workflow_name": "Integration Tests",
+  "created_at": "2026-11-27T11:22:58Z",
+  "job_name": "Linux----cli",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:15:39Z"
+}

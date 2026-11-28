@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/coreos/rpm-ostree",
+  "run_id": 45131052185,
+  "job_id": 137546386350,
+  "conclusion": "success",
+  "workflow_name": "cargo in /rust/libdnf-sys - Update #1723340229",
+  "created_at": "2026-11-23T07:26:00Z",
+  "job_name": "Dependabot",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": true,
+  "fetched_at": "2026-11-28T16:12:46Z"
+}

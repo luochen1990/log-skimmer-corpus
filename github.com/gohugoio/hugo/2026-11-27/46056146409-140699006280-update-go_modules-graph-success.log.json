@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/gohugoio/hugo",
+  "run_id": 46056146409,
+  "job_id": 140699006280,
+  "conclusion": "success",
+  "workflow_name": "Configured Graph Update: go_modules in /. #1735249624",
+  "created_at": "2026-11-27T19:21:41Z",
+  "job_name": "update-go_modules-graph",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:07:01Z"
+}

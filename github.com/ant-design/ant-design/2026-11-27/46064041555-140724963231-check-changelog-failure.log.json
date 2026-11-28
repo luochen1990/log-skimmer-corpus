@@ -1,0 +1,13 @@
+{
+  "repo": "github.com/ant-design/ant-design",
+  "run_id": 46064041555,
+  "job_id": 140724963231,
+  "conclusion": "failure",
+  "workflow_name": "PR Open Check",
+  "created_at": "2026-11-27T20:30:06Z",
+  "job_name": "check-changelog",
+  "attempt": 1,
+  "ci": "github",
+  "gate_exempt": false,
+  "fetched_at": "2026-11-28T15:11:51Z"
+}
